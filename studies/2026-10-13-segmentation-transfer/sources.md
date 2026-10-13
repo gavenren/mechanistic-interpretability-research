@@ -1,0 +1,17 @@
+# Source record
+
+Checked on 13 October 2026. These are primary sources. This is a focused search, not proof of novelty.
+
+| Source | Checked version | Overlap and limit |
+| --- | --- | --- |
+| Jain, Day, and Can, [Emergent retokenization symmetry in large language models: phenomenology and applications](https://arxiv.org/abs/2606.15521v1) | v1, 14 June 2026; abstract and full-text method sections | Uses alternative token sequences with identical bytes. Measures representations and downstream behavior. Retokenization as a probe is established. Our test concerns supplied bindings and one fixed head under disjoint source/query encodings. |
+| Geh, Zhang, Ahmed, Wang, and Van Den Broeck, [Where is the signal in tokenization space?](https://aclanthology.org/2024.emnlp-main.230/) | EMNLP 2024, pages 3966–3979; primary record and abstract | Studies useful information in noncanonical tokenizations. A token-sequence probability is not the same as text probability after aggregation. We use one declared sequence in each cell. |
+| Yang, Yang, Hu, and Wang, [Word Recovery in Large Language Models Enables Character-Level Tokenization Robustness](https://arxiv.org/abs/2603.10771v2) | v2, 4 August 2026; primary record and abstract | Uses subspace removal and within-word attention masking to give causal evidence for word recovery. We do not introduce word recovery or its causal testing. |
+| Busigin and Pinter, [Inside the LLM Word Factory](https://arxiv.org/html/2606.08562v2) | v2, 28 September 2026; full-text methods, component tests, and behavior control | Separates attention transport and MLP composition through activation patches. Tests twelve models, including larger Pythia models. Our small transfer test does not replace that account. It asks whether a previously selected copying head contributes when repeated strings use disjoint token IDs. |
+| Olsson et al., [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) | 2022 primary research article; checked in the earlier copy study | Repeated-token matching and copying are established. This study tests a limited extension across alternate string encodings. |
+| Biderman et al., [Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373) | 2023 primary paper; checked in the earlier model studies | Defines the Pythia research suite. One small checkpoint cannot establish behavior across scale. |
+| EleutherAI, [Pythia-14M model card at the pinned revision](https://huggingface.co/EleutherAI/pythia-14m/blob/cf967c0a9a04383db6f7b1108d86b2962634b4ac/README.md) | revision `cf967c0a9a04383db6f7b1108d86b2962634b4ac`; local card and six file hashes | The model address changed on 27 February 2026. Pin the revision and file hashes rather than rely on the repository name. The former deduplicated release has a separate address. |
+
+The earlier repository study selected layer 3, head 1 on single-token bindings. That is a reason to fix this head before the new outputs. It is not evidence that it works under the new encodings.
+
+Disjoint token IDs do not prove whole-string reconstruction. Learned similarities between fragments, contextual features, and other model paths can support a match. A positive result supports a local contribution under the fixed construction. A negative result can limit the transfer of the earlier head description. Neither result proves a universal mechanism.

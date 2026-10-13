@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "final_projection_error": 0.0,
+      "self_error": 0.0,
+      "stock_error": 0.0
+    },
+    {
+      "final_projection_error": 0.0,
+      "self_error": 0.0,
+      "stock_error": 0.0
+    }
+  ],
+  "cpu_threads": 2,
+  "dtype": "float32",
+  "dummy_batch_size": 32,
+  "dummy_lengths": [
+    9,
+    25
+  ],
+  "errors": {
+    "ablated_vector": 0.0,
+    "future_attention": 0.0,
+    "unchanged_attention": 0.0,
+    "untouched_output": 0.0
+  },
+  "model_hashes": {
+    "README.md": "d1f2cf1d5181daedeaa70208ddd5cc5251867bde9acf6db7bb45a2265e25e163",
+    "config.json": "f97f966a66c444890ed461fff2a51eefb15d74303df05b948124719f199b0b17",
+    "model.safetensors": "116a02532db461f91386a5b20f942ff2c8d4de7341e21b55caafc3d7b25f49a1",
+    "special_tokens_map.json": "10b8c8852c1e1f70b54d9aff61728408c28971c0e97a6c5a7b2debbd1d3e9c0c",
+    "tokenizer.json": "870f4e2baa6b683221fa52004d5d6f40ab8c9d31961617304b78c910c2c3caf2",
+    "tokenizer_config.json": "eee017c5bd133137f45907bd0a6e781e2ccd1a533734b7ed2a2f2f4446659809"
+  },
+  "packages": {
+    "huggingface-hub": "0.36.2",
+    "numpy": "2.3.5",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.2",
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "plan_sha256": "733b07a06f3d79bbfa749025e02a7252ea5d2c7544b0a1b0b14d9c7cbbcda483",
+  "runner_sha256": "c3856ab4632d439fe236483086f8745914564058f8e780a848c3abc0b8bec6bc",
+  "scientific_model_outputs_collected": false,
+  "status": "passed"
+}

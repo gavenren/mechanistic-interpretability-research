@@ -1,0 +1,11 @@
+{
+  "attention_checks": 66,
+  "comparison_checks": 50,
+  "failed_checks": 0,
+  "logit_tolerance": 1e-08,
+  "maximum_logit_error": 5.786482404346316e-12,
+  "maximum_row_sum_error": 1.5543122344752192e-15,
+  "maximum_state_error": 2.931821452278882e-13,
+  "row_tolerance": 1e-12,
+  "state_tolerance": 1e-10
+}

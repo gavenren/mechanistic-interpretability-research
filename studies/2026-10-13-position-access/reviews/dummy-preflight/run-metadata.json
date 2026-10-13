@@ -1,0 +1,25 @@
+{
+  "arithmetic": "double arithmetic with stock float32 rotary tables",
+  "batch_size": 4,
+  "cpu_threads": 2,
+  "elapsed_seconds": 1.2341074169962667,
+  "human_review": false,
+  "lock_commit": null,
+  "machine": "arm64",
+  "model_forward_calls": 66,
+  "model_forward_examples": 66,
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "safetensors": "0.6.2",
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "plan_sha256": "e397347dff7edba9001058f1853f24b8522310c1a07c7ee2fd53e37f044a9171",
+  "preflight": true,
+  "python": "3.12.14",
+  "runner_sha256": "286e159e08433d6bd9854759dca2f54a191e5927ef0cb889d431a3119de84300",
+  "scientific_model_outputs_collected": false,
+  "status": "preflight_passed",
+  "system": "Darwin"
+}

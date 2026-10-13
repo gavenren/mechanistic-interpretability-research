@@ -1,0 +1,33 @@
+{
+  "files": {
+    "attention-controls.csv": {
+      "bytes": 5778,
+      "sha256": "46ad49effa9c3a9ab651d3f31e18ded996c532cb35a26a47a972846c3843c026"
+    },
+    "control-summary.json": {
+      "bytes": 307,
+      "sha256": "51ace4167452177001e32ee10a03b0d8160fa26513474a2995ae7efa850c4581"
+    },
+    "controls.csv": {
+      "bytes": 3269,
+      "sha256": "ed8da35b316833d7f98b3910ac4be981011285ca47bc683abdaff4c9dc0b3bfd"
+    },
+    "inputs.json": {
+      "bytes": 23935,
+      "sha256": "9a18321554beea44c365fecfe0e498774dc4e8b2442342401d41222951922ec7"
+    },
+    "model-receipt.json": {
+      "bytes": 1094,
+      "sha256": "2b30273b0fa77124150a4011cd3e6ebe7f7301e6559030ce88977e282f74ab7a"
+    },
+    "run-metadata.json": {
+      "bytes": 750,
+      "sha256": "e6a5558c85dc7af986f6a2c2d3505112ae6c89ad98acb309c2ebe629c1e86554"
+    },
+    "scores.csv": {
+      "bytes": 6534,
+      "sha256": "d0ddf00704994517e471f0be61a01eeec4fa335703e7e88ffe1ec6a22e66ea76"
+    }
+  },
+  "status": "preflight_passed"
+}
