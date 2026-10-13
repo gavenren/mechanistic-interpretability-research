@@ -1,0 +1,50 @@
+{
+  "class_counts": {
+    "optdigits.tes": {
+      "0": 178,
+      "1": 182,
+      "2": 177,
+      "3": 183,
+      "4": 181,
+      "5": 182,
+      "6": 181,
+      "7": 179,
+      "8": 174,
+      "9": 180
+    },
+    "optdigits.tra": {
+      "0": 376,
+      "1": 389,
+      "2": 380,
+      "3": 389,
+      "4": 387,
+      "5": 376,
+      "6": 377,
+      "7": 387,
+      "8": 380,
+      "9": 382
+    }
+  },
+  "input_sha256": "057e197a859c797db1c9f180a6ecd1870f2b6b6c07f3335c8e8180c9867da8de",
+  "panel_counts": {
+    "0": 12,
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12,
+    "6": 12,
+    "7": 12,
+    "8": 12,
+    "9": 12
+  },
+  "panel_rows": 120,
+  "raw_data_sha256": {
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd"
+  },
+  "scientific_model_calls": 0,
+  "status": "passed",
+  "zero_based_first_row": 0,
+  "zero_based_last_row": 127
+}

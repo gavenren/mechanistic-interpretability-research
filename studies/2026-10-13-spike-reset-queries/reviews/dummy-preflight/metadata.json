@@ -1,0 +1,17 @@
+{
+  "deterministic": true,
+  "dtype": "float64",
+  "inputs_sha256": "057e197a859c797db1c9f180a6ecd1870f2b6b6c07f3335c8e8180c9867da8de",
+  "interop_threads": 1,
+  "lock_commit": null,
+  "mkldnn": false,
+  "mode": "dummy",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "plan_sha256": "cc43676cc86456164267b0c9dc480212a02d6192495476827ed75dddc4441dcf",
+  "python": "3.12.14",
+  "runner_sha256": "a7cd55a48ea3b219d1063e748bd5cec9eeb010e493b2218fb63645d2e0428872",
+  "threads": 2
+}

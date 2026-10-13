@@ -1,0 +1,85 @@
+{
+  "calls": 87,
+  "control_maxima": {
+    "final_second_layer_linear": 4.163336342344337e-17,
+    "first_layer_trajectory_exact": 0.0,
+    "inactive_no_op": 0.0,
+    "leaf_logits_exact": 0.0,
+    "leaf_m1_exact": 0.0,
+    "leaf_s1_exact": 0.0,
+    "leaf_s2_exact": 0.0,
+    "leaf_u1_exact": 0.0,
+    "leaf_u2_exact": 0.0,
+    "leaf_v1_exact": 0.0,
+    "leaf_v2_exact": 0.0,
+    "prefix_exact": 0.0,
+    "primary_formula": 3.469446951953614e-18,
+    "regret_nonnegative": 0.0,
+    "reset_algebra": 0.0,
+    "self_logits_exact": 0.0,
+    "self_m1_exact": 0.0,
+    "self_s1_exact": 0.0,
+    "self_s2_exact": 0.0,
+    "self_u1_exact": 0.0,
+    "self_u2_exact": 0.0,
+    "self_v1_exact": 0.0,
+    "self_v2_exact": 0.0,
+    "tangent_derivative": 5.204170427930421e-18,
+    "target_message_zero": 0.0,
+    "target_node_zero": 0.0,
+    "untouched_site_values": 0.0
+  },
+  "control_rows": 422,
+  "deterministic": true,
+  "dtype": "float64",
+  "dummy_nonvacuity": {
+    "active_final_readout_effect": 0.125,
+    "active_final_readout_spikes": 2,
+    "active_selected": 1,
+    "final_readout_error": 0.0,
+    "first_layer_state_difference": 1.0,
+    "inactive_selected": 1,
+    "leaf_forward_errors": [
+      0.0,
+      0.0
+    ],
+    "local_graph_gradient_difference": 0.005075218061845851,
+    "note": "Hand-set dummy weights and zero inputs only. No study data or trained model used.",
+    "output_difference": 0.125,
+    "separate_readout_calls": 32,
+    "separate_witness_forwarded_examples": 10,
+    "separate_witness_model_calls": 5,
+    "tangent_errors": [
+      0.0,
+      3.469446951953614e-18
+    ]
+  },
+  "examples": 10328,
+  "inputs_sha256": "057e197a859c797db1c9f180a6ecd1870f2b6b6c07f3335c8e8180c9867da8de",
+  "interop_threads": 1,
+  "lock_commit": null,
+  "mkldnn": false,
+  "mode": "dummy",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "panel_batch": 120,
+  "panel_seconds": 0.6884042079982464,
+  "plan_sha256": "cc43676cc86456164267b0c9dc480212a02d6192495476827ed75dddc4441dcf",
+  "projected_seconds_with_2x_safety": 724.8929603233647,
+  "python": "3.12.14",
+  "runner_sha256": "40aac12042bc4d9d72ec05bedd78ae206f40cd6172cb6674c37ef728f0a4814c",
+  "scientific_model_outputs_collected": false,
+  "test_batches": [
+    128,
+    5
+  ],
+  "test_seconds": 0.001128750001953449,
+  "threads": 2,
+  "training_batches": [
+    128,
+    111
+  ],
+  "training_seconds": 0.7025897080020513
+}
