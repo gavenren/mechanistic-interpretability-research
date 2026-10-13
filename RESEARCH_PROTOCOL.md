@@ -25,7 +25,7 @@ Separate a new artifact or experiment from a new scientific principle. Cite clos
 
 ## Resource budget
 
-Check the available account usage at the start of each run and before substantial new work. Keep a 10% reserve in every reported core usage window. Stop new work if a window has 10% or less remaining, or ordinary usage is unavailable. Save the current state and pause the repeat task. If the meter cannot be read, preserve work and defer new research until it is available.
+Check the available account usage at the start of each run and before substantial new work. Keep a 20% reserve in every reported core usage window. Stop new work if a window has 20% or less remaining, or ordinary usage is unavailable. Save the current state and pause the repeat task. If the meter cannot be read, preserve work and defer new research until it is available.
 
 Use small local experiments by default. Do not buy credits, redeem usage resets, invoke paid model APIs, or rent compute without a new user instruction. Limit parallel work to specific tasks that improve the study. Account usage is shared; changes in the meter are not an exact cost for this repository.
 
