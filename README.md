@@ -10,7 +10,11 @@ Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and
 
 ## Papers
 
-The first study is in progress. It tests whether a proposed representation of a variable causes the correct change when that variable is active, and preserves the answer when it is inactive.
+| Date | Paper | Main result |
+| --- | --- | --- |
+| 13 October 2026 | [When an input should not change the answer](studies/2026-10-13-inactive-variable-audit/paper.md) | Two neuron-selection rules chose the same sets in eight small models. This negative result did not validate those sets: substantial intervention errors remained. |
+
+The first paper includes [reproduction instructions](studies/2026-10-13-inactive-variable-audit/README.md), complete data and weights, and an [independent AI calculation review](studies/2026-10-13-inactive-variable-audit/reviews/independent-review.md). Its claims apply to the tested small models.
 
 ## Use and rights
 

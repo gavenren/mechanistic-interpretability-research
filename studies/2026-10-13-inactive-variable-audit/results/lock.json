@@ -1,0 +1,7 @@
+{
+  "commit": "ff9d78c15aa6e97b4819e18f4253b60fd165b50c",
+  "sha256": {
+    "studies/2026-10-13-inactive-variable-audit/analysis-plan.md": "01871ae2db85bac70742d41764c7774c0b68087f3d54851291f614b7fa978ef6",
+    "studies/2026-10-13-inactive-variable-audit/code/run.py": "555c08943b8e847a142a8a1d103f100673ac7ce3a964619c45849505a95f77b3"
+  }
+}

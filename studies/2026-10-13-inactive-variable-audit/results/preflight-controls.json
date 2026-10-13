@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "gradient_coordinates": 24,
+  "gradient_max_scaled_error": 1.498554188725243e-11,
+  "pairs": 27648,
+  "discovery_pairs": 13824,
+  "test_pairs": 13824,
+  "matched_pairs": 576,
+  "same_a_pairs": 9216,
+  "factorized_reference_passed": true,
+  "empty_patch_max_error": 0.0,
+  "identity_patch_max_error": 0.0,
+  "full_patch_max_error": 0.0,
+  "counterfactual_cache_max_error": 0.0
+}

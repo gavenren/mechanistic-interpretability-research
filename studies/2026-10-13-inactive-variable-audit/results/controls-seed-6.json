@@ -1,0 +1,6 @@
+{
+  "empty_patch_max_error": 0.0,
+  "identity_patch_max_error": 0.0,
+  "full_patch_max_error": 0.0,
+  "counterfactual_cache_max_error": 0.0
+}

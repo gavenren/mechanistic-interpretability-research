@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "lock_commit": "ff9d78c15aa6e97b4819e18f4253b60fd165b50c",
+  "manifest_files": 35,
+  "states": 192,
+  "pairs": 27648,
+  "test_pairs": 13824,
+  "matched_test_pairs": 286,
+  "stratum_counts": [
+    5184,
+    1728,
+    5184,
+    1728,
+    5184,
+    1728,
+    5184,
+    1728
+  ],
+  "seeds": 8,
+  "candidate_rows_checked": 9536,
+  "selected_rows_checked": 928,
+  "nonrandom_selection_configurations": 96,
+  "forward_check_scope": "Every selected non-random mask, every primary and same-a pair, all eight seeds",
+  "checked_numeric_values": 2692699,
+  "maximum_absolute_difference": 2.7755575615628914e-16,
+  "primary_seed_differences": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "limits": "No independent training; no exhaustive forward recalculation of every unselected or random-only mask."
+}
