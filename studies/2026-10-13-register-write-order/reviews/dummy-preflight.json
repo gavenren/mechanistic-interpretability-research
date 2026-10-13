@@ -1,0 +1,39 @@
+{
+  "distinct_histories": 1792,
+  "dummy_batch_sizes": [
+    64,
+    256
+  ],
+  "errors": [
+    {
+      "batch_size": 64,
+      "full_donor_interface": 1.942890293094024e-16,
+      "orthonormal": 3.3306690738754696e-16,
+      "self_hidden": 0.0,
+      "self_logits": 0.0,
+      "sequential": 0.0
+    },
+    {
+      "batch_size": 256,
+      "full_donor_interface": 2.220446049250313e-16,
+      "orthonormal": 4.440892098500626e-16,
+      "self_hidden": 0.0,
+      "self_logits": 0.0,
+      "sequential": 0.0
+    }
+  ],
+  "gradient_routes_to_editor_only": true,
+  "inputs_sha256": "fa81fa8b1cfd4574a987efcb66be51b5915f2d634b69e289f0a6970f0dc13b36",
+  "model_training_performed": false,
+  "parameter_count": 16400,
+  "plan_sha256": "b2e1c9e76926f04b517dde0e9af8d1498f70b15224896b4ff1299516c60b5a59",
+  "runner_sha256": "b14dd6592b11e25cb2ecf72e1a65f775bd3f450901d22378286b7ae7b4dc85b6",
+  "scientific_model_outputs_collected": false,
+  "status": "passed",
+  "test_contracts": 3072,
+  "versions": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "torch": "2.8.0"
+  }
+}
