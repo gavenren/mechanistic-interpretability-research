@@ -1,0 +1,39 @@
+{
+  "audit_sha256": "311dcce884a13c8427c2db5ac2636cc279ab58cc9991436f3260c68d240eb062",
+  "check_count": 3951404,
+  "contract_rows_replayed": 86016,
+  "editor_checkpoints_checked": 36,
+  "elapsed_seconds": 13.857059583999217,
+  "final_model_replays": 4,
+  "fixed_tolerance": 1e-10,
+  "full_logit_values_replayed": 6881280,
+  "lock_commit": "1ff6f252c4d11ac9e0cc2e778e0a6157fabd81e4",
+  "maximum_errors": {
+    "arithmetic": 6.661338147750939e-16,
+    "basis": 8.881784197001252e-16,
+    "edit_norm": 3.552713678800501e-15,
+    "logits": 2.1316282072803006e-14,
+    "natural_interface": 0.0,
+    "self": 0.0
+  },
+  "model_checkpoints_checked": 24,
+  "numerical_control_rows_checked": 528,
+  "primary_mean_difference": 0.0021158854166666297,
+  "primary_seed_bootstrap_interval": [
+    -0.010172526041666685,
+    0.011311848958333315
+  ],
+  "result_files_verified": 97,
+  "result_manifest_sha256": "43fe073cba0a2b9605b0fd78904dee6bb0b7f485c7f57a730fa352e60b31811c",
+  "review_kind": "independent AI review, not human peer review",
+  "saved_control_maximum": 7.105427357601002e-15,
+  "scope": "All saved test logits replayed with explicit GRU gate equations and matrix-projection edits. All input rules, targets, table scores, seed summaries, and primary calculations checked. Training records and saved checkpoints checked; training was not repeated.",
+  "status": "passed",
+  "training_rows_checked": 14000,
+  "training_trajectories_replayed": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "torch": "2.8.0"
+  }
+}

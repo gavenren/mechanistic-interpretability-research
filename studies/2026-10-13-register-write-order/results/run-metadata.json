@@ -1,0 +1,36 @@
+{
+  "contract_rows": 86016,
+  "control_rows": 528,
+  "dtype": "float64",
+  "edit_optimizer_updates": 8000,
+  "elapsed_seconds": 32.87104566599737,
+  "factual_optimizer_updates": 6000,
+  "factual_training_GRU_positions": 4608000,
+  "history_encoding_GRU_positions": 36864,
+  "immediate_arm_training_readouts": 256000,
+  "inputs_sha256": "637b990e99f28ad36ea2205bedf4afaa09b0cf1c1bfa91d1b2cbc7e5beb9c2ff",
+  "lock_commit": "1ff6f252c4d11ac9e0cc2e778e0a6157fabd81e4",
+  "plan_sha256": "b2e1c9e76926f04b517dde0e9af8d1498f70b15224896b4ff1299516c60b5a59",
+  "runner_sha256": "cc282ca30b1b0a23173fc486aa37e15f63fe234a48b61378197c9d875d06e39e",
+  "saved_test_readouts": 430080,
+  "scientific_model_outputs_collected": true,
+  "seeds": [
+    17011,
+    17021,
+    17027,
+    17033
+  ],
+  "status": "complete",
+  "test_and_control_GRU_positions": 884736,
+  "test_and_control_readouts": 1019904,
+  "test_contracts_per_route_per_model": 3072,
+  "threads": 2,
+  "training_rows": 14000,
+  "transition_arm_training_readouts": 512000,
+  "transition_training_extra_GRU_positions": 256000,
+  "versions": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "torch": "2.8.0"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "ability": {
+    "factual_current": 0.9921875,
+    "factual_final_steps": 0.9921875,
+    "factual_first_steps": 0.9895833333333334,
+    "natural_target_all_steps": 0.9942708333333333,
+    "passes": false
+  },
+  "primary_difference": 0.004231770833333259,
+  "routes": {
+    "base": {
+      "contract_success": 0.0,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.006510416666666667,
+      "copy_write_final_margin": -8.464361107028765,
+      "copy_write_final_probability": 0.01017771942648748,
+      "copy_write_first_accuracy": 0.005208333333333333,
+      "copy_write_first_margin": -11.667071102599264,
+      "copy_write_first_probability": 0.007299301000739032,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.0,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.0,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 0.0026041666666666665,
+      "immediate_B_accuracy": 1.0,
+      "immediate_accuracy": 0.0026041666666666665,
+      "immediate_margin": -9.99381993190632,
+      "immediate_probability": 0.005824537643672284,
+      "mean_edit_norm": 0.0,
+      "write_copy_final_accuracy": 1.0,
+      "write_copy_final_margin": 8.318643785866369,
+      "write_copy_final_probability": 0.9979353657064395,
+      "write_copy_first_accuracy": 0.9947916666666666,
+      "write_copy_first_margin": 6.84513571172413,
+      "write_copy_first_probability": 0.9818215383664873
+    },
+    "immediate": {
+      "contract_success": 0.9085286458333334,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.9710286458333334,
+      "copy_write_final_margin": 5.517311772067244,
+      "copy_write_final_probability": 0.9460358848323388,
+      "copy_write_first_accuracy": 0.9778645833333334,
+      "copy_write_first_margin": 6.894728148629043,
+      "copy_write_first_probability": 0.9642162621216311,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.8988715277777778,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.9375,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 0.966796875,
+      "immediate_B_accuracy": 0.9596354166666666,
+      "immediate_accuracy": 0.9264322916666666,
+      "immediate_margin": 4.107445074128574,
+      "immediate_probability": 0.8743975809109893,
+      "mean_edit_norm": 3.3383418111717034,
+      "write_copy_final_accuracy": 0.9973958333333334,
+      "write_copy_final_margin": 8.095911343145476,
+      "write_copy_final_probability": 0.9931330004273343,
+      "write_copy_first_accuracy": 0.986328125,
+      "write_copy_first_margin": 6.199129281466611,
+      "write_copy_first_probability": 0.9669085992064771
+    },
+    "initial": {
+      "contract_success": 0.0,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.009114583333333334,
+      "copy_write_final_margin": -8.345714764016817,
+      "copy_write_final_probability": 0.01393844882825214,
+      "copy_write_first_accuracy": 0.009114583333333334,
+      "copy_write_first_margin": -11.488450615037964,
+      "copy_write_first_probability": 0.012093294470908032,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.0,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.0,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 0.004557291666666667,
+      "immediate_B_accuracy": 0.9895833333333334,
+      "immediate_accuracy": 0.004557291666666667,
+      "immediate_margin": -9.617417758685676,
+      "immediate_probability": 0.00734513900306297,
+      "mean_edit_norm": 1.5151069948133251,
+      "write_copy_final_accuracy": 1.0,
+      "write_copy_final_margin": 8.3691314699331,
+      "write_copy_final_probability": 0.997780477521351,
+      "write_copy_first_accuracy": 0.982421875,
+      "write_copy_first_margin": 6.505462290907661,
+      "write_copy_first_probability": 0.9705394149204634
+    },
+    "natural_target": {
+      "contract_success": 0.9869791666666666,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.9895833333333334,
+      "copy_write_final_margin": 6.7357710264491075,
+      "copy_write_final_probability": 0.983029369410942,
+      "copy_write_first_accuracy": 0.9921875,
+      "copy_write_first_margin": 7.660985717491364,
+      "copy_write_first_probability": 0.9888842530006307,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.9869791666666666,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.9869791666666666,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 0.9921875,
+      "immediate_B_accuracy": 1.0,
+      "immediate_accuracy": 0.9921875,
+      "immediate_margin": 6.682830439855489,
+      "immediate_probability": 0.98233331806202,
+      "mean_edit_norm": 6.005332087034712,
+      "write_copy_final_accuracy": 1.0,
+      "write_copy_final_margin": 8.303621606771527,
+      "write_copy_final_probability": 0.9980815568831379,
+      "write_copy_first_accuracy": 0.9973958333333334,
+      "write_copy_first_margin": 6.837173414545489,
+      "write_copy_first_probability": 0.9871060255563711
+    },
+    "same_state_immediate": {
+      "contract_success": 0.9635416666666666,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.9713541666666666,
+      "copy_write_final_margin": 5.8384312760952595,
+      "copy_write_final_probability": 0.958484692424647,
+      "copy_write_first_accuracy": 0.984375,
+      "copy_write_first_margin": 6.996194245778824,
+      "copy_write_first_probability": 0.9738976022304014,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.9635416666666666,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.9635416666666666,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 1.0,
+      "immediate_B_accuracy": 0.9921875,
+      "immediate_accuracy": 0.9921875,
+      "immediate_margin": 6.77600291426475,
+      "immediate_probability": 0.9793581563519318,
+      "mean_edit_norm": 1.2556615748515139,
+      "write_copy_final_accuracy": 1.0,
+      "write_copy_final_margin": 8.215947504959574,
+      "write_copy_final_probability": 0.9951622205538029,
+      "write_copy_first_accuracy": 0.9973958333333334,
+      "write_copy_first_margin": 6.518748398462145,
+      "write_copy_first_probability": 0.9820495025323792
+    },
+    "same_state_transition": {
+      "contract_success": 0.9713541666666666,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.9791666666666666,
+      "copy_write_final_margin": 6.001478463129698,
+      "copy_write_final_probability": 0.9659920102988582,
+      "copy_write_first_accuracy": 0.984375,
+      "copy_write_first_margin": 7.195732823598726,
+      "copy_write_first_probability": 0.9789138510096365,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.9713541666666666,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.9713541666666666,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 1.0,
+      "immediate_B_accuracy": 0.9921875,
+      "immediate_accuracy": 0.9921875,
+      "immediate_margin": 6.848164511720447,
+      "immediate_probability": 0.9809431542760673,
+      "mean_edit_norm": 1.208037431157832,
+      "write_copy_final_accuracy": 1.0,
+      "write_copy_final_margin": 8.224362751210935,
+      "write_copy_final_probability": 0.9950165741681634,
+      "write_copy_first_accuracy": 0.9947916666666666,
+      "write_copy_first_margin": 6.543357926172026,
+      "write_copy_first_probability": 0.9822429491971745
+    },
+    "transition": {
+      "contract_success": 0.9127604166666666,
+      "contracts": 3072,
+      "copy_write_final_accuracy": 0.9772135416666666,
+      "copy_write_final_margin": 5.725009434664173,
+      "copy_write_final_probability": 0.957104646992554,
+      "copy_write_first_accuracy": 0.9791666666666666,
+      "copy_write_first_margin": 7.08721573759545,
+      "copy_write_first_probability": 0.9700925263217055,
+      "donor_B_strata": {
+        "different": {
+          "contract_success": 0.9071180555555556,
+          "contracts": 2304
+        },
+        "same": {
+          "contract_success": 0.9296875,
+          "contracts": 768
+        }
+      },
+      "immediate_A_accuracy": 0.9674479166666666,
+      "immediate_B_accuracy": 0.9596354166666666,
+      "immediate_accuracy": 0.9270833333333334,
+      "immediate_margin": 4.030643001289223,
+      "immediate_probability": 0.8702314794142807,
+      "mean_edit_norm": 3.250466381856539,
+      "write_copy_final_accuracy": 0.9977213541666666,
+      "write_copy_final_margin": 8.130895988533661,
+      "write_copy_final_probability": 0.9938448546343587,
+      "write_copy_first_accuracy": 0.9895833333333334,
+      "write_copy_first_margin": 6.309776544467273,
+      "write_copy_first_probability": 0.9704871346495376
+    }
+  },
+  "seconds": {
+    "evaluation": 1.3362880839995341,
+    "factual": 5.506961708000745,
+    "immediate": 0.3110302499990212,
+    "transition": 0.7526718340013758
+  },
+  "seed": 17021
+}

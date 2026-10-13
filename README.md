@@ -4,7 +4,7 @@ This repository studies how neural networks produce their answers. Each complete
 
 ## Research standard
 
-The work is AI-assisted. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
+The papers are AI-authored. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
@@ -21,8 +21,9 @@ Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the
 | 13 October 2026 | [A joint test of position spacing and access to extra tokens](studies/2026-10-13-position-access/paper.md) | Each single edit sharply reduced the binding score. Both together matched the short-input control. The normal long input had a lower mean margin but more correct top predictions. |
 | 13 October 2026 | [Same text, different token splits](studies/2026-10-13-segmentation-transfer/paper.md) | With different source/query splits, only 1 of 1,024 requested values was the top prediction. A positive head effect remained, but the fixed capability rule failed. |
 | 13 October 2026 | [Tiny order effects after balanced retraining](studies/2026-10-13-training-order-paths/paper.md) | The main internal-path difference was −0.00274 percentage points. All 48 final models and all recorded final patches kept the correct class. |
+| 13 October 2026 | [A small, uncertain gain from training state edits on one future step](studies/2026-10-13-register-write-order/paper.md) | The added loss increased the full copy/write test score by 0.21 percentage points. The interval includes no gain, and three of four models failed the fixed task-ability rule. |
 
-Each completed study includes reproduction instructions, full result tables, and an independent AI calculation review. Studies 1–3 and 9 include their trained model weights. Studies 4–8 provide a fixed public model revision and file checks. Study 4 records a failed planned numerical check and the added check that explained it. Study 8 retains a failed added probability check and an exact replay of the declared float32 calculation. These claims apply to the tested small models. None has recorded human peer review.
+Each completed study includes reproduction instructions, full result tables, and an independent AI calculation review. Studies 1–3, 9, and 10 include their trained model weights. Studies 4–8 provide a fixed public model revision and file checks. Study 4 records a failed planned numerical check and the added check that explained it. Study 8 retains a failed added probability check and an exact replay of the declared float32 calculation. These claims apply to the tested small models. None has recorded human peer review.
 
 ## Use and rights
 
