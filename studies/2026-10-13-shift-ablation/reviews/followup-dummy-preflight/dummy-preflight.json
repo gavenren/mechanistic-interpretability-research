@@ -1,0 +1,64 @@
+{
+  "calls": 566,
+  "control_maxima": {
+    "ablated_channel_zero": 0.0,
+    "augmentation_matches_scalar_roll": 0.0,
+    "first_features_shift": 0.0,
+    "four_pixel_logits": 6.938893903907228e-17,
+    "no_op_logits": 0.0,
+    "probability_row_sum": 4.440892098500626e-16,
+    "stride_one_logits": 8.326672684688674e-17,
+    "triangle_inequality_excess": 0.0,
+    "untouched_channels": 0.0
+  },
+  "control_rows": 1197,
+  "data_hashes": {
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd"
+  },
+  "deterministic": true,
+  "device": "cpu",
+  "dummy_evaluation_seconds": [
+    0.2427156250050757,
+    0.5817324580057175
+  ],
+  "dummy_train_seconds": [
+    1.0805402909973054,
+    0.8653693750020466
+  ],
+  "dummy_updates": 60,
+  "elapsed_seconds": 6.599326000003202,
+  "evaluation_batch_sizes": [
+    128,
+    5
+  ],
+  "evaluation_dtype": "float64",
+  "examples": 68764,
+  "initial_parameter_hashes_equal": true,
+  "lock_commit": null,
+  "mkldnn": false,
+  "mode": "dummy",
+  "original_plan_sha256": "15cd02bd82c815bd63aff7a5a19d9c411bf6e6d45627e56b98452018c727fdae",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "plan_sha256": "520ff8607095dc3eb09432fce6d351611a418ef4dca00d06ebc0996a818c1981",
+  "probability_dtype": "numpy float64",
+  "projected_seconds_with_2x_safety": 406.4899188633802,
+  "projection_evaluation_example_ratio": 108.09022556390977,
+  "projection_note": "Twice the projection by exact forwarded-example ratios; this is an estimate.",
+  "projection_train_example_ratio": 58.651324965132495,
+  "python": "3.12.14",
+  "random_dummy_inputs": 239,
+  "runner_sha256": "9fcfccc20ae75a6dd00c12bf303137f64ab7ba27c3e38aaf9080501653a2cb71",
+  "scientific_evaluation_calls": 20640,
+  "scientific_model_outputs_collected": false,
+  "scientific_training_updates": 3300,
+  "threads": 2,
+  "training_batch_sizes": [
+    128,
+    111
+  ],
+  "training_dtype": "float32"
+}

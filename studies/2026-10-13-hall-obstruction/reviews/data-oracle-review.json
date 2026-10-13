@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "graph_count": 65536,
+  "positive_count": 37823,
+  "negative_no_isolates": 3680,
+  "all_graph_orbits": 317,
+  "first_name_category_orbits": {
+    "selection": [
+      1,
+      3,
+      1
+    ],
+    "test": [
+      2,
+      2,
+      1
+    ]
+  },
+  "all_24_names_exact_ids_match": true,
+  "all_category_unions_match": true,
+  "random_masks_match": true,
+  "epoch_array_hash_matches": true,
+  "inputs_sha256": "ef0cf2aef1e0589feab959547228ea074fddbc19a54de93a47bd543d9842d9b7"
+}

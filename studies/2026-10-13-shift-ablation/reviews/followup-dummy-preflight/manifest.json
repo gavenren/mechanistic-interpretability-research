@@ -1,0 +1,9 @@
+{
+  "files": {
+    "controls.csv": "c73180074bbf84708e4fdd283c4785920ba2648cc0d72cf0ac9e71deaf679826",
+    "dummy-preflight.json": "372e3b92bef76f3d37cd71d0e6f20cad942c14b700b958b44291352366d9c52b",
+    "metadata.json": "35d561bc56259796dd8da86d7e137d22e604e451403f6d55a370ec3b5216e1ba",
+    "training.csv": "864b2d0748d3bba175c299584035780ddb2b3ad811ee6613f6b7728dce8e0160"
+  },
+  "status": "complete"
+}

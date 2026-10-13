@@ -1,0 +1,20 @@
+{
+  "dummy_batch_size": 512,
+  "dummy_inputs_nonbinary": true,
+  "errors": {
+    "batch_split": 0.0,
+    "cached_forward": 0.0,
+    "full_layer_bias": 0.0
+  },
+  "graph_count": 65536,
+  "inputs_sha256": "ef0cf2aef1e0589feab959547228ea074fddbc19a54de93a47bd543d9842d9b7",
+  "model_training_performed": false,
+  "phase_unique_graph_counts": {
+    "selection": 1224,
+    "test": 1872
+  },
+  "plan_sha256": "0b3593ef3fed07b3fc1c55bc42c6fed4fb3b6938f58ee37b2d442671b92199c4",
+  "runner_sha256": "2e58c46974aebc01198bb752b7fa2ccb4042755737ad200fa9362bc65847707b",
+  "scientific_model_outputs_collected": false,
+  "status": "passed"
+}

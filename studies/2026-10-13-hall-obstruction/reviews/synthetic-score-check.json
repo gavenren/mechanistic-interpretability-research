@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "model_called": false,
+  "scientific_outputs_collected": false,
+  "synthetic_score_checks": 648,
+  "uniform_positive_shift_selectivity": 0,
+  "uniform_negative_shift_selectivity": -1,
+  "target_only_positive_shift_selectivity": 1,
+  "runner_sha256": "4e1ba4831002f32ab4ac86c35cf69d9de59b37e36888a1e061668715c3e504f3"
+}

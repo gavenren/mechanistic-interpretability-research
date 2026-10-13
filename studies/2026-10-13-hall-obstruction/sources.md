@@ -1,0 +1,12 @@
+# Primary source record
+
+Checked on 13 October 2026. These sources delimit the question. A focused search is not proof of novelty.
+
+- Dobrik Georgiev and Pietro Liò, [Neural Bipartite Matching](https://arxiv.org/abs/2005.11304v4), version 4, 11 July 2024. Neural execution of Ford-Fulkerson uses learned graph features for matching. Neural matching is an established task. Our model is a small classifier and does not learn the same execution procedure.
+- Nils Palumbo, Ravi Mangal, Zifan Wang, Saranya Vijayakumar, Corina S. Pasareanu, and Somesh Jha, [Validating Mechanistic Interpretations: An Axiomatic Approach](https://arxiv.org/abs/2407.13594v2), version 2, 20 June 2025; ICML 2025. Gives criteria for mechanistic interpretations and a 2-SAT solver case study. We do not claim a new approach to algorithmic interpretation.
+- Jesse He and colleagues, [MINAR: Mechanistic Interpretability for Neural Algorithmic Reasoning](https://arxiv.org/abs/2602.21442v1), 24 February 2026. Adapts attribution patching to graph models and studies shortest-path and reachability circuits. We do not claim the first neuron-level graph interpretation.
+- Reuben Narad, Leonard Boussioux, and Michael Wagner, [Mechanistic Interpretability for Neural TSP Solvers](https://arxiv.org/abs/2510.21693v1), 24 October 2025. Studies features in a neural combinatorial optimizer. The present finite classifier is much smaller and does not establish results for optimization solvers in use.
+- Sankaran Vaidyanathan, Rafal Urbaniak, Emily Bunnapradist, Michelangelo Naim, and Daniel Waxman, [Slaying the Hydra: Interaction-Aware Circuit Discovery in Language Models](https://arxiv.org/abs/2610.04017v1), 2 October 2026. Studies interaction-aware component sets and task-specific effects. We use a simple fixed selection rule and measure its joint effect directly. Joint effects and specificity controls are prior concepts.
+- Vladimir V. Mirjanić, Razvan Pascanu, and Petar Veličković, [Latent Space Representations of Neural Algorithmic Reasoners](https://proceedings.mlr.press/v231/mirjanic24a.html), PMLR 231, 2024. Uses algorithmic symmetries and hidden-space interventions in Bellman-Ford models. This source ruled out a potential-reweighting study as too close to prior work.
+
+The exact graph labels are calculated by enumerating all 24 perfect matchings and checked independently by all 15 Hall subset conditions. No empirical paper is the source of those labels. The interpretation is restricted to the locked finite graph set, fixed trained models, and zero-ablation operation.

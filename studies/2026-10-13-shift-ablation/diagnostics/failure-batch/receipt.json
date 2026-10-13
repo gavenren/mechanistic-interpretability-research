@@ -1,0 +1,441 @@
+{
+  "batch_rows": [
+    768,
+    895
+  ],
+  "channel": 1,
+  "checks": [
+    {
+      "error": 0.0,
+      "name": "hook_float32_original_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float32_original_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float32_shifted_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float32_shifted_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float32_original_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float32_original_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float32_shifted_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float32_shifted_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float64_original_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float64_original_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float64_shifted_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float64_shifted_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float64_original_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float64_original_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float64_shifted_removed",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float64_shifted_untouched",
+      "passed": true,
+      "tolerance": 0.0
+    },
+    {
+      "error": 0.0,
+      "name": "hook_float32_saved_replay",
+      "passed": true,
+      "tolerance": 1e-10
+    },
+    {
+      "error": 0.0,
+      "name": "recorded_failure_maximum_reproduced",
+      "passed": true,
+      "tolerance": 1e-10
+    },
+    {
+      "error": 8.881784197001252e-16,
+      "name": "hook_float64_logit_symmetry",
+      "passed": true,
+      "tolerance": 1e-10
+    },
+    {
+      "error": 0.0,
+      "name": "explicit_float64_logit_symmetry",
+      "passed": true,
+      "tolerance": 1e-10
+    },
+    {
+      "error": 1.7763568394002505e-15,
+      "name": "float64_implementation_agreement_original",
+      "passed": true,
+      "tolerance": 1e-10
+    },
+    {
+      "error": 1.7763568394002505e-15,
+      "name": "float64_implementation_agreement_shifted",
+      "passed": true,
+      "tolerance": 1e-10
+    }
+  ],
+  "code_sha256": "6b6d73b57c3d66d2e00a78ab76cd07dd6c53b2dbdda7429fad591a177668df35",
+  "elapsed_seconds": 0.3071426669994253,
+  "evaluated_batch_conditions": 8,
+  "label": "post-failure diagnostic; original experiment remains failed",
+  "model_sha256": "b6cc052463f641f3cb9eb1ecccf374de6610f384219de30d96902e1274c9ea8e",
+  "model_training_performed": false,
+  "numpy": "2.3.5",
+  "original_failure_remains": true,
+  "original_lock": "c406a08091cbc74caef1a1c4690aa29482667e0a",
+  "plan_sha256": "0ed4d304b442258382c40bd2a235ed9ee704742c773cb09934dc079ea4d9b50b",
+  "python": "3.12.14",
+  "raw_data_sha256": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+  "shift": [
+    0,
+    -4
+  ],
+  "stage_symmetry": {
+    "explicit_float32": {
+      "down1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "down2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "edited_relu1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "input": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "logits": {
+        "argmax": [
+          3,
+          1
+        ],
+        "maximum_error": 4.76837158203125e-07
+      },
+      "pooled": {
+        "argmax": [
+          121,
+          29
+        ],
+        "maximum_error": 4.76837158203125e-07
+      },
+      "relu2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "relu3": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      }
+    },
+    "explicit_float64": {
+      "down1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "down2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "edited_relu1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "input": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "logits": {
+        "argmax": [
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "pooled": {
+        "argmax": [
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "relu2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "relu3": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      }
+    },
+    "hook_float32": {
+      "down1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "down2": {
+        "argmax": [
+          104,
+          12,
+          0,
+          3
+        ],
+        "maximum_error": 8.996576070785522e-06
+      },
+      "edited_relu1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "input": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "logits": {
+        "argmax": [
+          48,
+          0
+        ],
+        "maximum_error": 2.1457672119140625e-05
+      },
+      "pooled": {
+        "argmax": [
+          122,
+          15
+        ],
+        "maximum_error": 1.1086463928222656e-05
+      },
+      "relu2": {
+        "argmax": [
+          92,
+          11,
+          0,
+          3
+        ],
+        "maximum_error": 1.583993434906006e-05
+      },
+      "relu3": {
+        "argmax": [
+          50,
+          20,
+          0,
+          0
+        ],
+        "maximum_error": 4.0531158447265625e-05
+      }
+    },
+    "hook_float64": {
+      "down1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "down2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "edited_relu1": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "input": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "logits": {
+        "argmax": [
+          6,
+          5
+        ],
+        "maximum_error": 8.881784197001252e-16
+      },
+      "pooled": {
+        "argmax": [
+          0,
+          29
+        ],
+        "maximum_error": 4.440892098500626e-16
+      },
+      "relu2": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      },
+      "relu3": {
+        "argmax": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maximum_error": 0.0
+      }
+    }
+  },
+  "status": "passed",
+  "torch": "2.8.0"
+}
