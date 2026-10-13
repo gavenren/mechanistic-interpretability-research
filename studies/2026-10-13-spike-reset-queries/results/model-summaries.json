@@ -1,0 +1,338 @@
+[
+  {
+    "ability_gate": true,
+    "active_candidates_mean": 12.433333333333334,
+    "any_positive_fraction": [
+      0.9083333333333333,
+      0.9
+    ],
+    "correct_baseline_n": 113,
+    "correct_baseline_primary": 0.010908086009112168,
+    "exact_query_difference_mean": 0.0009898059999229542,
+    "exact_query_difference_mean_absolute": 0.017602139786195604,
+    "final_parameter_sha256": "459ac65f7b63a5673b568547441e5beabb1b37f3aefc198faf0cccc2260a12b5",
+    "gain_message": 0.007485078882810179,
+    "gain_node": 0.013058483101017737,
+    "initial_parameter_sha256": "f2b8bdb92b71da9997800147dd511eed644257693d108f51656a04c52ce88e0f",
+    "joint_means": [
+      0.5156862861539812,
+      0.5092400956688737,
+      0.039086433255775405,
+      0.3385640053392021,
+      0.3500872938997891,
+      0.025636909184133846
+    ],
+    "panel_accuracy": 0.9416666666666667,
+    "panel_n": 120,
+    "primary": 0.010271780991913958,
+    "regret_table": [
+      [
+        0.03436611721499142,
+        0.04185119609780161
+      ],
+      [
+        0.07439026842916417,
+        0.061331785328146454
+      ]
+    ],
+    "seed": 311,
+    "selected_effect_table": [
+      [
+        0.184067294594971,
+        0.17658221571216084
+      ],
+      [
+        0.10592704972945845,
+        0.1189855328304762
+      ]
+    ],
+    "selection_agreement": 0.8166666666666667,
+    "test_accuracy": 0.9560378408458542,
+    "wrong_sign": [
+      {
+        "fraction": 0.19943555973659455,
+        "graph": "message",
+        "n": 1063,
+        "query": "message",
+        "wrong": 212
+      },
+      {
+        "fraction": 0.19943555973659455,
+        "graph": "node",
+        "n": 1063,
+        "query": "message",
+        "wrong": 212
+      },
+      {
+        "fraction": 0.24695863746958638,
+        "graph": "message",
+        "n": 822,
+        "query": "node",
+        "wrong": 203
+      },
+      {
+        "fraction": 0.25060827250608275,
+        "graph": "node",
+        "n": 822,
+        "query": "node",
+        "wrong": 206
+      }
+    ],
+    "zero_effect_counts": [
+      2777,
+      3018
+    ]
+  },
+  {
+    "ability_gate": true,
+    "active_candidates_mean": 12.158333333333333,
+    "any_positive_fraction": [
+      0.8333333333333334,
+      0.825
+    ],
+    "correct_baseline_n": 115,
+    "correct_baseline_primary": 0.00881991146856174,
+    "exact_query_difference_mean": -0.00014295976562756773,
+    "exact_query_difference_mean_absolute": 0.016264416568480114,
+    "final_parameter_sha256": "8dc8110588e12e037983a0ea6248ef22ae566c0fc1f2b4d8266c630006f5f0a9",
+    "gain_message": 0.013425443810614926,
+    "gain_node": 0.0063465002223005,
+    "initial_parameter_sha256": "2ea926c59e031a109872f785c046365a25a32437152fa233c9d65e67fb83c635",
+    "joint_means": [
+      0.48925802799328366,
+      0.47231513457419005,
+      0.020678053184114257,
+      0.27511805358228203,
+      0.2653738083982173,
+      0.004388437271517607
+    ],
+    "panel_accuracy": 0.9583333333333334,
+    "panel_n": 120,
+    "primary": 0.009885972016457713,
+    "regret_table": [
+      [
+        0.029760460921482174,
+        0.04318590473209711
+      ],
+      [
+        0.07113922142628978,
+        0.06479272120398928
+      ]
+    ],
+    "seed": 313,
+    "selected_effect_table": [
+      [
+        0.1490640279437929,
+        0.13563858413317795
+      ],
+      [
+        0.0726591987574576,
+        0.0790056989797581
+      ]
+    ],
+    "selection_agreement": 0.7916666666666666,
+    "test_accuracy": 0.9632721202003339,
+    "wrong_sign": [
+      {
+        "fraction": 0.20483091787439614,
+        "graph": "message",
+        "n": 1035,
+        "query": "message",
+        "wrong": 212
+      },
+      {
+        "fraction": 0.20869565217391303,
+        "graph": "node",
+        "n": 1035,
+        "query": "message",
+        "wrong": 216
+      },
+      {
+        "fraction": 0.2726161369193154,
+        "graph": "message",
+        "n": 818,
+        "query": "node",
+        "wrong": 223
+      },
+      {
+        "fraction": 0.2787286063569682,
+        "graph": "node",
+        "n": 818,
+        "query": "node",
+        "wrong": 228
+      }
+    ],
+    "zero_effect_counts": [
+      2805,
+      3022
+    ]
+  },
+  {
+    "ability_gate": true,
+    "active_candidates_mean": 14.883333333333333,
+    "any_positive_fraction": [
+      0.8666666666666667,
+      0.8333333333333334
+    ],
+    "correct_baseline_n": 109,
+    "correct_baseline_primary": 0.011884668126529501,
+    "exact_query_difference_mean": 3.482418437051963e-05,
+    "exact_query_difference_mean_absolute": 0.01632666411059776,
+    "final_parameter_sha256": "cbcee9dcf45403786d1f03b2f4b89d41020b37a3d1f248d94513aa0920ef6a85",
+    "gain_message": -0.0021242039614264166,
+    "gain_node": 0.02705403556581796,
+    "initial_parameter_sha256": "7ff2b9f834ebec3050807e210880b1d8e025624242471fd9cad8550da6d6dde3",
+    "joint_means": [
+      0.5373366966174948,
+      0.5232736324421935,
+      0.021046363279939844,
+      0.35207860186279627,
+      0.3621397673918825,
+      0.023995205911106824
+    ],
+    "panel_accuracy": 0.9083333333333333,
+    "panel_n": 120,
+    "primary": 0.01246491580219577,
+    "regret_table": [
+      [
+        0.04337576936608383,
+        0.04125156540465743
+      ],
+      [
+        0.08417004066158736,
+        0.05711600509576945
+      ]
+    ],
+    "seed": 317,
+    "selected_effect_table": [
+      [
+        0.15327732371435385,
+        0.1554015276757803
+      ],
+      [
+        0.0857917351381407,
+        0.11284577070395867
+      ]
+    ],
+    "selection_agreement": 0.7666666666666667,
+    "test_accuracy": 0.9554813578185866,
+    "wrong_sign": [
+      {
+        "fraction": 0.22328410078192876,
+        "graph": "message",
+        "n": 1151,
+        "query": "message",
+        "wrong": 257
+      },
+      {
+        "fraction": 0.22415291051259775,
+        "graph": "node",
+        "n": 1151,
+        "query": "message",
+        "wrong": 258
+      },
+      {
+        "fraction": 0.2876712328767123,
+        "graph": "message",
+        "n": 949,
+        "query": "node",
+        "wrong": 273
+      },
+      {
+        "fraction": 0.2897787144362487,
+        "graph": "node",
+        "n": 949,
+        "query": "node",
+        "wrong": 275
+      }
+    ],
+    "zero_effect_counts": [
+      2689,
+      2891
+    ]
+  },
+  {
+    "ability_gate": true,
+    "active_candidates_mean": 12.416666666666666,
+    "any_positive_fraction": [
+      0.8666666666666667,
+      0.8333333333333334
+    ],
+    "correct_baseline_n": 110,
+    "correct_baseline_primary": 0.014359078910952748,
+    "exact_query_difference_mean": -0.0008307828418392444,
+    "exact_query_difference_mean_absolute": 0.016745209567941843,
+    "final_parameter_sha256": "f6771fb40c00cc417bb3a28991ed51145129eb296f4f8442760b39783002b225",
+    "gain_message": 0.013923384660232636,
+    "gain_node": 0.019021299329700626,
+    "initial_parameter_sha256": "e8c1651fab522e505dff8bafa1fd8ca501547c592b641971136048997edd70bb",
+    "joint_means": [
+      0.5666290724416477,
+      0.5713958785666942,
+      0.05438476005125719,
+      0.3345797450697135,
+      0.3523203033575001,
+      0.03416738217435016
+    ],
+    "panel_accuracy": 0.9166666666666666,
+    "panel_n": 120,
+    "primary": 0.01647234199496663,
+    "regret_table": [
+      [
+        0.025977092866343598,
+        0.039900477526576224
+      ],
+      [
+        0.07599191007303856,
+        0.05697061074333793
+      ]
+    ],
+    "seed": 331,
+    "selected_effect_table": [
+      [
+        0.18938541172318166,
+        0.17546202706294906
+      ],
+      [
+        0.09561330073133437,
+        0.11463460006103499
+      ]
+    ],
+    "selection_agreement": 0.775,
+    "test_accuracy": 0.9588202559821926,
+    "wrong_sign": [
+      {
+        "fraction": 0.20829406220546653,
+        "graph": "message",
+        "n": 1061,
+        "query": "message",
+        "wrong": 221
+      },
+      {
+        "fraction": 0.2111215834118756,
+        "graph": "node",
+        "n": 1061,
+        "query": "message",
+        "wrong": 224
+      },
+      {
+        "fraction": 0.286536248561565,
+        "graph": "message",
+        "n": 869,
+        "query": "node",
+        "wrong": 249
+      },
+      {
+        "fraction": 0.286536248561565,
+        "graph": "node",
+        "n": 869,
+        "query": "node",
+        "wrong": 249
+      }
+    ],
+    "zero_effect_counts": [
+      2779,
+      2971
+    ]
+  }
+]

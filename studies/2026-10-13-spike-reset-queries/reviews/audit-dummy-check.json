@@ -1,0 +1,11 @@
+{
+  "audit_sha256": "24b25d27d67b17e39c6f53b2da08c66f26288664aa23f78062dfbc797ed72981",
+  "dummy_witness_sha256": "5c4ca4bbce0c61592f2df271e934a66856c562424025dcfe8d44f8d37e7df77c",
+  "errors": {
+    "forward": 0.0,
+    "message_adjoint": 0.0,
+    "node_adjoint": 0.0
+  },
+  "scientific_model_calls": 0,
+  "status": "passed"
+}

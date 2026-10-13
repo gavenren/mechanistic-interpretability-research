@@ -51,6 +51,12 @@ A stable measurement changes little when the input changes slightly. It can stil
 
 The digit study also keeps three stages separate: an original failed numerical check, a fixed diagnostic, and a later evaluation with higher precision. The later check does not turn the original failure into a pass. The paper includes all three stages in one study.
 
+## State exactly what an edit removes
+
+A spike can send a message and reset its own stored voltage. Removing only the message differs from removing both. In the [spike study](../studies/2026-10-13-spike-reset-queries/paper.md), matching the explanation to the edit reduced average selection error. One model still lost under one deletion meaning. Many predicted effect signs were wrong.
+
+A positive average can contain losses. Read each direction of a comparison and the error that remains. A good task score and a better selection rule do not establish a complete explanation.
+
 ## Check the evidence record
 
 Each completed study links its fixed plan, source record, code, results, and calculation review. The review can check the arithmetic and repeat model interventions. Its record states the work that was actually repeated. A review of saved models is different from repeating their training.

@@ -1,0 +1,89 @@
+{
+  "note": "Descriptive report from fixed results; no new model calls.",
+  "result_manifest_sha256": "a0038bf7e36c35a2c81aa132041890ba30664fc147eb37ab21c85e7e5f945f8b",
+  "report_code_sha256": "735625bc376306863cd1dd986fd9a7b18422919b416dc8aa0729bd609afb9800",
+  "table_row_count": 64,
+  "means": {
+    "test_accuracy": 0.9584028937117418,
+    "panel_accuracy": 0.9312499999999999,
+    "primary": 0.012273752701383518,
+    "gain_message": 0.008177425848057831,
+    "gain_node": 0.016370079554709205,
+    "correct_baseline_n": 111.75,
+    "correct_baseline_primary": 0.011492936128789039,
+    "baseline_margin_mean": 4.433054508237524
+  },
+  "regret_table": [
+    [
+      0.033369860092225256,
+      0.04154728594028309
+    ],
+    [
+      0.07642286014751996,
+      0.06005278059281078
+    ]
+  ],
+  "selected_effect_table": [
+    [
+      0.16894851449407486,
+      0.16077108864601702
+    ],
+    [
+      0.08999782108909779,
+      0.106367900643807
+    ]
+  ],
+  "mean_diagonal_regret": 0.046711320342518015,
+  "mean_off_diagonal_regret": 0.05898507304390153,
+  "joint_means": [
+    0.5272275208016018,
+    0.5190561853129878,
+    0.03379890244277167,
+    0.3250851014634985,
+    0.33248029326184725,
+    0.022046983635277108
+  ],
+  "coverage_totals": {
+    "candidate_count": 15360,
+    "active_count": 6227,
+    "same_selection_count": 378,
+    "positive_primary_count": 57,
+    "negative_primary_count": 8,
+    "zero_primary_count": 415,
+    "any_positive_message_count": 417,
+    "any_positive_node_count": 407,
+    "zero_message_effects": 11050,
+    "zero_node_effects": 11902
+  },
+  "pooled_wrong_sign": [
+    {
+      "query": "message",
+      "graph": "message",
+      "eligible": 4310,
+      "wrong": 902,
+      "fraction": 0.20928074245939676
+    },
+    {
+      "query": "message",
+      "graph": "node",
+      "eligible": 4310,
+      "wrong": 910,
+      "fraction": 0.2111368909512761
+    },
+    {
+      "query": "node",
+      "graph": "message",
+      "eligible": 3458,
+      "wrong": 948,
+      "fraction": 0.2741469057258531
+    },
+    {
+      "query": "node",
+      "graph": "node",
+      "eligible": 3458,
+      "wrong": 958,
+      "fraction": 0.27703875072296125
+    }
+  ],
+  "exact_query_mean_absolute_difference": 0.01673460750830383
+}

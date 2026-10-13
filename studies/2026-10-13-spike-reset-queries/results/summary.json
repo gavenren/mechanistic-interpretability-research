@@ -1,0 +1,53 @@
+{
+  "ability_gate_all_seeds": true,
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 2026101501,
+  "calls": 5160,
+  "control_maxima": {
+    "final_second_layer_linear": 2.275957200481571e-15,
+    "first_layer_trajectory_exact": 0.0,
+    "inactive_no_op": 0.0,
+    "leaf_logits_exact": 0.0,
+    "leaf_m1_exact": 0.0,
+    "leaf_s1_exact": 0.0,
+    "leaf_s2_exact": 0.0,
+    "leaf_u1_exact": 0.0,
+    "leaf_u2_exact": 0.0,
+    "leaf_v1_exact": 0.0,
+    "leaf_v2_exact": 0.0,
+    "prefix_exact": 0.0,
+    "primary_formula": 0.0,
+    "regret_nonnegative": 0.0,
+    "reset_algebra": 0.0,
+    "self_logits_exact": 0.0,
+    "self_m1_exact": 0.0,
+    "self_s1_exact": 0.0,
+    "self_s2_exact": 0.0,
+    "self_u1_exact": 0.0,
+    "self_u2_exact": 0.0,
+    "self_v1_exact": 0.0,
+    "self_v2_exact": 0.0,
+    "tangent_derivative": 1.6653345369377348e-16,
+    "target_message_zero": 0.0,
+    "target_node_zero": 0.0,
+    "untouched_site_values": 0.0
+  },
+  "control_rows": 1688,
+  "directional_hypothesis_mean_positive": true,
+  "elapsed_seconds": 16.89406450000388,
+  "examples": 654868,
+  "limit": "Four fixed seeds and a small file-order explanation panel. The directional rule is not a significance or practical-success claim.",
+  "mean": 0.012273752701383518,
+  "percentile_95_interval": [
+    0.010078876504185836,
+    0.014922201744203464
+  ],
+  "primary": "off_diagonal_minus_diagonal_single_event_regret",
+  "seed_values": [
+    0.010271780991913958,
+    0.009885972016457713,
+    0.01246491580219577,
+    0.01647234199496663
+  ],
+  "training_updates": 4800
+}

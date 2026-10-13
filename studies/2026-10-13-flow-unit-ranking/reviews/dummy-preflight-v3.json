@@ -1,0 +1,76 @@
+{
+  "lock_commit": null,
+  "locked_file_sha256": {
+    "studies/2026-10-13-flow-unit-ranking/analysis-plan.md": "5b0e9d60705c6ba9c9d62c22560b461b87aab946f748a727ab2b55b23d298b8e",
+    "studies/2026-10-13-flow-unit-ranking/code/run.py": "fac2994b70d281e0350ba99c4cdb172ea6199ef3e3922a844552350df867ce2f",
+    "studies/2026-10-13-flow-unit-ranking/requirements.txt": "bf22ae62140ec2188bfb7e3931f9eb0e8f16838592a7bb5527b5d7e546f2d04c",
+    "studies/2026-10-13-flow-unit-ranking/sources.md": "9c8b4c7cc659b89408e5145ef417ae76214f21e64b38f0e0b7c91b4c1c3523d5"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.8.0",
+  "dtype": "float64",
+  "initialization": "PyTorch default float32 Linear initialization, then conversion to float64, then zero output Linear layers",
+  "threads": 2,
+  "interop_threads": 1,
+  "scientific_model_outputs_collected": false,
+  "arithmetic_checks": {
+    "mixture_density_max_error": 8.881784197001252e-16,
+    "quadrant_probability_max_error": 1.1102230246251565e-16,
+    "tau_ties_sign_and_selector_ties": "passed"
+  },
+  "dummy_witness": {
+    "identity_initialization": "exact",
+    "nonzero_removal_effect": 0.05124007075151393,
+    "nonzero_total_logscale": 2.421437962506821,
+    "coordinate_roundtrip_error": 1.1102230246251565e-16,
+    "logdet_roundtrip_error": 1.1102230246251565e-16,
+    "jacobian_error": 4.440892098500626e-16,
+    "witness_mapping_calls": 5,
+    "witness_examples": 15
+  },
+  "timing": {
+    "training_seconds": 0.26591149999876507,
+    "evaluation_seconds": 2.696511542002554,
+    "training_examples": 51200,
+    "evaluation_examples": 2129984,
+    "full_run_projected_seconds_with_factor_two": 203.79303324337883
+  },
+  "control_maxima": {
+    "coordinate_error": 1.3322676295501878e-15,
+    "logdet_error": 6.106226635438361e-16,
+    "local_error": 0.0
+  },
+  "status": "complete",
+  "counts": {
+    "mapping_calls": 2401,
+    "input_examples": 2181184,
+    "optimizer_updates": 200,
+    "control_rows": 1169
+  },
+  "elapsed_seconds": 3.559072208001453,
+  "files": {
+    "controls.csv": "0ddf14cd3338af8be449fd866cbcfe9bc7283df0b62ae006729e658fc53bc7ab",
+    "density-29002-cal-000-031.npz": "6baa1b94b4403b6e0e7d9d6d5b0e198e8f001b5a6a1257efedab659c5e158324",
+    "density-29002-cal-032-063.npz": "fd64e468ea8349c9a3dfd8a9b1ac784d3a9faa444e2f611e1a9d37e482f745cc",
+    "density-29002-cal-064-095.npz": "4e1b240b6f11106d3930fa1bbeaf014ef48a657713418238366d3fa6909d6a8a",
+    "density-29002-cal-096-127.npz": "11347cb8381266ffef8d92f337693d9d3b65644a102e0e3e34bf012122bdd258",
+    "density-29002-cal-128-128.npz": "dea99ade6e95e0b106f2b7d99a628d842aa88a7a0f40c45ea24cd5afd27068cd",
+    "density-29002-test-000-031.npz": "69fd375da2d61c46f05306accca9ec6d31503978495e950b7bdb247b1fc9d45d",
+    "density-29002-test-032-063.npz": "c2ef9544a264a1aa83637e441c5538de73a8e15fbf0e96cacef658b907937026",
+    "density-29002-test-064-095.npz": "d2bea2d50e618584a4ea48c6b027b14c032c6cf465cf8e964d3190d2f716d146",
+    "density-29002-test-096-127.npz": "08ae05b5c202c049aa71c574cdddd1657aceb760ba7ef9bb84040523f6a598a3",
+    "density-29002-test-128-128.npz": "ae78dbf99d32bc7f17440c32a9f37939c9eeca6d8d45aff4fa526850928a121f",
+    "generated-29002-selected-test.npz": "9266d40dfbfa22b6dc53174e28f90c5e90a4e7ae979b5deb6091527c9d986507",
+    "input-hashes.json": "558d96c72722d69ad450a069dc988b0d662c8a131fc52e4411601c18a158cf55",
+    "inputs.npz": "9e56ccfd6dc54599fa3359c90891785ba46381ada7ea21fc8ebb8d99fe0439c1",
+    "model-29002-step-0.npz": "4dd2edc146e48b725889e6fcb0c3a9186ed07c877953c6e82dde4364706dc125",
+    "model-29002-step-200.npz": "3d7dc31fde653c01e6a82f8dcaf69b07ec7d441cf31dd16afc71a5aa798bd0d0",
+    "model-summary.json": "99963d2dcb709a85c4e12f8920c15793355272e1330d56b864948fe45bb867ab",
+    "scores-29002-cal.json": "a07bb50b380928d62c4cd11c1bb3199a2c9dfe9ef0aa584ed4c70111270888d7",
+    "scores-29002-test.json": "1ace178cfa2fe40a02b43b4f41a24f7000a83a02b1b3a38d8ddb4c7177be93de",
+    "scores.jsonl": "d6b7a07c8ea433e50d4be5b3cdff9ace2c654f1470dfd6a40a245cd960358740",
+    "selectors-29002.json": "bc3acb1167c4e57271c3a9940e6cb13cd4878e4aaa8ac30a5ad23da4c1501a3f",
+    "training.csv": "803544efcbd576ffcf3b3f5413f2a2f87d30ad5aae201cc7f54816e00b2aa19c"
+  }
+}

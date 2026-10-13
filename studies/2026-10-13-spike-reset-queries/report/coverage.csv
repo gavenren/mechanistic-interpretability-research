@@ -1,0 +1,5 @@
+seed,candidate_count,active_count,same_selection_count,positive_primary_count,negative_primary_count,zero_primary_count,any_positive_message_count,any_positive_node_count,zero_message_effects,zero_node_effects,exact_query_mean_absolute_difference
+311,3840,1492,98,11,3,106,109,108,2777,3018,0.017602139786195604
+313,3840,1459,95,14,2,104,100,99,2805,3022,0.016264416568480114
+317,3840,1786,92,14,3,103,104,100,2689,2891,0.01632666411059776
+331,3840,1490,93,18,0,102,104,100,2779,2971,0.016745209567941843
