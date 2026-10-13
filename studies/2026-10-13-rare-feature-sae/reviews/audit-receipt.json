@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "model_runs": 72,
+  "candidate_rows": 3456,
+  "label_specific_nuisance_rows": 144,
+  "checks": 119521,
+  "numeric_values": 2696520,
+  "maximum_absolute_difference": 5.10702591327572e-14,
+  "manifest_files": 162,
+  "zero_background_counts": [
+    1162,
+    123,
+    230,
+    1240,
+    140,
+    254,
+    1202,
+    125,
+    268,
+    1223,
+    138,
+    243,
+    1204,
+    125,
+    236,
+    1201,
+    122,
+    249
+  ],
+  "primary_seed_differences": [
+    -0.015831813759779045,
+    -0.24162430899433202,
+    0.7965697822590767,
+    -0.019481063368314344,
+    -0.3087106702283228,
+    -0.06632419449434651
+  ],
+  "primary_mean": 0.024099621902330337,
+  "primary_ci95": [
+    -0.20555305790566714,
+    0.34432150492146213
+  ],
+  "lock_commit": "75ab86efd6159a4965b8461a534a0a29592d98ac",
+  "scope": "Independent data reconstruction, all candidate scores, all selected raw outputs, model-derived population and nuisance metrics, and aggregate primary results. No training rerun."
+}

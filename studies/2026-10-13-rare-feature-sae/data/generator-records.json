@@ -1,0 +1,368 @@
+[
+  {
+    "seed": 0,
+    "dictionary_seed": 1000,
+    "data_seed": 2000,
+    "initialization_seed": 3000,
+    "minibatch_seed": 4000,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "e107c66ac68a2ffeed97ffca1b38e76742ab35e6adccde606596be1c8179ecb4"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "b1320aff041d2f0e29d6f2602b20ab2f81a875f050d5e032edb090b7d19aac45"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "6cdd91e81f923dec3e979399b65d0f80b9dc00190373d47248724d604adc9ce7"
+      }
+    },
+    "rare_direction_sha256": "97ce04c2cbdac969e6375eb3aad1864c5e3b9b4292ff74e474bb26b1988968b9",
+    "dictionary_sha256": "e1bd23fda16ca13869d22fd8fa8714dc7e83e52ee07a9124d6f0db7ec7bef8d4",
+    "permutation_sha256": "228ec1ed693b33f843465d024fcfdeddfae7453c1e703e2a36fd35b293a2e538",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1162,
+      "validation": 123,
+      "test": 230
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  },
+  {
+    "seed": 1,
+    "dictionary_seed": 1001,
+    "data_seed": 2001,
+    "initialization_seed": 3001,
+    "minibatch_seed": 4001,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "bbd319162115e2e1f167541ca127a23db29f8f559681ebc649f40164595a5b06"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "90f8520fbbe5a1ae30e36281a6005efe33a5a7372d3867485db1594ec79cfee4"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "db4d9f57062db837c7cf64acb1a9214234b8edeb36840a36aec81057ec3a84d0"
+      }
+    },
+    "rare_direction_sha256": "da7965b789460b3f1e99bf80306bf17ca9aff56166806fd3a9c38bff46090bd0",
+    "dictionary_sha256": "ff64bb3a5396aec8fe814dab81cb6760c7a5dda707d72ce34cc5dff8774ff09b",
+    "permutation_sha256": "3c52ed6fad842b295146a41fb1e782219e11c550aef26b8522e7a115095b79e7",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1240,
+      "validation": 140,
+      "test": 254
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  },
+  {
+    "seed": 2,
+    "dictionary_seed": 1002,
+    "data_seed": 2002,
+    "initialization_seed": 3002,
+    "minibatch_seed": 4002,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "9a0f75b56a9ca51ba41c64ca110e6d83b42f0b7105d2c50a3d67096972ba0643"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "edf385d0ff0c368d58ae8eb4c95b706164763a9d088661881ab73a7ee147aed0"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "8b59ae5d0688c7536a18e4b3a8ab7cc20e3e2004b87e83b2ee59afbc1bc8f4d2"
+      }
+    },
+    "rare_direction_sha256": "d7fb56f12e1a23529bd7557810abb2fac441fef425036da8e1f34ed442c836ed",
+    "dictionary_sha256": "093c1cfa8bbe854583bb821c24476ff85b86308043f9817f609627de99e4cfca",
+    "permutation_sha256": "140d8e57bc918caef79b9c51a069db5860fbf93f83c622b274cd167f2051fcb2",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1202,
+      "validation": 125,
+      "test": 268
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  },
+  {
+    "seed": 3,
+    "dictionary_seed": 1003,
+    "data_seed": 2003,
+    "initialization_seed": 3003,
+    "minibatch_seed": 4003,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "43bf2892dd3d634b0bbaab00a08996266b8bb41f6315f9d8000a819b7e216e5e"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "154b027f9c9fe47648c6931c98591b6ba88f22f3fc1eb1527a483de4cbc65543"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "57d4e85ae660ca57e47bd51bedc09e3b4a85dcc2f9d14fb4b5668a5470a87927"
+      }
+    },
+    "rare_direction_sha256": "bcae3f268e6bafe44466c1c9dce98eed4df582bf4f8d675c48b8159e808d9571",
+    "dictionary_sha256": "b52f192a5992b073223cb3c1e0baf02577872a06e29e01700e2e4fed3d8d22cf",
+    "permutation_sha256": "ee5b232343c6fe009c99afda435d861b1727722f0928982c5c743b3467373f63",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1223,
+      "validation": 138,
+      "test": 243
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  },
+  {
+    "seed": 4,
+    "dictionary_seed": 1004,
+    "data_seed": 2004,
+    "initialization_seed": 3004,
+    "minibatch_seed": 4004,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "68e74ace54ae72b023f233bd20d2f4e9b15c90548eba588b8c0a3a960546d77f"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "d7f884ae4455f26c37215b16e5292a3cd8ed55c1bdddf0dac2d02b1bde3f6ff5"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "3f9c21f7739108a63c9dd75a99dd6f09d7744b03d4fe14886da40f6dd46eb8ca"
+      }
+    },
+    "rare_direction_sha256": "1d8fe0473a4c9c3001840b9b6a8bd08d5f77434f7edd04140d2498ef07d1aba8",
+    "dictionary_sha256": "3dbf08004b827282b223fed38befd555995891ab1669133eec1f67b1eb27bf40",
+    "permutation_sha256": "0ae773f5dda690ffbfd7212d791a4b168539aa609fad094a38ce8cec62362df2",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1204,
+      "validation": 125,
+      "test": 236
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  },
+  {
+    "seed": 5,
+    "dictionary_seed": 1005,
+    "data_seed": 2005,
+    "initialization_seed": 3005,
+    "minibatch_seed": 4005,
+    "arrays": {
+      "train": {
+        "shape": [
+          10000,
+          12
+        ],
+        "sha256": "b2867e9d0277ce90d834877e686fd7317d20a783550a9367317a5e900c0f38a2"
+      },
+      "validation": {
+        "shape": [
+          1024,
+          12
+        ],
+        "sha256": "2614fbd5935eb50eca4612e9d5dd31ea4d6fc3c77e98012452b822084a312ef6"
+      },
+      "test": {
+        "shape": [
+          2048,
+          12
+        ],
+        "sha256": "23c1821dd2b26d3ce359b331e63ec8cf0565f606a3127515faf51d4f76077835"
+      }
+    },
+    "rare_direction_sha256": "00d2ff5aaf67f6274a30d7b721dfa1d249e0e78dc387e6f223f15b98984bcf14",
+    "dictionary_sha256": "159e1c77f6c5a0d7cca3c1941bfb23b63dd40021e51a8d7fabb56bfd0a0ce3b5",
+    "permutation_sha256": "a5c967720ec5be871b4aaa182f1fa22ec1842db06a5a70b8405e6dd52abf0a68",
+    "positive_counts": {
+      "0.01": 100,
+      "0.16": 1600
+    },
+    "zero_background_counts": {
+      "train": 1201,
+      "validation": 122,
+      "test": 249
+    },
+    "exact_cross_split_shared_unique_values": {
+      "train__validation": 1,
+      "train__test": 1,
+      "validation__test": 1
+    },
+    "sample_id_ranges": {
+      "train": [
+        "train:0",
+        "train:9999"
+      ],
+      "validation": [
+        "validation:0",
+        "validation:1023"
+      ],
+      "test": [
+        "test:0",
+        "test:2047"
+      ]
+    }
+  }
+]

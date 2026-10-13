@@ -13,8 +13,9 @@ Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and
 | Date | Paper | Main result |
 | --- | --- | --- |
 | 13 October 2026 | [When an input should not change the answer](studies/2026-10-13-inactive-variable-audit/paper.md) | Two neuron-selection rules chose the same sets in eight small models. This negative result did not validate those sets: substantial intervention errors remained. |
+| 13 October 2026 | [Rare-event weighting does not reliably isolate one causal feature](studies/2026-10-13-rare-feature-sae/paper.md) | Giving rare cases more weight was worse for the selected feature in five of six main comparisons. The full learned code carried more useful change than the selected feature. |
 
-The first paper includes [reproduction instructions](studies/2026-10-13-inactive-variable-audit/README.md), complete data and weights, and an [independent AI calculation review](studies/2026-10-13-inactive-variable-audit/reviews/independent-review.md). Its claims apply to the tested small models.
+Each completed study includes reproduction instructions, saved model weights, full result tables, and an independent AI calculation review. These claims apply to the tested small models. None has recorded human peer review.
 
 ## Use and rights
 

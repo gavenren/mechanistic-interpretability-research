@@ -1,0 +1,223 @@
+{
+  "primary_cell": {
+    "p": 0.01,
+    "amplitude": 0.25
+  },
+  "primary_contrast": "downstream minus balanced; positive favours balanced",
+  "primary": {
+    "n": 6,
+    "values": [
+      -0.015831813759776214,
+      -0.24162430899433296,
+      0.7965697822591278,
+      -0.01948106336831895,
+      -0.30871067022832976,
+      -0.06632419449434951
+    ],
+    "mean": 0.02409962190233673,
+    "median": -0.04290262893133423,
+    "minimum": -0.30871067022832976,
+    "maximum": 0.7965697822591278,
+    "ci95": [
+      -0.20555305790567077,
+      0.34432150492148744
+    ]
+  },
+  "factorial": [
+    {
+      "p": 0.01,
+      "amplitude": 0.25,
+      "objective": "local",
+      "n": 6,
+      "test_native_error": 0.9639735667154748,
+      "test_reconstruction_error": 0.4821659712413949,
+      "test_full_native_error": 0.9639276536836919,
+      "test_full_reconstruction_error": 0.48212684065919625,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.1305025465482308,
+      "natural_downstream_kl": 0.03795053907184342,
+      "same_label_native_change": 0.00024630950477990467,
+      "natural_activity_mean": 3.918949381510417
+    },
+    {
+      "p": 0.01,
+      "amplitude": 0.25,
+      "objective": "downstream",
+      "n": 6,
+      "test_native_error": 0.44135532112406256,
+      "test_reconstruction_error": 0.22201641931779745,
+      "test_full_native_error": 0.4414305343163114,
+      "test_full_reconstruction_error": 0.22213916870548414,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.13012165862812405,
+      "natural_downstream_kl": 0.017965576456125513,
+      "same_label_native_change": 0.0933190048723974,
+      "natural_activity_mean": 3.9778352864583333
+    },
+    {
+      "p": 0.01,
+      "amplitude": 0.25,
+      "objective": "balanced",
+      "n": 6,
+      "test_native_error": 0.41725569922172595,
+      "test_reconstruction_error": 0.41305551802371454,
+      "test_full_native_error": 0.11826912579758876,
+      "test_full_reconstruction_error": 0.07680808525482256,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.15182784691794635,
+      "natural_downstream_kl": 0.06306671340289129,
+      "same_label_native_change": 0.09107889194582286,
+      "natural_activity_mean": 3.99911376953125
+    },
+    {
+      "p": 0.01,
+      "amplitude": 1.0,
+      "objective": "local",
+      "n": 6,
+      "test_native_error": 0.005098054034851835,
+      "test_reconstruction_error": 0.002651694490566368,
+      "test_full_native_error": 0.005104396483526776,
+      "test_full_reconstruction_error": 0.0026560476309195093,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.12976700487735005,
+      "natural_downstream_kl": 0.00012690589539540972,
+      "same_label_native_change": 0.002652096805584775,
+      "natural_activity_mean": 3.93723876953125
+    },
+    {
+      "p": 0.01,
+      "amplitude": 1.0,
+      "objective": "downstream",
+      "n": 6,
+      "test_native_error": 0.004457648015841563,
+      "test_reconstruction_error": 0.0023251235009088466,
+      "test_full_native_error": 0.0044580623302295916,
+      "test_full_reconstruction_error": 0.0023264130721824786,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.12876231387827128,
+      "natural_downstream_kl": 9.831422606230295e-05,
+      "same_label_native_change": 0.0022467696287119337,
+      "natural_activity_mean": 3.957138671875
+    },
+    {
+      "p": 0.01,
+      "amplitude": 1.0,
+      "objective": "balanced",
+      "n": 6,
+      "test_native_error": 0.057364644903153815,
+      "test_reconstruction_error": 0.05195347779083454,
+      "test_full_native_error": 0.012701929282262587,
+      "test_full_reconstruction_error": 0.006391438606719761,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.1301123434610663,
+      "natural_downstream_kl": 0.00021668540751827153,
+      "same_label_native_change": 0.015365157776621133,
+      "natural_activity_mean": 3.89115478515625
+    },
+    {
+      "p": 0.16,
+      "amplitude": 0.25,
+      "objective": "local",
+      "n": 6,
+      "test_native_error": 0.7680363625592271,
+      "test_reconstruction_error": 0.38489250883991416,
+      "test_full_native_error": 0.7670835715640693,
+      "test_full_reconstruction_error": 0.38240984049751453,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.13561480830373054,
+      "natural_downstream_kl": 0.3407730598865594,
+      "same_label_native_change": 0.0388362726900428,
+      "natural_activity_mean": 3.9616861979166664
+    },
+    {
+      "p": 0.16,
+      "amplitude": 0.25,
+      "objective": "downstream",
+      "n": 6,
+      "test_native_error": 0.44157791611359687,
+      "test_reconstruction_error": 0.22916523593507612,
+      "test_full_native_error": 0.43829645279330154,
+      "test_full_reconstruction_error": 0.22120964110261146,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.13472817952714347,
+      "natural_downstream_kl": 0.18871072585549423,
+      "same_label_native_change": 0.11771303397016697,
+      "natural_activity_mean": 3.9653417968749998
+    },
+    {
+      "p": 0.16,
+      "amplitude": 0.25,
+      "objective": "balanced",
+      "n": 6,
+      "test_native_error": 0.7359723749149333,
+      "test_reconstruction_error": 0.5641648433081303,
+      "test_full_native_error": 0.37151528915613174,
+      "test_full_reconstruction_error": 0.1794933519011689,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.1453081375597794,
+      "natural_downstream_kl": 0.24560325629542068,
+      "same_label_native_change": 0.06842774346750559,
+      "natural_activity_mean": 3.9999186197916665
+    },
+    {
+      "p": 0.16,
+      "amplitude": 1.0,
+      "objective": "local",
+      "n": 6,
+      "test_native_error": 0.0049761054065501934,
+      "test_reconstruction_error": 0.0027054384912458852,
+      "test_full_native_error": 0.004989983174943168,
+      "test_full_reconstruction_error": 0.002712925138279001,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.1421273599777002,
+      "natural_downstream_kl": 0.0024881383915733566,
+      "same_label_native_change": 0.0025806233367237194,
+      "natural_activity_mean": 3.9429882812499994
+    },
+    {
+      "p": 0.16,
+      "amplitude": 1.0,
+      "objective": "downstream",
+      "n": 6,
+      "test_native_error": 0.005429654532775284,
+      "test_reconstruction_error": 0.0034150353815006577,
+      "test_full_native_error": 0.005128101341591217,
+      "test_full_reconstruction_error": 0.002771801001488224,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.14292153511843872,
+      "natural_downstream_kl": 0.0022550235262785968,
+      "same_label_native_change": 0.002907810097547304,
+      "natural_activity_mean": 3.963291015625
+    },
+    {
+      "p": 0.16,
+      "amplitude": 1.0,
+      "objective": "balanced",
+      "n": 6,
+      "test_native_error": 0.03825059962579655,
+      "test_reconstruction_error": 0.034639657895312606,
+      "test_full_native_error": 0.01306642585391127,
+      "test_full_reconstruction_error": 0.00669401117791994,
+      "test_empty_native_error": 0.9640275800758166,
+      "natural_reconstruction_mse": 0.14329212735687943,
+      "natural_downstream_kl": 0.004649937198686065,
+      "same_label_native_change": 0.01627356519325166,
+      "natural_activity_mean": 3.9762109375
+    }
+  ],
+  "runs": 72,
+  "elapsed_seconds": 60.39081887500652,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "blas_threads": 1
+  },
+  "lock": {
+    "commit": "75ab86efd6159a4965b8461a534a0a29592d98ac",
+    "sha256": {
+      "studies/2026-10-13-rare-feature-sae/analysis-plan.md": "f481ad7b1d5866422fec504c24bd0ddec6d421d8ec40f26439a3cd31ec6f78d2",
+      "studies/2026-10-13-rare-feature-sae/code/run.py": "8780933b78c2738df03e41b633765ab687ce5d24acf63a352650f0ec37bc9909"
+    }
+  }
+}
