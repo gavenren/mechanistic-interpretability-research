@@ -1,0 +1,20 @@
+# Source check
+
+Search date: 13 October 2026. The entries below are primary research sources. The search was focused, not exhaustive. No absence claim establishes priority. We checked the linked arXiv versions and their abstracts before the scientific run. Source claims below are limited to those abstracts. The pinned model files and installed implementation were also checked directly.
+
+| Source | Checked version | Relevant prior result | Effect on this study |
+|---|---|---|---|
+| Belitsky et al., [KV Cache Steering for Controlling Frozen LLMs](https://arxiv.org/abs/2507.08799v2) | v2, 26 September 2025 | Studies a one-time direct cache intervention and compares it with continuous activation steering. | A one-time persistent edit is not a new idea. Our edit is at a post-block prompt state, with no optimized steering vector. |
+| Kang et al., [Prompt-Activation Duality](https://arxiv.org/abs/2605.10664v2) | v2, 14 May 2026 | Identifies cache contamination from steered states and studies effects across a long dialogue. | We do not claim to discover that a local edit can persist through cached states. We test a fixed layer-selection rule. |
+| Liu et al., [Memory Inception](https://arxiv.org/abs/2605.06225v2) | v2, 9 May 2026 | Places text-derived key-value banks at selected layers for steering. | Layer-specific cache control is prior work. We measure generic output sensitivity, not improved steering. |
+| Li, [Models Take Notes at Prefill](https://arxiv.org/abs/2606.17107v1) | v1, 14 June 2026 | Studies information written into downstream cache positions during prefill and the effect of cache edits. | A field's own cache entries need not be the only state that carries its consequences. We do not test editable semantic notes. |
+| Shih, Winnicki, and Darve, [When Does Activation Steering Change What a Model Computes From?](https://arxiv.org/abs/2606.29522v2) | v2, 6 September 2026 | Distinguishes an output bias from changing a state that later computation uses according to its meaning. | Later output change alone cannot establish a correct semantic state edit. The older v1 title was *Do Models Read What They Write?* |
+| Heimersheim and Nanda, [How to use and interpret activation patching](https://arxiv.org/abs/2404.15255v1) | v1, 23 April 2024 | Reviews patching methods, metrics, and limits of interpretation. | The metric and intervention define the claim. Total variation does not measure task success. |
+| Chodavarapu and Xu, [The Illusion of Equivalence](https://arxiv.org/abs/2604.15409v1) | v1, 16 April 2026 | Reports numerical differences between cached and cache-free inference in FP16. | Cache and full recomputation must be checked, not assumed to match in finite precision. We do not import their reported rates or causal claims into our model. |
+| Biderman et al., [Pythia](https://arxiv.org/abs/2304.01373v2) | v2, 31 May 2023 | Introduces the Pythia model suite for controlled model analysis. | This is background on the model family. The exact small checkpoint is specified by its own files and revision, not by the original paper's scale range. |
+
+The exact checkpoint is [EleutherAI/pythia-14m at the fixed revision](https://huggingface.co/EleutherAI/pythia-14m/tree/cf967c0a9a04383db6f7b1108d86b2962634b4ac). The local model card identifies an Apache-2.0 license and notes a checkpoint update. We therefore preserve the revision and file hashes instead of relying on the mutable default branch.
+
+The implementation reference is [GPT-NeoX in Transformers 4.57.6](https://github.com/huggingface/transformers/blob/v4.57.6/src/transformers/models/gpt_neox/modeling_gpt_neox.py). Direct inspection confirms that each block writes its attention cache before its post-block output. The eager attention function forces float32 softmax in the stock path. The rotary embedding function also computes its tables in float32. Our runner changes only the softmax dtype and leaves the rotary code unchanged.
+
+The contribution, if all controls pass, is the complete fixed benchmark and its held-out comparison. It is not a new cache-persistence mechanism, steering method, memory theory, or numerical-equivalence theorem.

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "date": "2026-10-13",
+  "scope": "tokenization plus separate dummy model strings only",
+  "scientific_model_outputs_collected": false,
+  "study_prompt_count": 64,
+  "dummy_forward_calls": 46,
+  "dummy_cache_recompute_maximum_logit_error": 4.424904886946024e-12,
+  "fixed_tolerance": 1e-08,
+  "dummy_receiver": "A quiet test:",
+  "dummy_donor": "A simple test:",
+  "dummy_suffix": " one two",
+  "runner_sha256": "0de38fd5316a1681aa0becd246152e037775a4c8bfac729fd9a88853adc32f3b",
+  "plan_sha256": "c152ba876ad48ea09e61bb5060edf0659907c506abb2f2021316aa86f25b9f96"
+}
