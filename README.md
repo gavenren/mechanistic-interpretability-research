@@ -6,6 +6,8 @@ This repository studies how neural networks produce their answers. Each complete
 
 The papers are AI-authored. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
 
+Start with the [one-page summary](docs/REVIEW_SUMMARY.md), also available as a [PDF](output/pdf/REVIEW_SUMMARY.pdf).
+
 Read the [combined review paper](docs/REVIEW_PAPER.md) for the findings from all fifteen studies, their specific contributions, their limits, and the next research steps. The review adds no new experiment.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.

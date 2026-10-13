@@ -36,6 +36,8 @@ The [review paper](REVIEW_PAPER.md) combines all fifteen empirical studies at so
 
 The repository contains fifteen empirical studies and one separate narrative review. The review adds no experiment, model training, or combined statistical estimate. It does not establish a new general principle or a population failure rate. No human peer review is recorded. Automatic research remains paused. The proposed research steps are not completed work.
 
+A one-page summary of the review is available as [text](REVIEW_SUMMARY.md) and a [PDF](../output/pdf/REVIEW_SUMMARY.pdf). It uses the review at commit `a12ee80743d5f222f0cd29c86933d9167c2fda76`. A [separate AI text review](reviews/REVIEW_SUMMARY_REVIEW.md) checks the summary. The PDF has one page and received a visual layout check. This summary adds no experiment or new research claim.
+
 ## Current state
 
 All fifteen completed studies have complete experiments, papers, saved results, and independent AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.
