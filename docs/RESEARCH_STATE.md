@@ -30,6 +30,12 @@ Updated: 13 October 2026.
 
 Studies 7–9 share public plan and runner lock `c6ff9cb1405e6a65fe161c2f4cb471d51016bf4c`. The complete studies were verified on GitHub at `5ee320c8e6ca015a5b991657e7bfd28ede5514e1`; all 652 repository files matched the local bytes. Each has a completed paper, code, results, and a separate AI calculation review. The first three studies and studies 9–10 and 12 are controlled synthetic studies. Studies 11, 13, and 15 use the original UCI handwritten-digit split. Study 14 uses a constructed two-dimensional data distribution. Studies 4–8 test a pretrained language model on fixed artificial tasks. Their broad concerns have substantial prior work. None establishes a new general principle or a failure rate across language models. No human peer review is recorded.
 
+## Combined review
+
+The [review paper](REVIEW_PAPER.md) combines all fifteen empirical studies at source commit `eabda41cdd96b561124002f29deef4cc7faaf390`. It explains the main findings, the specific contributions, the limits, and an ordered research plan. The [source manifest](REVIEW_SOURCES.json) records the exact paper versions and supporting written records. A [separate AI review](reviews/REVIEW_PAPER_REVIEW.md) checks the synthesis.
+
+The repository contains fifteen empirical studies and one separate narrative review. The review adds no experiment, model training, or combined statistical estimate. It does not establish a new general principle or a population failure rate. No human peer review is recorded. Automatic research remains paused. The proposed research steps are not completed work.
+
 ## Current state
 
 All fifteen completed studies have complete experiments, papers, saved results, and independent AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.

@@ -6,6 +6,8 @@ This repository studies how neural networks produce their answers. Each complete
 
 The papers are AI-authored. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
 
+Read the [combined review paper](docs/REVIEW_PAPER.md) for the findings from all fifteen studies, their specific contributions, their limits, and the next research steps. The review adds no new experiment.
+
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
 ## Papers
@@ -25,9 +27,7 @@ Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the
 | 13 October 2026 | [Image shifts and channel removal in weak digit classifiers](studies/2026-10-13-shift-ablation/paper.md) | Filtering reduced changes in channel-removal effects after small image shifts. Original-image accuracy was only 15% to 36%. The original numerical failure remains; the result comes from a separately planned follow-up. |
 | 13 October 2026 | [Testing a Hall-rule interpretation in a small matching classifier](studies/2026-10-13-hall-obstruction/paper.md) | Selected units had larger effects than random sets, but all four models failed the task requirements. The edits also caused many errors on a different failure type. The result does not validate a Hall-rule component. |
 | 13 October 2026 | [Matching spike explanations to two meanings of deletion](studies/2026-10-13-spike-reset-queries/paper.md) | Matching the explanation to the deleted spike paths reduced mean selection error by 0.01227 output-margin units. All models passed the accuracy check, but some comparisons lost and sign errors remained. |
-
 | 13 October 2026 | [Choosing flow neurons by likelihood damage or output change](studies/2026-10-13-flow-unit-ranking/paper.md) | Selecting by generated quadrant change gave a larger test change in three models and the same change in one. All four models failed the density-fit rule. This measures an effect, not better samples. |
-
 | 13 October 2026 | [When a small solver residual does not establish a neuron's effect](studies/2026-10-13-equilibrium-sign-audit/paper.md) | Initial error bounds did not establish 18.66% of nonzero effect signs. This is not a wrong-sign rate. Further calculation proved five signs wrong and gave a sign or small-magnitude bound for every case. |
 
 Each completed study includes reproduction instructions, full result tables, and an independent AI calculation review. Studies 1–3 and 9–15 include their trained model weights. Studies 4–8 provide a fixed public model revision and file checks. Study 4 records a failed planned numerical check and the added check that explained it. Study 8 retains a failed added probability check and an exact replay of the declared float32 calculation. Study 11 preserves a failed original run, its numerical diagnostic, and the later float64 evaluation. Studies 11 and 12 show why correct implementation and a strong effect score do not establish task ability. These claims apply to the tested small models. None has recorded human peer review.

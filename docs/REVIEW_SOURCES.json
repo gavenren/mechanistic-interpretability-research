@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "review_path": "docs/REVIEW_PAPER.md",
+  "review_date": "2026-10-13",
+  "method": "Narrative review of all 15 empirical papers in a fixed repository snapshot. No new experiment, systematic field search, or pooled estimate.",
+  "source_commit": "eabda41cdd96b561124002f29deef4cc7faaf390",
+  "source_tree": "089c8a52629d41cd4d60abdd12fe5402fd1d8017",
+  "study_count": 15,
+  "record_scope": "Paper, source record, and tracked Markdown files in each study review directory. Code, data, and numerical audit files remain fixed by the source commit.",
+  "studies": [
+    {
+      "study_number": 1,
+      "title": "When an input should not change the answer: a fixed-budget test of variable localization",
+      "paper": {
+        "path": "studies/2026-10-13-inactive-variable-audit/paper.md",
+        "sha256": "1dca7620d718dcea69e2f61b41196cb9592e4e44e80b1f4b4c473967028edc5e",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-inactive-variable-audit/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-inactive-variable-audit/sources.md",
+        "sha256": "df5ce345c90511be09974ab8eac7e34c7318e8184d813a04f0a4cb7fb6bae7e3",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-inactive-variable-audit/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-inactive-variable-audit/reviews/independent-review.md",
+          "sha256": "6e03e7d8f80807d3ccb891ef426568f85c0b66fb7e8b79e44692bae1276c6c6c",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-inactive-variable-audit/reviews/independent-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 2,
+      "title": "Rare-event weighting does not reliably isolate one causal feature",
+      "paper": {
+        "path": "studies/2026-10-13-rare-feature-sae/paper.md",
+        "sha256": "140b865216bb53d1952ba0e9eadb9f570119bb2fad92ff0490a60890a2570d86",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-rare-feature-sae/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-rare-feature-sae/sources.md",
+        "sha256": "ba12fbea0d91bbbb620b9c1b325ee5d79f8196bb25e6c1a800838469d71a4b1b",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-rare-feature-sae/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-rare-feature-sae/reviews/independent-review.md",
+          "sha256": "d4b603f93e7d84c1aa1e9dc3132d59e67f0925b7348b81931a7f8f896913ad3b",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-rare-feature-sae/reviews/independent-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 3,
+      "title": "The same subspace can specify different interventions",
+      "paper": {
+        "path": "studies/2026-10-13-basis-transport/paper.md",
+        "sha256": "8190a2d2ac36ee3cf74c25732bfe43f5502dc93a026ee5e7519d9b38f34c2a1b",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-basis-transport/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-basis-transport/sources.md",
+        "sha256": "7885333bfc9d8a654fa054db885b5d9a1a5d947764b95f4aecc55fdae007a73d",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-basis-transport/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-basis-transport/reviews/independent-review.md",
+          "sha256": "39e307852b90aea4f6cc99b89751ca809403f387965362afb27139eb43227b8d",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-basis-transport/reviews/independent-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 4,
+      "title": "Testing whether patch-interaction corrections transfer to new prompts",
+      "paper": {
+        "path": "studies/2026-10-13-patch-calibration-transfer/paper.md",
+        "sha256": "146032f8f0f7ef8060bf2befc8b9c29a37c927bccc3d1dc08b065d9b66b96c84",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-calibration-transfer/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-patch-calibration-transfer/sources.md",
+        "sha256": "5ef1904e16435b56ec30013dcb3c89a7b0f863498fadd5d66b27e133dd7b5842",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-calibration-transfer/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-patch-calibration-transfer/reviews/independent-review.md",
+          "sha256": "64fdf4a9432d2a4a63634d809c1a33789123a300ea52291f2bf2d5604308a69f",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-calibration-transfer/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-patch-calibration-transfer/reviews/pre-run-review.md",
+          "sha256": "5b00234913204881e00d2da3aaa85601e35241f59d2e4b5bd0bd343a6d1d8a16",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-calibration-transfer/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 5,
+      "title": "How one attention head selects and copies a supplied value",
+      "paper": {
+        "path": "studies/2026-10-13-copy-routing/paper.md",
+        "sha256": "136fd53735a95b88f479e26ac346dab10ea5b97ac53e2183c2ee786afb87d640",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-copy-routing/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-copy-routing/sources.md",
+        "sha256": "4f20706c9769eb5c5544d925ea5b28a4a5becd410b9007784d2c3bdc8ff56ab8",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-copy-routing/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-copy-routing/reviews/pre-run-review.md",
+          "sha256": "46c4fd7e315aa4c2f3a46703483cd896805a7a1dc7ab6e8b1b757dfe10309ab8",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-copy-routing/reviews/pre-run-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-copy-routing/reviews/result-review.md",
+          "sha256": "987e3f9bc37de9c923dffa541d0be1bf1f426920c39bd51dd47a3253563361bd",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-copy-routing/reviews/result-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 6,
+      "title": "Selecting a patch site for a later output effect",
+      "paper": {
+        "path": "studies/2026-10-13-patch-memory/paper.md",
+        "sha256": "e994c4781acdd4f873e5cadc02324904981998e27b99b3d414cbf04c4f6e6e5c",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-memory/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-patch-memory/sources.md",
+        "sha256": "e5478299938a2094a6edcc16b018087fa494043db61135091ab741d822e19257",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-memory/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-patch-memory/reviews/pre-run-review.md",
+          "sha256": "24debc8eb783ce7cf5414be46f58d3f3d51da2f1a177f0e976e2fa773f71a3eb",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-memory/reviews/pre-run-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-patch-memory/reviews/result-review.md",
+          "sha256": "a2540396c5c5defa3e05d10a27e4157c10fe5cee39c4f6d560887343fadf940d",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-patch-memory/reviews/result-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 7,
+      "title": "A joint test of position spacing and access to extra tokens in Pythia-14M",
+      "paper": {
+        "path": "studies/2026-10-13-position-access/paper.md",
+        "sha256": "1d0aaaac0868bb86e029c1c3ec7120a618f835a7232f44ae637e80a6a03294b9",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-position-access/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-position-access/sources.md",
+        "sha256": "27311713ce12b256d651d2d8c4ffce3658c9cfb95a208f791edb3b89afded9b5",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-position-access/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-position-access/reviews/independent-review.md",
+          "sha256": "c90125033e8ff1d42094a2f3cc1923f204593c28c9f03312f25df9b3f2d1b060",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-position-access/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-position-access/reviews/plan-review.md",
+          "sha256": "cf17ccba111b68607c47f476685b099023999c8d656ccf0d4f56bd6d5d7a328e",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-position-access/reviews/plan-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 8,
+      "title": "Same text, different token splits: a limit on copying-head transfer",
+      "paper": {
+        "path": "studies/2026-10-13-segmentation-transfer/paper.md",
+        "sha256": "0bea113f7596ac22a6505ac14f858ecbc7600f559c5b1a1376b9bbf8ac238158",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-segmentation-transfer/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-segmentation-transfer/sources.md",
+        "sha256": "d68e9ebd29fe445f3e2129f76b53930930c9482e57f0eae538d9a7e6367f6ddf",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-segmentation-transfer/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-segmentation-transfer/reviews/independent-review.md",
+          "sha256": "50340603f217064e567a917245255bebfc1357a7c06710eb992dce67050e79fc",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-segmentation-transfer/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-segmentation-transfer/reviews/pre-run-review.md",
+          "sha256": "6c7742d3390162dfb1aef8c91e819346a490acdbd2719dec325c8a2bbd8932d4",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-segmentation-transfer/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 9,
+      "title": "Tiny order effects after balanced retraining",
+      "paper": {
+        "path": "studies/2026-10-13-training-order-paths/paper.md",
+        "sha256": "cade4dcad53f93648069e29e297fc920747b6ff1b18ab9f3bd4c786898ccd04d",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-training-order-paths/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-training-order-paths/sources.md",
+        "sha256": "24f85d6c7201901b1d7780cde87cd729c72a79def91d79bc946109e3bb7a7bd6",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-training-order-paths/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-training-order-paths/reviews/independent-review.md",
+          "sha256": "e562235dd5adfeed0254af81ee2d09656fe94c4911c88ad51feaa739b78768fe",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-training-order-paths/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-training-order-paths/reviews/pre-run-review.md",
+          "sha256": "9c89b4a62c551567b391f855658a565b0fcd7d13d65b77fcd4cfffdb8ef62390",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-training-order-paths/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 10,
+      "title": "A small, uncertain gain from training state edits on one future step",
+      "paper": {
+        "path": "studies/2026-10-13-register-write-order/paper.md",
+        "sha256": "8de1e54743858487d8d6462886b1ecebd5b376f3be0a6768bc359759ba90af1d",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-register-write-order/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-register-write-order/sources.md",
+        "sha256": "bb0b182499fd17e7adfd09165749e06b75d03f73a770777eb160fdf08cb3df69",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-register-write-order/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-register-write-order/reviews/independent-review.md",
+          "sha256": "69c4b6d3c410f0668c4138ea7e10567ba4a80112adddd3292dfa6724dee464c1",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-register-write-order/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-register-write-order/reviews/pre-run-review.md",
+          "sha256": "d39db2849f21da5eab6007d4a4cfffd8ec8dda5d1d6aeae397de9bf53891acc9",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-register-write-order/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 11,
+      "title": "Image shifts and channel removal in weak digit classifiers",
+      "paper": {
+        "path": "studies/2026-10-13-shift-ablation/paper.md",
+        "sha256": "bd54e89c64a9b05d0e4679ae7eae47041384256bc6218ebc21d6261f9b60b43f",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-shift-ablation/sources.md",
+        "sha256": "966d8f6f1aead245e6267d5934204687241efdc9602552984134494672b8f93f",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/dummy-history.md",
+          "sha256": "29db6ec9cee137169dfa5437e40317a02348fa02d73a2288ab8e7392ef350e37",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/dummy-history.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-interpretation.md",
+          "sha256": "c4526d842c3e09c6c0accea89bae267afe936d7c1b763f07513930fbac00b477",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-interpretation.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-plan.md",
+          "sha256": "0ed4d304b442258382c40bd2a235ed9ee704742c773cb09934dc079ea4d9b50b",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-plan.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-review.md",
+          "sha256": "adc99bbfd7f346a0610068b16d91a2a38b2a639d88eb77f2cc1d83d5a98ad80a",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/failure-diagnostic-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/followup-dummy-history.md",
+          "sha256": "f60da6e63c0a85789ddf02681fcfc21d9c559ef70ce1ff9f895dc6e3b0637f57",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/followup-dummy-history.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/followup-pre-run-review.md",
+          "sha256": "12edda7ad5fe04ef586a54d842ad173e55e2860a3ca12dbebb7d440b0eb39e8c",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/followup-pre-run-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/independent-review.md",
+          "sha256": "a14351944c3cd0a49bed2e581d38181da0b9060742680249bb6ed3132dc25ea8",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-shift-ablation/reviews/pre-run-review.md",
+          "sha256": "ddd89dfb992348d8cc8d73b924e6e23594ab24287b817c387a57daeec11f9c9f",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-shift-ablation/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 12,
+      "title": "Testing a Hall-rule interpretation in a small matching classifier",
+      "paper": {
+        "path": "studies/2026-10-13-hall-obstruction/paper.md",
+        "sha256": "0c3bc136f5d3e2d6f425fb8bde10f2e3e91583ff82728f6f323bb01a27598a29",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-hall-obstruction/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-hall-obstruction/sources.md",
+        "sha256": "e608217ad008300bd38b79fb16df54b285ecfc59d4490a85197d2fcef5b993ad",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-hall-obstruction/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-hall-obstruction/reviews/independent-review.md",
+          "sha256": "9b0982c807e19a9f4eeb5d35b1fe236e63efc5913f79720ad7e7cf872c508f96",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-hall-obstruction/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-hall-obstruction/reviews/pre-run-review.md",
+          "sha256": "13dcf64b5ef8e4fd0387e205e100c90139a0d4d88775f3bfd7055368bdf44534",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-hall-obstruction/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 13,
+      "title": "Matching spike explanations to two meanings of deletion",
+      "paper": {
+        "path": "studies/2026-10-13-spike-reset-queries/paper.md",
+        "sha256": "9c1898d6443299487b34fee53cd4976a98b69818ba64ba32c1dcc837192ec7a7",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-spike-reset-queries/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-spike-reset-queries/sources.md",
+        "sha256": "e936296dfb0d6369fcac994ec11d0c16f80ed5e8d7def5e27e99d8c516c9eda4",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-spike-reset-queries/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-spike-reset-queries/reviews/dummy-history.md",
+          "sha256": "186180abbc43529b8125627c1a95b8e5a1e4c3a249b4793a0e78f3f5622df241",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-spike-reset-queries/reviews/dummy-history.md"
+        },
+        {
+          "path": "studies/2026-10-13-spike-reset-queries/reviews/independent-review.md",
+          "sha256": "0624436a8c5ac58baabc966bd6f5e0b74f88c7d8637e73765703a69c89b5199c",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-spike-reset-queries/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-spike-reset-queries/reviews/pre-run-review.md",
+          "sha256": "b6880853ba56bbf91696c3f2fa332bd0656e14c2fa825dc4ad8bc7c3bd0c7e15",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-spike-reset-queries/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 14,
+      "title": "Choosing flow neurons by likelihood damage or output change",
+      "paper": {
+        "path": "studies/2026-10-13-flow-unit-ranking/paper.md",
+        "sha256": "868dd6a4a0a53972799dac212f65660af7163febc397d09f425e2ac139eeb78a",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-flow-unit-ranking/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-flow-unit-ranking/sources.md",
+        "sha256": "9c8b4c7cc659b89408e5145ef417ae76214f21e64b38f0e0b7c91b4c1c3523d5",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-flow-unit-ranking/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-flow-unit-ranking/reviews/dummy-preflight.md",
+          "sha256": "16f4af807cc0191e3342d1cd2b0ac9ef7a2ed1c13415be40fa6fb11ed3e48dcd",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-flow-unit-ranking/reviews/dummy-preflight.md"
+        },
+        {
+          "path": "studies/2026-10-13-flow-unit-ranking/reviews/independent-review.md",
+          "sha256": "b8db24a6d0ee4d05c71a55ede63bf66b080f8fdfe593bb48899846e64485688a",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-flow-unit-ranking/reviews/independent-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-flow-unit-ranking/reviews/pre-run-review.md",
+          "sha256": "b92fa47231a81a1803afd1e24d0a5eca612b1dbeef2d9d4bb9360beac1365d40",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-flow-unit-ranking/reviews/pre-run-review.md"
+        }
+      ]
+    },
+    {
+      "study_number": 15,
+      "title": "When a small solver residual does not establish a neuron's effect",
+      "paper": {
+        "path": "studies/2026-10-13-equilibrium-sign-audit/paper.md",
+        "sha256": "24b3863f17700bb51435c802f35c1660e776bf8c1277b1434ae0999b711fafe2",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/paper.md"
+      },
+      "source_record": {
+        "path": "studies/2026-10-13-equilibrium-sign-audit/sources.md",
+        "sha256": "83ae3e840183fd41e8fca6ec781e81dde76872f5d015c1add6be609e29fc3ac2",
+        "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/sources.md"
+      },
+      "written_review_records": [
+        {
+          "path": "studies/2026-10-13-equilibrium-sign-audit/reviews/dummy-history.md",
+          "sha256": "ea39f022d1631e2372762a2784d7f8617683e9df7c33a903e46ee8edf4274202",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/reviews/dummy-history.md"
+        },
+        {
+          "path": "studies/2026-10-13-equilibrium-sign-audit/reviews/independent-result-review.md",
+          "sha256": "e26444571c592f9e41770c7b94862fc8e952a7e0080756483ae18e3392205cbf",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/reviews/independent-result-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-equilibrium-sign-audit/reviews/interval-review.md",
+          "sha256": "745e772ae5f54d2ced0e356ce12571e5bca64c686865e59bff68d3daf7ddb795",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/reviews/interval-review.md"
+        },
+        {
+          "path": "studies/2026-10-13-equilibrium-sign-audit/reviews/pre-run-review.md",
+          "sha256": "f2055d19200972f53984a1a6821ad6e9341589b4ff1e3b6705046ac348443fee",
+          "url": "https://github.com/gavenren/mechanistic-interpretability-research/blob/eabda41cdd96b561124002f29deef4cc7faaf390/studies/2026-10-13-equilibrium-sign-audit/reviews/pre-run-review.md"
+        }
+      ]
+    }
+  ]
+}
