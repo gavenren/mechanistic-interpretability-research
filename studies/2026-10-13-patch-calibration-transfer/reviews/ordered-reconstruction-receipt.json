@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "scope": "post-result ordered whole-block reconstruction on all cells",
+  "audit_code_sha256": "2dbab0bdced11c2e5dce7ebbde38b284ec8c5bfd7fa425dd9945a1cf94c83916",
+  "planned_delta_check": "Failed in float32. This added diagnostic does not change that result.",
+  "lock_commit": "4dc5db20c261f9057d08a4ad2c7cc9548dcba1ba",
+  "manifest_files_checked": 20,
+  "checks": 226045,
+  "numbers_compared": 2003031,
+  "maximum_absolute_differences": {
+    "arithmetic": 2.042810365310288e-14,
+    "float32_norm": 8.303266576081825e-06,
+    "float32_model": 0.0,
+    "double_shared_rotary_norm": 1.9095836023552692e-14,
+    "double_shared_rotary_model": 0.0
+  },
+  "conditions": {
+    "float32": {
+      "primary": {
+        "n_cells": 320.0,
+        "uncorrected_mae": 0.0304718423896702,
+        "corrected_mae": 0.031134654794004745,
+        "mae_gain": -0.0006628124043345452,
+        "median_absolute_interaction": 0.004013359546661377,
+        "minimum_absolute_interaction": 9.5367431640625e-07,
+        "maximum_absolute_interaction": 0.4790830612182617,
+        "improved_fraction": 0.44375,
+        "uncorrected_sign_error": 0.009375,
+        "corrected_sign_error": 0.009375
+      },
+      "controls": {
+        "max_layer0_mlp_difference": 0.0,
+        "max_layer0_interaction": 0.0,
+        "max_last_layer_reconstruction_error": 8.303266576081825e-06,
+        "max_frozen_denominator_interaction": 4.966266673456232e-07,
+        "max_last_layer_additive_residual_error": 2.384185791015625e-07
+      },
+      "model_replay": {
+        "forwards": 4864,
+        "absolute_tolerance": 0.0001,
+        "shared_rotary_table_sha256": "7b7d7e884cb8c19b6c640f5fd2821444ff75ff639da27fdb41949c7ab65aad42",
+        "maximum_absolute_logit_or_activation_difference": 0.0
+      }
+    },
+    "double_shared_rotary": {
+      "primary": {
+        "n_cells": 320.0,
+        "uncorrected_mae": 0.030482308795415906,
+        "corrected_mae": 0.031153388425136645,
+        "mae_gain": -0.000671079629720736,
+        "median_absolute_interaction": 0.004219537837539811,
+        "minimum_absolute_interaction": 1.3094453201745182e-06,
+        "maximum_absolute_interaction": 0.4793983413012466,
+        "improved_fraction": 0.45,
+        "uncorrected_sign_error": 0.0125,
+        "corrected_sign_error": 0.0125
+      },
+      "controls": {
+        "max_layer0_mlp_difference": 0.0,
+        "max_layer0_interaction": 1.7763568394002505e-15,
+        "max_last_layer_reconstruction_error": 1.9095836023552692e-14,
+        "max_frozen_denominator_interaction": 6.217248937900877e-15,
+        "max_last_layer_additive_residual_error": 4.440892098500626e-16
+      },
+      "model_replay": {
+        "forwards": 4864,
+        "absolute_tolerance": 1e-09,
+        "shared_rotary_table_sha256": "7b7d7e884cb8c19b6c640f5fd2821444ff75ff639da27fdb41949c7ab65aad42",
+        "maximum_absolute_logit_or_activation_difference": 0.0
+      }
+    }
+  },
+  "elapsed_seconds": 95.69046454199997
+}

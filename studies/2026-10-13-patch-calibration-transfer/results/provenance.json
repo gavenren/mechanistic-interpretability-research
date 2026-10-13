@@ -1,0 +1,49 @@
+{
+  "cpu_threads": 2,
+  "dependency_policy": "Exact installed versions are recorded; requirements.txt pins the tested direct dependencies.",
+  "lock_commit": "4dc5db20c261f9057d08a4ad2c7cc9548dcba1ba",
+  "machine": "arm64",
+  "model_files": {
+    "README.md": {
+      "bytes": 10560,
+      "sha256": "d1f2cf1d5181daedeaa70208ddd5cc5251867bde9acf6db7bb45a2265e25e163"
+    },
+    "config.json": {
+      "bytes": 698,
+      "sha256": "f97f966a66c444890ed461fff2a51eefb15d74303df05b948124719f199b0b17"
+    },
+    "model.safetensors": {
+      "bytes": 28143920,
+      "sha256": "116a02532db461f91386a5b20f942ff2c8d4de7341e21b55caafc3d7b25f49a1"
+    },
+    "special_tokens_map.json": {
+      "bytes": 441,
+      "sha256": "10b8c8852c1e1f70b54d9aff61728408c28971c0e97a6c5a7b2debbd1d3e9c0c"
+    },
+    "tokenizer.json": {
+      "bytes": 2114042,
+      "sha256": "870f4e2baa6b683221fa52004d5d6f40ab8c9d31961617304b78c910c2c3caf2"
+    },
+    "tokenizer_config.json": {
+      "bytes": 4834,
+      "sha256": "eee017c5bd133137f45907bd0a6e781e2ccd1a533734b7ed2a2f2f4446659809"
+    }
+  },
+  "model_id": "EleutherAI/pythia-14m",
+  "numpy": "2.3.5",
+  "packages": {
+    "huggingface-hub": "0.36.2",
+    "numpy": "2.3.5",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.2",
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "plan_sha256": "8e8259a9eb42cefb38335e88884f4e98ef74a03916b3929dd613723d72ea410d",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "revision": "cf967c0a9a04383db6f7b1108d86b2962634b4ac",
+  "runner_sha256": "cfd14d212a2eef208fb431d5f91f9166a6ed9f82c441854ebb7fee3fd528f3a7",
+  "torch": "2.8.0",
+  "transformers": "4.57.6"
+}

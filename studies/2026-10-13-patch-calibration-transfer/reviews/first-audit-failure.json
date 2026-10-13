@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "stage": "float32 whole-block delta check",
+  "absolute_tolerance": 0.0001,
+  "first_observed_absolute_logit_difference": 0.00020313262939453125,
+  "audit_code_sha256": "a17cc53ac6264dfd2c672fd2de29e40f19c77f5152859237ce3f0f9854fa6611",
+  "reason": "Alternative block-delta arithmetic exceeded the fixed tolerance. No tolerance change was made. Further checks will preserve every failed cell.",
+  "scientific_runner_changed": false
+}

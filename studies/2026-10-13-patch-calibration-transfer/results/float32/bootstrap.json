@@ -1,0 +1,7 @@
+{
+  "high": 0.0012430901080369935,
+  "low": -0.0030141515098512173,
+  "repetitions": 10000,
+  "scope": "Reweighting fixed test frames and word pairs. Calibration correction stays fixed.",
+  "seed": 20261013
+}

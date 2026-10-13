@@ -1,0 +1,9 @@
+{
+  "absolute_tolerance": 1e-09,
+  "max_frozen_denominator_interaction": 2.6645352591003757e-14,
+  "max_last_layer_additive_residual_error": 4.440892098500626e-16,
+  "max_last_layer_reconstruction_error": 8.881784197001252e-15,
+  "max_layer0_interaction": 0.0,
+  "max_layer0_mlp_difference": 0.0,
+  "passed": true
+}

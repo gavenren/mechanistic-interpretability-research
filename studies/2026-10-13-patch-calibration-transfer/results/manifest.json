@@ -1,0 +1,82 @@
+{
+  "results/directions.json": {
+    "bytes": 54009,
+    "sha256": "207ac44cf315319fa2c92583305d44ae63bfe172b1dfff5af7d05b946d1a05b5"
+  },
+  "results/double_shared_rotary/activations.npz": {
+    "bytes": 6624062,
+    "sha256": "4817f7f9688449986f6579e15ae6dd3feff38615234a27a862f850d35b1339d6"
+  },
+  "results/double_shared_rotary/bootstrap.json": {
+    "bytes": 208,
+    "sha256": "73021030e7b577b70be5f37f693aa08ef56af36a5be8a2b2ee6717b1b0f50fd2"
+  },
+  "results/double_shared_rotary/calibration-corrections.json": {
+    "bytes": 341,
+    "sha256": "5660f1b89e2b543ce3fe25be5d10aa6ceb9317f80bc1a51388c386fa6cd54748"
+  },
+  "results/double_shared_rotary/controls.json": {
+    "bytes": 316,
+    "sha256": "7448a7f7dc5678e24c095dfc9538841c0bbffd26ba19f3b326fc134cdab061e6"
+  },
+  "results/double_shared_rotary/four-cell-results.csv": {
+    "bytes": 710722,
+    "sha256": "500e1f0c6daaf82e71af854718bb05eb0128cce5487c582818975b2dfddb7fb3"
+  },
+  "results/double_shared_rotary/intact-behavior.csv": {
+    "bytes": 19233,
+    "sha256": "e39dd013ac93d1f85e5391959249ad2420c3ea20121f6cbcb7d4100f0399f76e"
+  },
+  "results/double_shared_rotary/run-metadata.json": {
+    "bytes": 405,
+    "sha256": "03e79343b2c3f55b62ac990a2382aca7da4a3502be0625751e51a84f0470f8b0"
+  },
+  "results/double_shared_rotary/summary.csv": {
+    "bytes": 9438,
+    "sha256": "77fb0badf3f0c594e787a67cf116d5cbaa2efdb6776eb390a484f1280682e53a"
+  },
+  "results/float32/activations.npz": {
+    "bytes": 3224022,
+    "sha256": "905a2d5e24ec613a587b53191d9a666f2d80e2c567200321a4fbd1440755d2e3"
+  },
+  "results/float32/bootstrap.json": {
+    "bytes": 209,
+    "sha256": "7e3afde14cbb752c8c6af1e533f1d436a91fa8a6ef193cf80820c66e9aca86f7"
+  },
+  "results/float32/calibration-corrections.json": {
+    "bytes": 340,
+    "sha256": "684ee5824e1f1dbdd222729351eaa9269b0832da91a852df15383c4738c8e2d4"
+  },
+  "results/float32/controls.json": {
+    "bytes": 316,
+    "sha256": "2ca28ad8c4255764a52e9a32ef2084421fecb70e3ec680a140a80efc17e8435c"
+  },
+  "results/float32/four-cell-results.csv": {
+    "bytes": 689111,
+    "sha256": "fb480114875579c8f8d150783918b5d3f4a91b114fa2384bad6c261b0e9f21b8"
+  },
+  "results/float32/intact-behavior.csv": {
+    "bytes": 19225,
+    "sha256": "237f052c9b915cfd25d7b2a44ba89cd90e215332f67ef440f1944bc4312069f4"
+  },
+  "results/float32/run-metadata.json": {
+    "bytes": 337,
+    "sha256": "a9ae4bb4e00de3a66a04de4645e26da25243d66cd49f89bec5e976bbc093011f"
+  },
+  "results/float32/summary.csv": {
+    "bytes": 9371,
+    "sha256": "1dc28b2ab12baa55ffb9a23039e1b3609786152c828391d0275d15579426e9af"
+  },
+  "results/precision-comparison.json": {
+    "bytes": 1335,
+    "sha256": "cfeb5018e10b12b54b78be60667c6437ca7265a6a981d3d6e375b485ac880329"
+  },
+  "results/prompts.json": {
+    "bytes": 86005,
+    "sha256": "a53e7c3765b037629a57014385df1a1e8d2ce430ca6b289cfbe191ad250f4aa3"
+  },
+  "results/provenance.json": {
+    "bytes": 1664,
+    "sha256": "bcc8d60200c373b48fe458843fc77bfdb9ec74f2871552a2442b9090a3d806a3"
+  }
+}

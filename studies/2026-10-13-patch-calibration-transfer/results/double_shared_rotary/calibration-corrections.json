@@ -1,0 +1,13 @@
+{
+  "corrections": {
+    "0": 0.0,
+    "1": 1.841697686977284e-05,
+    "2": -0.00015441726387610544,
+    "3": 0.00025903425426676563,
+    "4": 0.002862010418382077,
+    "5": 0.021420568444564303
+  },
+  "estimator": "median",
+  "n_directed_cases_per_layer": 64,
+  "status": "Frozen before any held-out forward in this numerical condition."
+}

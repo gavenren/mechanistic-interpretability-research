@@ -1,0 +1,18 @@
+{
+  "condition": "double_shared_rotary",
+  "directed_cases": 256,
+  "elapsed_seconds": 52.62016633299936,
+  "forwards": 4864,
+  "layers": 6,
+  "model_id": "EleutherAI/pythia-14m",
+  "precision": "float64 parameters and arithmetic; shared float32 rotary tables",
+  "primary_layers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prompt_count": 256,
+  "revision": "cf967c0a9a04383db6f7b1108d86b2962634b4ac"
+}
