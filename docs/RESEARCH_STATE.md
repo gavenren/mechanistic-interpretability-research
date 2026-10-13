@@ -44,6 +44,10 @@ The [ordered research plan](RESEARCH_PLAN.md) turns the review into six experime
 
 No experiment in this plan has started. Each stage requires its own fixed execution plan and controls before final results. Existing empirical papers and results remain unchanged. Automatic research remains paused.
 
+## Latest execution attempt
+
+The user requested Stage 0 and Experiment 1. The account resource check did not meet the reserve rule. The attempt stopped before code development, preparation tests, or model training. See the [Stage 0 stop record](STAGE_0_STATUS.md). No new scientific result was produced. Private account values remain in ignored local state.
+
 ## Current state
 
 All fifteen completed studies have complete experiments, papers, saved results, and independent AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.

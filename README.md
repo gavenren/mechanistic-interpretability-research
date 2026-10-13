@@ -10,7 +10,7 @@ Start with the [one-page summary](docs/REVIEW_SUMMARY.md), also available as a [
 
 Read the [combined review paper](docs/REVIEW_PAPER.md) for the findings from all fifteen studies, their specific contributions, their limits, and the next research steps. The review adds no new experiment.
 
-The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiments, success rules, compute estimates, and stop conditions.
+The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiments, success rules, compute estimates, and stop conditions. See the [Stage 0 status](docs/STAGE_0_STATUS.md) for the latest execution attempt.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
