@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "trained_models": 8,
+  "candidate_rows": 29120,
+  "selected_masks": 208,
+  "operator_rows": 1664,
+  "checks": 691264,
+  "numeric_values": 122560962,
+  "maximum_absolute_difference": 7.105427357601002e-15,
+  "max_transport_probability_difference": 3.4304834363799164e-20,
+  "max_permutation_probability_difference": 2.220446049250313e-15,
+  "max_diagonal_scaling_probability_difference": 5.995204332975845e-15,
+  "intact_accuracy": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "manifest_files": 30,
+  "lock_commit": "d4ca99ae08121070facd5ff755b6ca4b164dc304",
+  "scope": "All candidate masks and operators recomputed from saved weights with explicit element replacement; exact pair split, fixed transforms, complete controls, and primary summaries checked. Training was not repeated."
+}

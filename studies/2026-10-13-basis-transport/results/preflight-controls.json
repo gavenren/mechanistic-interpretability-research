@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "trained": false,
+  "gradient_coordinates": 40,
+  "gradient_max_absolute_error": 6.046133906034701e-11,
+  "task_states": 25,
+  "pairs": 500,
+  "discovery_pairs": 250,
+  "test_pairs": 250,
+  "coordinate_masks": 70,
+  "bases": 26,
+  "b_match_discovery": 55,
+  "b_match_test": 45,
+  "untrained_max_transport_residual": 5.551115123125783e-17,
+  "untrained_max_permutation_family_residual": 5.551115123125783e-17,
+  "untrained_max_scaling_family_residual": 8.326672684688674e-17
+}
