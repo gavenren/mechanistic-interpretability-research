@@ -1,0 +1,25 @@
+{
+  "calls": 7737,
+  "context": {
+    "architecture": "direct",
+    "batch": 6,
+    "channel": 1,
+    "seed": 2,
+    "shift": "0,-4"
+  },
+  "control_maxima": {
+    "ablated_channel_zero": 0.0,
+    "first_features_shift": 8.344650268554688e-07,
+    "four_pixel_logits": 2.1457672119140625e-05,
+    "no_op_logits": 0.0,
+    "probability_row_sum": 5.551115123125783e-16,
+    "triangle_inequality_excess": 1.1102230246251565e-16,
+    "untouched_channels": 0.0
+  },
+  "elapsed_seconds": 57.49522212499869,
+  "examples": 938810,
+  "message": "four_pixel_logits: 2.1457672119140625e-05 > 2e-05",
+  "status": "failed",
+  "type": "AssertionError",
+  "updates": 1500
+}

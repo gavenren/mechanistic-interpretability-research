@@ -1,0 +1,21 @@
+{
+  "data_hashes": {
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd"
+  },
+  "deterministic": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "lock_commit": "c406a08091cbc74caef1a1c4690aa29482667e0a",
+  "mkldnn": false,
+  "mode": "scientific",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "plan_sha256": "15cd02bd82c815bd63aff7a5a19d9c411bf6e6d45627e56b98452018c727fdae",
+  "probability_dtype": "numpy float64",
+  "python": "3.12.14",
+  "runner_sha256": "24932faca1ef30914b101cc2fd58f944ee45e86097da61ebde98a9c2a0c1864d",
+  "threads": 2
+}
