@@ -1,0 +1,33 @@
+{
+  "code_sha256": {
+    "analysis-plan.md": "01703bd5d11172898c1ab6b6935d019cc3d1c0920a3af46dccf8a7cfbecfe015",
+    "code/check_intervals.py": "73e0f4294e1f0da0dd93e93167b969e6314528c4cfd385384a8961e4825545a3",
+    "code/check_protocol.py": "52289be2788b63e2f07940bbed12308faf6cb51b00abc87e37c7a35d69d5b402",
+    "code/dummy_timing.py": "568ba011b26ea6ce1b568063b5e9603f822bf6e99e8c1e225be9a1c36445fd1f",
+    "code/intervals.py": "0bb5a0275fc645f65dcf6a619b8e0bd6eb217e7fef3b5470bedb1e6d434783ca",
+    "code/model.py": "028071ecd3a792910e986a3a9e212a32287e660b0678a15c05e7101f82a2644b",
+    "code/protocol.py": "a5884b49cf462129585bc3670ab8e964e2ab4e52f536be12e2125951e0ed3922",
+    "code/run.py": "5193f58f11c7e1fcb7c1352e66318d6f7d278550982e0dba547e6eb731264692",
+    "data/optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "data/optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+    "inputs.json": "cab624b6dccee25262c723457f19eb753c7d6de30695833912b0851f70451dbb",
+    "requirements.txt": "bf22ae62140ec2188bfb7e3931f9eb0e8f16838592a7bb5527b5d7e546f2d04c",
+    "sources.md": "83ae3e840183fd41e8fca6ec781e81dde76872f5d015c1add6be609e29fc3ac2"
+  },
+  "control_rows": 9975,
+  "elapsed_seconds": 19.804764750006143,
+  "numpy": "2.3.5",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "public_lock": "1403654ed629ff41dee40c8d094586c5eb40af73",
+  "python": "3.12.14",
+  "scientific_model_outputs_collected": true,
+  "seeds": [
+    401,
+    409,
+    419,
+    421
+  ],
+  "status": "complete",
+  "torch": "2.8.0",
+  "training_rows": 4800
+}

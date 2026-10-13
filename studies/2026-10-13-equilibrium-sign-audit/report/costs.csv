@@ -1,0 +1,5 @@
+seed,training_updates,training_examples,training_state_update_examples,ordinary_map_calls,ordinary_map_examples,certificate_calls,certificate_examples,certificate_map_passes,certificate_map_examples,input_affine_enclosure_calls,input_affine_enclosure_examples,extra_paired_updates,refinement_rows
+401,1200,152920,4893440,1387,183613,46,31219,77,60641,16,1917,25582,29422
+409,1200,152920,4893440,1221,158337,41,24038,67,46279,16,1917,18401,22241
+419,1200,152920,4893440,1472,194113,46,31514,77,61231,16,1917,25877,29717
+421,1200,152920,4893440,1374,170068,44,22995,73,44193,16,1917,17358,21198

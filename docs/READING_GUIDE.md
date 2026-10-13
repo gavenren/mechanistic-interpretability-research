@@ -63,6 +63,14 @@ The [flow study](../studies/2026-10-13-flow-unit-ranking/paper.md) counts genera
 
 All four models passed that coarse frequency check but failed the density-fit check. A good score on one measure does not establish a good fit on another. A larger effect after a unit removal also does not mean better generated samples.
 
+## Separate an uncertain effect from a wrong effect
+
+Some models repeat a calculation until the state changes very little. That stopping rule can leave enough error to affect a small neuron-removal measurement. In the [equilibrium study](../studies/2026-10-13-equilibrium-sign-audit/paper.md), the first error bounds did not establish the sign of 18.66% of nonzero effects, averaged across four models.
+
+That percentage is not an error rate. The bounds were conservative. Further calculation proved that five initial signs were wrong. Every tested effect then had either a proven sign or a magnitude bounded by 0.0000001 output-margin units. The small-magnitude result did not prove exact zero.
+
+These bounds concern the exact real equilibrium defined by the saved model weights. They are not confidence intervals from random sampling. Their validity depends on the stated arithmetic assumptions. They do not establish what a neuron means.
+
 ## Check the evidence record
 
 Each completed study links its fixed plan, source record, code, results, and calculation review. The review can check the arithmetic and repeat model interventions. Its record states the work that was actually repeated. A review of saved models is different from repeating their training.

@@ -1,0 +1,110 @@
+{
+  "ability_gate_passed": true,
+  "bins": [
+    {
+      "bin": "zero",
+      "count": 582,
+      "final_counts": {
+        "negative": 0,
+        "positive": 0,
+        "small": 582,
+        "unresolved": 0
+      },
+      "final_width_mean": 1.4634879933313983e-07,
+      "initial_width_mean": 0.2362831590835225,
+      "ordinary_mean": 0.0
+    },
+    {
+      "bin": "(0,1e-7]",
+      "count": 1,
+      "final_counts": {
+        "negative": 0,
+        "positive": 0,
+        "small": 1,
+        "unresolved": 0
+      },
+      "final_width_mean": 1.9765055031266414e-07,
+      "initial_width_mean": 0.31965837690277527,
+      "ordinary_mean": -2.506047310564424e-10
+    },
+    {
+      "bin": "(1e-7,1e-5]",
+      "count": 49,
+      "final_counts": {
+        "negative": 0,
+        "positive": 0,
+        "small": 49,
+        "unresolved": 0
+      },
+      "final_width_mean": 1.4061506373058186e-07,
+      "initial_width_mean": 0.21410479800819557,
+      "ordinary_mean": 1.5779264012189973e-06
+    },
+    {
+      "bin": "(1e-5,1e-3]",
+      "count": 184,
+      "final_counts": {
+        "negative": 1,
+        "positive": 0,
+        "small": 183,
+        "unresolved": 0
+      },
+      "final_width_mean": 1.3477854406449469e-05,
+      "initial_width_mean": 0.23202936831565385,
+      "ordinary_mean": -2.0149155075216767e-05
+    },
+    {
+      "bin": "above 1e-3",
+      "count": 3024,
+      "final_counts": {
+        "negative": 1492,
+        "positive": 1520,
+        "small": 12,
+        "unresolved": 0
+      },
+      "final_width_mean": 0.21447980380239073,
+      "initial_width_mean": 0.23735715003738445,
+      "ordinary_mean": 0.2433618490736038
+    }
+  ],
+  "certificate_calls": 41,
+  "certificate_examples": 24038,
+  "certificate_map_examples": 46279,
+  "certificate_map_passes": 67,
+  "certified_sign_reversals": 0,
+  "certified_top_class": 1797,
+  "effect_bound_requests": 26,
+  "effects": 3840,
+  "extra_paired_updates": 18401,
+  "final_counts": {
+    "negative": 1493,
+    "positive": 1520,
+    "small": 827,
+    "unresolved": 0
+  },
+  "final_weight_sha256": "4e5853ede5ec9045b496812d82aea8ee9233f4e885fc1840156bd869601c860c",
+  "first_update_accuracy": 0.9309961046188091,
+  "first_update_disagreement": 0.047857540345019475,
+  "full_logit_bound_requests": 15,
+  "full_test_accuracy": 0.9493600445186422,
+  "initial_weight_sha256": "51434e2fc7b309e8ea31a8488085fa120a3e70a012d56701f591e54c8740624c",
+  "input_affine_enclosure_calls": 16,
+  "input_affine_enclosure_examples": 1917,
+  "nonzero_ordinary": 3258,
+  "ordinary_map_calls": 1221,
+  "ordinary_map_examples": 158337,
+  "ordinary_zero": 582,
+  "panel_accuracy": 0.9333333333333333,
+  "primary_fraction": 0.2038060159607121,
+  "q_upper": 0.8750000000000027,
+  "refinement_rows": 22241,
+  "seed": 409,
+  "training_examples": 152920,
+  "training_state_update_examples": 4893440,
+  "training_updates": 1200,
+  "unresolved_all": 1246,
+  "unresolved_all_fraction": 0.32447916666666665,
+  "unresolved_nonzero": 664,
+  "zero_state_accuracy": 0.1018363939899833,
+  "zero_state_disagreement": 0.904284919309961
+}

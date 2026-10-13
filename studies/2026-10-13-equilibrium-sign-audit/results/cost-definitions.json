@@ -1,0 +1,15 @@
+{
+  "certificate_calls": "Bound requests: one full-logit enclosure or one paired effect enclosure. A paired request evaluates two residual maps.",
+  "certificate_examples": "Rows summed over bound requests; a pair counts once here.",
+  "certificate_map_examples": "One row per logit request and two per paired effect request.",
+  "certificate_map_passes": "One validated residual map per logit request and two per effect request.",
+  "extra_paired_updates": "Sum of actual extra updates per image-unit pair; each updates two state vectors.",
+  "input_affine_enclosure_calls": "One interval enclosure of Bx+b, outside validated residual maps.",
+  "input_affine_enclosure_examples": "Rows summed over input affine enclosures.",
+  "ordinary_map_calls": "One batched floating-point ReLU recurrent map, including stopping-residual checks, no-op repeats, first-update diagnostics, and both refinement branches.",
+  "ordinary_map_examples": "Rows summed over ordinary_map_calls. A final residual check is a call even when its candidate is not advanced.",
+  "training_examples": "Minibatch sizes summed over all optimizer updates.",
+  "training_state_update_examples": "32 times training_examples; backward work is additional and is included in wall time.",
+  "training_updates": "One forward/backward/Adam update on one minibatch; each forward has 32 state updates.",
+  "wall_time": "Includes training, controls, evaluation, and saved output. The final cap check also covers the manifest."
+}

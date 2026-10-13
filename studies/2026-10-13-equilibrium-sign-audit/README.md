@@ -1,6 +1,10 @@
 # Bounds on an equilibrium neuron-removal effect
 
-Status: plan and code prepared for a public lock. No study model has been trained or evaluated. All current model outputs use generated dummy data.
+Status: the fixed experiment and independent result audit are complete. [Final AI paper review](reviews/independent-result-review.md) is complete. This is an AI-authored study; human peer review has not occurred.
+
+Read the [paper](paper.md). At the initial stopping point, the numerical bound did not establish 18.66% of nonzero effect signs. This is an unresolved-bound rate. Only five initial signs were proved wrong. Further updates established a sign or small-magnitude bound for every case. All four models passed the task check.
+
+The public plan lock is [1403654ed629ff41dee40c8d094586c5eb40af73](https://github.com/gavenren/mechanistic-interpretability-research/commit/1403654ed629ff41dee40c8d094586c5eb40af73). The complete [results](results/summary.json), [file manifest](results/manifest.json), [report tables and figure](report/report.json), and [independent audit receipt](reviews/independent-result-audit.json) are included.
 
 The study asks whether a small solver residual is sufficient to establish the sign of an internal removal effect. It uses one edit: replace one state equation with zero, then solve the other equations again. The target is the real equilibrium of the stored finite weights. It is not a particular floating-point program output.
 
@@ -22,10 +26,22 @@ python studies/2026-10-13-equilibrium-sign-audit/code/check_protocol.py --output
 python studies/2026-10-13-equilibrium-sign-audit/code/dummy_timing.py --output /tmp/equilibrium-cost-check
 ```
 
-The study command requires the full public commit that contains the reviewed plan and all lock files. Use its exact bytes in a detached worktree if a later version changes any of those files. After the public lock is verified, the command is:
+The study command requires the public lock below. Use its exact bytes in a detached worktree if a later version changes a locked file:
 
 ```sh
-python studies/2026-10-13-equilibrium-sign-audit/code/run.py --lock FULL_PUBLIC_LOCK_COMMIT --output /tmp/equilibrium-study
+python studies/2026-10-13-equilibrium-sign-audit/code/run.py --lock 1403654ed629ff41dee40c8d094586c5eb40af73 --output /tmp/equilibrium-study
 ```
 
-The code refuses an existing output path. A failure stops the run and saves the available evidence. It does not change the tolerances or resume a partial run. A later independent audit will check the saved outputs; it will state whether training was repeated.
+The code refuses an existing output path. A failure stops the run and saves the available evidence. It does not change the tolerances or resume a partial run. The independent audit matched all saved state and effect rows. It did not repeat training.
+
+To repeat the independent audit, use a new receipt path. It does not import the study runner or repeat training:
+
+```sh
+python studies/2026-10-13-equilibrium-sign-audit/code/independent_audit.py --results studies/2026-10-13-equilibrium-sign-audit/results --output /tmp/equilibrium-audit-new.json
+```
+
+To rebuild the tables and figures, install [the report packages](requirements-report.txt) and use a new output directory:
+
+```sh
+python studies/2026-10-13-equilibrium-sign-audit/code/report.py --results studies/2026-10-13-equilibrium-sign-audit/results --output /tmp/equilibrium-report-new
+```
