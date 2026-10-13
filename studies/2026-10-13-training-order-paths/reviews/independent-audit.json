@@ -1,0 +1,22 @@
+{
+  "audit_sha256": "c42f1a61159bb59d247ff7066f99ba8f6901a7de4ae413efb2cae51bfa1bcaa0",
+  "checkpoint_hashes_checked": 176,
+  "checkpoint_replays": 144,
+  "checks": 1216104,
+  "intervention_rows_checked": 198144,
+  "lock_commit": "c6ff9cb1405e6a65fe161c2f4cb471d51016bf4c",
+  "max_error": 1.3322676295501878e-15,
+  "primary_interval": [
+    -4.813700031744332e-05,
+    -7.691894210918699e-06
+  ],
+  "primary_mean": -2.7367253279468075e-05,
+  "runner_imported": false,
+  "scope": "All saved evaluated checkpoints and path outputs; selection, summary, and record arithmetic. Training trajectories are not replayed.",
+  "seconds": 10.164260249999643,
+  "source_receipt_sha256": "f0b52af16bad56fa309d161df94759f67e68480caa0df18f85516ee3fabf9fc4",
+  "status": "passed",
+  "tolerance": 1e-10,
+  "training_replayed": false,
+  "training_rows_checked": 120000
+}

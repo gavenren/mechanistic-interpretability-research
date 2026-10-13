@@ -1,0 +1,418 @@
+[
+  {
+    "donor": 4,
+    "input": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 0,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 5,
+    "input": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 1,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 6,
+    "input": [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 2,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 7,
+    "input": [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 3,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 0,
+    "input": [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 4,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 1,
+    "input": [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 5,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 2,
+    "input": [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 6,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 3,
+    "input": [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 7,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 12,
+    "input": [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 8,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 13,
+    "input": [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 9,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 14,
+    "input": [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 10,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 15,
+    "input": [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 11,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 8,
+    "input": [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 12,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 9,
+    "input": [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 13,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 10,
+    "input": [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 14,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 11,
+    "input": [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 15,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 20,
+    "input": [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 16,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 21,
+    "input": [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 17,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 22,
+    "input": [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 18,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 23,
+    "input": [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 19,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 16,
+    "input": [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 20,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 17,
+    "input": [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 21,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 18,
+    "input": [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 22,
+    "split": "test",
+    "y": -1
+  },
+  {
+    "donor": 19,
+    "input": [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 23,
+    "split": "calibration",
+    "y": -1
+  },
+  {
+    "donor": 28,
+    "input": [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 24,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 29,
+    "input": [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 25,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 30,
+    "input": [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 26,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 31,
+    "input": [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 27,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 24,
+    "input": [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "receiver": 28,
+    "split": "calibration",
+    "y": 1
+  },
+  {
+    "donor": 25,
+    "input": [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "receiver": 29,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 26,
+    "input": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "receiver": 30,
+    "split": "test",
+    "y": 1
+  },
+  {
+    "donor": 27,
+    "input": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "receiver": 31,
+    "split": "calibration",
+    "y": 1
+  }
+]

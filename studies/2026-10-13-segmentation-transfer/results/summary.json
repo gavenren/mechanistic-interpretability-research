@@ -1,0 +1,452 @@
+{
+  "bootstrap_draws": 10000,
+  "canonical_means": {
+    "full_correct": 0.283203125,
+    "pair_correct": 0.9765625,
+    "recency": 0.5572611303068697,
+    "score": 6.304643433075398,
+    "target_probability": 0.0604270162807677
+  },
+  "capability_gate_passed": false,
+  "causal_binding_interpretation_supported": false,
+  "clusters": 32,
+  "estimates": {
+    "AA": {
+      "ablated_full_correct": {
+        "lower": 0.001953125,
+        "mean": 0.009765625,
+        "upper": 0.021484375
+      },
+      "ablated_pair_correct": {
+        "lower": 0.818359375,
+        "mean": 0.87109375,
+        "upper": 0.91796875
+      },
+      "ablated_score": {
+        "lower": 2.4543550579459406,
+        "mean": 2.8527635731734335,
+        "upper": 3.2877943063969726
+      },
+      "effect": {
+        "lower": 3.7122362458496356,
+        "mean": 4.312792152632028,
+        "upper": 4.9054004139266905
+      },
+      "intact_full_correct": {
+        "lower": 0.341796875,
+        "mean": 0.4453125,
+        "upper": 0.55078125
+      },
+      "intact_pair_correct": {
+        "lower": 0.994140625,
+        "mean": 0.998046875,
+        "upper": 1.0
+      },
+      "intact_recency": {
+        "lower": 0.06319852818269282,
+        "mean": 0.1872829832136631,
+        "upper": 0.31026000115089114
+      },
+      "intact_score": {
+        "lower": 6.544186418037862,
+        "mean": 7.165555725805461,
+        "upper": 7.748202114319429
+      },
+      "intact_target_probability": {
+        "lower": 0.06906625327750752,
+        "mean": 0.09537541977080188,
+        "upper": 0.1251444087525918
+      }
+    },
+    "AB": {
+      "ablated_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "upper": 0.0
+      },
+      "ablated_pair_correct": {
+        "lower": 0.490234375,
+        "mean": 0.509765625,
+        "upper": 0.537109375
+      },
+      "ablated_score": {
+        "lower": 0.05620254634850426,
+        "mean": 0.12260576389962807,
+        "upper": 0.19048070156277386
+      },
+      "effect": {
+        "lower": 0.07413280910550384,
+        "mean": 0.2631487601320259,
+        "upper": 0.4453415315219899
+      },
+      "intact_full_correct": {
+        "lower": 0.0,
+        "mean": 0.001953125,
+        "upper": 0.005859375
+      },
+      "intact_pair_correct": {
+        "lower": 0.52734375,
+        "mean": 0.5625,
+        "upper": 0.599609375
+      },
+      "intact_recency": {
+        "lower": -0.10280920717632398,
+        "mean": 0.01283357385545969,
+        "upper": 0.1251788136200048
+      },
+      "intact_score": {
+        "lower": 0.14201145082479344,
+        "mean": 0.385754524031654,
+        "upper": 0.621384156809654
+      },
+      "intact_target_probability": {
+        "lower": 0.00024529130856987833,
+        "mean": 0.000516968246836249,
+        "upper": 0.0008973583809952376
+      }
+    },
+    "BA": {
+      "ablated_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "upper": 0.0
+      },
+      "ablated_pair_correct": {
+        "lower": 0.5,
+        "mean": 0.529296875,
+        "upper": 0.560546875
+      },
+      "ablated_score": {
+        "lower": 0.0977511981735006,
+        "mean": 0.17260525282472372,
+        "upper": 0.25687744047027083
+      },
+      "effect": {
+        "lower": 0.2264223301492166,
+        "mean": 0.36281468137167394,
+        "upper": 0.5092683620983735
+      },
+      "intact_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "upper": 0.0
+      },
+      "intact_pair_correct": {
+        "lower": 0.53515625,
+        "mean": 0.576171875,
+        "upper": 0.615234375
+      },
+      "intact_recency": {
+        "lower": -0.06267030582530424,
+        "mean": 0.04651731438934803,
+        "upper": 0.15380482198088424
+      },
+      "intact_score": {
+        "lower": 0.34282006708090196,
+        "mean": 0.5354199341963977,
+        "upper": 0.7425426584144588
+      },
+      "intact_target_probability": {
+        "lower": 0.00029741669556686187,
+        "mean": 0.0006036362581956787,
+        "upper": 0.0010101799272608694
+      }
+    },
+    "BB": {
+      "ablated_full_correct": {
+        "lower": 0.0078125,
+        "mean": 0.0234375,
+        "upper": 0.044921875
+      },
+      "ablated_pair_correct": {
+        "lower": 0.80078125,
+        "mean": 0.85546875,
+        "upper": 0.904296875
+      },
+      "ablated_score": {
+        "lower": 2.439087998308241,
+        "mean": 2.8308273614384234,
+        "upper": 3.2819970941869543
+      },
+      "effect": {
+        "lower": 3.7028087807120755,
+        "mean": 4.299420317169279,
+        "upper": 4.889433870161883
+      },
+      "intact_full_correct": {
+        "lower": 0.34375,
+        "mean": 0.443359375,
+        "upper": 0.544921875
+      },
+      "intact_pair_correct": {
+        "lower": 0.970654296875,
+        "mean": 0.984375,
+        "upper": 0.99609375
+      },
+      "intact_recency": {
+        "lower": 0.09229167434386909,
+        "mean": 0.2320093708112836,
+        "upper": 0.38541568873915816
+      },
+      "intact_score": {
+        "lower": 6.485173616674729,
+        "mean": 7.130247678607702,
+        "upper": 7.776801506895572
+      },
+      "intact_target_probability": {
+        "lower": 0.06761876170048738,
+        "mean": 0.09741342303918257,
+        "upper": 0.13414656809276918
+      }
+    },
+    "all": {
+      "ablated_full_correct": {
+        "lower": 0.00341796875,
+        "mean": 0.00830078125,
+        "upper": 0.013671875
+      },
+      "ablated_pair_correct": {
+        "lower": 0.6630859375,
+        "mean": 0.69140625,
+        "upper": 0.71826171875
+      },
+      "ablated_score": {
+        "lower": 1.2996083239035214,
+        "mean": 1.4947004878340522,
+        "upper": 1.719587082018552
+      },
+      "effect": {
+        "lower": 2.00264295066263,
+        "mean": 2.3095439778262516,
+        "upper": 2.6107330236929553
+      },
+      "intact_full_correct": {
+        "lower": 0.17724609375,
+        "mean": 0.22265625,
+        "upper": 0.2685546875
+      },
+      "intact_pair_correct": {
+        "lower": 0.7646484375,
+        "mean": 0.7802734375,
+        "upper": 0.79638671875
+      },
+      "intact_recency": {
+        "lower": 0.032667104010761255,
+        "mean": 0.1196608105674386,
+        "upper": 0.20759248004178515
+      },
+      "intact_score": {
+        "lower": 3.491823408511118,
+        "mean": 3.804244465660304,
+        "upper": 4.108808435460378
+      },
+      "intact_target_probability": {
+        "lower": 0.03574793968954917,
+        "mean": 0.04847736182875409,
+        "upper": 0.06373299121671548
+      }
+    },
+    "gap0": {
+      "ablated_full_correct": {
+        "lower": 0.0048828125,
+        "mean": 0.013671875,
+        "upper": 0.0234375
+      },
+      "ablated_pair_correct": {
+        "lower": 0.646484375,
+        "mean": 0.677734375,
+        "upper": 0.708984375
+      },
+      "ablated_score": {
+        "lower": 1.318701739201788,
+        "mean": 1.5329697652487084,
+        "upper": 1.778354770084843
+      },
+      "effect": {
+        "lower": 1.8869518652762054,
+        "mean": 2.1671020024223253,
+        "upper": 2.4364769402018283
+      },
+      "intact_full_correct": {
+        "lower": 0.1630859375,
+        "mean": 0.212890625,
+        "upper": 0.2626953125
+      },
+      "intact_pair_correct": {
+        "lower": 0.7548828125,
+        "mean": 0.7724609375,
+        "upper": 0.7919921875
+      },
+      "intact_recency": {
+        "lower": 0.05259616596158594,
+        "mean": 0.1553136311704293,
+        "upper": 0.25557443457946644
+      },
+      "intact_score": {
+        "lower": 3.393223171980935,
+        "mean": 3.7000717676710337,
+        "upper": 4.004612602188717
+      },
+      "intact_target_probability": {
+        "lower": 0.033118659041380775,
+        "mean": 0.04375470571936353,
+        "upper": 0.056127334978412886
+      }
+    },
+    "gap8": {
+      "ablated_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0029296875,
+        "upper": 0.0068359375
+      },
+      "ablated_pair_correct": {
+        "lower": 0.673828125,
+        "mean": 0.705078125,
+        "upper": 0.7333984375
+      },
+      "ablated_score": {
+        "lower": 1.2672771122503037,
+        "mean": 1.456431210419396,
+        "upper": 1.667833930501365
+      },
+      "effect": {
+        "lower": 2.1180534283019368,
+        "mean": 2.451985953230178,
+        "upper": 2.7916840513978967
+      },
+      "intact_full_correct": {
+        "lower": 0.18359375,
+        "mean": 0.232421875,
+        "upper": 0.283203125
+      },
+      "intact_pair_correct": {
+        "lower": 0.7705078125,
+        "mean": 0.7880859375,
+        "upper": 0.806640625
+      },
+      "intact_recency": {
+        "lower": -0.054314682158292264,
+        "mean": 0.08400798996444792,
+        "upper": 0.22555629833659616
+      },
+      "intact_score": {
+        "lower": 3.5699906367633956,
+        "mean": 3.908417163649574,
+        "upper": 4.2451530645426825
+      },
+      "intact_target_probability": {
+        "lower": 0.03777022260928391,
+        "mean": 0.05320001793814466,
+        "upper": 0.07198349663470294
+      }
+    },
+    "matched": {
+      "ablated_full_correct": {
+        "lower": 0.0068359375,
+        "mean": 0.0166015625,
+        "upper": 0.02734375
+      },
+      "ablated_pair_correct": {
+        "lower": 0.814453125,
+        "mean": 0.86328125,
+        "upper": 0.90625
+      },
+      "ablated_score": {
+        "lower": 2.4661083137209063,
+        "mean": 2.8417954673059285,
+        "upper": 3.27112526523415
+      },
+      "effect": {
+        "lower": 3.7225502536282873,
+        "mean": 4.306106234900653,
+        "upper": 4.884195118467323
+      },
+      "intact_full_correct": {
+        "lower": 0.353515625,
+        "mean": 0.4443359375,
+        "upper": 0.5361328125
+      },
+      "intact_pair_correct": {
+        "lower": 0.9833984375,
+        "mean": 0.9912109375,
+        "upper": 0.9970703125
+      },
+      "intact_recency": {
+        "lower": 0.09377145170001314,
+        "mean": 0.20964617701247334,
+        "upper": 0.3273715760093182
+      },
+      "intact_score": {
+        "lower": 6.546932018431835,
+        "mean": 7.147901702206582,
+        "upper": 7.7243353058234785
+      },
+      "intact_target_probability": {
+        "lower": 0.07101277955696646,
+        "mean": 0.09639442140499223,
+        "upper": 0.12687555175894696
+      }
+    },
+    "matched_minus_mismatched": {
+      "effect": {
+        "lower": 3.3920224701447297,
+        "mean": 3.9931245141488034,
+        "upper": 4.585137676548038
+      },
+      "intact_score": {
+        "lower": 6.043170731441933,
+        "mean": 6.687314473092556,
+        "upper": 7.299552250793203
+      }
+    },
+    "mismatched": {
+      "ablated_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "upper": 0.0
+      },
+      "ablated_pair_correct": {
+        "lower": 0.4990234375,
+        "mean": 0.51953125,
+        "upper": 0.544921875
+      },
+      "ablated_score": {
+        "lower": 0.08913985778417555,
+        "mean": 0.1476055083621759,
+        "upper": 0.21084949251744547
+      },
+      "effect": {
+        "lower": 0.1655485210409097,
+        "mean": 0.31298172075184993,
+        "upper": 0.46202788657392374
+      },
+      "intact_full_correct": {
+        "lower": 0.0,
+        "mean": 0.0009765625,
+        "upper": 0.0029296875
+      },
+      "intact_pair_correct": {
+        "lower": 0.5390625,
+        "mean": 0.5693359375,
+        "upper": 0.6015625
+      },
+      "intact_recency": {
+        "lower": -0.058744488583761266,
+        "mean": 0.02967544412240386,
+        "upper": 0.1201714241906302
+      },
+      "intact_score": {
+        "lower": 0.26890321290993596,
+        "mean": 0.46058722911402583,
+        "upper": 0.654847654144396
+      },
+      "intact_target_probability": {
+        "lower": 0.00033936677121598443,
+        "mean": 0.0005603022525159638,
+        "upper": 0.0008169878611087711
+      }
+    }
+  },
+  "primary_pattern_supported": true,
+  "seed": 2026101320
+}

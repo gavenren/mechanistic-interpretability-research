@@ -1,0 +1,45 @@
+{
+  "files": {
+    "attention-controls.csv": {
+      "bytes": 375947,
+      "sha256": "5d38d2ca0580a00166e1b7cc2860d65420e0e04912f94d245865a6a9c077ce83"
+    },
+    "control-summary.json": {
+      "bytes": 312,
+      "sha256": "970c3bce7118e42e0df84cf84702d57e763488d75e6c9166ec5baa115f55b69c"
+    },
+    "controls.csv": {
+      "bytes": 837656,
+      "sha256": "142881501f369c64bdf378522b803e53ef6f4c1702527eef5a0fe953595d82f3"
+    },
+    "group-cell-summary.csv": {
+      "bytes": 107107,
+      "sha256": "178c25b1549c528dc4aa256656711b525492451271aa52ecd9b1527adfd9daef"
+    },
+    "group-contrasts.csv": {
+      "bytes": 20831,
+      "sha256": "45277fe9b2225ab6a18d19722c23824221b99a175acec748f578ee37056f4a5b"
+    },
+    "inputs.json": {
+      "bytes": 7543840,
+      "sha256": "c3d770795821ed569747f74bd7f011ac768bc215b51cc2c7ff7bdece9ca2c3d8"
+    },
+    "model-receipt.json": {
+      "bytes": 1094,
+      "sha256": "2b30273b0fa77124150a4011cd3e6ebe7f7301e6559030ce88977e282f74ab7a"
+    },
+    "run-metadata.json": {
+      "bytes": 785,
+      "sha256": "b97975312b38ec6345771cd9d818f39c442e3e87f309fca0dd31461360f5c248"
+    },
+    "scores.csv": {
+      "bytes": 1654880,
+      "sha256": "1ddb83c8821afbddbb960a9fb9b7aecc4ef91c42c925e48aadacb383cc671518"
+    },
+    "summary.json": {
+      "bytes": 11041,
+      "sha256": "204d827a78db66140c34cccb921b4172f3908a8f179eb4217466d2b16ac559a3"
+    }
+  },
+  "status": "complete"
+}

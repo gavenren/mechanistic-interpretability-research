@@ -1,0 +1,325 @@
+{
+  "note": "Added after first audit failure. Fixed float32 logits, different softmax arithmetic.",
+  "rows": [
+    {
+      "prompt_id": 0,
+      "top": 1579,
+      "float32_top": 0.38675642013549805,
+      "float64_top": 0.3867463738986781,
+      "saved_top": 0.38675642013549805,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.0046236819938326e-05,
+      "float32_probability_sum": 1.000025977576389
+    },
+    {
+      "prompt_id": 1,
+      "top": 273,
+      "float32_top": 0.18907925486564636,
+      "float64_top": 0.18907606897051826,
+      "saved_top": 0.18907925486564636,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 3.185895128099414e-06,
+      "float32_probability_sum": 1.000016847477302
+    },
+    {
+      "prompt_id": 2,
+      "top": 2492,
+      "float32_top": 0.16189180314540863,
+      "float64_top": 0.16189112433077496,
+      "saved_top": 0.16189180314540863,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 6.788146336700329e-07,
+      "float32_probability_sum": 1.0000041959484276
+    },
+    {
+      "prompt_id": 3,
+      "top": 1579,
+      "float32_top": 0.26673269271850586,
+      "float64_top": 0.2667268414848466,
+      "saved_top": 0.26673269271850586,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.851233659259769e-06,
+      "float32_probability_sum": 1.0000219388762528
+    },
+    {
+      "prompt_id": 4,
+      "top": 273,
+      "float32_top": 0.5540332198143005,
+      "float64_top": 0.5540094904257605,
+      "saved_top": 0.5540332198143005,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.3729388540005836e-05,
+      "float32_probability_sum": 1.0000428312511003
+    },
+    {
+      "prompt_id": 5,
+      "top": 273,
+      "float32_top": 0.5456348657608032,
+      "float64_top": 0.5456132743511484,
+      "saved_top": 0.5456348657608032,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.1591409654853067e-05,
+      "float32_probability_sum": 1.0000395688289705
+    },
+    {
+      "prompt_id": 6,
+      "top": 273,
+      "float32_top": 0.807340145111084,
+      "float64_top": 0.8072973292209477,
+      "saved_top": 0.807340145111084,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 4.281589013632736e-05,
+      "float32_probability_sum": 1.000053036070588
+    },
+    {
+      "prompt_id": 7,
+      "top": 273,
+      "float32_top": 0.15085376799106598,
+      "float64_top": 0.15084836182197106,
+      "saved_top": 0.15085376799106598,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.40616909491809e-06,
+      "float32_probability_sum": 1.000035839627809
+    },
+    {
+      "prompt_id": 16,
+      "top": 1579,
+      "float32_top": 0.39581990242004395,
+      "float64_top": 0.3958082745890946,
+      "saved_top": 0.39581990242004395,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.1627830949323403e-05,
+      "float32_probability_sum": 1.000029378385756
+    },
+    {
+      "prompt_id": 17,
+      "top": 15,
+      "float32_top": 0.09474261105060577,
+      "float64_top": 0.09474115923025206,
+      "saved_top": 0.09474261105060577,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.4518203537150498e-06,
+      "float32_probability_sum": 1.0000153208746814
+    },
+    {
+      "prompt_id": 18,
+      "top": 451,
+      "float32_top": 0.04584817588329315,
+      "float64_top": 0.045848115969098956,
+      "saved_top": 0.04584817588329315,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.991419419620891e-08,
+      "float32_probability_sum": 1.0000013044321463
+    },
+    {
+      "prompt_id": 19,
+      "top": 15,
+      "float32_top": 0.19675803184509277,
+      "float64_top": 0.19675258346052482,
+      "saved_top": 0.19675803184509277,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.448384567952047e-06,
+      "float32_probability_sum": 1.0000276974626465
+    },
+    {
+      "prompt_id": 20,
+      "top": 1599,
+      "float32_top": 0.14575675129890442,
+      "float64_top": 0.14575169795239007,
+      "saved_top": 0.14575675129890442,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.053346514349855e-06,
+      "float32_probability_sum": 1.0000346715560413
+    },
+    {
+      "prompt_id": 21,
+      "top": 273,
+      "float32_top": 0.3605198264122009,
+      "float64_top": 0.36050948882396816,
+      "saved_top": 0.3605198264122009,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.0337588232767203e-05,
+      "float32_probability_sum": 1.0000286752826937
+    },
+    {
+      "prompt_id": 22,
+      "top": 273,
+      "float32_top": 0.45515596866607666,
+      "float64_top": 0.45513819847028164,
+      "saved_top": 0.45515596866607666,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.7770195795019372e-05,
+      "float32_probability_sum": 1.0000390417983742
+    },
+    {
+      "prompt_id": 23,
+      "top": 1599,
+      "float32_top": 0.09856951236724854,
+      "float64_top": 0.09856687509864286,
+      "saved_top": 0.09856951236724854,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.637268605679144e-06,
+      "float32_probability_sum": 1.0000267558565776
+    },
+    {
+      "prompt_id": 32,
+      "top": 1599,
+      "float32_top": 0.4248355031013489,
+      "float64_top": 0.42482647664583834,
+      "saved_top": 0.4248355031013489,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 9.026455510541265e-06,
+      "float32_probability_sum": 1.0000212506486954
+    },
+    {
+      "prompt_id": 33,
+      "top": 275,
+      "float32_top": 0.11198011785745621,
+      "float64_top": 0.1119782500864968,
+      "saved_top": 0.11198011785745621,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.8677709594100422e-06,
+      "float32_probability_sum": 1.000016676403342
+    },
+    {
+      "prompt_id": 34,
+      "top": 2492,
+      "float32_top": 0.05671994015574455,
+      "float64_top": 0.05671984052387517,
+      "saved_top": 0.05671994015574455,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 9.963186937966828e-08,
+      "float32_probability_sum": 1.0000017537109338
+    },
+    {
+      "prompt_id": 35,
+      "top": 15,
+      "float32_top": 0.18214406073093414,
+      "float64_top": 0.18213881206652316,
+      "saved_top": 0.18214406073093414,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.2486644109839276e-06,
+      "float32_probability_sum": 1.0000288138741604
+    },
+    {
+      "prompt_id": 36,
+      "top": 15,
+      "float32_top": 0.15032383799552917,
+      "float64_top": 0.1503201508011749,
+      "saved_top": 0.15032383799552917,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 3.687194354284884e-06,
+      "float32_probability_sum": 1.0000245282618623
+    },
+    {
+      "prompt_id": 37,
+      "top": 273,
+      "float32_top": 0.36268332600593567,
+      "float64_top": 0.36267455579116215,
+      "saved_top": 0.36268332600593567,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 8.770214773523577e-06,
+      "float32_probability_sum": 1.0000241736657254
+    },
+    {
+      "prompt_id": 38,
+      "top": 273,
+      "float32_top": 0.5929834842681885,
+      "float64_top": 0.592957263863354,
+      "saved_top": 0.5929834842681885,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.6220404834464972e-05,
+      "float32_probability_sum": 1.0000442271665682
+    },
+    {
+      "prompt_id": 39,
+      "top": 15,
+      "float32_top": 0.0758916512131691,
+      "float64_top": 0.07588970842307223,
+      "saved_top": 0.0758916512131691,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.942790096867708e-06,
+      "float32_probability_sum": 1.0000255966836498
+    },
+    {
+      "prompt_id": 48,
+      "top": 1599,
+      "float32_top": 0.30921921133995056,
+      "float64_top": 0.3092117440661026,
+      "saved_top": 0.30921921133995056,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 7.467273847983069e-06,
+      "float32_probability_sum": 1.0000241510857586
+    },
+    {
+      "prompt_id": 49,
+      "top": 273,
+      "float32_top": 0.13875025510787964,
+      "float64_top": 0.13874803477279418,
+      "saved_top": 0.13875025510787964,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.220335085456604e-06,
+      "float32_probability_sum": 1.0000160045345576
+    },
+    {
+      "prompt_id": 50,
+      "top": 2492,
+      "float32_top": 0.13477617502212524,
+      "float64_top": 0.13477467186459194,
+      "saved_top": 0.13477617502212524,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 1.5031575333057656e-06,
+      "float32_probability_sum": 1.000011156001044
+    },
+    {
+      "prompt_id": 51,
+      "top": 1599,
+      "float32_top": 0.26864558458328247,
+      "float64_top": 0.26863988695559027,
+      "saved_top": 0.26864558458328247,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 5.6976276922027225e-06,
+      "float32_probability_sum": 1.0000212118928011
+    },
+    {
+      "prompt_id": 52,
+      "top": 1579,
+      "float32_top": 0.12777996063232422,
+      "float64_top": 0.1277769728548069,
+      "saved_top": 0.12777996063232422,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.987777517310386e-06,
+      "float32_probability_sum": 1.0000233781261036
+    },
+    {
+      "prompt_id": 53,
+      "top": 273,
+      "float32_top": 0.6433302760124207,
+      "float64_top": 0.6433016799985538,
+      "saved_top": 0.6433302760124207,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 2.859601386684396e-05,
+      "float32_probability_sum": 1.0000444516580398
+    },
+    {
+      "prompt_id": 54,
+      "top": 273,
+      "float32_top": 0.8222343921661377,
+      "float64_top": 0.8221901237208419,
+      "saved_top": 0.8222343921661377,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 4.4268445295814196e-05,
+      "float32_probability_sum": 1.0000538409874133
+    },
+    {
+      "prompt_id": 55,
+      "top": 15,
+      "float32_top": 0.10330592095851898,
+      "float64_top": 0.1033026536295198,
+      "saved_top": 0.10330592095851898,
+      "torch_saved_error": 0.0,
+      "numpy_saved_error": 3.2673289991763665e-06,
+      "float32_probability_sum": 1.0000316231369184
+    }
+  ]
+}

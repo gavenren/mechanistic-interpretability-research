@@ -1,0 +1,94 @@
+{
+  "completed_updates": 120000,
+  "evaluated_checkpoints": 144,
+  "max_control_error": 1.7763568394002505e-15,
+  "model_checkpoints": 176,
+  "per_seed": [
+    {
+      "keep_ALT": -1.1439765643272981e-05,
+      "keep_BA_minus_AB": -4.729633588741039e-05,
+      "reset_ALT": -1.1474628998066339e-05,
+      "reset_BA_minus_AB": -4.7323202976040646e-05,
+      "reset_minus_keep_contrast": -2.6867088630255775e-08,
+      "seed": 1103
+    },
+    {
+      "keep_ALT": -2.5242312734763406e-06,
+      "keep_BA_minus_AB": -6.404657107941802e-05,
+      "reset_ALT": -2.5302720707484627e-06,
+      "reset_BA_minus_AB": -6.410637685678316e-05,
+      "reset_minus_keep_contrast": -5.980577736514059e-08,
+      "seed": 2207
+    },
+    {
+      "keep_ALT": -5.629639247640983e-06,
+      "keep_BA_minus_AB": -6.954889401552394e-05,
+      "reset_ALT": -5.64501912420079e-06,
+      "reset_BA_minus_AB": -6.954910333002717e-05,
+      "reset_minus_keep_contrast": -2.093145032300292e-10,
+      "seed": 3301
+    },
+    {
+      "keep_ALT": 5.763325098606664e-06,
+      "keep_BA_minus_AB": 1.044040661671991e-05,
+      "reset_ALT": 5.78835997044197e-06,
+      "reset_BA_minus_AB": 1.0434036019218995e-05,
+      "reset_minus_keep_contrast": -6.370597500915398e-09,
+      "seed": 4409
+    },
+    {
+      "keep_ALT": -5.551604833092805e-06,
+      "keep_BA_minus_AB": -1.6674737956551278e-05,
+      "reset_ALT": -5.5670438717514426e-06,
+      "reset_BA_minus_AB": -1.6661364744860463e-05,
+      "reset_minus_keep_contrast": 1.3373211690814735e-08,
+      "seed": 5519
+    },
+    {
+      "keep_ALT": 1.1159926907172713e-05,
+      "keep_BA_minus_AB": -3.711639597023253e-05,
+      "reset_ALT": 1.1202139196801741e-05,
+      "reset_BA_minus_AB": -3.7129276959285695e-05,
+      "reset_minus_keep_contrast": -1.2880989053165592e-08,
+      "seed": 6607
+    },
+    {
+      "keep_ALT": 4.3359239262352745e-06,
+      "keep_BA_minus_AB": -3.4794443010896514e-06,
+      "reset_ALT": 4.351769910343473e-06,
+      "reset_BA_minus_AB": -3.4587016956300065e-06,
+      "reset_minus_keep_contrast": 2.0742605459644903e-08,
+      "seed": 7717
+    },
+    {
+      "keep_ALT": 5.934558231147913e-06,
+      "keep_BA_minus_AB": 8.861663631176686e-06,
+      "reset_ALT": 5.955843630472968e-06,
+      "reset_BA_minus_AB": 8.855964307663555e-06,
+      "reset_minus_keep_contrast": -5.6993235131308495e-09,
+      "seed": 8803
+    }
+  ],
+  "primary": {
+    "descriptive_paired_seed_bootstrap_95": [
+      -4.813700031744332e-05,
+      -7.691894210918699e-06
+    ],
+    "maximum": 1.0434036019218995e-05,
+    "mean": -2.7367253279468075e-05,
+    "median": -2.689532085207308e-05,
+    "minimum": -6.954910333002717e-05,
+    "name": "reset selected-eight test effect: BA minus AB at tail 2000",
+    "numerical_negligibility_threshold": 1e-08,
+    "numerically_negligible": false
+  },
+  "table_rows": {
+    "controls": 19344,
+    "intact": 4608,
+    "interventions": 198144,
+    "models": 144,
+    "selection": 4608,
+    "sets": 12384,
+    "train": 120000
+  }
+}

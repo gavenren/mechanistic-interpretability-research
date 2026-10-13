@@ -1,0 +1,50 @@
+{
+  "audit_sha256": "2e1c964fc3f2290d0d474ae3750ca084c6e72b008ef78ce4469889772ee8e261",
+  "canonical_prompts": 512,
+  "diagnostics": {
+    "float64_probability_reference": {
+      "condition": "ablated_",
+      "float32_probability": 0.9775402545928955,
+      "float32_sum_in_float64": 1.000078968257326,
+      "float64_probability": 0.9774630660636876,
+      "float64_sum": 0.9999999999999999,
+      "logit": 19.005395889282227,
+      "maximum_error": 7.718852920790553e-05,
+      "maximum_logit": 19.005395889282227,
+      "prompt_id": 386,
+      "token_id": 84
+    }
+  },
+  "elapsed_seconds": 6.657131332998688,
+  "float64_probability_reference_is_diagnostic": true,
+  "human_review": false,
+  "imports_runner": false,
+  "independent_operator": "Pre-hook on the concatenated input of block 3 attention output projection; zero final-position dimensions 32:64.",
+  "initial_audit_failure_preserved": true,
+  "lock_commit": "c6ff9cb1405e6a65fe161c2f4cb471d51016bf4c",
+  "logit_tolerance": 1e-05,
+  "maximum_errors": {
+    "bootstrap": 0.0,
+    "canonical_groups": 0.0,
+    "canonical_means": 0.0,
+    "group_means": 0.0,
+    "independent_untouched_projection_input": 0.0,
+    "replayed_ablated_logits": 0.0,
+    "replayed_ablated_probabilities": 0.0,
+    "replayed_attention": 0.0,
+    "replayed_head_norm": 0.0,
+    "replayed_intact_logits": 0.0,
+    "replayed_intact_probabilities": 0.0,
+    "replayed_logits": 0.0,
+    "replayed_probabilities": 0.0,
+    "saved_attention_values": 0.0,
+    "saved_effect": 0.0,
+    "saved_score_formulas": 0.0
+  },
+  "model_forward_calls": 144,
+  "model_forward_examples": 4608,
+  "probability_tolerance": 1e-07,
+  "replay_scope": "All intact and ablated split prompts; all canonical references.",
+  "split_prompts": 2048,
+  "status": "passed"
+}

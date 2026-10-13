@@ -1,0 +1,16 @@
+{
+  "files": {
+    "attention-rows.npz": "556acea931a93ec6784a34e328dfbfa57fc64c45d4212445c222fe938a56eb97",
+    "batch-controls.csv": "546476040cd04809d6f983f732dda500c97f5dd9035a6111b9134765852e669a",
+    "canonical-groups.csv": "8ff38d552c95b497d57bd89a72dbbc3d2c801ca66f3835d2079398b2b31df952",
+    "canonical-prompts.json": "972c89e3fcc49df582fbfd7bebc17d50876ca19ca557bf21d90eadb9a616d9d8",
+    "canonical-scores.csv": "d742d1413625f7f812465e6b91a565010b6a39b2526a7cb71d1a1e9f1e4aae54",
+    "controls.json": "0c2939d728a6288b75fe485fa2a590e008cc64a4a9031138ecabae640dd93c16",
+    "group-scores.csv": "00179c93e053adc2387686a15df899ceff088e4b5e1357214a16dbbce1b8613d",
+    "prompts.json": "dfa0a5cdaca72a9fedd8ed880454199aecdaf1bf4426d8f1009c6f36b0b6d8c2",
+    "run-metadata.json": "17c8c228ff69b34730e4dc328192864aefa5aa1728af7ae258aba4ca82f7a801",
+    "scores.csv": "51ed797a9691597f5867c591d740e0add639e027a768c75e2707f74ccbcea8b0",
+    "summary.json": "1287d75f156c43e10e59dbd12145235aec84f0b49cd97aca1e229b2795937c97",
+    "token-manifest.json": "8dd09759953ab8d3bff7e862d5205dbaf8abdf0bd926756edbabd75dc94c5696"
+  }
+}

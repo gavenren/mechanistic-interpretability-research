@@ -1,0 +1,15 @@
+{
+  "byte_checks_passed": true,
+  "errors": {
+    "self_error": 0.0,
+    "stock_error": 0.0
+  },
+  "local_errors": {
+    "ablated_vector": 0.0,
+    "future_attention": 0.0,
+    "unchanged_attention": 0.0,
+    "untouched_output": 0.0
+  },
+  "no_op_prompt_count": 2048,
+  "status": "passed"
+}

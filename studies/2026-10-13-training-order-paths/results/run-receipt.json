@@ -1,0 +1,43 @@
+{
+  "completed_updates": 120000,
+  "cpu_threads": 2,
+  "dtype": "float64 training and evaluation",
+  "error": null,
+  "last_context": {
+    "condition": "reset",
+    "schedule": "ALT",
+    "seed": 8803,
+    "tail": 2000
+  },
+  "lock_commit": "c6ff9cb1405e6a65fe161c2f4cb471d51016bf4c",
+  "max_control_error": 1.7763568394002505e-15,
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "plan_sha256": "1e289ae280f8727e0387e132fbaf13986d92ab187b81a0dd56436741131d67f6",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "runner_sha256": "824a54a2ce002da716884bde7ec697bb3070d1c3599af63eb64df2ba627cb3e1",
+  "seconds": 51.53578033299709,
+  "seeds": [
+    1103,
+    2207,
+    3301,
+    4409,
+    5519,
+    6607,
+    7717,
+    8803
+  ],
+  "status": "complete",
+  "table_rows": {
+    "controls": 19344,
+    "intact": 4608,
+    "interventions": 198144,
+    "models": 144,
+    "selection": 4608,
+    "sets": 12384,
+    "train": 120000
+  }
+}
