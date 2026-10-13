@@ -1,0 +1,16 @@
+{
+  "double_value_swap_logit_error": 0.0,
+  "errors": {
+    "local_donor_vector": 0.0,
+    "past_values": 0.0,
+    "row_sum": 3.5762786865234375e-07,
+    "self_weight": 0.0,
+    "untouched_attention": 0.0,
+    "untouched_head_output": 0.0
+  },
+  "input_count": 96,
+  "same_query_route_logit_error": 0.0,
+  "status": "passed",
+  "stock_custom_logit_error": 0.0,
+  "zero_past_mass": 0
+}

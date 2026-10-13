@@ -1,0 +1,21 @@
+{
+  "arithmetic": "float64 operations with shared stock float32 rotary tables",
+  "cpu_threads": 2,
+  "elapsed_seconds": 90.32380091700179,
+  "human_review": false,
+  "lock_commit": "512fdba309df32aa3a98db59c65ec5d5d383635f",
+  "machine": "arm64",
+  "model_forward_calls": 14592,
+  "packages": {
+    "numpy": "2.3.5",
+    "safetensors": "0.6.2",
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "plan_sha256": "c152ba876ad48ea09e61bb5060edf0659907c506abb2f2021316aa86f25b9f96",
+  "python": "3.12.14",
+  "runner_sha256": "0de38fd5316a1681aa0becd246152e037775a4c8bfac729fd9a88853adc32f3b",
+  "scientific_condition_count": 1,
+  "status": "complete",
+  "system": "Darwin"
+}

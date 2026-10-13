@@ -1,0 +1,130 @@
+{
+  "all_heads": [
+    {
+      "calibration_score": -0.0009196299778864159,
+      "head": 0,
+      "layer": 0
+    },
+    {
+      "calibration_score": 5.78082920886421e-05,
+      "head": 1,
+      "layer": 0
+    },
+    {
+      "calibration_score": 3.0590296679527486e-05,
+      "head": 2,
+      "layer": 0
+    },
+    {
+      "calibration_score": -1.374012029972671e-05,
+      "head": 3,
+      "layer": 0
+    },
+    {
+      "calibration_score": 0.0004067928328060422,
+      "head": 0,
+      "layer": 1
+    },
+    {
+      "calibration_score": -0.000650099766919728,
+      "head": 1,
+      "layer": 1
+    },
+    {
+      "calibration_score": -0.0016613605999239538,
+      "head": 2,
+      "layer": 1
+    },
+    {
+      "calibration_score": 0.00015639152851084268,
+      "head": 3,
+      "layer": 1
+    },
+    {
+      "calibration_score": 0.0033749795552395767,
+      "head": 0,
+      "layer": 2
+    },
+    {
+      "calibration_score": 0.0004588688477132526,
+      "head": 1,
+      "layer": 2
+    },
+    {
+      "calibration_score": -0.0017886136628500182,
+      "head": 2,
+      "layer": 2
+    },
+    {
+      "calibration_score": 0.0009088951308816225,
+      "head": 3,
+      "layer": 2
+    },
+    {
+      "calibration_score": 0.01764307608633923,
+      "head": 0,
+      "layer": 3
+    },
+    {
+      "calibration_score": 0.5275144777018189,
+      "head": 1,
+      "layer": 3
+    },
+    {
+      "calibration_score": -0.0009744176779046635,
+      "head": 2,
+      "layer": 3
+    },
+    {
+      "calibration_score": 0.4550008733397893,
+      "head": 3,
+      "layer": 3
+    },
+    {
+      "calibration_score": 0.02318768183567954,
+      "head": 0,
+      "layer": 4
+    },
+    {
+      "calibration_score": 0.013414850162613826,
+      "head": 1,
+      "layer": 4
+    },
+    {
+      "calibration_score": 0.03399618451112474,
+      "head": 2,
+      "layer": 4
+    },
+    {
+      "calibration_score": 0.02733538150611518,
+      "head": 3,
+      "layer": 4
+    },
+    {
+      "calibration_score": 0.0014205913613830983,
+      "head": 0,
+      "layer": 5
+    },
+    {
+      "calibration_score": 0.004398998812196926,
+      "head": 1,
+      "layer": 5
+    },
+    {
+      "calibration_score": 0.008859351380690784,
+      "head": 2,
+      "layer": 5
+    },
+    {
+      "calibration_score": 0.03948519185353764,
+      "head": 3,
+      "layer": 5
+    }
+  ],
+  "rule": "maximum calibration binding-sensitive attention score",
+  "selected": {
+    "calibration_score": 0.5275144777018189,
+    "head": 1,
+    "layer": 3
+  }
+}

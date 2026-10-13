@@ -1,0 +1,16 @@
+{
+  "files": {
+    "attention-rows.npz": "5a435c1aef157c04933c7639d00c221573e5c674b61b343cb686beb4d6331e6b",
+    "baseline-groups.csv": "628813639a4e790414c6315f15ef82512f677a8c4fbbf8a62fdc7c9daf274b1c",
+    "baseline.csv": "5dd7c08ecae6c0aea169e2e8eb865be54951e7328ce58f7e49ad21739a431562",
+    "bootstrap.json": "a372109484c5838c9f4ae1476be25e206915b244afb536c44d28b5a5525acf62",
+    "controls.json": "92b3a133798990fd35c00e6dd78053b40a6813a19e7493e74b0482da77bd6ca4",
+    "head-groups.csv": "5fbe4cb680595a73f1ed466dfd3b79293ef1d2ec9a9c10d8de98530f79fe31db",
+    "head-summary.csv": "d73a794eeddb351fed6661f087d3ddb4682b9404b956b9499afa3baf85885e6a",
+    "interventions.csv": "5f5323c02ea0a9f0b23afd1d6e10d13b3661fa1c4e90616dbcba127dc06ab0e6",
+    "prompts.json": "7506cf69be4bdea9f6d579f31fb140caba96e2e92f8537f234ed76cd5dec8079",
+    "run-metadata.json": "7dd0f51c102d23d67e6e36d798414da83f38c3d790abe247bd1663d774892c83",
+    "selected-head.json": "0f668a8e29b654e7d8e07465141eab066e5e2b3c6340d23853f995a4804f53f0",
+    "token-manifest.json": "ae408b17da8d5cd95191a1ffc007c94dc5bb6a6e44a724ee25bc65c9b494b4d8"
+  }
+}

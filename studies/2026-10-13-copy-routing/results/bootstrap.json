@@ -1,0 +1,48 @@
+{
+  "clusters": 16,
+  "draws": 10000,
+  "head": {
+    "calibration_score": 0.5275144777018189,
+    "head": 1,
+    "layer": 3
+  },
+  "intervals": {
+    "attention_score": {
+      "lower": 0.5324281875068361,
+      "mean": 0.5955179507048645,
+      "upper": 0.6595678446862924
+    },
+    "baseline_score": {
+      "lower": 4.7870292499360705,
+      "mean": 5.317353180958889,
+      "upper": 5.860922251285713
+    },
+    "joint_change_from_baseline": {
+      "lower": -0.20709491167993596,
+      "mean": -0.10147109813988209,
+      "upper": 0.0007925164342546738
+    },
+    "joint_rescue_from_route": {
+      "lower": 4.909432573066442,
+      "mean": 5.780143739383979,
+      "upper": 6.698246172149084
+    },
+    "joint_rescue_from_value": {
+      "lower": 4.740045854342559,
+      "mean": 5.6412779047774775,
+      "upper": 6.588786065788978
+    },
+    "route_drop": {
+      "lower": 5.033906965895828,
+      "mean": 5.88161483752386,
+      "upper": 6.77017635826487
+    },
+    "value_drop": {
+      "lower": 4.875803536491974,
+      "mean": 5.74274900291736,
+      "upper": 6.658128902868096
+    }
+  },
+  "primary_pattern_supported": true,
+  "seed": 20261015
+}

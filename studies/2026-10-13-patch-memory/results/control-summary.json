@@ -1,0 +1,9 @@
+{
+  "cache_checks": 9216,
+  "exact_cache_tolerance": 0.0,
+  "failed_cache_checks": 0,
+  "failed_logit_checks": 0,
+  "logit_checks": 11072,
+  "maximum_logit_error": 3.75957043274866e-11,
+  "tolerance": 1e-08
+}

@@ -1,0 +1,34 @@
+{
+  "audit_sha256": "023e8a0f17e515919909511fdd457ab431f684742346d72981c75e6020db7712",
+  "baseline_rows": 768,
+  "elapsed_seconds": 2.1303075830001035,
+  "human_review": false,
+  "imports_runner": false,
+  "limit": "Other heads have full arithmetic checks but no independent intervention replay.",
+  "lock_commit": "512fdba309df32aa3a98db59c65ec5d5d383635f",
+  "maximum_errors": {
+    "all_intervention_formulas": 0.0,
+    "baseline_formulas": 0.0,
+    "baseline_groups": 0.0,
+    "bootstrap": 0.0,
+    "head_calibration": 0.0,
+    "head_groups": 0.0,
+    "head_summary": 0.0,
+    "patch_margins": 0.0,
+    "replayed_attention": 0.0,
+    "replayed_baseline_logits": 0.0,
+    "replayed_joint_logits": 0.0,
+    "replayed_route_logits": 0.0,
+    "replayed_value_logits": 0.0
+  },
+  "model_forward_calls": 60,
+  "replay_scope": "All baseline attention rows and all test interventions for the preselected head.",
+  "replayed_intervention_examples": 1152,
+  "selected_head": {
+    "calibration_score": 0.5275144777018189,
+    "head": 1,
+    "layer": 3
+  },
+  "status": "passed",
+  "table_rows": 9216
+}

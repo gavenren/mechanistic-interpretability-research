@@ -1,0 +1,2035 @@
+{
+  "cases": [
+    {
+      "case_id": 0,
+      "direction": 0,
+      "donor_id": 1,
+      "donor_token": 25872,
+      "frame": 0,
+      "receiver_id": 0,
+      "receiver_token": 30013,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 1,
+      "direction": 1,
+      "donor_id": 0,
+      "donor_token": 30013,
+      "frame": 0,
+      "receiver_id": 1,
+      "receiver_token": 25872,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 2,
+      "direction": 0,
+      "donor_id": 3,
+      "donor_token": 10617,
+      "frame": 0,
+      "receiver_id": 2,
+      "receiver_token": 5202,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 3,
+      "direction": 1,
+      "donor_id": 2,
+      "donor_token": 5202,
+      "frame": 0,
+      "receiver_id": 3,
+      "receiver_token": 10617,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 4,
+      "direction": 0,
+      "donor_id": 5,
+      "donor_token": 5340,
+      "frame": 0,
+      "receiver_id": 4,
+      "receiver_token": 5253,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 5,
+      "direction": 1,
+      "donor_id": 4,
+      "donor_token": 5253,
+      "frame": 0,
+      "receiver_id": 5,
+      "receiver_token": 5340,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 6,
+      "direction": 0,
+      "donor_id": 7,
+      "donor_token": 7537,
+      "frame": 0,
+      "receiver_id": 6,
+      "receiver_token": 5561,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 7,
+      "direction": 1,
+      "donor_id": 6,
+      "donor_token": 5561,
+      "frame": 0,
+      "receiver_id": 7,
+      "receiver_token": 7537,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 8,
+      "direction": 0,
+      "donor_id": 9,
+      "donor_token": 9711,
+      "frame": 0,
+      "receiver_id": 8,
+      "receiver_token": 5328,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 9,
+      "direction": 1,
+      "donor_id": 8,
+      "donor_token": 5328,
+      "frame": 0,
+      "receiver_id": 9,
+      "receiver_token": 9711,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 10,
+      "direction": 0,
+      "donor_id": 11,
+      "donor_token": 3402,
+      "frame": 0,
+      "receiver_id": 10,
+      "receiver_token": 3369,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 11,
+      "direction": 1,
+      "donor_id": 10,
+      "donor_token": 3369,
+      "frame": 0,
+      "receiver_id": 11,
+      "receiver_token": 3402,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 12,
+      "direction": 0,
+      "donor_id": 13,
+      "donor_token": 1854,
+      "frame": 0,
+      "receiver_id": 12,
+      "receiver_token": 3971,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 13,
+      "direction": 1,
+      "donor_id": 12,
+      "donor_token": 3971,
+      "frame": 0,
+      "receiver_id": 13,
+      "receiver_token": 1854,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 14,
+      "direction": 0,
+      "donor_id": 15,
+      "donor_token": 5448,
+      "frame": 0,
+      "receiver_id": 14,
+      "receiver_token": 3289,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 15,
+      "direction": 1,
+      "donor_id": 14,
+      "donor_token": 3289,
+      "frame": 0,
+      "receiver_id": 15,
+      "receiver_token": 5448,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 16,
+      "direction": 0,
+      "donor_id": 17,
+      "donor_token": 25872,
+      "frame": 1,
+      "receiver_id": 16,
+      "receiver_token": 30013,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 17,
+      "direction": 1,
+      "donor_id": 16,
+      "donor_token": 30013,
+      "frame": 1,
+      "receiver_id": 17,
+      "receiver_token": 25872,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 18,
+      "direction": 0,
+      "donor_id": 19,
+      "donor_token": 10617,
+      "frame": 1,
+      "receiver_id": 18,
+      "receiver_token": 5202,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 19,
+      "direction": 1,
+      "donor_id": 18,
+      "donor_token": 5202,
+      "frame": 1,
+      "receiver_id": 19,
+      "receiver_token": 10617,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 20,
+      "direction": 0,
+      "donor_id": 21,
+      "donor_token": 5340,
+      "frame": 1,
+      "receiver_id": 20,
+      "receiver_token": 5253,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 21,
+      "direction": 1,
+      "donor_id": 20,
+      "donor_token": 5253,
+      "frame": 1,
+      "receiver_id": 21,
+      "receiver_token": 5340,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 22,
+      "direction": 0,
+      "donor_id": 23,
+      "donor_token": 7537,
+      "frame": 1,
+      "receiver_id": 22,
+      "receiver_token": 5561,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 23,
+      "direction": 1,
+      "donor_id": 22,
+      "donor_token": 5561,
+      "frame": 1,
+      "receiver_id": 23,
+      "receiver_token": 7537,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 24,
+      "direction": 0,
+      "donor_id": 25,
+      "donor_token": 9711,
+      "frame": 1,
+      "receiver_id": 24,
+      "receiver_token": 5328,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 25,
+      "direction": 1,
+      "donor_id": 24,
+      "donor_token": 5328,
+      "frame": 1,
+      "receiver_id": 25,
+      "receiver_token": 9711,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 26,
+      "direction": 0,
+      "donor_id": 27,
+      "donor_token": 3402,
+      "frame": 1,
+      "receiver_id": 26,
+      "receiver_token": 3369,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 27,
+      "direction": 1,
+      "donor_id": 26,
+      "donor_token": 3369,
+      "frame": 1,
+      "receiver_id": 27,
+      "receiver_token": 3402,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 28,
+      "direction": 0,
+      "donor_id": 29,
+      "donor_token": 1854,
+      "frame": 1,
+      "receiver_id": 28,
+      "receiver_token": 3971,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 29,
+      "direction": 1,
+      "donor_id": 28,
+      "donor_token": 3971,
+      "frame": 1,
+      "receiver_id": 29,
+      "receiver_token": 1854,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 30,
+      "direction": 0,
+      "donor_id": 31,
+      "donor_token": 5448,
+      "frame": 1,
+      "receiver_id": 30,
+      "receiver_token": 3289,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 31,
+      "direction": 1,
+      "donor_id": 30,
+      "donor_token": 3289,
+      "frame": 1,
+      "receiver_id": 31,
+      "receiver_token": 5448,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 32,
+      "direction": 0,
+      "donor_id": 33,
+      "donor_token": 25872,
+      "frame": 2,
+      "receiver_id": 32,
+      "receiver_token": 30013,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 33,
+      "direction": 1,
+      "donor_id": 32,
+      "donor_token": 30013,
+      "frame": 2,
+      "receiver_id": 33,
+      "receiver_token": 25872,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 34,
+      "direction": 0,
+      "donor_id": 35,
+      "donor_token": 10617,
+      "frame": 2,
+      "receiver_id": 34,
+      "receiver_token": 5202,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 35,
+      "direction": 1,
+      "donor_id": 34,
+      "donor_token": 5202,
+      "frame": 2,
+      "receiver_id": 35,
+      "receiver_token": 10617,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 36,
+      "direction": 0,
+      "donor_id": 37,
+      "donor_token": 5340,
+      "frame": 2,
+      "receiver_id": 36,
+      "receiver_token": 5253,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 37,
+      "direction": 1,
+      "donor_id": 36,
+      "donor_token": 5253,
+      "frame": 2,
+      "receiver_id": 37,
+      "receiver_token": 5340,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 38,
+      "direction": 0,
+      "donor_id": 39,
+      "donor_token": 7537,
+      "frame": 2,
+      "receiver_id": 38,
+      "receiver_token": 5561,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 39,
+      "direction": 1,
+      "donor_id": 38,
+      "donor_token": 5561,
+      "frame": 2,
+      "receiver_id": 39,
+      "receiver_token": 7537,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 40,
+      "direction": 0,
+      "donor_id": 41,
+      "donor_token": 9711,
+      "frame": 2,
+      "receiver_id": 40,
+      "receiver_token": 5328,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 41,
+      "direction": 1,
+      "donor_id": 40,
+      "donor_token": 5328,
+      "frame": 2,
+      "receiver_id": 41,
+      "receiver_token": 9711,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 42,
+      "direction": 0,
+      "donor_id": 43,
+      "donor_token": 3402,
+      "frame": 2,
+      "receiver_id": 42,
+      "receiver_token": 3369,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 43,
+      "direction": 1,
+      "donor_id": 42,
+      "donor_token": 3369,
+      "frame": 2,
+      "receiver_id": 43,
+      "receiver_token": 3402,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 44,
+      "direction": 0,
+      "donor_id": 45,
+      "donor_token": 1854,
+      "frame": 2,
+      "receiver_id": 44,
+      "receiver_token": 3971,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 45,
+      "direction": 1,
+      "donor_id": 44,
+      "donor_token": 3971,
+      "frame": 2,
+      "receiver_id": 45,
+      "receiver_token": 1854,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 46,
+      "direction": 0,
+      "donor_id": 47,
+      "donor_token": 5448,
+      "frame": 2,
+      "receiver_id": 46,
+      "receiver_token": 3289,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 47,
+      "direction": 1,
+      "donor_id": 46,
+      "donor_token": 3289,
+      "frame": 2,
+      "receiver_id": 47,
+      "receiver_token": 5448,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 48,
+      "direction": 0,
+      "donor_id": 49,
+      "donor_token": 25872,
+      "frame": 3,
+      "receiver_id": 48,
+      "receiver_token": 30013,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 49,
+      "direction": 1,
+      "donor_id": 48,
+      "donor_token": 30013,
+      "frame": 3,
+      "receiver_id": 49,
+      "receiver_token": 25872,
+      "split": "calibration",
+      "word_pair": 0
+    },
+    {
+      "case_id": 50,
+      "direction": 0,
+      "donor_id": 51,
+      "donor_token": 10617,
+      "frame": 3,
+      "receiver_id": 50,
+      "receiver_token": 5202,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 51,
+      "direction": 1,
+      "donor_id": 50,
+      "donor_token": 5202,
+      "frame": 3,
+      "receiver_id": 51,
+      "receiver_token": 10617,
+      "split": "calibration",
+      "word_pair": 1
+    },
+    {
+      "case_id": 52,
+      "direction": 0,
+      "donor_id": 53,
+      "donor_token": 5340,
+      "frame": 3,
+      "receiver_id": 52,
+      "receiver_token": 5253,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 53,
+      "direction": 1,
+      "donor_id": 52,
+      "donor_token": 5253,
+      "frame": 3,
+      "receiver_id": 53,
+      "receiver_token": 5340,
+      "split": "calibration",
+      "word_pair": 2
+    },
+    {
+      "case_id": 54,
+      "direction": 0,
+      "donor_id": 55,
+      "donor_token": 7537,
+      "frame": 3,
+      "receiver_id": 54,
+      "receiver_token": 5561,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 55,
+      "direction": 1,
+      "donor_id": 54,
+      "donor_token": 5561,
+      "frame": 3,
+      "receiver_id": 55,
+      "receiver_token": 7537,
+      "split": "calibration",
+      "word_pair": 3
+    },
+    {
+      "case_id": 56,
+      "direction": 0,
+      "donor_id": 57,
+      "donor_token": 9711,
+      "frame": 3,
+      "receiver_id": 56,
+      "receiver_token": 5328,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 57,
+      "direction": 1,
+      "donor_id": 56,
+      "donor_token": 5328,
+      "frame": 3,
+      "receiver_id": 57,
+      "receiver_token": 9711,
+      "split": "test",
+      "word_pair": 4
+    },
+    {
+      "case_id": 58,
+      "direction": 0,
+      "donor_id": 59,
+      "donor_token": 3402,
+      "frame": 3,
+      "receiver_id": 58,
+      "receiver_token": 3369,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 59,
+      "direction": 1,
+      "donor_id": 58,
+      "donor_token": 3369,
+      "frame": 3,
+      "receiver_id": 59,
+      "receiver_token": 3402,
+      "split": "test",
+      "word_pair": 5
+    },
+    {
+      "case_id": 60,
+      "direction": 0,
+      "donor_id": 61,
+      "donor_token": 1854,
+      "frame": 3,
+      "receiver_id": 60,
+      "receiver_token": 3971,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 61,
+      "direction": 1,
+      "donor_id": 60,
+      "donor_token": 3971,
+      "frame": 3,
+      "receiver_id": 61,
+      "receiver_token": 1854,
+      "split": "test",
+      "word_pair": 6
+    },
+    {
+      "case_id": 62,
+      "direction": 0,
+      "donor_id": 63,
+      "donor_token": 5448,
+      "frame": 3,
+      "receiver_id": 62,
+      "receiver_token": 3289,
+      "split": "test",
+      "word_pair": 7
+    },
+    {
+      "case_id": 63,
+      "direction": 1,
+      "donor_id": 62,
+      "donor_token": 3289,
+      "frame": 3,
+      "receiver_id": 63,
+      "receiver_token": 5448,
+      "split": "test",
+      "word_pair": 7
+    }
+  ],
+  "prompts": [
+    {
+      "frame": 0,
+      "prompt_id": 0,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 30013,
+      "text": "The entry is fox. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        30013,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 0,
+      "prompt_id": 1,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 25872,
+      "text": "The entry is wolf. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        25872,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 0,
+      "prompt_id": 2,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5202,
+      "text": "The entry is tree. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5202,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 0,
+      "prompt_id": 3,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 10617,
+      "text": "The entry is leaf. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        10617,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 0,
+      "prompt_id": 4,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5253,
+      "text": "The entry is glass. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5253,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 0,
+      "prompt_id": 5,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 5340,
+      "text": "The entry is plate. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5340,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 0,
+      "prompt_id": 6,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5561,
+      "text": "The entry is rock. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5561,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 0,
+      "prompt_id": 7,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 7537,
+      "text": "The entry is sand. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        7537,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 0,
+      "prompt_id": 8,
+      "side": 0,
+      "split": "test",
+      "target_id": 5328,
+      "text": "The entry is gold. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5328,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 0,
+      "prompt_id": 9,
+      "side": 1,
+      "split": "test",
+      "target_id": 9711,
+      "text": "The entry is silver. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        9711,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 0,
+      "prompt_id": 10,
+      "side": 0,
+      "split": "test",
+      "target_id": 3369,
+      "text": "The entry is door. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        3369,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 0,
+      "prompt_id": 11,
+      "side": 1,
+      "split": "test",
+      "target_id": 3402,
+      "text": "The entry is wall. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        3402,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 0,
+      "prompt_id": 12,
+      "side": 0,
+      "split": "test",
+      "target_id": 3971,
+      "text": "The entry is road. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        3971,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 0,
+      "prompt_id": 13,
+      "side": 1,
+      "split": "test",
+      "target_id": 1854,
+      "text": "The entry is path. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        1854,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 0,
+      "prompt_id": 14,
+      "side": 0,
+      "split": "test",
+      "target_id": 3289,
+      "text": "The entry is fire. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        3289,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 0,
+      "prompt_id": 15,
+      "side": 1,
+      "split": "test",
+      "target_id": 5448,
+      "text": "The entry is wind. Copy the entry:",
+      "token_ids": [
+        510,
+        5857,
+        310,
+        5448,
+        15,
+        27671,
+        253,
+        5857,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 1,
+      "prompt_id": 16,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 30013,
+      "text": "The code is fox. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        30013,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 1,
+      "prompt_id": 17,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 25872,
+      "text": "The code is wolf. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        25872,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 1,
+      "prompt_id": 18,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5202,
+      "text": "The code is tree. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5202,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 1,
+      "prompt_id": 19,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 10617,
+      "text": "The code is leaf. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        10617,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 1,
+      "prompt_id": 20,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5253,
+      "text": "The code is glass. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5253,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 1,
+      "prompt_id": 21,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 5340,
+      "text": "The code is plate. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5340,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 1,
+      "prompt_id": 22,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5561,
+      "text": "The code is rock. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5561,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 1,
+      "prompt_id": 23,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 7537,
+      "text": "The code is sand. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        7537,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 1,
+      "prompt_id": 24,
+      "side": 0,
+      "split": "test",
+      "target_id": 5328,
+      "text": "The code is gold. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5328,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 1,
+      "prompt_id": 25,
+      "side": 1,
+      "split": "test",
+      "target_id": 9711,
+      "text": "The code is silver. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        9711,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 1,
+      "prompt_id": 26,
+      "side": 0,
+      "split": "test",
+      "target_id": 3369,
+      "text": "The code is door. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        3369,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 1,
+      "prompt_id": 27,
+      "side": 1,
+      "split": "test",
+      "target_id": 3402,
+      "text": "The code is wall. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        3402,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 1,
+      "prompt_id": 28,
+      "side": 0,
+      "split": "test",
+      "target_id": 3971,
+      "text": "The code is road. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        3971,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 1,
+      "prompt_id": 29,
+      "side": 1,
+      "split": "test",
+      "target_id": 1854,
+      "text": "The code is path. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        1854,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 1,
+      "prompt_id": 30,
+      "side": 0,
+      "split": "test",
+      "target_id": 3289,
+      "text": "The code is fire. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        3289,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 1,
+      "prompt_id": 31,
+      "side": 1,
+      "split": "test",
+      "target_id": 5448,
+      "text": "The code is wind. Copy the code:",
+      "token_ids": [
+        510,
+        2127,
+        310,
+        5448,
+        15,
+        27671,
+        253,
+        2127,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 2,
+      "prompt_id": 32,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 30013,
+      "text": "The password is fox. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        30013,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 2,
+      "prompt_id": 33,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 25872,
+      "text": "The password is wolf. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        25872,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 2,
+      "prompt_id": 34,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5202,
+      "text": "The password is tree. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5202,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 2,
+      "prompt_id": 35,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 10617,
+      "text": "The password is leaf. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        10617,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 2,
+      "prompt_id": 36,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5253,
+      "text": "The password is glass. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5253,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 2,
+      "prompt_id": 37,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 5340,
+      "text": "The password is plate. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5340,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 2,
+      "prompt_id": 38,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5561,
+      "text": "The password is rock. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5561,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 2,
+      "prompt_id": 39,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 7537,
+      "text": "The password is sand. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        7537,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 2,
+      "prompt_id": 40,
+      "side": 0,
+      "split": "test",
+      "target_id": 5328,
+      "text": "The password is gold. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5328,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 2,
+      "prompt_id": 41,
+      "side": 1,
+      "split": "test",
+      "target_id": 9711,
+      "text": "The password is silver. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        9711,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 2,
+      "prompt_id": 42,
+      "side": 0,
+      "split": "test",
+      "target_id": 3369,
+      "text": "The password is door. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        3369,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 2,
+      "prompt_id": 43,
+      "side": 1,
+      "split": "test",
+      "target_id": 3402,
+      "text": "The password is wall. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        3402,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 2,
+      "prompt_id": 44,
+      "side": 0,
+      "split": "test",
+      "target_id": 3971,
+      "text": "The password is road. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        3971,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 2,
+      "prompt_id": 45,
+      "side": 1,
+      "split": "test",
+      "target_id": 1854,
+      "text": "The password is path. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        1854,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 2,
+      "prompt_id": 46,
+      "side": 0,
+      "split": "test",
+      "target_id": 3289,
+      "text": "The password is fire. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        3289,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 2,
+      "prompt_id": 47,
+      "side": 1,
+      "split": "test",
+      "target_id": 5448,
+      "text": "The password is wind. Copy the password:",
+      "token_ids": [
+        510,
+        9868,
+        310,
+        5448,
+        15,
+        27671,
+        253,
+        9868,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 3,
+      "prompt_id": 48,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 30013,
+      "text": "The label is fox. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        30013,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 3,
+      "prompt_id": 49,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 25872,
+      "text": "The label is wolf. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        25872,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 0
+    },
+    {
+      "frame": 3,
+      "prompt_id": 50,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5202,
+      "text": "The label is tree. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5202,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 3,
+      "prompt_id": 51,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 10617,
+      "text": "The label is leaf. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        10617,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 1
+    },
+    {
+      "frame": 3,
+      "prompt_id": 52,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5253,
+      "text": "The label is glass. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5253,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 3,
+      "prompt_id": 53,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 5340,
+      "text": "The label is plate. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5340,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 2
+    },
+    {
+      "frame": 3,
+      "prompt_id": 54,
+      "side": 0,
+      "split": "calibration",
+      "target_id": 5561,
+      "text": "The label is rock. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5561,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 3,
+      "prompt_id": 55,
+      "side": 1,
+      "split": "calibration",
+      "target_id": 7537,
+      "text": "The label is sand. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        7537,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 3
+    },
+    {
+      "frame": 3,
+      "prompt_id": 56,
+      "side": 0,
+      "split": "test",
+      "target_id": 5328,
+      "text": "The label is gold. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5328,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 3,
+      "prompt_id": 57,
+      "side": 1,
+      "split": "test",
+      "target_id": 9711,
+      "text": "The label is silver. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        9711,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 4
+    },
+    {
+      "frame": 3,
+      "prompt_id": 58,
+      "side": 0,
+      "split": "test",
+      "target_id": 3369,
+      "text": "The label is door. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        3369,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 3,
+      "prompt_id": 59,
+      "side": 1,
+      "split": "test",
+      "target_id": 3402,
+      "text": "The label is wall. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        3402,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 5
+    },
+    {
+      "frame": 3,
+      "prompt_id": 60,
+      "side": 0,
+      "split": "test",
+      "target_id": 3971,
+      "text": "The label is road. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        3971,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 3,
+      "prompt_id": 61,
+      "side": 1,
+      "split": "test",
+      "target_id": 1854,
+      "text": "The label is path. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        1854,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 6
+    },
+    {
+      "frame": 3,
+      "prompt_id": 62,
+      "side": 0,
+      "split": "test",
+      "target_id": 3289,
+      "text": "The label is fire. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        3289,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 7
+    },
+    {
+      "frame": 3,
+      "prompt_id": 63,
+      "side": 1,
+      "split": "test",
+      "target_id": 5448,
+      "text": "The label is wind. Copy the label:",
+      "token_ids": [
+        510,
+        5203,
+        310,
+        5448,
+        15,
+        27671,
+        253,
+        5203,
+        27
+      ],
+      "word_pair": 7
+    }
+  ],
+  "suffix_text": " The record will be checked again after this",
+  "suffix_token_ids": [
+    380,
+    1924,
+    588,
+    320,
+    10141,
+    969,
+    846,
+    436
+  ],
+  "target_ids": [
+    [
+      30013,
+      25872
+    ],
+    [
+      5202,
+      10617
+    ],
+    [
+      5253,
+      5340
+    ],
+    [
+      5561,
+      7537
+    ],
+    [
+      5328,
+      9711
+    ],
+    [
+      3369,
+      3402
+    ],
+    [
+      3971,
+      1854
+    ],
+    [
+      3289,
+      5448
+    ]
+  ]
+}

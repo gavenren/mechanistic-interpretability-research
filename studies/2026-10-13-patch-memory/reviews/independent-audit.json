@@ -1,0 +1,32 @@
+{
+  "audit_sha256": "4ad774d0c8acb439437bad4f07fcfc451b9209a5b0391c2e4a6b9b3cf2cc53cd",
+  "baseline_rows": 576,
+  "condition": "double arithmetic with shared float32 rotary tables",
+  "control_tolerance": 1e-08,
+  "elapsed_seconds": 31.821152124997752,
+  "human_review": false,
+  "imports_runner": false,
+  "lock_commit": "512fdba309df32aa3a98db59c65ec5d5d383635f",
+  "maximum_errors": {
+    "baseline_target_logits": 2.1092017021828724e-11,
+    "calibration_means": 0.0,
+    "full_prefix_tv": 5.612142695010647e-13,
+    "group_maximum_tv": 0.0,
+    "group_mean_tv": 0.0,
+    "group_median_tv": 0.0,
+    "group_minimum_tv": 0.0,
+    "last_layer_future_full_logits": 0.0,
+    "margin_change": 1.13518083821873e-11,
+    "patched_target_logits": 2.1104451519704526e-11,
+    "primary": 0.0,
+    "relative_norm": 0.0,
+    "residual_norm": 0.0,
+    "saved_post_block_vectors": 0.0,
+    "selected_test_tv": 0.0,
+    "uniform_mean": 0.0
+  },
+  "model_forward_calls": 4096,
+  "replay": "full prefixes without a key-value cache",
+  "score_rows": 3456,
+  "status": "passed"
+}
