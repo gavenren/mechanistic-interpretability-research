@@ -57,6 +57,12 @@ A spike can send a message and reset its own stored voltage. Removing only the m
 
 A positive average can contain losses. Read each direction of a comparison and the error that remains. A good task score and a better selection rule do not establish a complete explanation.
 
+## Check what a coarse output measure leaves out
+
+The [flow study](../studies/2026-10-13-flow-unit-ranking/paper.md) counts generated points in four quadrants. A point can move within one quadrant without changing this count. Two points can cross in opposite directions and leave the total counts unchanged. Thus quadrant-frequency TV does not measure every change in the generated distribution.
+
+All four models passed that coarse frequency check but failed the density-fit check. A good score on one measure does not establish a good fit on another. A larger effect after a unit removal also does not mean better generated samples.
+
 ## Check the evidence record
 
 Each completed study links its fixed plan, source record, code, results, and calculation review. The review can check the arithmetic and repeat model interventions. Its record states the work that was actually repeated. A review of saved models is different from repeating their training.

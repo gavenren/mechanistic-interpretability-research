@@ -1,0 +1,71 @@
+{
+  "train_x": {
+    "shape": [
+      16384,
+      2
+    ],
+    "dtype": "float64",
+    "sha256": "89acdfaa38edaa07f3b44b6c86d4630fa0c40f3fe9a3df804ef4856c06dbafd7"
+  },
+  "train_x_components": {
+    "shape": [
+      16384
+    ],
+    "dtype": "int64",
+    "sha256": "ea82c0c01146fb6a324d094c4e9a1d28410fb62d8d3e162a027b668efa3dcf6e"
+  },
+  "cal_x": {
+    "shape": [
+      4096,
+      2
+    ],
+    "dtype": "float64",
+    "sha256": "9e07c888789223c97357a99b3ec95053172169bc51cb0071c4d8187e4efa600d"
+  },
+  "cal_x_components": {
+    "shape": [
+      4096
+    ],
+    "dtype": "int64",
+    "sha256": "8685b1c9ab70c9268379c8bd11314c2a1c3b217be3fcbdcc17729357c94b23ef"
+  },
+  "test_x": {
+    "shape": [
+      8192,
+      2
+    ],
+    "dtype": "float64",
+    "sha256": "035ea4081daf61f0ac58150be34d2eda42446b858d07990098fcfdb49bb926c8"
+  },
+  "test_x_components": {
+    "shape": [
+      8192
+    ],
+    "dtype": "int64",
+    "sha256": "6c3481f6124f81fd8d05cc507b61860d80f5ead24885911680bbd0adee0574d6"
+  },
+  "cal_z": {
+    "shape": [
+      16384,
+      2
+    ],
+    "dtype": "float64",
+    "sha256": "074b6d1c82034886e496e423313268337f272293d2b0c9aa124e3849e7c4f762"
+  },
+  "test_z": {
+    "shape": [
+      32768,
+      2
+    ],
+    "dtype": "float64",
+    "sha256": "a76eae171be7881b6bceab7b44939ac36ac8a686c7e1130821fce3ea701902c0"
+  },
+  "batch_ids": {
+    "shape": [
+      4000,
+      256
+    ],
+    "dtype": "int32",
+    "sha256": "26401ea0a5d3a0218f18a19f454e0bcba172e24dd5ac925eb27f75fc5741307e"
+  }
+}

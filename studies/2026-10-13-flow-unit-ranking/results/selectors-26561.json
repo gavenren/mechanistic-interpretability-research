@@ -1,0 +1,9 @@
+{
+  "seed": 26561,
+  "selectors": {
+    "L": 80,
+    "M": 78
+  },
+  "test_model_calls_started": false,
+  "calibration_scores_sha256": "d5fb2f5c9e3d125744620a959df70e19cb97bc6f2ef74a6e49fcc183cdc4039a"
+}
