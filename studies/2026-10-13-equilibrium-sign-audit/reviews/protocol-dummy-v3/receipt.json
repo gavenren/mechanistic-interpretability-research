@@ -1,0 +1,205 @@
+{
+  "cases": [
+    {
+      "certificate_calls": 2,
+      "certificate_examples": 2,
+      "certified_reversal": false,
+      "exact_effect": "1/2",
+      "extra_updates": 1,
+      "naive": 0.0,
+      "name": "positive",
+      "ordinary_map_calls": 2,
+      "ordinary_map_examples": 2,
+      "refinement_rows": 2,
+      "status": "positive"
+    },
+    {
+      "certificate_calls": 2,
+      "certificate_examples": 2,
+      "certified_reversal": false,
+      "exact_effect": "-1/2",
+      "extra_updates": 1,
+      "naive": 0.0,
+      "name": "negative",
+      "ordinary_map_calls": 2,
+      "ordinary_map_examples": 2,
+      "refinement_rows": 2,
+      "status": "negative"
+    },
+    {
+      "certificate_calls": 1,
+      "certificate_examples": 1,
+      "certified_reversal": false,
+      "exact_effect": "0",
+      "extra_updates": 0,
+      "naive": 0.0,
+      "name": "small",
+      "ordinary_map_calls": 0,
+      "ordinary_map_examples": 0,
+      "refinement_rows": 1,
+      "status": "small"
+    },
+    {
+      "certificate_calls": 1,
+      "certificate_examples": 1,
+      "certified_reversal": false,
+      "exact_effect": "1",
+      "extra_updates": 0,
+      "naive": 0.0,
+      "name": "cap",
+      "ordinary_map_calls": 0,
+      "ordinary_map_examples": 0,
+      "refinement_rows": 1,
+      "status": "unresolved"
+    },
+    {
+      "certificate_calls": 129,
+      "certificate_examples": 129,
+      "certified_reversal": false,
+      "exact_effect": "1152921504606847/1152921504606848",
+      "extra_updates": 128,
+      "naive": 0.0,
+      "name": "full_cap",
+      "ordinary_map_calls": 256,
+      "ordinary_map_examples": 256,
+      "refinement_rows": 129,
+      "status": "unresolved"
+    },
+    {
+      "certificate_calls": 13,
+      "certificate_examples": 13,
+      "certified_reversal": true,
+      "exact_effect": "1",
+      "extra_updates": 12,
+      "naive": -100.0,
+      "name": "reversal",
+      "ordinary_map_calls": 24,
+      "ordinary_map_examples": 24,
+      "refinement_rows": 13,
+      "status": "positive"
+    }
+  ],
+  "code_sha256": {
+    "code/check_intervals.py": "73e0f4294e1f0da0dd93e93167b969e6314528c4cfd385384a8961e4825545a3",
+    "code/check_protocol.py": "52289be2788b63e2f07940bbed12308faf6cb51b00abc87e37c7a35d69d5b402",
+    "code/dummy_timing.py": "568ba011b26ea6ce1b568063b5e9603f822bf6e99e8c1e225be9a1c36445fd1f",
+    "code/intervals.py": "0bb5a0275fc645f65dcf6a619b8e0bd6eb217e7fef3b5470bedb1e6d434783ca",
+    "code/model.py": "028071ecd3a792910e986a3a9e212a32287e660b0678a15c05e7101f82a2644b",
+    "code/protocol.py": "a5884b49cf462129585bc3670ab8e964e2ab4e52f536be12e2125951e0ed3922",
+    "code/review_interval_checks.py": "883e9453bc0089b5cb6fa0d5eb7691f8747dfcdf59a70da2c3bcd05520c56dab",
+    "code/run.py": "5193f58f11c7e1fcb7c1352e66318d6f7d278550982e0dba547e6eb731264692"
+  },
+  "control_rows": 383,
+  "elapsed_seconds": 1.9432173329987563,
+  "full_dummy_training_updates": 4,
+  "numpy": "2.3.5",
+  "plan_sha256": "01703bd5d11172898c1ab6b6935d019cc3d1c0920a3af46dccf8a7cfbecfe015",
+  "real_shapes": {
+    "ability_gate_passed": false,
+    "bins": [
+      {
+        "bin": "zero",
+        "count": 1939,
+        "final_counts": {
+          "negative": 0,
+          "positive": 0,
+          "small": 1939,
+          "unresolved": 0
+        },
+        "final_width_mean": 9.539799064848241e-08,
+        "initial_width_mean": 0.04986123813249247,
+        "ordinary_mean": 0.0
+      },
+      {
+        "bin": "(0,1e-7]",
+        "count": 0,
+        "final_counts": {
+          "negative": 0,
+          "positive": 0,
+          "small": 0,
+          "unresolved": 0
+        },
+        "final_width_mean": null,
+        "initial_width_mean": null,
+        "ordinary_mean": null
+      },
+      {
+        "bin": "(1e-7,1e-5]",
+        "count": 33,
+        "final_counts": {
+          "negative": 0,
+          "positive": 2,
+          "small": 31,
+          "unresolved": 0
+        },
+        "final_width_mean": 1.5157321794576143e-06,
+        "initial_width_mean": 0.03722896933547617,
+        "ordinary_mean": 7.084754983157721e-07
+      },
+      {
+        "bin": "(1e-5,1e-3]",
+        "count": 83,
+        "final_counts": {
+          "negative": 35,
+          "positive": 37,
+          "small": 11,
+          "unresolved": 0
+        },
+        "final_width_mean": 0.0002557395420744082,
+        "initial_width_mean": 0.05341006324040206,
+        "ordinary_mean": -7.896534451812596e-05
+      },
+      {
+        "bin": "above 1e-3",
+        "count": 1785,
+        "final_counts": {
+          "negative": 936,
+          "positive": 849,
+          "small": 0,
+          "unresolved": 0
+        },
+        "final_width_mean": 0.019445222719678523,
+        "initial_width_mean": 0.04895645068608888,
+        "ordinary_mean": 0.0013780794677148095
+      }
+    ],
+    "certificate_calls": 11,
+    "certificate_examples": 17875,
+    "certificate_map_examples": 35617,
+    "certificate_map_passes": 20,
+    "certified_sign_reversals": 2,
+    "certified_top_class": 133,
+    "effect_bound_requests": 9,
+    "effects": 3840,
+    "extra_paired_updates": 13902,
+    "final_counts": {
+      "negative": 971,
+      "positive": 888,
+      "small": 1981,
+      "unresolved": 0
+    },
+    "first_update_accuracy": 0.09022556390977443,
+    "first_update_disagreement": 0.06015037593984962,
+    "full_logit_bound_requests": 2,
+    "full_test_accuracy": 0.09774436090225563,
+    "input_affine_enclosure_calls": 3,
+    "input_affine_enclosure_examples": 253,
+    "nonzero_ordinary": 1901,
+    "ordinary_map_calls": 220,
+    "ordinary_map_examples": 48709,
+    "ordinary_zero": 1939,
+    "panel_accuracy": 0.09166666666666666,
+    "primary_fraction": 0.5602314571278275,
+    "q_upper": 0.8750000000000026,
+    "refinement_rows": 17742,
+    "seed": 99073,
+    "unresolved_all": 3004,
+    "unresolved_all_fraction": 0.7822916666666667,
+    "unresolved_nonzero": 1065,
+    "zero_state_accuracy": 0.10526315789473684,
+    "zero_state_disagreement": 0.9548872180451128
+  },
+  "scientific_model_outputs_collected": false,
+  "status": "passed",
+  "torch": "2.8.0"
+}

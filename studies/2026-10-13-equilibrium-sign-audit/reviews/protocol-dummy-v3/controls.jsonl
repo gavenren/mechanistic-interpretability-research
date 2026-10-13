@@ -1,0 +1,383 @@
+{"name": "stop_rule_priority", "passed": true, "evidence": ["positive", "negative", "small", "unresolved"]}
+{"name": "zero_primary_denominator", "passed": true, "evidence": null}
+{"name": "nonzero_primary_denominator", "passed": true, "evidence": {"nonzero_ordinary": 3, "unresolved_nonzero": 2, "primary_fraction": 0.6666666666666666, "effects": 4, "ordinary_zero": 1, "unresolved_all": 3, "unresolved_all_fraction": 0.75}}
+{"name": "reversal_only_certified", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 1, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 1, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_positive", "passed": true, "evidence": {"status": "positive", "steps": 1}}
+{"name": "exact_effect_containment_positive_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_positive_final", "passed": true, "evidence": null}
+{"name": "known_reversal_positive", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 1, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 1, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_negative", "passed": true, "evidence": {"status": "negative", "steps": 1}}
+{"name": "exact_effect_containment_negative_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_negative_final", "passed": true, "evidence": null}
+{"name": "known_reversal_negative", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_small", "passed": true, "evidence": {"status": "small", "steps": 0}}
+{"name": "exact_effect_containment_small_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_small_final", "passed": true, "evidence": null}
+{"name": "known_reversal_small", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_cap", "passed": true, "evidence": {"status": "unresolved", "steps": 0}}
+{"name": "exact_effect_containment_cap_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_cap_final", "passed": true, "evidence": null}
+{"name": "known_reversal_cap", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 1, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 1, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 2, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 2, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 3, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 3, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 4, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 4, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 5, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 5, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 6, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 6, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 7, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 7, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 8, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 8, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 9, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 9, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 10, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 10, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 11, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 11, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 12, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 12, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 13, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 13, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 14, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 14, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 15, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 15, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 16, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 16, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 17, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 17, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 18, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 18, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 19, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 19, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 20, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 20, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 21, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 21, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 22, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 22, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 23, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 23, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 24, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 24, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 25, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 25, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 26, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 26, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 27, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 27, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 28, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 28, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 29, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 29, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 30, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 30, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 31, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 31, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 32, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 32, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 33, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 33, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 34, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 34, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 35, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 35, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 36, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 36, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 37, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 37, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 38, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 38, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 39, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 39, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 40, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 40, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 41, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 41, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 42, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 42, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 43, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 43, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 44, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 44, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 45, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 45, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 46, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 46, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 47, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 47, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 48, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 48, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 49, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 49, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 50, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 50, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 51, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 51, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 52, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 52, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 53, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 53, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 54, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 54, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 55, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 55, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 56, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 56, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 57, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 57, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 58, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 58, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 59, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 59, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 60, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 60, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 61, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 61, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 62, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 62, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 63, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 63, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 64, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 64, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 65, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 65, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 66, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 66, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 67, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 67, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 68, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 68, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 69, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 69, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 70, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 70, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 71, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 71, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 72, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 72, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 73, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 73, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 74, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 74, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 75, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 75, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 76, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 76, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 77, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 77, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 78, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 78, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 79, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 79, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 80, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 80, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 81, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 81, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 82, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 82, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 83, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 83, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 84, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 84, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 85, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 85, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 86, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 86, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 87, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 87, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 88, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 88, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 89, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 89, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 90, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 90, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 91, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 91, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 92, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 92, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 93, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 93, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 94, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 94, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 95, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 95, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 96, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 96, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 97, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 97, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 98, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 98, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 99, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 99, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 100, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 100, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 101, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 101, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 102, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 102, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 103, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 103, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 104, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 104, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 105, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 105, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 106, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 106, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 107, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 107, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 108, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 108, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 109, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 109, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 110, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 110, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 111, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 111, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 112, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 112, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 113, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 113, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 114, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 114, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 115, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 115, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 116, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 116, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 117, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 117, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 118, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 118, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 119, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 119, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 120, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 120, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 121, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 121, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 122, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 122, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 123, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 123, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 124, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 124, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 125, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 125, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 126, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 126, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 127, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 127, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 128, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 128, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_full_cap", "passed": true, "evidence": {"status": "unresolved", "steps": 128}}
+{"name": "exact_effect_containment_full_cap_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_full_cap_final", "passed": true, "evidence": null}
+{"name": "known_reversal_full_cap", "passed": true, "evidence": null}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 1, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 1, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 2, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 2, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 3, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 3, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 4, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 4, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 5, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 5, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 6, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 6, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 7, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 7, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 8, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 8, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 9, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 9, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 10, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 10, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 11, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 11, "pairs": 1, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 12, "error": 0.0, "pairs": 1}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 12, "pairs": 1, "failed_pairs": []}}
+{"name": "known_stop_reversal", "passed": true, "evidence": {"status": "positive", "steps": 12}}
+{"name": "exact_effect_containment_reversal_initial", "passed": true, "evidence": null}
+{"name": "exact_effect_containment_reversal_final", "passed": true, "evidence": null}
+{"name": "known_reversal_reversal", "passed": true, "evidence": null}
+{"name": "finite_training_loss", "passed": true, "evidence": {"seed": 99073, "epoch": 0, "batch": 0, "loss": 2.3104748764979988}}
+{"name": "finite_parameters", "passed": true, "evidence": {"seed": 99073, "epoch": 0, "batch": 0}}
+{"name": "finite_training_loss", "passed": true, "evidence": {"seed": 99073, "epoch": 0, "batch": 1, "loss": 2.3105486942560702}}
+{"name": "finite_parameters", "passed": true, "evidence": {"seed": 99073, "epoch": 0, "batch": 1}}
+{"name": "finite_training_loss", "passed": true, "evidence": {"seed": 99073, "epoch": 1, "batch": 0, "loss": 2.2987914386752992}}
+{"name": "finite_parameters", "passed": true, "evidence": {"seed": 99073, "epoch": 1, "batch": 0}}
+{"name": "finite_training_loss", "passed": true, "evidence": {"seed": 99073, "epoch": 1, "batch": 1, "loss": 2.310007903803786}}
+{"name": "finite_parameters", "passed": true, "evidence": {"seed": 99073, "epoch": 1, "batch": 1}}
+{"name": "contraction", "passed": true, "evidence": {"seed": 99073, "q_upper": 0.8750000000000026}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 0, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 1, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 2, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 3, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 4, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 5, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 6, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 7, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 8, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 9, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 10, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 11, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 12, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 13, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 14, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 15, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 16, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 17, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 18, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 19, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 20, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 21, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 22, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 23, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 24, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 25, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 26, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 27, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 28, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 29, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 30, "error": 0.0}}
+{"name": "coarse_clamp_zero", "passed": true, "evidence": {"seed": 99073, "condition": 31, "error": 0.0}}
+{"name": "repeated_intact_solve", "passed": true, "evidence": {"seed": 99073, "error": 0.0}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 0, "pairs": 3840, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 1, "error": 0.0, "pairs": 3004}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 1, "pairs": 3004, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 2, "error": 0.0, "pairs": 2208}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 2, "pairs": 2208, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 3, "error": 0.0, "pairs": 2021}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 3, "pairs": 2021, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 4, "error": 0.0, "pairs": 1987}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 4, "pairs": 1987, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 5, "error": 0.0, "pairs": 1982}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 5, "pairs": 1982, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 6, "error": 0.0, "pairs": 1946}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 6, "pairs": 1946, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 7, "error": 0.0, "pairs": 712}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 7, "pairs": 712, "failed_pairs": []}}
+{"name": "refined_clamp_zero", "passed": true, "evidence": {"step": 8, "error": 0.0, "pairs": 42}}
+{"name": "successive_intersection", "passed": true, "evidence": {"step": 8, "pairs": 42, "failed_pairs": []}}
+{"name": "unchanged_coefficients", "passed": true, "evidence": {"seed": 99073, "before": "38456ca4f03c013861c1f8ea0ffec11262c6db02edffb8be44ea41d405cc5e9a", "after": "38456ca4f03c013861c1f8ea0ffec11262c6db02edffb8be44ea41d405cc5e9a"}}
+{"name": "output_counts", "passed": true, "evidence": {"seed": 99073, "test_rows": 133, "effects": 3840}}
+{"name": "real_shape_counts", "passed": true, "evidence": {"training_shapes": [128, 111], "test_shapes": [128, 5], "panel": 120, "pairs": 3840, "training_updates": 4}}
+{"name": "partial_state_on_failure", "passed": true, "evidence": null}
+{"name": "existing_output_refused", "passed": true, "evidence": null}
+{"name": "time_limit_enforced", "passed": true, "evidence": null}

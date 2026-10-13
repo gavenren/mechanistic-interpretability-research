@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "scientific_model_outputs_collected": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.8.0",
+  "code_sha256": {
+    "intervals.py": "0bb5a0275fc645f65dcf6a619b8e0bd6eb217e7fef3b5470bedb1e6d434783ca",
+    "check_intervals.py": "73e0f4294e1f0da0dd93e93167b969e6314528c4cfd385384a8961e4825545a3",
+    "model.py": "028071ecd3a792910e986a3a9e212a32287e660b0678a15c05e7101f82a2644b",
+    "dummy_timing.py": "568ba011b26ea6ce1b568063b5e9603f822bf6e99e8c1e225be9a1c36445fd1f"
+  },
+  "training_shapes": [
+    128,
+    111
+  ],
+  "training_updates": 20,
+  "training_examples": 2390,
+  "test_shapes": [
+    128,
+    5
+  ],
+  "panel_rows": 120,
+  "coarse_conditions": 33,
+  "pair_batch": 3840,
+  "training_seconds": 0.06956045799597632,
+  "test_seconds": 0.0018174580036429688,
+  "panel_seconds": 0.008403375002671964,
+  "certificate_3840_seconds": 0.18290594999998575,
+  "paired_update_3840_seconds": 0.0008404125001106877,
+  "full_certificate_128_seconds": 0.01577591700333869,
+  "projected_seconds_2x_with_all_pairs_at_cap": 227.38195024590223,
+  "elapsed_seconds": 1.7666010829998413,
+  "q_upper": 0.8750000000000026,
+  "interval_endpoints_finite": true
+}

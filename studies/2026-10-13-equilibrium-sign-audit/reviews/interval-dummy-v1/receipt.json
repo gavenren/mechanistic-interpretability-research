@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "scientific_model_outputs_collected": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "interval_code_sha256": "0bb5a0275fc645f65dcf6a619b8e0bd6eb217e7fef3b5470bedb1e6d434783ca",
+  "check_code_sha256": "73e0f4294e1f0da0dd93e93167b969e6314528c4cfd385384a8961e4825545a3",
+  "checks": 1697,
+  "exact_affine_values": 360,
+  "initial_unresolved": 12,
+  "additional_updates": 73,
+  "cases": [
+    {
+      "name": "feedforward",
+      "removed": 0,
+      "exact_effect": "1/2",
+      "lower": 0.4999999999999995,
+      "upper": 0.5000000000000009,
+      "additional_updates": 1
+    },
+    {
+      "name": "feedforward",
+      "removed": 1,
+      "exact_effect": "0",
+      "lower": -3.330669073875475e-16,
+      "upper": 3.330669073875475e-16,
+      "additional_updates": 1
+    },
+    {
+      "name": "linear",
+      "removed": 0,
+      "exact_effect": "35/37",
+      "lower": 0.40624999999999767,
+      "upper": 1.1562500000000024,
+      "additional_updates": 2
+    },
+    {
+      "name": "linear",
+      "removed": 1,
+      "exact_effect": "-80/111",
+      "lower": -1.1062500000000028,
+      "upper": -0.4562499999999974,
+      "additional_updates": 2
+    },
+    {
+      "name": "slow",
+      "removed": 0,
+      "exact_effect": "1",
+      "lower": 0.09021409600971984,
+      "upper": 1.3084703013301013,
+      "additional_updates": 9
+    },
+    {
+      "name": "slow",
+      "removed": 1,
+      "exact_effect": "-1/2",
+      "lower": -0.97226071869048,
+      "upper": -0.02772402252045769,
+      "additional_updates": 16
+    },
+    {
+      "name": "inactive",
+      "removed": 0,
+      "exact_effect": "2/3",
+      "lower": 0.0999999999999983,
+      "upper": 0.900000000000002,
+      "additional_updates": 1
+    },
+    {
+      "name": "inactive",
+      "removed": 1,
+      "exact_effect": "0",
+      "lower": -4.768371724139806e-08,
+      "upper": 4.768371724139806e-08,
+      "additional_updates": 13
+    },
+    {
+      "name": "cancel",
+      "removed": 0,
+      "exact_effect": "1",
+      "lower": 0.11879958374809872,
+      "upper": 1.5287202497511472,
+      "additional_updates": 13
+    },
+    {
+      "name": "cancel",
+      "removed": 1,
+      "exact_effect": "-1",
+      "lower": -1.5287202497511487,
+      "upper": -0.11879958374809706,
+      "additional_updates": 13
+    },
+    {
+      "name": "zero_readout",
+      "removed": 0,
+      "exact_effect": "0",
+      "lower": -4.4e-323,
+      "upper": 4.4e-323,
+      "additional_updates": 1
+    },
+    {
+      "name": "zero_readout",
+      "removed": 1,
+      "exact_effect": "0",
+      "lower": -4e-323,
+      "upper": 4e-323,
+      "additional_updates": 1
+    }
+  ],
+  "elapsed_seconds": 2.225687749996723
+}
