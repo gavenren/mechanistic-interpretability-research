@@ -38,6 +38,12 @@ The repository contains fifteen empirical studies and one separate narrative rev
 
 A one-page summary of the review is available as [text](REVIEW_SUMMARY.md) and a [PDF](../output/pdf/REVIEW_SUMMARY.pdf). It uses the review at commit `a12ee80743d5f222f0cd29c86933d9167c2fda76`. A [separate AI text review](reviews/REVIEW_SUMMARY_REVIEW.md) checks the summary. The PDF has one page and received a visual layout check. This summary adds no experiment or new research claim.
 
+## Proposed research plan
+
+The [ordered research plan](RESEARCH_PLAN.md) turns the review into six experiments after a preparation stage. It states proposed success rules, dependencies, failure outcomes, and compute limits. The [compute budget](RESEARCH_COMPUTE_BUDGET.csv) totals an estimated 8.25–32.5 elapsed CPU hours if all branches run, with a 47-hour cap. These are planning amounts, not measured runtimes or a promise of scientific success. A [separate AI review](reviews/RESEARCH_PLAN_REVIEW.md) checks the plan.
+
+No experiment in this plan has started. Each stage requires its own fixed execution plan and controls before final results. Existing empirical papers and results remain unchanged. Automatic research remains paused.
+
 ## Current state
 
 All fifteen completed studies have complete experiments, papers, saved results, and independent AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.

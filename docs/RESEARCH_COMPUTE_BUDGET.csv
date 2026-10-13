@@ -1,0 +1,8 @@
+stage,name,estimated_elapsed_cpu_hours_low,estimated_elapsed_cpu_hours_high,hard_cap_elapsed_cpu_hours,language_forwarded_token_cap_including_replay,default_compute_threads,ram_allowance_gb,shared_disk_allowance_gb,dependency,estimate_status
+0,Preparation runs,0.25,0.5,1,0,2,16,20,None,planning assumption; not a measured runtime
+1,Task ability,0.5,2,4,0,2,16,20,0,planning assumption; not a measured runtime
+2,Intended and unwanted effects,0.25,1,2,0,2,16,20,0; graph branch requires 1,planning assumption; not a measured runtime
+3,Transfer,3,12,16,16000000,2,16,20,0; scheduled after cheaper work,planning assumption; not a measured runtime
+4,Future use and replacement,3.5,14,18,16000000,2,16,20,Register branch 1; language branch 3,planning assumption; not a measured runtime
+5,Numerical reliability,0.25,1,2,0,2,16,20,0; saved Study 15 models,planning assumption; not a measured runtime
+6,External repeat package,0.5,2,4,0,2,16,20,2 and 5; external participation,planning assumption; not a measured runtime
