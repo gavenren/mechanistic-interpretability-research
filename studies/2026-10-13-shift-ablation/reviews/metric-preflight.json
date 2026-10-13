@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scientific_model_outputs_collected": false,
+  "source": "fixed random dummy logits only",
+  "seed": 19523,
+  "shape": [
+    5,
+    9,
+    20,
+    10
+  ],
+  "primary_metric_absolute_error": 9.992007221626409e-16,
+  "controls": [
+    {
+      "name": "probability_row_sum",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "triangle_inequality_excess",
+      "error": 0.0,
+      "tolerance": 1e-12
+    }
+  ],
+  "runner_sha256_at_check": "cdcca39598a50303bc6ef93330e893ef6d75b7b6a35f68509152e91aa9732783"
+}

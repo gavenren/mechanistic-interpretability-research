@@ -1,0 +1,58 @@
+{
+  "calls": 566,
+  "control_maxima": {
+    "ablated_channel_zero": 0.0,
+    "augmentation_matches_scalar_roll": 0.0,
+    "first_features_shift": 8.344650268554688e-07,
+    "four_pixel_logits": 3.3527612686157227e-07,
+    "no_op_logits": 0.0,
+    "stride_one_logits": 1.1920928955078125e-07,
+    "untouched_channels": 0.0
+  },
+  "control_rows": 1193,
+  "data_hashes": {
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd"
+  },
+  "deterministic": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "dummy_evaluation_seconds": [
+    0.22285433299839497,
+    0.7204312079993542
+  ],
+  "dummy_train_seconds": [
+    1.2210591669936548,
+    0.9602848750000703
+  ],
+  "dummy_updates": 60,
+  "elapsed_seconds": 5.56553658300254,
+  "evaluation_batch_sizes": [
+    128,
+    5
+  ],
+  "examples": 68764,
+  "initial_parameter_hashes_equal": true,
+  "lock_commit": null,
+  "mkldnn": false,
+  "mode": "dummy",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.8.0"
+  },
+  "plan_sha256": "686db9e18d8f06aa3bdac96a60e63733c5b42904a96500900f1e92aac2f8f8c7",
+  "probability_dtype": "numpy float64",
+  "projected_seconds_with_2x_safety": 462.2093116387259,
+  "projection_note": "Twice the linear projection from actual dummy train/evaluation batches; this is an estimate.",
+  "python": "3.12.14",
+  "random_dummy_inputs": 239,
+  "runner_sha256": "5f127fa13e4b806f2fb641b6af4874ccb427b65569ed75c2b6117ff9bc2d60b2",
+  "scientific_evaluation_calls": 20640,
+  "scientific_model_outputs_collected": false,
+  "scientific_training_updates": 4800,
+  "threads": 2,
+  "training_batch_sizes": [
+    128,
+    111
+  ]
+}
