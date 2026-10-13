@@ -1,0 +1,32 @@
+{
+  "ablation_outputs": 1213632,
+  "control_rows": 1188,
+  "dtype": "float64",
+  "elapsed_seconds": 36.16160916700028,
+  "group_score_rows": 64800,
+  "intact_outputs": 262144,
+  "lock_commit": "782dc2c8d73a3fa9e67a03c8cbd394a5548d9bf9",
+  "locked_sha256": {
+    "analysis-plan.md": "4b59042f2f97da9920fc0fc2232a1fe61e5490de9e36541df5a6d86c1bb0b253",
+    "code/run.py": "4e1ba4831002f32ab4ac86c35cf69d9de59b37e36888a1e061668715c3e504f3",
+    "inputs.json": "ef0cf2aef1e0589feab959547228ea074fddbc19a54de93a47bd543d9842d9b7",
+    "requirements.txt": "bf22ae62140ec2188bfb7e3931f9eb0e8f16838592a7bb5527b5d7e546f2d04c",
+    "sources.md": "e608217ad008300bd38b79fb16df54b285ecfc59d4490a85197d2fcef5b993ad"
+  },
+  "scientific_model_outputs_collected": true,
+  "seeds": [
+    19121,
+    19139,
+    19157,
+    19181
+  ],
+  "status": "complete",
+  "threads": 2,
+  "training_examples": 16777216,
+  "training_rows": 32768,
+  "versions": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "torch": "2.8.0"
+  }
+}

@@ -39,6 +39,18 @@ The position study has four conditions. Its main contrast compares two individua
 
 A **bootstrap interval** describes variation under repeated resampling of the declared groups or model seeds. The unit matters. Thousands of related prompts are not thousands of independent model tests. These intervals do not include every possible source of error. They do not establish a result for other models, tasks, or populations.
 
+## Check accuracy on the part of the task under study
+
+A model can perform well overall and poorly on a small, important group. In the [matching study](../studies/2026-10-13-hall-obstruction/paper.md), overall accuracy was near 99%. Accuracy on impossible graphs with no isolated vertex was only 84% to 89%. All four models failed the fixed ability requirements. A large internal effect did not repair that failure.
+
+An edit can also affect the intended group more than a control group while changing both groups substantially. The matching study's selected edits raised false acceptance of a different type of impossible graph from 6.34% to 84.72%. Read the separate control outcomes beside the combined score.
+
+## Keep stability separate from correctness
+
+A stable measurement changes little when the input changes slightly. It can still describe a weak model. In the [digit study](../studies/2026-10-13-shift-ablation/paper.md), filtering made channel-removal effects more stable under small image shifts. But accuracy on the original test images was only 15% to 36%. The result does not establish good explanations of reliable digit recognition.
+
+The digit study also keeps three stages separate: an original failed numerical check, a fixed diagnostic, and a later evaluation with higher precision. The later check does not turn the original failure into a pass. The paper includes all three stages in one study.
+
 ## Check the evidence record
 
 Each completed study links its fixed plan, source record, code, results, and calculation review. The review can check the arithmetic and repeat model interventions. Its record states the work that was actually repeated. A review of saved models is different from repeating their training.

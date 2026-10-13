@@ -1,0 +1,37 @@
+{
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 2026101417,
+  "calls": 23940,
+  "control_maxima": {
+    "ablated_channel_zero": 0.0,
+    "first_features_shift": 0.0,
+    "four_pixel_logits": 2.6645352591003757e-15,
+    "no_op_logits": 0.0,
+    "probability_row_sum": 6.661338147750939e-16,
+    "triangle_inequality_excess": 1.1102230246251565e-16,
+    "untouched_channels": 0.0
+  },
+  "control_rows": 45632,
+  "elapsed_seconds": 184.8438490000044,
+  "examples": 2893202,
+  "interpretation": "Seed interval conditional on this fixed data split and training design.",
+  "mean": 0.07117112788623241,
+  "new_training_updates": 3300,
+  "paired_seed_differences": [
+    0.07628831940018234,
+    0.04785663218390263,
+    0.08139381381537412,
+    0.0638608869639268,
+    0.08181014056341787,
+    0.0677836314757054,
+    0.07935935734213137,
+    0.07101624134521868
+  ],
+  "percentile_95_interval": [
+    0.06304113953751987,
+    0.07785885771504031
+  ],
+  "primary": "D_direct_minus_D_filtered",
+  "reused_training_updates": 1500,
+  "status": "post-failure follow-up; original primary comparison remains incomplete"
+}

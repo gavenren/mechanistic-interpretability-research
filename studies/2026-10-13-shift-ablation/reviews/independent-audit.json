@@ -1,0 +1,93 @@
+{
+  "all_scores_and_seed_bootstrap_match": true,
+  "controls_replayed": 45632,
+  "elapsed_seconds": 123.15046470899688,
+  "forwarded_examples": 2472672,
+  "full_model_calls": 20640,
+  "lock_commit": "782dc2c8d73a3fa9e67a03c8cbd394a5548d9bf9",
+  "manifest_sha256": "13cb0f754494f42190ed340a558cf07a8c6b00d03ee8909e8d121363b0c73987",
+  "maximum_control_record_difference": 2.7755575615628914e-17,
+  "maximum_saved_logit_error": 0.0,
+  "model_logit_tolerance": 1e-10,
+  "model_summaries_checked": 16,
+  "models_replayed": [
+    {
+      "architecture": "direct",
+      "seed": 0
+    },
+    {
+      "architecture": "filtered",
+      "seed": 0
+    },
+    {
+      "architecture": "direct",
+      "seed": 1
+    },
+    {
+      "architecture": "filtered",
+      "seed": 1
+    },
+    {
+      "architecture": "direct",
+      "seed": 2
+    },
+    {
+      "architecture": "filtered",
+      "seed": 2
+    },
+    {
+      "architecture": "direct",
+      "seed": 3
+    },
+    {
+      "architecture": "filtered",
+      "seed": 3
+    },
+    {
+      "architecture": "direct",
+      "seed": 4
+    },
+    {
+      "architecture": "filtered",
+      "seed": 4
+    },
+    {
+      "architecture": "direct",
+      "seed": 5
+    },
+    {
+      "architecture": "filtered",
+      "seed": 5
+    },
+    {
+      "architecture": "direct",
+      "seed": 6
+    },
+    {
+      "architecture": "filtered",
+      "seed": 6
+    },
+    {
+      "architecture": "direct",
+      "seed": 7
+    },
+    {
+      "architecture": "filtered",
+      "seed": 7
+    }
+  ],
+  "new_training_records_checked": 3300,
+  "published_script_sha256": "210df82afc6ae21e7efb37d810b81f4137704e473e8b9f91781dcc7d37569ca2",
+  "record_note": "After the audit, only the results path was changed to repository-relative form. The executed script hash is retained in script_sha256. The current script differs only in output-path formatting. All scientific values are unchanged.",
+  "results": "studies/2026-10-13-shift-ablation/results-float64",
+  "reused_checkpoints_verified": 5,
+  "reused_training_records_checked": 1500,
+  "runner_imported": false,
+  "saved_logit_values_checked": 12938400,
+  "schedules_checked": 8,
+  "scope": "All saved logits and all control conditions replayed with a separate ReLU-hook model. All score, schedule, training-record, and reuse checks passed. Training was not repeated.",
+  "score_tolerance": 1e-12,
+  "script_sha256": "d3c9c07f6d7e2a4fabdd9ea63e9e5005c5dbbe504a9d2d997465257a972eafc3",
+  "status": "passed",
+  "training_repeated": false
+}
