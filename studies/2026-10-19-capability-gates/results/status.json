@@ -1,0 +1,68 @@
+{
+  "branches": {},
+  "hardware": {
+    "compute_threads": 2,
+    "free_disk_bytes": 693590335488,
+    "hw.memsize": "25769803776",
+    "interop_threads": 1,
+    "machdep.cpu.brand_string": "Apple M4",
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "process_memory_cap_bytes": 4294967296,
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                    11764.\nPages active:                                 502106.\nPages inactive:                               488136.\nPages speculative:                             16154.\nPages throttled:                                   0.\nPages wired down:                             186685.\nPages purgeable:                               10236.\n\"Translation faults\":                      277788876.\nPages copy-on-write:                         4430595.\nPages zero filled:                         193313825.\nPages reactivated:                          82748854.\nPages purged:                                7915629.\nFile-backed pages:                            378829.\nAnonymous pages:                              627567.\nPages stored in compressor:                   824141.\nPages occupied by compressor:                 313910.\nDecompressions:                             71393806.\nCompressions:                               86323807.\nPageins:                                     7072228.\nPageouts:                                     315087.\nSwapins:                                      492474.\nSwapouts:                                     842430.\n"
+  },
+  "jobs": [
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.0838192919982248,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 5313,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "A",
+      "replay": {
+        "max_logit_error": 1.7053025658242404e-13,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.033816167000622954,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.033877875001053326,
+      "schedule_seed": 94210,
+      "seconds": 36.27489766600047,
+      "seed": 8001,
+      "selection_score": 1.0,
+      "split": "development",
+      "task": "hall",
+      "train_seconds": 35.2954605829982,
+      "updates": 32768,
+      "width": 64
+    }
+  ],
+  "peak_rss_native_units": 361316352,
+  "public_lock": "9a27126071e409ca903ad50dbe978ed42b647f30",
+  "reason": "Expecting value: line 1 column 1 (char 0)",
+  "seconds": 52.15248708400031,
+  "status": "stopped"
+}

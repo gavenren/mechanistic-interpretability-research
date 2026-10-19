@@ -14,6 +14,10 @@ The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiment
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
+## Latest execution report
+
+[Preparation and Experiment 1](studies/2026-10-19-capability-gates/paper.md) started on 19 October 2026. Preparation passed. One graph development model passed all five ability checks. A permit-file read error stopped the next model. The code, complete result, partial weights, and failure record are saved. No final model panel is complete.
+
 ## Papers
 
 | Date | Paper | Main result |

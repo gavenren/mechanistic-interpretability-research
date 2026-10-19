@@ -1,3 +1,15 @@
+# Latest execution status: Experiment 1 stopped during development
+
+**Updated:** 19 October 2026.
+
+The resource check permitted this attempt. All four preparation checks passed. Their combined compute estimate was 3.17 hours, below the four-hour Experiment 1 cap.
+
+The fixed plan and code were published before training. One graph development model completed and passed every task check. A second model stopped with 13,600 recorded updates because a private permit refresh caused an empty-file read. Its partial weights and trace are saved. No final models ran. No task panel is complete.
+
+See the [plain-English report](../studies/2026-10-19-capability-gates/paper.md), [code](../studies/2026-10-19-capability-gates/code/run.py), and [results](../studies/2026-10-19-capability-gates/results/status.json). The report records the correction needed before a later attempt. No automatic retry occurred. Automatic research remains paused.
+
+## Earlier attempt, retained as history
+
 # Preparation status: stopped at the resource check
 
 **Date:** 13 October 2026  

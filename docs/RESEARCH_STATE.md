@@ -1,6 +1,6 @@
 # Research state
 
-Updated: 13 October 2026.
+Updated: 19 October 2026.
 
 ## Completed studies
 
@@ -46,7 +46,7 @@ No experiment in this plan has started. Each stage requires its own fixed execut
 
 ## Latest execution attempt
 
-The user requested Stage 0 and Experiment 1. The account resource check did not meet the reserve rule. The attempt stopped before code development, preparation tests, or model training. See the [Stage 0 stop record](STAGE_0_STATUS.md). No new scientific result was produced. Private account values remain in ignored local state.
+Preparation passed on 19 October 2026. Experiment 1 then stopped during its second graph development model because a permit-file refresh caused an empty JSON read. One development model completed with 100% accuracy in all five graph categories. Its saved-weight replay passed. A second model has partial weights and a trace. No final model panel ran. See the [execution report](../studies/2026-10-19-capability-gates/paper.md) and [current status](STAGE_0_STATUS.md). Keep this failed attempt. A later continuation needs a tested permit updater and a public rule for the partial seed. Automatic research remains paused.
 
 ## Current state
 
@@ -58,7 +58,7 @@ A later run should select a distinct intervention question after a primary-sourc
 
 The user requested continued research until 20% of usage remains. Fifteen studies now have complete papers, results, and separate AI calculation checks. The latest study separates uncertain effect signs from proved wrong signs. Its rate of unresolved initial bounds is not a rate of wrong explanations. Its certified small magnitudes do not establish exact zeros.
 
-No further scientific experiment has been started. Before new research, read the account meter and the saved local state. The latest study is a bounded numerical audit with close prior work on equilibrium solvers and verification. It does not establish a new theorem or a general failure rate.
+Experiment 1 has started but is incomplete, as recorded above. Before more research, read the account meter and the saved local state. The latest study is a bounded numerical audit with close prior work on equilibrium solvers and verification. It does not establish a new theorem or a general failure rate.
 Other candidates need a distinct question before acceptance. Reject close duplicates and parameter-only extensions. Account usage snapshots stay in ignored local state. Check the current meter before substantial new work.
 
 ## Continuation rules

@@ -20,3 +20,9 @@ python studies/2026-10-19-capability-gates/code/run.py experiment --lock PUBLIC_
 Replace `PUBLIC_PLAN_COMMIT` with the public commit that contains these exact code and method files. The runner checks their bytes, the reused graph source, and the digit dataset against that commit. A preparation pass is also required. The experiment performs a separate output replay after every complete job.
 
 An interrupted training job saves partial weights and its completed trace. The runner records the stop reason. There is no automatic resume, replacement seed, or added training. A continuation must retain the failed attempt and fix its next action before more scientific work.
+
+## Recorded attempt and permit update correction
+
+Read the [execution report](paper.md). The first attempt stopped during its second development model. Preserve its results. It has no automatic resume.
+
+Write each refreshed permit to a temporary file in the same directory. Then use `os.replace(temporary_path, permit_path)`. Do not truncate and rewrite the live permit file. A reader can see an empty document during a direct write. This caused the recorded stop. The local supervisor now uses replacement, but no scientific run has tested that correction. A later continuation needs a new public lock and an explicit rule for the partial seed.

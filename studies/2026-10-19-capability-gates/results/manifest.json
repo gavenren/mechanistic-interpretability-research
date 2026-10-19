@@ -1,0 +1,11 @@
+{
+  "hall/development-A-8001/evaluation.npz": "6914e8b14ccae655c56f50b0df4216ad63e8c1b771e6a327da765b1b4b1dc70a",
+  "hall/development-A-8001/final.npz": "c332c02fe30c6ac716fb406c79d3a7beb20df4d66c6d8f73cb5c391226df5e5a",
+  "hall/development-A-8001/initial.npz": "24115e5a37388cd321b916cafbb3a3a484a6333e592a052edd5d03fb08c961b0",
+  "hall/development-A-8001/metrics.json": "ada2baf0eb5bf33eacd69ec956aade41681d5636b5019ee469aab9a0011a5d93",
+  "hall/development-A-8001/training.csv": "54bf5b8e595ec027c3ef22e9f1d92bdf33a09913afd96b220a6bb5a4aa40b89e",
+  "hall/development-A-8002/initial.npz": "1d7ae79ff2b5e49218490ea3eb4b1065a7ef72650b9decdce5898175a7b3fac5",
+  "hall/development-A-8002/partial.npz": "0b8b34f7b33b71105938a9fae8a693f717873fba6b89f405bf93206604f56bb3",
+  "hall/development-A-8002/training.csv": "39b99051898b3ce7a46a726ef465fb899c73fab377b091352e98e35f9f692016",
+  "status.json": "6db8069576c61e803d0f83fc3b31ea5ec1381e48493ea1d8309ee67c77c7cbef"
+}
