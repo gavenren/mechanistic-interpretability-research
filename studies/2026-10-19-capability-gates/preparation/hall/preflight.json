@@ -1,0 +1,18 @@
+{
+  "dummy_replay_seconds": 0.0004380829996080138,
+  "dummy_steps": 20,
+  "dummy_train_seconds": 0.07893462499851012,
+  "max_replay_error": 5.551115123125783e-16,
+  "noop_exact": true,
+  "oracle_sanity": [
+    false,
+    true,
+    true
+  ],
+  "parameters": 18817,
+  "passed": true,
+  "projected_eight_job_seconds": 4466.639667121887,
+  "projected_job_seconds": 558.3299583902359,
+  "projection": "Four times measured larger-recipe update cost, eval/replay, and 10-second setup allowance.",
+  "scientific_training_or_evaluation": false
+}
