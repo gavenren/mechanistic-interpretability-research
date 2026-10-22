@@ -34,7 +34,7 @@ Studies 7–9 share public plan and runner lock `c6ff9cb1405e6a65fe161c2f4cb471d
 
 The updated [review paper](REVIEW_PAPER.md) covers all 24 completed studies at source commit `384ea795ec685cac1aa883341f7a53ae36bb48c8`. It retains the first fifteen studies and adds the nine completed papers from 22 October. The [source manifest](REVIEW_SOURCES.json) fixes the reviewed files. The [update review](reviews/2026-10-22-REVIEW_UPDATE_REVIEW.md) records the checks for this version. The [original review record](reviews/REVIEW_PAPER_REVIEW.md) applies to the earlier version.
 
-The review separates trained-model evidence from constructed tests and simulation. It explains the main findings, specific contributions, limits, and next steps. It clearly marks the tenth study in the new batch as unfinished and excludes it from the completed count. The earlier one-page summary still covers the original fifteen studies.
+The review separates trained-model evidence from constructed tests and simulation. It explains the main findings, specific contributions, limits, and next steps. It clearly marks the tenth study in the new batch as unfinished and excludes it from the completed count. The updated [one-page summary](REVIEW_SUMMARY.md) and its [print PDF](../output/pdf/REVIEW_SUMMARY.pdf) also cover all 24 completed studies. They mark the tenth study in the new batch as unfinished. The [summary update check](reviews/2026-10-22-REVIEW_SUMMARY_UPDATE_REVIEW.md) records the text and layout checks.
 
 This update adds no experiment, model training, or combined statistical estimate. It does not establish a new general principle or a population failure rate. No human peer review is recorded. Automatic research remains paused. Proposed steps are not completed work.
 

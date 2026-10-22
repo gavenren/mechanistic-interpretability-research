@@ -268,4 +268,4 @@ The [source manifest](REVIEW_SOURCES.json) fixes the reviewed versions. The [upd
 
 No new dataset, model training, intervention run, or statistical analysis was used for this review. No human peer review is recorded. The source papers remain the primary references for their measurements, code, external citations, and numerical audit records.
 
-The earlier [one-page summary](REVIEW_SUMMARY.md) covers the original fifteen studies. It has not been expanded as part of this review update. The updated review is the full 24-study synthesis.
+The [one-page summary](REVIEW_SUMMARY.md) was updated separately on 22 October 2026. It covers all 24 completed studies and marks the tenth study in the new batch as unfinished. A [print PDF](../output/pdf/REVIEW_SUMMARY.pdf) is also available.

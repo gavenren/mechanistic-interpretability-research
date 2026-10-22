@@ -1,37 +1,30 @@
-# What the 15 studies show
+# What the 24 studies show
 
-**One-page summary | 13 October 2026**
+**One-page summary | Updated 22 October 2026**
 
-Mechanistic interpretability studies how a model produces its answers. These fifteen studies changed internal parts and measured the results. Their main lesson is clear: an output change alone does not show how the model solves a task.
+Mechanistic interpretability studies how a model produces its answers. This review covers **24 completed studies**: fifteen earlier studies and nine new papers. The earlier work includes small trained networks and one small pretrained language model. The new work uses mathematical analysis, constructed examples, and simulation. **An output change after an internal edit does not, by itself, explain how the model solves a task.**
 
 ## Main findings
 
-- **Check task ability first.** An internal part can affect the output even when the model rarely gives the correct answer. In one copying test, the requested answer ranked first in only 1 of 1,024 cases. A positive measured effect remained.
-- **Define the exact change.** Different ways to remove or replace the same internal part can produce different results. Tests must match the proposed explanation.
-- **Measure the claimed behavior.** A larger output change does not mean a better answer. A group of features can carry useful information that one selected feature does not. An effect that lasts does not establish useful memory.
-- **Report mixed results.** Several proposed improvements gave no clear or consistent benefit. Giving rare cases more training weight was worse in five of six main feature comparisons.
-- **Separate uncertainty from error.** In one numerical study, initial bounds could not establish 18.66% of nonzero estimated effect directions, averaged over models. Further calculation proved five initial directions wrong. The first percentage was not an error rate.
+- **Check task ability first.** An internal part can affect the output even when the model rarely answers correctly. Passing the task is necessary, but does not prove the proposed explanation.
+- **Define the complete edit.** Replacement values can create states absent from normal use. Two edits can interfere. Different codes for the same state can give different edit results. Shared rescaling can spread a local change. Tests must include these effects and check unrelated behavior.
+- **Test how parts work together.** Tests of one part at a time can leave different mechanisms unresolved. A search can retain six parts when one is sufficient, even though no further single removal preserves the answer.
+- **Match the score to the claim.** A larger effect does not mean a better answer. Useful effects can cancel in an average. Scores and probabilities can rank edits differently. A lasting effect does not establish useful memory.
+- **Keep selection and validation separate.** Searching many noisy results and testing the winner on the same data can produce false evidence. Use separate validation data or a valid correction for the selection process.
+- **Retain weak results and failed checks.** Some proposed improvements gave no clear or consistent benefit. Numerical uncertainty is not the same as a wrong answer. Checking saved weights does not repeat training.
 
-## What is new
+## What is new, and what the results do not prove
 
-The contributions are specific controlled tests and complete records: code, results, saved models or model versions, and calculation checks. Examples separate coordinate changes from editing rules, compare two meanings of spike deletion, and check numerical effect directions.
+The contributions are specific experiments, exact mathematical conditions, complete small-case counts, and code and results that others can check. They do not establish 24 new general principles. This summary adds no experiment.
 
-The review connects these results and gives an ordered research plan. It adds no experiment. The studies do not establish fifteen new general principles.
+Models and tasks are limited. Several studies share models or data, so they are not independent confirmations. None of the nine new papers tests a trained language model. Their exact counts and simulated percentages do not measure failure rates in real AI systems. All work is AI-authored. Separate AI checks are not human peer review; none is recorded.
 
-## Limits
+## The tenth study in the new batch is UNFINISHED
 
-The models are small, and many tasks are artificial. Five studies share one language model; three share a digit dataset. The results are not fifteen independent confirmations and do not measure failure rates in large deployed models.
+It is **not counted among the 24 completed studies**. Six graph models passed their fixed task tests, but four were development models. Only **two of four required final models** are complete. The third has partial weights; the fourth and the other task branches did not start. Work stopped under the usage-reserve rule. All graph states were used in training, so perfect scores do not establish performance on unseen graphs or explain the internal method.
 
-Some models failed task requirements. Scores have different meanings and cannot be pooled. Rechecking saved models does not repeat training. The work is AI-authored, with separate AI checks. No human peer review is recorded.
+## Next steps
 
-## Next research steps, in order
+Check the budget and publish a continuation plan before completing the unfinished task tests. Then test complete explanations in capable models. Check intended and unwanted effects, new conditions, later behavior, numerical error, and cost. Seek independent replication and human review.
 
-1. **Establish task ability.** Set success rules before testing. Keep failed runs.
-2. **Test intended and unwanted effects.** For a specific-variable claim, require the intended change and preserve unrelated behavior.
-3. **Test new conditions.** Fix the explanation before testing new models, words, and tasks.
-4. **Test later behavior.** Separate fixed continuations from text generated by the model.
-5. **Measure value and cost.** Report absolute errors, numerical uncertainty, and total computation.
-6. **Seek external replication and human review.** Repeat training as well as calculations.
-
-**Source:** [Full review and study references](https://github.com/gavenren/mechanistic-interpretability-research/blob/a12ee80743d5f222f0cd29c86933d9167c2fda76/docs/REVIEW_PAPER.md). [Print version](../output/pdf/REVIEW_SUMMARY.pdf).
-
+**Source:** [Full review and study references](https://github.com/gavenren/mechanistic-interpretability-research/blob/7df068b5e1f14d7c4aef475df3a5707f8ea8fe64/docs/REVIEW_PAPER.md). [Print version](../output/pdf/REVIEW_SUMMARY.pdf).
