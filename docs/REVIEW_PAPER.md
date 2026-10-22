@@ -1,23 +1,28 @@
 # What an internal change can and cannot show
-## A plain-English review of fifteen mechanistic interpretability studies
+## A plain-English review of 24 completed mechanistic interpretability studies
 
-**Date:** 13 October 2026  
-**Type:** Review of a fixed set of repository papers. No new experiment.  
+**First version:** 13 October 2026
+**Updated:** 22 October 2026
+**Type:** Review of a fixed set of repository papers. No new experiment.
 **Research and writing:** AI-authored. A separate AI review accompanies this paper. No human peer review is recorded.
 
 ## Abstract
 
-Mechanistic interpretability studies how a model produces its answers. A common method changes part of the model and measures the output. This review combines fifteen studies of that method and related tests. The studies use small trained networks and one small pretrained language model. Their shared finding is that an output effect alone does not establish a correct explanation. A model must first perform the relevant task. An explanation must then predict the intended change and state the exact internal edit. For claims about a specific variable or behavior, the edit must also preserve unrelated behavior. The chosen score and numerical checks must support that claim. Some studies found useful effects. Others found no clear benefit, failed task requirements, or errors in a planned numerical check. The main contributions are specific experiments and complete records that others can check. They do not establish fifteen new general principles. We propose an ordered research plan that starts with model ability and ends with transfer, practical value, and independent replication.
+Mechanistic interpretability studies how a model produces its answers. One common method changes part of the model and measures the output. This review covers 24 completed studies: the first fifteen and nine added on 22 October 2026. The first group includes small trained networks and one small pretrained language model. The new group uses mathematical analysis, constructed examples, and a statistical simulation. None of the nine new papers tests a trained language model.
+
+The shared finding is that an output effect alone does not establish a correct explanation. First, the model must perform the relevant task. Then the test must define the internal edit and measure the intended change. Tests of a specific variable must also check unrelated behavior. The new papers show why replacement values, interactions between parts, edit order, score choice, and reuse of selection data matter. Their exact counts describe their declared test sets. They do not measure failure rates in real AI systems.
+
+The specific contributions are reproducible experiments, mathematical conditions, and complete records. They do not establish 24 new general principles. The planned tenth study in the new batch remains unfinished. Only two of its four required final graph models are complete. It is reported separately and is not counted among the 24 completed studies.
 
 ## 1. Scope and method
 
-This paper reviews all fifteen empirical papers present at [source commit eabda41](https://github.com/gavenren/mechanistic-interpretability-research/tree/eabda41cdd96b561124002f29deef4cc7faaf390). They were all dated 13 October 2026. They form the requested review set. None was excluded because of a weak result or a failed check.
+This update covers all 24 completed studies at [source commit 384ea79](https://github.com/gavenren/mechanistic-interpretability-research/tree/384ea795ec685cac1aa883341f7a53ae36bb48c8). The first fifteen were dated 13 October 2026. The nine additions were dated 22 October 2026. We retain the first fifteen study numbers and assign numbers 16–24 to the additions. The unfinished tenth study in the new batch is separate. It must not be confused with completed Study 10 from the first group.
 
-This is a narrative review of that fixed set. It is not a systematic review of the whole field. The review uses the papers, source records, methods, results, and review records in the repository. It does not add model runs, a new literature search, or a combined statistical estimate. The grouping below was developed after the results were available. It was not specified in advance.
+This is a narrative review of a fixed set of repository papers. It is not a systematic review of the whole field. It uses the papers, source records, methods, results, and review records. It adds no model runs, new literature search, or combined statistical estimate. The grouping was developed after the results were available.
 
-The [source manifest](REVIEW_SOURCES.json) records all fifteen titles, file paths, and content hashes at the source commit. It also records the available source and written review files. The manifest fixes the source versions. Each paper links its own code, saved results, and reproduction instructions.
+The [source manifest](REVIEW_SOURCES.json) records the 24 paper versions and their content hashes. It also lists the unfinished report separately. The [batch index](2026-10-22-RESEARCH_BATCH.md) gives the publication and stop records. Each source paper links its code, saved results, and reproduction instructions.
 
-We keep the original study numbers. Studies 4–8 use the same Pythia-14M checkpoint and related copying tasks. Studies 11, 13, and 15 use the same UCI digit dataset. These are related experiments, not fifteen independent confirmations of one claim.
+Studies 4–8 use the same Pythia-14M checkpoint and related copying tasks. Studies 11, 13, and 15 use the same UCI digit dataset. Studies 16–24 use constructed systems or simulated measurements. These are related tests with different types of evidence. They are not 24 independent confirmations of one claim.
 
 Three terms help separate the evidence:
 
@@ -89,9 +94,35 @@ Study 15 made a different distinction. At the initial solver stopping point, bou
 
 A small-magnitude bound does not establish an exact zero. A successful replay of saved weights does not repeat model training. A numerical check also does not establish a semantic explanation. Each claim needs the corresponding evidence.
 
-## 3. Evidence from every study
+### 2.6 Replacement values and edit rules are part of the explanation
 
-The following table gives each study's main result and its specific contribution. The linked papers provide the full methods and limits. Scores with different units must not be compared as if they were one common measure.
+Study 16 holds ordinary behavior fixed. Six constructed models give the same correct answers on every ordinary input. Yet their answers differ after some internal replacements. A replacement can create a state that does not occur during normal use. A donor with the same answer can also preserve the signal under test. Neither outcome alone shows whether a part is necessary. This extends the earlier concerns about unintended effects and coordinate changes.
+
+Study 18 shows that two edits can interfere. When their directions overlap, changing their order can change the final state. Even values from the same donor do not always prevent this. Solving both requests together works when they are consistent, but it can move the state far from its starting point. A mathematical solution does not establish the intended meaning.
+
+Study 20 holds the decoder fixed. A decoder converts an internal code into a model state. Several different codes can reconstruct the same state. Replacing the same code entry can then give different decoded results. The paper gives an exact condition that prevents this ambiguity. A fixed trained encoder may select only one code. The study therefore shows a limit of reconstruction evidence, not a measured failure of trained encoders.
+
+Study 22 explains another source of wider effects. Layer normalization adjusts values using a shared mean and scale. Changing one value changed every other normalized value in all 2,048 fixed cases. This spread follows from the operation itself. It does not show that every changed number represents a changed concept.
+
+### 2.7 Tests of separate parts do not fully test a group
+
+Study 17 checks all 166 nonconstant monotone Boolean functions of four labeled inputs. These are logical rules where changing an input from off to on cannot turn the output off. Eight tests that changed one input at a time uniquely identified only 14 functions. The other 152 shared their test results with another function. Tests of groups are needed to distinguish these cases. This count applies to the specified class, not to neural networks in general.
+
+Study 19 asks a different question: does a search find the smallest working set of parts? A procedure removes one part at a time while keeping every task answer correct. It can stop with six parts when one part is sufficient. No further single removal is possible, but a smaller working set exists. Thus, correct behavior, resistance to further removal, and proof of minimum size are separate claims.
+
+### 2.8 A score must match the question, and selection needs a separate test
+
+Study 21 shows how an average can hide a useful edit. The correct score change is positive in one context and negative in another. The changes cancel when both contexts have equal weight. In six of ten fully correct constructed models, this score ranked an irrelevant edit above the useful edit. Reporting each context exposes the difference. Aligning effects with the requested answer also works here, but it uses a task rule known in advance.
+
+Study 23 compares output scores before conversion to probabilities with the probabilities themselves. Their rankings reversed in 704 of 7,100 strict score comparisons. All individual changes were nonnegative. The reversal therefore did not require cancellation. Probability gain depends on initial confidence. Neither measure is always better; the research question must determine the measure.
+
+Study 24 adds a selection check. All true effects were zero in its simulation. With 128 independent candidates and 64 cases per estimate, selecting the largest estimate and testing it on the same data gave false evidence in 99.94% of trials. Separate validation data gave 4.38%. A correction for testing many candidates gave 5.08%. These results concern the declared noise model. They do not estimate false discoveries in published circuit research.
+
+## 3. Evidence from every completed study
+
+The following tables give each completed study's main result and its specific contribution. The linked papers provide the full methods and limits. Scores with different units must not be compared as if they were one common measure.
+
+### 3.1 Original studies: 1–15
 
 | Study | Main result | Specific contribution and limit |
 | --- | --- | --- |
@@ -111,21 +142,43 @@ The following table gives each study's main result and its specific contribution
 | **14. [Flow-model neurons](../studies/2026-10-13-flow-unit-ranking/paper.md)** | Output-based selection gave test quadrant TV 0.05753, versus 0.03933 for likelihood-based selection. It won in three models and tied in one. | A complete comparison of unit selection objectives on separate test data. All four models failed the density-fit rule. Four-region output change is not sample quality. |
 | **15. [Equilibrium effect signs](../studies/2026-10-13-equilibrium-sign-audit/paper.md)** | Initial bounds did not establish 18.66% of nonzero signs. Refinement gave 11,775 strict signs and 3,585 small-magnitude bounds. Five initial signs were proved wrong. | A complete removal-effect audit with established contraction bounds and checked interval arithmetic. All four models passed the accuracy check. The uncertainty rate depends on the bound and stopping rule. |
 
+### 3.2 New completed studies: 16–24
+
+These nine papers contain no trained-model experiment. Their calculations and assumptions remain separate from the trained-model evidence above.
+
+| Study | Main result | Specific contribution and limit |
+| --- | --- | --- |
+| **16. [Donor choice](../studies/2026-10-22-donor-support/paper.md)** | Six models agree on ordinary answers but differ after some hidden-state replacements. The fixed test contains 312 exact cases. | Holds ordinary behavior fixed while varying responses to states outside normal use. A known coherent edit is a reference with extra information, not a discovered mechanism. |
+| **17. [Tests of individual parts](../studies/2026-10-22-coalition-identifiability/paper.md)** | Of 166 logical functions, 152 share their eight individual-part test results with another function. | Complete count for four labeled inputs and monotone rules. It does not measure how often real circuits are ambiguous or identify a unique network structure. |
+| **18. [Edit order](../studies/2026-10-22-edit-order/paper.md)** | Across 3,645 exact cases, overlapping edits often depend on order. In each of three direction pairs that are not at right angles, 702 of 729 cases differ by order. | Separates direction overlap from conflicting donor requests. The joint solution needs consistent requests and does not establish a meaningful or safe edit. |
+| **19. [Circuit search](../studies/2026-10-22-greedy-circuit-search/paper.md)** | A search that removes one part at a time can retain six parts when one is sufficient. | Checks 17 constructed circuits, 1,016 subsets, and 14,550 deletion orders against exact minimum sizes. It does not test a full practical circuit-search system. |
+| **20. [Code-edit ambiguity](../studies/2026-10-22-decoder-edit-ambiguity/paper.md)** | All 9,600 exact edits agree with the derived condition for code-independent results. Exact reconstruction alone is insufficient. | Gives a condition and counterexamples for three linear decoders, including nonnegative codes. No trained encoder or sparsity objective is tested. |
+| **21. [Effects that cancel](../studies/2026-10-22-context-effect-cancellation/paper.md)** | With balanced contexts, the absolute signed average ranks a nuisance edit above a useful edit in six of ten fully correct models. | Separates cancellation from task failure using a known task rule and nuisance controls. Correcting the direction uses extra task information. |
+| **22. [Normalization effects](../studies/2026-10-22-layernorm-spillover/paper.md)** | Every other normalized value changes in all 2,048 cases. On average, 25.47% of squared output change lies outside the edited coordinate. | Gives an exact formula for a finite edit and checks random constructed states. These are not natural model activations or measurements of concept changes. |
+| **23. [Score rankings](../studies/2026-10-22-metric-rankings/paper.md)** | Probability gain reverses 704 of 7,100 strict logit rankings, or 9.92% of that fixed set. | Gives a complete two-context comparison and a condition for ranking agreement. The percentage is not a real-model failure rate. |
+| **24. [Selection from noise](../studies/2026-10-22-selection-null/paper.md)** | In the stated 128-candidate example, false positives are 99.94% with reused data and 4.38% with separate validation. | Runs 180,000 trials across 36 fixed conditions with analytic checks. Noise is Gaussian with known variance. The study does not measure detection of true effects or real-network error rates. |
+
 ## 4. What is new
 
-The defensible contributions concern the exact experiments and their records. They include complete candidate comparisons, fixed control sets, held-out intervention pairs, saved model states, and numerical audits.
+The defensible contributions concern the exact experiments, formal analyses, and their records. They include complete candidate comparisons, fixed control sets, held-out intervention pairs, saved model states, and numerical audits.
 
 For example, Study 3 separates changes to coordinates from changes to the intervention rule in one controlled setting. Study 13 crosses two deletion meanings with two explanations. Study 15 records the path from a coarse effect estimate to a checked sign or magnitude bound. These packages make narrower claims testable and reproducible.
 
 The underlying concerns have substantial prior work. The individual [source records](REVIEW_SOURCES.json) identify that work and the claimed difference. Study 5 tests a known copying mechanism. Study 3 uses standard coordinate algebra. Study 15 uses established contraction bounds. Targeted source checks do not establish that no similar experiment exists.
 
-This review adds an organized account of the evidence and an ordered research plan. It adds no new experimental finding or priority claim. The repository therefore contains **fifteen empirical studies and one separate review**, not sixteen independent experiments.
+The nine additions make several narrower contributions. Study 17 gives a complete small-class count. Study 18 gives conditions for agreement between edit orders. Study 20 gives a condition for an edit result to be independent of the selected code. Study 19 compares every search order with the true minimum in a fixed panel. Studies 16 and 21–24 provide controlled reference tests for replacement, aggregation, normalization, metric choice, and selection.
+
+The papers identify close prior work on these concerns. They do not claim that donor dependence, overlapping edits, normalization, or selection bias are new principles. A reproducible example can help researchers test a method without establishing priority for its underlying idea.
+
+This review adds an organized account of the evidence and revised research priorities. It adds no experimental result. The reviewed set contains **24 completed studies**. The review and the unfinished execution reports are separate.
 
 ## 5. Limits of the combined evidence
 
 **The model and task coverage is narrow.** Many tasks are small and constructed. The language-model studies share one checkpoint. Three digit studies share a dataset. None measures a failure rate across large deployed language models.
 
-**The studies are related.** They come from the same research project and share methods, task families, and review procedures. A large number of intervention rows does not create a large number of independent trained models. Most experiments use only four to eight fixed training seeds.
+**Exact test counts have a limited meaning.** Complete enumeration can establish a result for the stated mathematical class. It does not show how common that class is in real models. Simulation frequencies depend on the declared noise model. The percentages in Studies 17, 22, 23, and 24 must not be read as population rates for language models.
+
+**The studies are related.** They come from the same research project and share methods, task families, and review procedures. A large number of intervention rows does not create a large number of independent trained models. Most of the earlier trained-model experiments use only four to eight fixed training seeds. The new constructed tests add no independent trained models.
 
 **A test split has a specific meaning.** Studies 1 and 3 test new intervention pairs on already trained task states. Study 12 uses all ordinary graph inputs during task training. These tests do not establish generalization to unseen ordinary inputs. Constructed correct operators and true-label comparisons also provide information that a practical explanation method may lack.
 
@@ -133,11 +186,15 @@ This review adds an organized account of the evidence and an ordered research pl
 
 **Weak results still require careful interpretation.** A failed ability rule limits a mechanism claim but does not erase a recorded output effect. A failed small-neuron search does not prove that the model lacks the variable. A null result under one training schedule does not prove that another method cannot work.
 
+**Passing a mathematical check is not a complete explanation.** A known correct edit, decoder condition, or group test can rule out a bad inference. It does not by itself discover the computation in a trained model. A large output effect can remain real while its proposed meaning is wrong or untested.
+
 **The review has shared sources of error.** The papers and this review are AI-authored. The source studies include separate AI calculation checks, often with separate implementations. Those checks do not establish external research independence or human peer review. Replaying saved weights does not repeat training. This review did not rerun the experiments.
 
 ## 6. Next research steps, in order
 
 ### Step 1: Establish adequate task models
+
+The current priority is the unfinished Experiment 1 continuation described below. Before more research, check the usage allowance and publish a rule for the interrupted seed. Count earlier computation and keep the existing stop rules. Complete the required final graph models before the dependent explanation test. Test the other task branches under their fixed plans. This review does not start those runs.
 
 First revisit the task or fit failures in Studies 8, 10, 11, 12, and 14. For Study 8, choose new fixed pretrained checkpoints and retain the original failed transfer result. For the other studies, publish new training and evaluation plans before new results. Use fixed seeds and retain every run. Allow adequate training through those plans. Do not extend training repeatedly until the result looks favorable.
 
@@ -149,7 +206,11 @@ Extend Studies 1, 2, and 12 with separate limits for intended-change error and u
 
 Use equal-size random edits, unchanged-input controls, full-layer controls, and known correct references where available. Keep selection cases separate from test cases. Report when a reference has access to information unavailable to the proposed method.
 
-Pass this stage only when both requirements hold on the fixed test cases. Better performance than random editing is insufficient.
+Add the checks from Studies 16–24 to the relevant test plans. Specify the donor values and whether the edited state occurs in ordinary use. Test edit order and effects after normalization. For decoded features, state how the encoder selects a code. Test groups of parts when individual tests cannot distinguish explanations.
+
+Choose the score before examining results. Report effects by context and task outcome. Keep final validation data separate from candidate selection, or use a valid correction for that selection. If the claim is that a circuit has minimum size, compare with an exact solution where feasible. Otherwise report the weaker search result.
+
+Pass this stage only when both intended and unintended effects meet their requirements on the fixed test cases. Better performance than random editing is insufficient. The constructed examples provide test designs; their application to trained models remains future work.
 
 ### Step 3: Test transfer of a fixed explanation
 
@@ -181,15 +242,30 @@ Ask an external group to reproduce selected results from the public plans, inclu
 
 Human reviewers should assess the scientific questions, control choices, source claims, and practical meaning. Publish disagreements and corrections. These steps remain proposed work; this review does not claim that they have occurred.
 
-## 7. Conclusion
+## 7. Unfinished tenth study in the new batch
 
-The fifteen studies support a careful way to assess an internal explanation. First establish the model's relevant ability. Then define the edit and test its intended and unintended effects. Use measures, numerical checks, and transfer tests that match the claim.
+**Status: UNFINISHED. Not counted among the 24 completed studies.** This is the [Experiment 1 task-ability continuation](../studies/2026-10-22-capability-completion/paper.md). It is separate from completed Study 10 above.
+
+The continuation asks whether small trained models can perform the tasks needed for later explanation tests. Six complete graph models score 100% in all five fixed test categories. Four are development models and two are final models. One development model was reused from the earlier run; five complete models were trained in the continuation. Every complete model passed a separate check of its outputs from saved weights.
+
+The graph test requires four complete final models. Only two are complete, so this requirement has not passed. The third final model, seed 8103, stopped with 22,028 recorded updates out of 32,768 planned updates. It has partial weights but no final score. The weights can include one additional update that was not recorded in the trace. The fourth final model, seed 8104, did not start. The register-operation, digit-recognition, and generated-point task branches did not start.
+
+The run stopped under the 20% usage-reserve rule. It did not stop because a completed graph model failed, because time ran out, or because memory was exhausted. A first fresh timing estimate failed. One published revision passed with the same fourfold allowance and four-hour limit. Both records remain available. Automatic research remains paused.
+
+All graph states were used during training. Perfect accuracy on this finite set does not establish performance on unseen graphs or identify an internal matching algorithm. Checking saved weights does not repeat training. Results from two final models cannot replace the required four-model test.
+
+Before continuation, a new public plan must specify how to handle the interrupted seed and count all earlier computation. Both partial attempts must be retained. Complete the remaining graph models and the other planned task branches before making their dependent explanation claims. None of this remaining work is reported as complete here.
+
+## 8. Conclusion
+
+The 24 completed studies support a careful way to assess an internal explanation. First establish the model's relevant ability. Then define the edit and test its intended and unintended effects. Use measures, separate validation, numerical checks, and transfer tests that match the claim. Test interacting parts and the full effect of the edit procedure.
 
 The strongest shared result is a limit on inference: a measured internal effect alone does not establish how a model solves a task. The next useful work is to test complete explanations in capable models, across independent conditions, with clear failure rules.
 
 ## Research record
 
-The [source manifest](REVIEW_SOURCES.json) fixes the reviewed versions. The [separate AI review](reviews/REVIEW_PAPER_REVIEW.md) records the claim and evidence checks for this paper. The [research state](RESEARCH_STATE.md) separates this synthesis from new experiments.
+The [source manifest](REVIEW_SOURCES.json) fixes the reviewed versions. The [update review](reviews/2026-10-22-REVIEW_UPDATE_REVIEW.md) records the checks for this version. The [original AI review](reviews/REVIEW_PAPER_REVIEW.md) applies to the first fifteen-study version. The [research state](RESEARCH_STATE.md) separates this synthesis from new experiments.
 
 No new dataset, model training, intervention run, or statistical analysis was used for this review. No human peer review is recorded. The source papers remain the primary references for their measurements, code, external citations, and numerical audit records.
 
+The earlier [one-page summary](REVIEW_SUMMARY.md) covers the original fifteen studies. It has not been expanded as part of this review update. The updated review is the full 24-study synthesis.

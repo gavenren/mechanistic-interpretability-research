@@ -6,9 +6,9 @@ This repository studies how neural networks produce their answers. Each complete
 
 The papers are AI-authored. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
 
-Start with the [one-page summary](docs/REVIEW_SUMMARY.md), also available as a [PDF](output/pdf/REVIEW_SUMMARY.pdf).
+The earlier [one-page summary](docs/REVIEW_SUMMARY.md) and its [PDF](output/pdf/REVIEW_SUMMARY.pdf) cover the original fifteen studies.
 
-Read the [combined review paper](docs/REVIEW_PAPER.md) for the findings from all fifteen studies, their specific contributions, their limits, and the next research steps. The review adds no new experiment.
+Read the updated [combined review paper](docs/REVIEW_PAPER.md) for all 24 completed studies. It covers the first fifteen and the nine additions. It explains the findings, contributions, limits, and next steps in plain English. It marks the tenth study in the new batch as unfinished. The review adds no new experiment.
 
 The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiments, success rules, compute estimates, and stop conditions. See the [Stage 0 status](docs/STAGE_0_STATUS.md) for the latest execution attempt.
 
@@ -20,7 +20,7 @@ The [22 October batch](docs/2026-10-22-RESEARCH_BATCH.md) adds nine complete pap
 
 The planned tenth study, [Experiment 1 continuation](studies/2026-10-22-capability-completion/paper.md), stopped at the usage reserve. Six graph models have complete passing results, but only two of the required four final models finished. Partial weights and failure records are retained. This study is not counted as complete.
 
-## Papers
+## Original fifteen papers
 
 | Date | Paper | Main result |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Updated: 22 October 2026.
 
-## Completed studies
+## Original fifteen completed studies
 
 1. [When an input should not change the answer](../studies/2026-10-13-inactive-variable-audit/paper.md). Eight trained selector networks. Both selection rules chose the same masks; substantial intervention errors remained. Plan lock: `ff9d78c15aa6e97b4819e18f4253b60fd165b50c`. The complete study was verified on GitHub at `9adf1a41e0648c5125a20306ae4cfa2ea3b443b5`.
 2. [Rare-event weighting does not reliably isolate one causal feature](../studies/2026-10-13-rare-feature-sae/paper.md). All 72 planned sparse autoencoders completed. In the primary condition, the mean benefit of balancing was 0.0241, but five of six paired differences were negative. The complete code carried more useful change than the selected latent. Plan lock: `75ab86efd6159a4965b8461a534a0a29592d98ac`. The full evidence package and independent AI calculation review were verified on GitHub at `905ac21f3b6f9469851f84db580a202752c6a268`.
@@ -32,11 +32,11 @@ Studies 7–9 share public plan and runner lock `c6ff9cb1405e6a65fe161c2f4cb471d
 
 ## Combined review
 
-The [review paper](REVIEW_PAPER.md) combines all fifteen empirical studies at source commit `eabda41cdd96b561124002f29deef4cc7faaf390`. It explains the main findings, the specific contributions, the limits, and an ordered research plan. The [source manifest](REVIEW_SOURCES.json) records the exact paper versions and supporting written records. A [separate AI review](reviews/REVIEW_PAPER_REVIEW.md) checks the synthesis.
+The updated [review paper](REVIEW_PAPER.md) covers all 24 completed studies at source commit `384ea795ec685cac1aa883341f7a53ae36bb48c8`. It retains the first fifteen studies and adds the nine completed papers from 22 October. The [source manifest](REVIEW_SOURCES.json) fixes the reviewed files. The [update review](reviews/2026-10-22-REVIEW_UPDATE_REVIEW.md) records the checks for this version. The [original review record](reviews/REVIEW_PAPER_REVIEW.md) applies to the earlier version.
 
-The repository contains fifteen empirical studies and one separate narrative review. The review adds no experiment, model training, or combined statistical estimate. It does not establish a new general principle or a population failure rate. No human peer review is recorded. Automatic research remains paused. The proposed research steps are not completed work.
+The review separates trained-model evidence from constructed tests and simulation. It explains the main findings, specific contributions, limits, and next steps. It clearly marks the tenth study in the new batch as unfinished and excludes it from the completed count. The earlier one-page summary still covers the original fifteen studies.
 
-A one-page summary of the review is available as [text](REVIEW_SUMMARY.md) and a [PDF](../output/pdf/REVIEW_SUMMARY.pdf). It uses the review at commit `a12ee80743d5f222f0cd29c86933d9167c2fda76`. A [separate AI text review](reviews/REVIEW_SUMMARY_REVIEW.md) checks the summary. The PDF has one page and received a visual layout check. This summary adds no experiment or new research claim.
+This update adds no experiment, model training, or combined statistical estimate. It does not establish a new general principle or a population failure rate. No human peer review is recorded. Automatic research remains paused. Proposed steps are not completed work.
 
 ## Proposed research plan
 
@@ -52,16 +52,15 @@ Experiment 1 remains incomplete. Its [continuation report](../studies/2026-10-22
 
 ## Current state
 
-All fifteen completed studies have complete experiments, papers, saved results, and independent AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.
+The original fifteen studies have complete experiments, papers, saved results, and separate AI calculation reviews. The fourth study has a recorded methods deviation. Its planned float32 whole-block delta check failed in 1,385 of 4,608 patched cases. A later whole-block reconstruction preserved the model's original addition order and matched all saved target logits and baseline activations exactly in both numerical conditions. The first failed check, its source code, and its tolerance remain in the record. The added check supports the saved outputs; it does not convert the planned failure into a pass. Verify the current remote files on later continuation. Do not repeat completed experiments to seek better results.
 
 A later run should select a distinct intervention question after a primary-source check. The fourth study does not support use of one fixed correction across prompt changes. It also shows why an algebraically equal audit can differ in float32. Do not divide its transfer, normalization, or precision checks into extra papers. Broader task coverage, other checkpoints, and stronger learned correction rules remain untested. A new study needs a new testable claim, not just another parameter sweep.
 
 ## Current research batch
 
-The user requested continued research until 20% of usage remains. Fifteen studies now have complete papers, results, and separate AI calculation checks. The latest study separates uncertain effect signs from proved wrong signs. Its rate of unresolved initial bounds is not a rate of wrong explanations. Its certified small magnitudes do not establish exact zeros.
+The repository has 24 completed studies: the original fifteen and nine additions. The tenth study in the new batch remains unfinished. Its status and retained partial results are recorded above. The review update is a synthesis of existing evidence. It does not resume research or change the resource rules.
 
-Experiment 1 has started but is incomplete, as recorded above. Before more research, read the account meter and the saved local state. The latest study is a bounded numerical audit with close prior work on equilibrium solvers and verification. It does not establish a new theorem or a general failure rate.
-Other candidates need a distinct question before acceptance. Reject close duplicates and parameter-only extensions. Account usage snapshots stay in ignored local state. Check the current meter before substantial new work.
+Before more research, read the account meter and saved local state. Other candidates need a distinct question before acceptance. Reject close duplicates and parameter-only extensions. Account usage snapshots stay in ignored local state.
 
 ## Continuation rules
 
