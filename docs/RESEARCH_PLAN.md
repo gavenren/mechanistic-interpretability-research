@@ -2,6 +2,8 @@
 
 **Date:** 13 October 2026  
 **Status at publication, 13 October 2026:** Proposed work. No experiment had started. See the [19 October execution report](../studies/2026-10-19-capability-gates/paper.md) for the later preparation and partial Experiment 1 run.  
+**Latest execution:** See the [22 October continuation](../studies/2026-10-22-capability-completion/paper.md). Experiment 1 remains incomplete.
+
 **Basis:** The [review](REVIEW_PAPER.md) and [one-page summary](REVIEW_SUMMARY.md) at [commit 15755f0](https://github.com/gavenren/mechanistic-interpretability-research/tree/15755f0aa61cced6d37aa0a5a765ca1fb0936756).  
 **Review:** AI-authored, with a [separate AI plan review](reviews/RESEARCH_PLAN_REVIEW.md). No human peer review is recorded.
 

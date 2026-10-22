@@ -1,0 +1,33 @@
+{
+  "batch_size": 512,
+  "category_counts": {
+    "all_graphs": 65536,
+    "no_isolated_negatives": 3680,
+    "test_hall3": 288,
+    "test_positive": 1152,
+    "test_target": 432
+  },
+  "data_scope": "All 65,536 graph states are used for training and evaluation.",
+  "eligible": true,
+  "evaluation_seconds": 0.08257441599562299,
+  "metrics": {
+    "all_graphs": 1.0,
+    "no_isolated_negatives": 1.0,
+    "test_hall3": 1.0,
+    "test_positive": 1.0,
+    "test_target": 1.0
+  },
+  "parameters": 5313,
+  "passed": true,
+  "precision": "float64",
+  "recipe": "A",
+  "schedule_seed": 94211,
+  "seconds": 44.938677375001134,
+  "seed": 8102,
+  "selection_score": 1.0,
+  "split": "final",
+  "task": "hall",
+  "train_seconds": 44.70203262500581,
+  "updates": 32768,
+  "width": 64
+}

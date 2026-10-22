@@ -1,0 +1,320 @@
+{
+  "branches": {
+    "hall": {
+      "final_passes": [
+        true,
+        true
+      ],
+      "selected_recipe": "A",
+      "status": "running"
+    }
+  },
+  "complete_distinct_models": 6,
+  "current_job": {
+    "recipe": "A",
+    "seed": 8103,
+    "split": "final",
+    "task": "hall"
+  },
+  "hardware": {
+    "compute_threads": 2,
+    "free_disk_bytes": 688880361472,
+    "hw.memsize": "25769803776",
+    "interop_threads": 1,
+    "machdep.cpu.brand_string": "Apple M4",
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "process_memory_cap_bytes": 4294967296,
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     5221.\nPages active:                                 325357.\nPages inactive:                               319583.\nPages speculative:                              6065.\nPages throttled:                                   0.\nPages wired down:                             176551.\nPages purgeable:                                1050.\n\"Translation faults\":                      603033236.\nPages copy-on-write:                        10598451.\nPages zero filled:                         375529570.\nPages reactivated:                         129266632.\nPages purged:                               24754726.\nFile-backed pages:                            201980.\nAnonymous pages:                              449025.\nPages stored in compressor:                  1911808.\nPages occupied by compressor:                 686323.\nDecompressions:                            122534415.\nCompressions:                              143130340.\nPageins:                                    19621876.\nPageouts:                                     546178.\nSwapins:                                      135689.\nSwapouts:                                     617009.\n"
+  },
+  "jobs": [
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.0838192919982248,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 5313,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "A",
+      "replay": {
+        "max_logit_error": 1.7053025658242404e-13,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.04551708299550228,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.04559500000323169,
+      "reused": true,
+      "schedule_seed": 94210,
+      "seconds": 36.27489766600047,
+      "seed": 8001,
+      "selection_score": 1.0,
+      "source_path": "studies/2026-10-19-capability-gates/results/hall/development-A-8001",
+      "split": "development",
+      "task": "hall",
+      "train_seconds": 35.2954605829982,
+      "updates": 32768,
+      "width": 64
+    },
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.08552279099967564,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 5313,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "A",
+      "replay": {
+        "max_logit_error": 1.1368683772161603e-13,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.0360625829998753,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.036125708000326995,
+      "reused": false,
+      "schedule_seed": 94210,
+      "seconds": 39.36534733299777,
+      "seed": 8002,
+      "selection_score": 1.0,
+      "split": "development",
+      "task": "hall",
+      "train_seconds": 37.919012958001986,
+      "updates": 32768,
+      "width": 64
+    },
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.7293828750043758,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 18817,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "B",
+      "replay": {
+        "max_logit_error": 8.526512829121202e-14,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.143477958998119,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.1452075419947505,
+      "reused": false,
+      "schedule_seed": 94210,
+      "seconds": 55.6660638750036,
+      "seed": 8001,
+      "selection_score": 1.0,
+      "split": "development",
+      "task": "hall",
+      "train_seconds": 54.75757279199752,
+      "updates": 32768,
+      "width": 128
+    },
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.10273900000174763,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 18817,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "B",
+      "replay": {
+        "max_logit_error": 8.526512829121202e-14,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.05219454199686879,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.05225987500307383,
+      "reused": false,
+      "schedule_seed": 94210,
+      "seconds": 60.70365720800328,
+      "seed": 8002,
+      "selection_score": 1.0,
+      "split": "development",
+      "task": "hall",
+      "train_seconds": 60.38534150000487,
+      "updates": 32768,
+      "width": 128
+    },
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.0830645829992136,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 5313,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "A",
+      "replay": {
+        "max_logit_error": 1.1368683772161603e-13,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.03432829200028209,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.03441320799902314,
+      "reused": false,
+      "schedule_seed": 94211,
+      "seconds": 40.55223349999869,
+      "seed": 8101,
+      "selection_score": 1.0,
+      "split": "final",
+      "task": "hall",
+      "train_seconds": 40.170176874999015,
+      "updates": 32768,
+      "width": 64
+    },
+    {
+      "batch_size": 512,
+      "category_counts": {
+        "all_graphs": 65536,
+        "no_isolated_negatives": 3680,
+        "test_hall3": 288,
+        "test_positive": 1152,
+        "test_target": 432
+      },
+      "data_scope": "All 65,536 graph states are used for training and evaluation.",
+      "eligible": true,
+      "evaluation_seconds": 0.08257441599562299,
+      "metrics": {
+        "all_graphs": 1.0,
+        "no_isolated_negatives": 1.0,
+        "test_hall3": 1.0,
+        "test_positive": 1.0,
+        "test_target": 1.0
+      },
+      "parameters": 5313,
+      "passed": true,
+      "precision": "float64",
+      "recipe": "A",
+      "replay": {
+        "max_logit_error": 1.1368683772161603e-13,
+        "method": "NumPy explicit affine and ReLU equations; saved weights, no retraining.",
+        "passed": true,
+        "rows": 65536,
+        "same_metrics": true,
+        "same_predictions": true,
+        "seconds": 0.03318929200031562,
+        "tolerance": 1e-09
+      },
+      "replay_seconds": 0.03324366699962411,
+      "reused": false,
+      "schedule_seed": 94211,
+      "seconds": 44.938677375001134,
+      "seed": 8102,
+      "selection_score": 1.0,
+      "split": "final",
+      "task": "hall",
+      "train_seconds": 44.70203262500581,
+      "updates": 32768,
+      "width": 64
+    }
+  ],
+  "new_complete_model_trainings": 5,
+  "original_commit": "c421ca112a0b421862934efb97bdecc0ebf323d3",
+  "partial_attempt_retained": "studies/2026-10-19-capability-gates/results/hall/development-A-8002",
+  "partial_updates_recorded": 13600,
+  "partial_weights_may_include_one_unlogged_update": true,
+  "peak_rss_native_units": 320880640,
+  "prior_attempt_seconds": 52.15248708400031,
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "reason": "RuntimeError('Usage permit is absent, stopped, or expired')",
+  "retained_partial_training_invocations": 1,
+  "seconds": 264.9125581670014,
+  "status": "stopped",
+  "total_stage1_seconds": 317.0650452510017,
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/Administrator/.codex/.chatgpt-projects/g-p-6ac7ebad8afc8191a683bfc972344f72/work/mechanistic-interpretability-research/studies/2026-10-22-capability-completion/code/run.py\", line 181, in experiment\n    row = module.run_job(selected, seed, 'final', path, deadline)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/Administrator/.codex/.chatgpt-projects/g-p-6ac7ebad8afc8191a683bfc972344f72/work/mechanistic-interpretability-research/studies/2026-10-19-capability-gates/code/hall.py\", line 100, in run_job\n    check(deadline, *(p.grad for p in model.parameters()))\n  File \"/Users/Administrator/.codex/.chatgpt-projects/g-p-6ac7ebad8afc8191a683bfc972344f72/work/mechanistic-interpretability-research/studies/2026-10-19-capability-gates/code/hall.py\", line 24, in check\n    check_stop(deadline)\n  File \"/Users/Administrator/.codex/.chatgpt-projects/g-p-6ac7ebad8afc8191a683bfc972344f72/work/mechanistic-interpretability-research/studies/2026-10-19-capability-gates/code/common.py\", line 16, in check_stop\n    raise RuntimeError('Usage permit is absent, stopped, or expired')\nRuntimeError: Usage permit is absent, stopped, or expired\n"
+}

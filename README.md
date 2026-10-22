@@ -14,9 +14,11 @@ The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiment
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
-## Latest execution report
+## Latest research batch
 
-[Preparation and Experiment 1](studies/2026-10-19-capability-gates/paper.md) started on 19 October 2026. Preparation passed. One graph development model passed all five ability checks. A permit-file read error stopped the next model. The code, complete result, partial weights, and failure record are saved. No final model panel is complete.
+The [22 October batch](docs/2026-10-22-RESEARCH_BATCH.md) adds nine complete papers with code, results, checks, and stated limits. These are formal or constructed tests, including one statistical simulation. They are not trained-language-model studies.
+
+The planned tenth study, [Experiment 1 continuation](studies/2026-10-22-capability-completion/paper.md), stopped at the usage reserve. Six graph models have complete passing results, but only two of the required four final models finished. Partial weights and failure records are retained. This study is not counted as complete.
 
 ## Papers
 

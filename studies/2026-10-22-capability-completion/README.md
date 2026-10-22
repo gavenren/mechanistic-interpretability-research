@@ -30,3 +30,7 @@ python studies/2026-10-22-capability-completion/code/measure_hall.py --lock TIMI
 ```
 
 The scientific runner now requires a passed `revised-preparation/status.json`. Its public lock must include both failed and revised preparation records. The fourfold allowance and four-hour cap are unchanged. No scientific work has started at this plan stage.
+
+## Recorded outcome
+
+Read the [execution report](paper.md). The revised dummy measurement passed. The scientific continuation then stopped at the usage reserve during final graph seed8103. Six graph models have complete results, including one reused model. The four-model final graph panel is incomplete. No other task branch started. Preserve all results and both partial attempts. Do not run this command again in the same output folder or silently replace the partial seed.

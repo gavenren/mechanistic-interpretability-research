@@ -1,3 +1,15 @@
+# Latest status: preparation passed; Experiment 1 stopped at the usage reserve
+
+**Updated:** 22 October 2026.
+
+The first fresh timing estimate failed. One publicly fixed timing revision then passed, with a 2.97-hour estimate, the same fourfold allowance, and the unchanged four-hour limit. Both preparation records remain.
+
+Six graph models have complete results. All six passed their task and saved-weight checks. Only two of the required four final graph models completed. The next model has partial weights. The usage rule stopped the run. No other task branch started.
+
+See the [continuation report](../studies/2026-10-22-capability-completion/paper.md) and [nine completed papers](2026-10-22-RESEARCH_BATCH.md). Experiment 1 is not a completed tenth paper. Automatic research remains paused.
+
+## Earlier records, retained as history
+
 # Latest execution status: Experiment 1 stopped during development
 
 **Updated:** 19 October 2026.

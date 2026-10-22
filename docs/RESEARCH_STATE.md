@@ -1,6 +1,6 @@
 # Research state
 
-Updated: 19 October 2026.
+Updated: 22 October 2026.
 
 ## Completed studies
 
@@ -42,11 +42,13 @@ A one-page summary of the review is available as [text](REVIEW_SUMMARY.md) and a
 
 The [ordered research plan](RESEARCH_PLAN.md) turns the review into six experiments after a preparation stage. It states proposed success rules, dependencies, failure outcomes, and compute limits. The [compute budget](RESEARCH_COMPUTE_BUDGET.csv) totals an estimated 8.25–32.5 elapsed CPU hours if all branches run, with a 47-hour cap. These are planning amounts, not measured runtimes or a promise of scientific success. A [separate AI review](reviews/RESEARCH_PLAN_REVIEW.md) checks the plan.
 
-No experiment in this plan has started. Each stage requires its own fixed execution plan and controls before final results. Existing empirical papers and results remain unchanged. Automatic research remains paused.
+Experiment 1 has started but remains incomplete. Each later stage requires its own fixed execution plan and controls before final results. Existing empirical papers and results remain unchanged. Automatic research remains paused.
 
-## Latest execution attempt
+## Latest research batch and execution attempt
 
-Preparation passed on 19 October 2026. Experiment 1 then stopped during its second graph development model because a permit-file refresh caused an empty JSON read. One development model completed with 100% accuracy in all five graph categories. Its saved-weight replay passed. A second model has partial weights and a trace. No final model panel ran. See the [execution report](../studies/2026-10-19-capability-gates/paper.md) and [current status](STAGE_0_STATUS.md). Keep this failed attempt. A later continuation needs a tested permit updater and a public rule for the partial seed. Automatic research remains paused.
+The [22 October batch](2026-10-22-RESEARCH_BATCH.md) contains nine complete formal or computational papers. All nine fixed calculations and their checks passed. They have no newly trained language models and make no general novelty claim. Together with the original fifteen, the repository has 24 complete studies. The narrative review and partial reports remain separate.
+
+Experiment 1 remains incomplete. Its [continuation report](../studies/2026-10-22-capability-completion/paper.md) records six complete graph models and two interrupted training attempts across the full history. Two final graph models passed. Final seed 8103 has partial weights and 22,028 recorded updates. No other task branch started. The process stopped at the account reserve; automatic research remains paused. Keep all records and publish an explicit continuation rule before handling the partial seed.
 
 ## Current state
 
