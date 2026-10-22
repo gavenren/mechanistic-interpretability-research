@@ -1,0 +1,35 @@
+{
+  "controls": [
+    {
+      "architecture": "direct",
+      "forward_error": 0.0,
+      "inference_seconds": 0.005775959005404729,
+      "replay_seconds": 0.0038561670007766224
+    },
+    {
+      "architecture": "filtered",
+      "forward_error": 0.0,
+      "inference_seconds": 0.012961707994691096,
+      "replay_seconds": 0.013650749999214895
+    }
+  ],
+  "dummy_only": true,
+  "estimated_eight_jobs_seconds": 911.2986512386124,
+  "estimated_one_job_seconds": 113.91233140482655,
+  "parameters_B": {
+    "direct": 23946,
+    "filtered": 23946
+  },
+  "passed": true,
+  "projected_job_seconds": 455.6493256193062,
+  "safe_eight_jobs_seconds": 3645.1946049544495,
+  "safety_factor": 4,
+  "seconds": 1.8878572500034352,
+  "status": "passed",
+  "task": "digits",
+  "timing_steps_per_architecture": 20,
+  "training_step_seconds_B": [
+    0.026318554200042855,
+    0.06517199794980115
+  ]
+}

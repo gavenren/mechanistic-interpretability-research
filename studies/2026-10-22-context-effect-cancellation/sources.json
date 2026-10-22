@@ -1,0 +1,18 @@
+[
+  {
+    "title": "AtP*: An efficient and scalable method for localizing LLM behaviour to components",
+    "url": "https://arxiv.org/html/2403.00745v1",
+    "version": "v1",
+    "authors": "Kramar et al.",
+    "checked": "2026-10-22",
+    "scope": "Section 2 and Appendix B.2 explicitly discuss cancellation across a distribution and mean absolute effects."
+  },
+  {
+    "title": "Towards Best Practices of Activation Patching in Language Models: Metrics and Methods",
+    "url": "https://arxiv.org/abs/2309.16042v2",
+    "version": "v2",
+    "authors": "Zhang and Nanda",
+    "checked": "2026-10-22",
+    "scope": "Abstract checked for methodological dependence. Used only for this broad point."
+  }
+]

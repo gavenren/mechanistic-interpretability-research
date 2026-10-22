@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "writes": 1000,
+  "reads": 10000,
+  "read_errors": [],
+  "controls": {
+    "valid_accepts": true,
+    "denied_stops": true,
+    "expired_stops": true,
+    "empty_file_stops": true,
+    "missing_file_stops": true,
+    "deadline_stops": true
+  },
+  "scientific_work": false,
+  "seconds": 0.7232247499996447,
+  "limit": "Finite concurrency check; not proof for all filesystems or failures."
+}

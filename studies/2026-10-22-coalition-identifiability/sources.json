@@ -1,0 +1,33 @@
+{
+  "search_date": "2026-10-22",
+  "search_scope": "Focused primary-source check, not an exhaustive novelty search.",
+  "sources": [
+    {
+      "title": "How to use and interpret activation patching",
+      "authors": "Stefan Heimersheim and Neel Nanda",
+      "version": "2404.15255v1",
+      "url": "https://arxiv.org/abs/2404.15255v1",
+      "checked": "2026-10-22",
+      "read": "Abstract and full HTML including AND/OR examples",
+      "scope": "Noising, denoising, and backup circuits answer different questions."
+    },
+    {
+      "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+      "authors": "Kevin Wang et al.",
+      "version": "2211.00593v1",
+      "url": "https://arxiv.org/abs/2211.00593v1",
+      "checked": "2026-10-22",
+      "read": "Primary abstract and bibliographic record",
+      "scope": "Faithfulness, completeness, and minimality are existing circuit criteria."
+    },
+    {
+      "title": "The Hydra Effect: Emergent Self-repair in Language Model Computations",
+      "authors": "Thomas McGrath et al.",
+      "version": "2307.15771v1",
+      "url": "https://arxiv.org/abs/2307.15771v1",
+      "checked": "2026-10-22",
+      "read": "Primary abstract and bibliographic record",
+      "scope": "Real language model ablations can trigger compensating computation; this study does not test that process."
+    }
+  ]
+}

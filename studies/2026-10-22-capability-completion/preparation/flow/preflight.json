@@ -1,0 +1,26 @@
+{
+  "controls": {
+    "logdet_error": 8.326672684688674e-17,
+    "no_op_error": 0.0,
+    "roundtrip_error": 8.881784197001252e-16
+  },
+  "dummy_only": true,
+  "estimated_eight_jobs_seconds": 273.51178236538544,
+  "estimated_one_job_seconds": 34.18897279567318,
+  "inverse_controls": {
+    "logdet_error": 5.551115123125783e-17,
+    "no_op_error": 0.0,
+    "roundtrip_error": 8.881784197001252e-16
+  },
+  "jacobian_error": 2.411265631607762e-16,
+  "parameters_B": 1032,
+  "passed": true,
+  "projected_job_seconds": 136.75589118269272,
+  "safe_eight_jobs_seconds": 1094.0471294615418,
+  "safety_factor": 4,
+  "seconds": 0.05985908300499432,
+  "status": "passed",
+  "task": "flow",
+  "timing_steps": 20,
+  "training_step_seconds_B": 0.0021080332997371444
+}

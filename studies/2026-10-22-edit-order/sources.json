@@ -1,0 +1,24 @@
+{
+  "search_date": "2026-10-22",
+  "search_scope": "Focused primary-source check, not an exhaustive novelty search.",
+  "sources": [
+    {
+      "title": "Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations",
+      "authors": "Atticus Geiger et al.",
+      "version": "PMLR 236:160-187, 2024",
+      "url": "https://proceedings.mlr.press/v236/geiger24a.html",
+      "checked": "2026-10-22",
+      "read": "Primary paper PDF, introduction and intervention definition",
+      "scope": "Distributed interchange interventions use rotated representation coordinates."
+    },
+    {
+      "title": "How to use and interpret activation patching",
+      "authors": "Stefan Heimersheim and Neel Nanda",
+      "version": "2404.15255v1",
+      "url": "https://arxiv.org/abs/2404.15255v1",
+      "checked": "2026-10-22",
+      "read": "Abstract and full HTML including AND/OR examples",
+      "scope": "Noising, denoising, and backup circuits answer different questions."
+    }
+  ]
+}

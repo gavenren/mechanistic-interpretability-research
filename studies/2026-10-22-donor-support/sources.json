@@ -1,0 +1,24 @@
+{
+  "search_date": "2026-10-22",
+  "search_scope": "Focused primary-source check, not an exhaustive novelty search.",
+  "sources": [
+    {
+      "title": "Towards Best Practices of Activation Patching in Language Models: Metrics and Methods",
+      "authors": "Fred Zhang and Neel Nanda",
+      "version": "2309.16042v2",
+      "url": "https://arxiv.org/abs/2309.16042v2",
+      "checked": "2026-10-22",
+      "read": "Abstract and full HTML methods sections",
+      "scope": "Patching results can depend on corruption methods and metrics."
+    },
+    {
+      "title": "How to use and interpret activation patching",
+      "authors": "Stefan Heimersheim and Neel Nanda",
+      "version": "2404.15255v1",
+      "url": "https://arxiv.org/abs/2404.15255v1",
+      "checked": "2026-10-22",
+      "read": "Abstract and full HTML including AND/OR examples",
+      "scope": "Noising, denoising, and backup circuits answer different questions."
+    }
+  ]
+}

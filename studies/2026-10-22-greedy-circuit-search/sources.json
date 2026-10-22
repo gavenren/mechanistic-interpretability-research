@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+    "url": "https://arxiv.org/html/2304.14997v4",
+    "version": "v4",
+    "authors": "Conmy et al.",
+    "checked": "2026-10-22",
+    "scope": "Sections 2-4 and Appendix M. Prior OR-gate pruning-order limitation; this note audits minimum size and every order."
+  }
+]

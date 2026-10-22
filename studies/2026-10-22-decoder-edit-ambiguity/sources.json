@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
+    "url": "https://arxiv.org/html/2405.12241v2",
+    "version": "v2",
+    "authors": "Braun et al.",
+    "checked": "2026-10-22",
+    "scope": "Introduction and method. Prior distinction between local reconstruction and downstream function; no claim that this source proves the note algebra."
+  }
+]

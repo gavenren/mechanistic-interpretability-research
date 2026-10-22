@@ -1,0 +1,138 @@
+{
+  "atomic_permit": {
+    "controls": {
+      "deadline_stops": true,
+      "denied_stops": true,
+      "empty_file_stops": true,
+      "expired_stops": true,
+      "missing_file_stops": true,
+      "valid_accepts": true
+    },
+    "limit": "Finite concurrency check; not proof for all filesystems or failures.",
+    "passed": true,
+    "read_errors": [],
+    "reads": 10000,
+    "scientific_work": false,
+    "seconds": 0.6668487499991897,
+    "writes": 1000
+  },
+  "conservative_stage1_seconds_with_prior_attempt": 20995.247604235323,
+  "hardware": {
+    "compute_threads": 2,
+    "free_disk_bytes": 690070687744,
+    "hw.memsize": "25769803776",
+    "interop_threads": 1,
+    "machdep.cpu.brand_string": "Apple M4",
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "process_memory_cap_bytes": 4294967296,
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     5316.\nPages active:                                 282683.\nPages inactive:                               265791.\nPages speculative:                             15993.\nPages throttled:                                   0.\nPages wired down:                             250491.\nPages purgeable:                                  26.\n\"Translation faults\":                      577465642.\nPages copy-on-write:                        10036999.\nPages zero filled:                         362900412.\nPages reactivated:                         121522344.\nPages purged:                               23367965.\nFile-backed pages:                            183536.\nAnonymous pages:                              380931.\nPages stored in compressor:                  1825017.\nPages occupied by compressor:                 698643.\nDecompressions:                            115042760.\nCompressions:                              134485156.\nPageins:                                    19233221.\nPageouts:                                     521446.\nSwapins:                                      125296.\nSwapouts:                                     540601.\n"
+  },
+  "initial_permit_test_seconds": 0.7232247499996447,
+  "original_preparation_seconds": 5.537719791998825,
+  "peak_rss_native_units": 350797824,
+  "prior_preparation_seconds": 6.2609445419984695,
+  "reason": "RuntimeError('Combined projected compute exceeds the unchanged cap')",
+  "seconds": 7.259483249996265,
+  "status": "stopped",
+  "tasks": {
+    "digits": {
+      "controls": [
+        {
+          "architecture": "direct",
+          "forward_error": 0.0,
+          "inference_seconds": 0.005775959005404729,
+          "replay_seconds": 0.0038561670007766224
+        },
+        {
+          "architecture": "filtered",
+          "forward_error": 0.0,
+          "inference_seconds": 0.012961707994691096,
+          "replay_seconds": 0.013650749999214895
+        }
+      ],
+      "dummy_only": true,
+      "estimated_eight_jobs_seconds": 911.2986512386124,
+      "estimated_one_job_seconds": 113.91233140482655,
+      "parameters_B": {
+        "direct": 23946,
+        "filtered": 23946
+      },
+      "passed": true,
+      "projected_job_seconds": 455.6493256193062,
+      "safe_eight_jobs_seconds": 3645.1946049544495,
+      "safety_factor": 4,
+      "seconds": 1.8878572500034352,
+      "status": "passed",
+      "task": "digits",
+      "timing_steps_per_architecture": 20,
+      "training_step_seconds_B": [
+        0.026318554200042855,
+        0.06517199794980115
+      ]
+    },
+    "flow": {
+      "controls": {
+        "logdet_error": 8.326672684688674e-17,
+        "no_op_error": 0.0,
+        "roundtrip_error": 8.881784197001252e-16
+      },
+      "dummy_only": true,
+      "estimated_eight_jobs_seconds": 273.51178236538544,
+      "estimated_one_job_seconds": 34.18897279567318,
+      "inverse_controls": {
+        "logdet_error": 5.551115123125783e-17,
+        "no_op_error": 0.0,
+        "roundtrip_error": 8.881784197001252e-16
+      },
+      "jacobian_error": 2.411265631607762e-16,
+      "parameters_B": 1032,
+      "passed": true,
+      "projected_job_seconds": 136.75589118269272,
+      "safe_eight_jobs_seconds": 1094.0471294615418,
+      "safety_factor": 4,
+      "seconds": 0.05985908300499432,
+      "status": "passed",
+      "task": "flow",
+      "timing_steps": 20,
+      "training_step_seconds_B": 0.0021080332997371444
+    },
+    "hall": {
+      "dummy_replay_seconds": 0.0007717500047874637,
+      "dummy_steps": 20,
+      "dummy_train_seconds": 0.24013854200165952,
+      "max_replay_error": 5.551115123125783e-16,
+      "noop_exact": true,
+      "oracle_sanity": [
+        false,
+        true,
+        true
+      ],
+      "parameters": 18817,
+      "passed": true,
+      "projected_eight_job_seconds": 12918.367590896605,
+      "projected_job_seconds": 1614.7959488620756,
+      "projection": "Four times measured larger-recipe update cost, eval/replay, and 10-second setup allowance.",
+      "scientific_training_or_evaluation": false
+    },
+    "register": {
+      "dummy_forward_seconds": 0.07256758349831216,
+      "dummy_replay_seconds": 0.05562633299996378,
+      "dummy_steps": 20,
+      "dummy_train_seconds": 0.2935215000034077,
+      "max_replay_error": 1.3322676295501878e-15,
+      "noop_exact": true,
+      "oracle_224_cases_pass": true,
+      "parameters": 57360,
+      "passed": true,
+      "projected_eight_job_seconds": 3285.485791838728,
+      "projected_job_seconds": 410.685723979841,
+      "projection": "Four times larger-recipe training, 44-step eval/replay for all rows, and 10-second setup allowance.",
+      "scientific_training_or_evaluation": false
+    }
+  },
+  "total_preparation_seconds": 13.520427791994734
+}
