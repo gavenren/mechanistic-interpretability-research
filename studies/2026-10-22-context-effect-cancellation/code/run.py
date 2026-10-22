@@ -83,7 +83,12 @@ def calculate(out,deadline):
             assert n['mean']==2*beta and n['mean_abs']==2*beta
             summaries.append(dict(alpha=alpha,beta=beta,p=str(p),intact_accuracy=str(Fraction(correct,8)),capable=int(correct==8),
                  semantic_mean=str(s['mean']),semantic_abs_mean=str(s['abs_mean']),semantic_mean_abs=str(s['mean_abs']),
-                 semantic_aligned=str(s['aligned']),semantic_success=str(s['success']),nuisance_mean=str(n['mean']),
+                 semantic_aligned=str(s['aligned']),
+                 semantic_context_minus=str(Fraction(sum(r['delta'] for r in effects['semantic'] if r['c']==-1),2)),
+                 semantic_context_plus=str(Fraction(sum(r['delta'] for r in effects['semantic'] if r['c']==1),2)),
+                 nuisance_context_minus=str(Fraction(sum(r['delta'] for r in effects['nuisance'] if r['c']==-1),2)),
+                 nuisance_context_plus=str(Fraction(sum(r['delta'] for r in effects['nuisance'] if r['c']==1),2)),
+                 semantic_success=str(s['success']),nuisance_mean=str(n['mean']),
                  nuisance_mean_abs=str(n['mean_abs']),nuisance_success=str(n['success']),nuisance_answer_change=str(n['changed']),
                  nuisance_ranks_above_semantic=int(n['abs_mean']>s['abs_mean'])))
     table(out/'states.csv',states);table(out/'effects.csv',raw);table(out/'mixtures.csv',summaries)

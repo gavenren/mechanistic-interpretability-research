@@ -98,6 +98,9 @@ def calculate(out,deadline):
             k=case['family_k'];assert Fraction(bad,len(sizes))==Fraction(1,k+1)
             assert Fraction(sum(sizes),len(sizes))==1+Fraction(k-1,k+1)
         summary.append(row)
+    from collections import Counter
+    endpoints=Counter((r['case'],r['final_mask'],r['size']) for r in orders)
+    table(out/'endpoint_counts.csv',[dict(case=k[0],final_mask=k[1],size=k[2],orders=v) for k,v in sorted(endpoints.items())])
     table(out/'subsets.csv',subsets);table(out/'orders.csv',orders);table(out/'case_summary.csv',summary)
     return {'cases':len(models),'subset_checks':len(subsets),'order_checks':len(orders),'case_results':summary,'scope':'Fixed constructed circuits; no population estimate.'}
 

@@ -52,4 +52,8 @@ def audit(out,deadline):
         assert int(row['max_size'])==max(values) and int(row['max_gap'])==max(values)-opt[name]
         k=cases[name]['family_k']
         if k is not None:assert bad==math.factorial(k) and max(values)==k and opt[name]==1
+    from collections import Counter
+    endpoints=Counter((r['case'],int(r['final_mask']),int(r['size'])) for r in orders)
+    saved={(r['case'],int(r['final_mask']),int(r['size'])):int(r['orders']) for r in read(out/'endpoint_counts.csv')}
+    assert dict(endpoints)==saved
     return {'passed':True,'subset_rows':len(subsets),'order_rows':len(orders),'method':'Independent integer masks and threshold-gate simulation; exact equality.'}

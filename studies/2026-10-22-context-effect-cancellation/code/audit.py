@@ -37,6 +37,8 @@ def audit(out,deadline):
         assert Fraction(row['semantic_abs_mean'])==abs(2*a*(2*p-1))
         assert Fraction(row['semantic_mean_abs'])==2*a==Fraction(row['semantic_aligned'])
         assert Fraction(row['nuisance_mean'])==2*b==Fraction(row['nuisance_mean_abs'])
+        assert Fraction(row['semantic_context_minus'])==-2*a and Fraction(row['semantic_context_plus'])==2*a
+        assert Fraction(row['nuisance_context_minus'])==2*b==Fraction(row['nuisance_context_plus'])
         for edit in ('semantic','nuisance'):
             vals=effects[(a,b,edit)];success=sum((p if int(v['c'])==1 else 1-p)*Fraction(int(v['correct_after']),2) for v in vals)
             assert Fraction(row[edit+'_success'])==success

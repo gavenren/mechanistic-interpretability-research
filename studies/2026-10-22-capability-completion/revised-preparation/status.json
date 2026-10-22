@@ -1,0 +1,50 @@
+{
+  "block_seconds": [
+    0.17652033299964387,
+    0.21961979199841153,
+    0.17089658299664734
+  ],
+  "combined_projected_scientific_seconds": 10707.952443483982,
+  "earlier_projection_seconds": 20995.247604235323,
+  "hardware": {
+    "compute_threads": 2,
+    "free_disk_bytes": 690043125760,
+    "hw.memsize": "25769803776",
+    "interop_threads": 1,
+    "machdep.cpu.brand_string": "Apple M4",
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "process_memory_cap_bytes": 4294967296,
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     4383.\nPages active:                                 327543.\nPages inactive:                               318810.\nPages speculative:                              7514.\nPages throttled:                                   0.\nPages wired down:                             184593.\nPages purgeable:                                   2.\n\"Translation faults\":                      592740808.\nPages copy-on-write:                        10444971.\nPages zero filled:                         370300190.\nPages reactivated:                         126594439.\nPages purged:                               24144174.\nFile-backed pages:                            211248.\nAnonymous pages:                              442619.\nPages stored in compressor:                  1798588.\nPages occupied by compressor:                 676008.\nDecompressions:                            119540177.\nCompressions:                              139610922.\nPageins:                                    19404981.\nPageouts:                                     537186.\nSwapins:                                      129579.\nSwapouts:                                     557221.\n"
+  },
+  "input_seed": 99301,
+  "max_explicit_error": 1.0658141036401503e-14,
+  "maximum_seconds_per_update": 0.0021961979199841154,
+  "model_seed": 99302,
+  "noop_exact": true,
+  "old_evaluation_replay_seconds_per_job": 0.2559999999999718,
+  "parameters": 18817,
+  "peak_rss_native_units": 246579200,
+  "prior_preparation_seconds": 13.520427791994734,
+  "prior_scientific_seconds": 52.15248708400031,
+  "projected_job_seconds": {
+    "digits": 455.6493256193062,
+    "flow": 136.75589118269272,
+    "hall": 328.88405376815786,
+    "register": 410.685723979841
+  },
+  "safety_factor": 4,
+  "scientific_work": false,
+  "seconds": 2.087082707999798,
+  "setup_allowance_seconds": 10.0,
+  "setup_and_benchmark_seconds": 2.025218249997124,
+  "status": "passed",
+  "timed_blocks": 3,
+  "timing_method_lock": "1de96267c03027226b8ae33b10c23483256d49f6",
+  "total_preparation_seconds": 15.607510499994532,
+  "updates_per_block": 100,
+  "warmup_updates": 20
+}
