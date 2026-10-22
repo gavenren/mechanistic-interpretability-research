@@ -1,8 +1,10 @@
-stage,name,estimated_elapsed_cpu_hours_low,estimated_elapsed_cpu_hours_high,hard_cap_elapsed_cpu_hours,language_forwarded_token_cap_including_replay,default_compute_threads,ram_allowance_gb,shared_disk_allowance_gb,dependency,estimate_status
-0,Preparation runs,0.25,0.5,1,0,2,16,20,None,planning assumption; not a measured runtime
-1,Task ability,0.5,2,4,0,2,16,20,0,planning assumption; not a measured runtime
-2,Intended and unwanted effects,0.25,1,2,0,2,16,20,0; graph branch requires 1,planning assumption; not a measured runtime
-3,Transfer,3,12,16,16000000,2,16,20,0; scheduled after cheaper work,planning assumption; not a measured runtime
-4,Future use and replacement,3.5,14,18,16000000,2,16,20,Register branch 1; language branch 3,planning assumption; not a measured runtime
-5,Numerical reliability,0.25,1,2,0,2,16,20,0; saved Study 15 models,planning assumption; not a measured runtime
-6,External repeat package,0.5,2,4,0,2,16,20,2 and 5; external participation,planning assumption; not a measured runtime
+run_order,stage,name,estimated_additional_elapsed_cpu_hours_low,estimated_additional_elapsed_cpu_hours_high,cumulative_stage_cap_elapsed_cpu_hours,prior_elapsed_cpu_seconds_charged,remaining_stage_cap_elapsed_cpu_hours,language_forwarded_token_cap_including_replay,default_compute_threads,peak_process_memory_cap_gib,required_free_disk_gib,dependency,estimate_status
+1,0,Refresh preparation,0.25,0.5,1,15.607510499995,0.995664580417,0,2,4,20,Current resource and file checks,Planning allowance; cumulative preparation cap
+2,1,Finish task ability,1.5,3,4,317.065045251002,3.911926376319,0,2,4,20,0,Planning range; saved remaining-job projection is about 2.41 hours before added continuation work
+3,2A,Complete edit procedure,0.25,1,2,0.000000000000,2.000000000000,1000000,2,16,20,0; address unfinished Experiment 1 first,Planning allowance; no new base-model training
+4,2B,Groups scores and selection,0.25,1,2,0.000000000000,2.000000000000,0,2,16,20,2A,Planning allowance; no new base-model training
+5,2C,Intended and unwanted effects,0.25,1,2,0.000000000000,2.000000000000,0,2,16,20,2A and 2B; graph branch also requires 1,Original Experiment 2 allowance; eight fresh selector models
+6,5,Numerical reliability,0.25,1,2,0.000000000000,2.000000000000,0,2,16,20,0; saved Study 15 models,Planning allowance; at most four development models
+7,3,Language transfer,3,12,16,0.000000000000,16.000000000000,16000000,2,16,20,2A and 2B; cheaper work attempted first,Planning allowance; exact models and measured rate required before execution
+8,4,Future use and replacement,3.5,14,18,0.000000000000,18.000000000000,16000000,2,16,20,Register branch 1; language branch 3; relevant 2A and 2B controls,Planning allowance; skip blocked branches
+9,6,External repeat package,0.5,2,4,0.000000000000,4.000000000000,0,2,16,20,Finished records from 2C and 5; external participation,Planning allowance; external participation not secured

@@ -10,7 +10,7 @@ Start with the updated [one-page summary](docs/REVIEW_SUMMARY.md), also availabl
 
 Read the updated [combined review paper](docs/REVIEW_PAPER.md) for all 24 completed studies. It covers the first fifteen and the nine additions. It explains the findings, contributions, limits, and next steps in plain English. It marks the tenth study in the new batch as unfinished. The review adds no new experiment.
 
-The [ordered research plan](docs/RESEARCH_PLAN.md) gives the proposed experiments, success rules, compute estimates, and stop conditions. See the [Stage 0 status](docs/STAGE_0_STATUS.md) for the latest execution attempt.
+The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studies and puts the unfinished task-ability study first. It gives the experiment order, success rules, compute estimates, and stop conditions. The [budget table](docs/RESEARCH_COMPUTE_BUDGET.csv) includes prior compute and the remaining caps. See the [execution status](docs/STAGE_0_STATUS.md) for the stopped attempt. Updating the plan does not resume research.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 

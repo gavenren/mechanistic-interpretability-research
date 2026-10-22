@@ -1,11 +1,14 @@
 # Research plan: from internal effects to tested explanations
 
-**Date:** 13 October 2026  
-**Status at publication, 13 October 2026:** Proposed work. No experiment had started. See the [19 October execution report](../studies/2026-10-19-capability-gates/paper.md) for the later preparation and partial Experiment 1 run.  
-**Latest execution:** See the [22 October continuation](../studies/2026-10-22-capability-completion/paper.md). Experiment 1 remains incomplete.
+**Updated:** 22 October 2026. First version: 13 October 2026.
 
-**Basis:** The [review](REVIEW_PAPER.md) and [one-page summary](REVIEW_SUMMARY.md) at [commit 15755f0](https://github.com/gavenren/mechanistic-interpretability-research/tree/15755f0aa61cced6d37aa0a5a765ca1fb0936756).  
-**Review:** AI-authored, with a [separate AI plan review](reviews/RESEARCH_PLAN_REVIEW.md). No human peer review is recorded.
+**Status:** Updated plan only. No experiment was run for this update. Automatic research remains paused.
+
+**Basis:** The [review](REVIEW_PAPER.md) and [one-page summary](REVIEW_SUMMARY.md) cover 24 completed studies at [repository version 802bacf](https://github.com/gavenren/mechanistic-interpretability-research/tree/802bacf849f073c34c838c33876bf2f121ff06d3). The new batch contains nine completed papers. Its planned tenth study is unfinished. Completed Study 10 in the original group is a different study.
+
+**First priority:** Complete the [unfinished task-ability study](../studies/2026-10-22-capability-completion/paper.md), which is Experiment 1 below. It is not counted among the 24 completed studies.
+
+**Review:** AI-authored. The [update check](reviews/2026-10-22-RESEARCH_PLAN_UPDATE_REVIEW.md) applies to this version. The [original plan review](reviews/RESEARCH_PLAN_REVIEW.md) remains part of the history. No human peer review is recorded.
 
 ## Aim and decision rules
 
@@ -13,23 +16,43 @@ The aim is to test when an internal explanation predicts the right behavior unde
 
 Start with small, controlled tasks. Test larger pretrained models only after the test methods work. Keep failed runs and negative results. A useful outcome can be a clear failure of a proposed explanation.
 
-The thresholds below are **proposed acceptance rules**, not established standards or predictions. They define a demanding first research program. They must be fixed before the final test results are opened. A failed threshold limits the stated claim; it does not prove that no representation or better method exists.
+The thresholds below are **acceptance rules**, not established field standards or predictions. Experiment 1 retains its already fixed rules. The new tests have proposed rules that must be fixed in their execution plans. They define a demanding first research program. They must be fixed before the final test results are opened. A failed threshold limits the stated claim; it does not prove that no representation or better method exists.
 
 This document is a research roadmap. Each experiment still needs a public execution plan, code review, fixed input list, and numerical controls. Exact model versions, training recipes, data splits, and example counts must be locked there. These details cannot be chosen from final test results.
 
 ## Order of work
 
-| Order | Experiment or preparation | Required earlier work | Decision to continue |
-| --- | --- | --- | --- |
-| 0 | Check methods, inputs, and resource estimates | None | Controls pass and the planned work fits its cap |
-| 1 | Build models that pass the relevant task checks | 0 | Continue each task branch only if its fixed model panel passes |
-| 2 | Change the intended variable and preserve other behavior | 0; graph branch also needs 1 | Report each model and each requirement separately |
-| 3 | Test a fixed explanation on new language inputs and models | 0; run after the cheaper tests | Both task ability and the explanation must pass |
-| 4 | Test stored information over time | Register branch needs 1; language branch needs 3 | Check immediate, later, and replacement behavior |
-| 5 | Test numerical reliability and practical value | 0; saved models from Study 15 | Compare correct decisions and total computation |
-| 6 | Repeat training and obtain external review | Completed results from 2 and 5 | Separate repeatability from scientific success |
+Keep the existing experiment numbers so that earlier run records remain clear. Experiment 2 now has three parts. Run the cheaper numerical experiment, 5, before the language experiments, 3 and 4.
 
-The order sets spending priorities. A failed graph model does not block an unrelated numerical test. If an earlier requirement fails, stop the dependent branch and publish the failure. Do not replace failed seeds or models until a desirable result appears.
+| Run order | Experiment | Required earlier work | Decision to continue |
+| --- | --- | --- | --- |
+| 1 | 0. Refresh preparation and the continuation record | Read current usage and saved records | All controls pass; projected work fits the remaining caps |
+| 2 | 1. Finish task-ability panels | 0 | Each task needs all required final models; report failed or unfinished branches |
+| 3 | 2A. Check the full edit procedure | 0; resolve the Experiment 1 attempt first | The measurement controls pass; all edit choices are explicit |
+| 4 | 2B. Test groups, search, scores, and selection | 2A | Search claims match the exact comparison; the validation rule passes its null test |
+| 5 | 2C. Test intended and unwanted effects | 2A and 2B; graph branch also needs 1 | Each model passes separate intended-change and unwanted-change rules |
+| 6 | 5. Test numerical reliability and useful savings | 0; saved Study 15 models | Valid bounds and the stated practical saving |
+| 7 | 3. Test language transfer | Relevant controls from 2A and 2B; cheaper work attempted first | Both candidate models pass task and explanation rules |
+| 8 | 4. Test later use and replacement | Register branch needs 1; language branch needs 3 | Immediate, later, and replacement behavior all pass |
+| 9 | 6. Independent repetition and human review | Finished records from 2C and 5 | Report reproduction separately from scientific confirmation |
+
+A stopped resource check pauses all new research. A scientific failure stops the dependent claim or task branch. It does not block unrelated work after that failure is reported. Do not skip the unfinished study to produce more papers. No stage must produce a new paper.
+
+## How the 24 studies inform this plan
+
+| Completed studies | Question carried forward | Planned use |
+| --- | --- | --- |
+| 1, 2, 3 | Does an edit change the intended variable, and what does the code or coordinate choice mean? | 2A and 2C; a new rare-feature training experiment is deferred |
+| 4, 5, 7, 8 | Does a fixed copying explanation transfer across words, positions, and token splits? | 3; do not assume the same head index has the same meaning in another model |
+| 6, 10 | Does stored information affect later steps and stop acting after replacement? | 1 for register ability, then 4 |
+| 9 | Do training histories affect the result? | Preserve histories in 6; a separate order-effect extension is deferred after the earlier tiny result |
+| 11, 12, 14 | Do weak task models meet the required ability or fit rules? | 1; the graph explanation then enters 2C |
+| 13, 15 | Does the exact deletion rule and numerical target match the explanation? | Controls in 2A and bounds in 5; a new spike study is deferred |
+| 16, 18, 20, 22 | Do donor values, edit order, code ambiguity, and normalization change the test? | 2A; apply the relevant checks again in 3 and 4 |
+| 17, 19 | Do individual tests or a greedy search miss smaller working groups? | 2B |
+| 21, 23, 24 | Do averaging, score choice, and selection create a misleading result? | 2B; separate final validation in every later stage |
+
+The nine new papers give mathematical tests and reference examples. They do not already establish these effects in trained language models. Deferred questions remain gaps; they are not completed extensions or extra funded stages.
 
 ## 0. Prepare the tests
 
@@ -39,22 +62,32 @@ Use dummy inputs to test shapes, memory, arithmetic, and runtime. Do not use fin
 
 Before each final run, measure work on the selected hardware. Record the processor, available memory, software, thread count, precision, and batch size. Save training and inference times separately where possible.
 
-**Success:** All required controls pass; planned data fit in memory; the projected run and replay fit the stage cap. Otherwise reduce scope and publish a revised plan before final testing. Numerical controls remain required in every later experiment.
+**Success:** All required controls pass; planned data fit in memory; the projected run and replay fit the remaining stage cap. Otherwise stop. A later revision must be public before scientific testing. Do not reduce the fixed Experiment 1 panel, change its thresholds, or extend its cap to obtain a pass. Numerical controls remain required in every later experiment.
 
-## 1. Establish task ability
+Verify the six complete graph models and their saved files. Check the stop-file writer with atomic replacement: write a new file, then replace the old file in one operation. Test that missing, empty, expired, or denied permits stop the runner. Test saving on a forced stop with dummy data. Do not use a final result for this check.
+
+Preparation already used 15.6075105 seconds. Its unchanged one-hour cap has 3,584.3924895 seconds left. This cap covers dummy controls and timing across the program. Each scientific stage also pays for its own saving, evaluation, and replay. No benchmark is run for this plan update.
+
+## 1. Finish the unfinished task-ability study
 
 **Question:** Can the models reliably perform the specific behavior that the explanation is meant to describe?
 
+**Current state:** Six graph models are complete: four development models and final seeds 8101 and 8102. All passed all five graph categories and saved-weight checks. Recipe A is already selected. Do not select it again. Seed 8103 has 22,028 recorded updates and partial weights, but no final score. Its weights can include one additional unrecorded update. Seed 8104 and the other three task branches have not started. Two passing final models do not pass the required four-model panel.
+
+**Explicit proposed continuation rule:** The partial file for 8103 contains model weights, but no optimizer or random-generator state. It cannot support an exact continuation. The next public execution plan must permit exactly one full restart of **the same seed 8103**, from its original initialization. Keep Recipe A, its data order, and its full 32,768-update schedule. Save the restart in a new directory. Keep both earlier partial attempts and their traces unchanged. Count their compute. Do not replace the seed, extend the schedule, or retry automatically after another stop.
+
+Reuse all six complete graph models after saved-weight checks pass. Complete 8103, then 8104. Next run register operations, digit images, and generated points, in that order. This restart rule is a change from the previous execution plan, which allowed only the earlier development-seed 8002 restart. The new continuation code, tests, and rule must be public before training. This roadmap does not start that training.
+
 Revisit four weak-model settings: matching graphs, register operations, digit images, and generated two-dimensional points. These come from Studies 12, 10, 11, and 14.
 
-Allow at most two training recipes per task. Use two development seeds, then four fresh fixed seeds for the chosen recipe. The digit task has both direct and filtered architectures. This gives at most **20 development models and 20 final models** across the four tasks.
+Allow at most two training recipes per task. Use development seeds 8001 and 8002, then final seeds 8101, 8102, 8103, and 8104 for the chosen recipe. The completed graph jobs are reused, not repeated. The digit task has both direct and filtered architectures. This gives at most **20 development models and 20 final models** across the four tasks. The two retained partial attempts are extra training invocations, not extra distinct models. Finishing every branch would give 40 complete models plus those two partial attempts. Six complete models already exist, so at most 34 model trainings remain.
 
 Recipe A keeps the original architecture and allows four times the original training schedule. Recipe B also allows up to twice the hidden width, within 100,000 parameters per model. Keep other settings fixed in the execution plan. Define both recipes before development runs. Choose by development task performance, with shorter runtime as the tie rule. Do not use final task or intervention results for selection.
 
 | Task | Required result in every final model |
 | --- | --- |
 | Matching graphs | At least 99% accuracy in each of the original five categories: all graphs, hard negatives, target negatives, positive controls, and other-cause negatives |
-| Register operations | At least 99% joint-state accuracy in every operation-order/horizon group, at horizons 0, 1, 2, 8, and 32 operations |
+| Register operations | At least 99% joint-state accuracy in all nine fixed groups: horizon 0 after the 12-operation history; copy-only and write-only at horizon 1; and both operation orders at horizons 2, 8, and 32 |
 | Digit images | At least 95% accuracy on original images and 90% on each fixed one-pixel shift, in both architectures |
 | Generated points | Excess negative log likelihood at most 0.20 nats, and four-region probability error at most 0.05, as defined in Study 14 |
 
@@ -64,13 +97,49 @@ Retain the original graph task definition: ordinary graphs can be seen during tr
 
 **Success:** Every model in a task panel passes every required category. Report a partial pass if only some models pass. A partial pass cannot support a claim about the full panel.
 
-**Compute:** 0.5–2 hours estimated; 4-hour cap. This is a new training budget, not a promise that either recipe will succeed.
+**Compute:** Allow 1.5–3 additional CPU hours for planning. This is not a measured prediction or a fresh four-hour allowance. [Recorded scientific time](../studies/2026-10-22-capability-completion/results/status.json) is 317.065045251 seconds, including earlier attempts. The unchanged four-hour cap leaves **14,082.934954749 seconds**, or about **3.91 hours**.
 
-## 2. Test intended and unwanted effects
+The [saved conservative job estimates](../studies/2026-10-22-capability-completion/revised-preparation/status.json) give 10.96 minutes for the two graph jobs, 54.76 for register jobs, 60.75 for digit jobs, and 18.23 for generated-point jobs. Their sum is 144.71 minutes, or about 2.41 hours of remaining work. Including prior scientific time gives about 2.50 hours. This is an arithmetic projection from the saved benchmark, not a new measurement. It excludes newly required replay and continuation setup, which must be added before launch.
+
+Refresh dummy timing on the chosen hardware. Keep the fourfold allowance and the previously fixed warmup/timing method. Add the remaining jobs, reused-model checks, controls, saving, and setup. Add all prior scientific time. Launch only if this total fits four hours. Retain both the earlier failed estimate and its published revision. Neither is permission to keep revising timing until it passes.
+
+## 2A. Check the complete edit procedure
+
+**Question:** Does the measured change come from the intended edit, or from an unstated choice in the procedure?
+
+Use the eight saved selector models from Study 1 as a diagnostic panel. They are not fresh confirmation models. Keep the original finite task and its ordinary ability checks. Fix development and test pairs before evaluating new edits. Compare no change, zero replacement, donors with the same variable value, donors with a different value, and a known coherent input change. Use the task rule to state the required answer for each test.
+
+Test two edits in both orders. Check each requested value after the second edit. For decoded features, reuse the six saved reconstruction-only encoders from Study 2 at its primary condition: 1% event frequency and amplitude 0.25. List their paths before testing. Compare only code alternatives that meet declared reconstruction, nonnegativity, and sparsity constraints. If none exists, report that result. A mathematical alternative is not proof that the encoder produces it.
+
+For normalization, reuse the fixed Pythia-14M model version from Studies 4–8. Use 32 fixed prompts of at most 128 tokens, at most eight sites, and three edit sizes. Compare ordinary recomputation of mean and scale with a diagnostic that keeps them fixed. Include every donor pass and replay in a **one-million-forwarded-token cap**. This branch measures numerical spread. It makes no copying or semantic claim unless the relevant task tests also pass.
+
+**Measurement success:** Every no-change control must reproduce the declared computation within its fixed tolerance. The separate implementation must match all recorded test effects within the same tolerance. Publish the tolerance and arithmetic before the test; do not enlarge it after a failure. Save results for every donor class, edit order, code constraint, and normalization rule. This stage succeeds as a diagnostic even if it finds that edits disagree.
+
+**Limit on interpretation:** Do not average away a failed donor class. An explanation that is claimed to work across donors or orders must later pass Experiment 2C's absolute rules in each claimed group. A result for only one procedure must name that procedure.
+
+**Compute:** 0.25–1 CPU hour estimated; 2-hour cap. Reuse saved weights. No new base-model training is included. Stop on any calculation-check failure or either the time or token cap.
+
+## 2B. Test groups, search, scores, and selection
+
+**Question:** Can the search and scoring procedure support the claim made from its largest effect?
+
+Reuse the diagnostic selector panel from 2A. Choose a fixed panel of eight components using development data only. Evaluate all 256 retained subsets on the locked test pairs. Keep all other components fixed. Compare the exact smallest working subset with a one-part-at-a-time deletion search under 32 fixed visit orders. Report individual, paired, and complete-group effects.
+
+**Search check:** A retained subset must keep at least 99% of intact answers and have mean probability-distance error at most 0.01. Use this same rule for every search method. A claim of minimum size passes only if the search matches exhaustive enumeration in every panel. That minimum is only within the chosen eight components and fixed test cases. Larger returned sets or multiple valid groups must be reported. They do not show that the model has no explanation.
+
+From the same saved effects, report signed averages, average magnitudes, score gains before conversion to probabilities, probability gains, and task correctness by context. Fix a separate candidate for each selection rule using development data. Evaluate each on untouched test pairs. A ranking reversal is a result to explain; it is not automatically a failure of either metric.
+
+**Selection check:** Make an explicit zero-effect noise model by centering a fixed bank of development effects. Do not use final test effects to create this bank. Draw selection and validation samples independently from the bank in every trial. Preserve the declared dependence between candidates within each draw. This is a constructed reference, not a claim that real effects are zero. Test 8, 32, and 128 candidates at 64 examples per estimate, with 2,000 trials per condition. Compare reused-data testing, separate validation, and a selection-aware correction. Fix the test law, threshold, and random seeds before trials. Use analytic checks where that law permits them.
+
+The primary separate-validation rule passes this calibration check only if the upper 95% Wilson bound on its false-positive fraction is at most 7% in every condition. The nominal target is 5%; the wider rule allows finite simulation error. These are per-condition intervals, not simultaneous confidence bounds. Report all three methods even if they fail. This check concerns false positives only. It does not measure power or real-circuit error rates. A positive model claim still needs 2C's task criteria.
+
+**Compute:** 0.25–1 CPU hour estimated; 2-hour cap. No new base-model training. The fixed 256-subset search, 32 orders, saved-score comparisons, simulation, and separate calculation check must all fit. If the validation rule fails, stop its use in later positive claims. Do not tune it on the final simulation or test pairs.
+
+## 2C. Test intended and unwanted effects
 
 **Question:** Can an internal edit change one specified variable while preserving unrelated behavior?
 
-Start with the selector task from Study 1. Train eight fresh models with its fixed ordinary-task recipe. Require 99% intact accuracy in every model. Use separate cases for learning an edit, choosing it, and testing it. The ordinary task states remain known; only the intervention pairs are separated.
+After 2A and 2B, start with the selector task from Study 1. Train eight fresh models with its fixed ordinary-task recipe. Require 99% intact accuracy in every model. Use separate cases for learning an edit, choosing it, and testing it. The ordinary task states remain known; only the intervention pairs are separated.
 
 Compare three methods with the same three-direction edit size:
 
@@ -88,15 +157,15 @@ If the graph models from Experiment 1 pass, also repeat Study 12's fixed four-ne
 
 Include random edits, no edits, full-layer edits, and known correct input changes. A known correct reference can use information unavailable to the learned method. State that difference.
 
-**Compute:** 0.25–1 hour estimated; 2-hour cap. The graph branch is included. Further rare-feature and spike-deletion extensions wait until this test is complete.
+**Compute:** 0.25–1 hour estimated; 2-hour cap. This is the original Experiment 2 allocation. The graph branch is included. Further rare-feature and spike-deletion extensions wait until this test is complete.
 
 ## 3. Test transfer to new conditions
 
 **Question:** Does a selected component still support the same explanation when the input conditions change?
 
-Use two public base models as the planned candidates: [Pythia-70M](https://huggingface.co/EleutherAI/pythia-70m) and [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M). Their official model cards confirm these model sizes. The cards do not establish ability on this experiment. Record exact weight and tokenizer revisions before use. No language-model training is included.
+Use two public base models as the planned candidates: [Pythia-70M](https://huggingface.co/EleutherAI/pythia-70m) and [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M). Their official model cards were checked again on 22 October 2026 for model identity and size. The cards do not establish ability on this experiment. Record exact weight and tokenizer revisions before use. No language-model training is included.
 
-Within each model, use 256 calibration cases to select from at most 32 prespecified attention-head sites. An attention head is an internal operation that combines information from text positions. Freeze the selected site before final testing. Across models, test the selection method and copying account; do not assume that the same head index has the same meaning. A failed search of these sites cannot rule out a useful circuit elsewhere.
+Within each model, use 256 calibration cases to select from at most 32 prespecified attention-head sites. An attention head is an internal operation that combines information from text positions. Freeze the selected site, donor rule, score, and context labels before final testing. Apply the relevant controls from 2A and the separate-validation rule from 2B. Report score changes by context alongside answer accuracy. Across models, test the selection method and copying account; do not assume that the same head index has the same meaning. A failed search of these sites cannot rule out a useful circuit elsewhere.
 
 Use three final families of 256 cases each: new words, new sentence forms, and valid alternative splits of the same key text into tokens. A token is a text unit used by a model. Keep requested answers to one token within each model. Define compatible words without looking at answer scores. Limit prompts to 224 tokens, leaving up to 32 continuation tokens within a 256-token sequence. Report the families separately.
 
@@ -114,7 +183,7 @@ If either model fails task ability, report the failure. Do not search for larger
 
 Use the four capable register models from Experiment 1. Compare the immediate-loss edit from Study 10 with an edit trained on future use. Keep the edit rank at four. Match the total forward and backward recurrent-position budget between methods. Fix update schedules after a dummy cost check. Report optimizer steps as well; equal steps alone do not give equal compute.
 
-Use 1,024 new test sequences at each horizon of 1, 2, 8, and 32 operations. Balance copy-before-write and write-before-copy cases. Use known state rules to determine every required intermediate answer. Train edit methods on separate sequences.
+Use 1,024 new test sequences at each horizon of 1, 2, 8, and 32 operations. At horizon 1, balance copy-only and write-only cases. At horizons 2, 8, and 32, balance copy-before-write and write-before-copy cases. Use known state rules to determine every required intermediate answer. Train edit methods on separate sequences.
 
 **Register success:** At least 95% of sequences must pass the complete set of immediate, intermediate, and final checks in each order/horizon group, in every model. After replacement, no more than 1% may retain the old value where it should be gone. The future-loss method must improve mean complete-sequence success by at least 5 points. No group may lose more than 1 point.
 
@@ -144,42 +213,54 @@ This tests efficiency on a known panel. A new dataset or architecture is outside
 
 ## 6. Repeat the work independently
 
-Ask an external group to repeat Experiment 2's selector panel and Experiment 5's numerical panel. For the latter, retrain the original four model seeds from the fixed Study 15 training plan. Repeat all Experiment 2 training. Also check exactly two fresh seeds per panel as an extension; report them separately.
+Prepare an external repeat package for Experiment 2C's selector panel and Experiment 5's numerical panel. For the latter, retrain the original four model seeds from the fixed Study 15 training plan. Repeat all Experiment 2C training, with its training history and fixed donor, context, and scoring checks. Also check exactly two fresh seeds per panel as an extension; report them separately.
 
 **Reproduction success:** On the same software and arithmetic, reproduce the recorded gate decisions and effects within locked numerical tolerances. On different hardware, justify tolerances before result comparison. If fresh training differs, report the difference; do not substitute saved weights and call it a training replication.
 
 **Scientific confirmation:** The original acceptance rules must still hold in the repeated original-seed panels. Report fresh-seed results separately. A reproduced negative result counts as successful reproduction, not successful validation of the method.
 
-A human reviewer should assess the questions, controls, novelty claims, failure records, and interpretation. External time and access are not secured. A separate AI review remains useful but does not satisfy this requirement. This plan does not send invitations.
+A human reviewer should assess the questions, controls, novelty claims, failure records, and interpretation. External time and access are not secured. A separate AI review remains useful but does not satisfy this requirement. No external group has been scheduled by this plan, and no invitations are sent for this update.
 
 **Compute:** 0.5–2 hours estimated; 4-hour cap for one external repeat package. This allocation is not a promise that an external group will participate.
 
+## Stop rules for every stage
+
+1. **Usage:** Check the live account meter before preparation, downloads, training, or other substantial work. Keep more than 20% in every reported core usage window. Stop if any window has 20% or less, the meter is unavailable, or ordinary usage is unavailable. Never redeem a reset or buy extra usage for this plan.
+2. **Live permission to compute:** While a runner is active, its supervisor checks usage at least once a minute. A local permit lasts at most 120 seconds. Update it by atomic replacement. The scientific runner cannot renew its own permit. A missing, invalid, expired, or denied permit stops the run.
+3. **Time and memory:** Include controls, failed attempts, saving, and replay in the applicable elapsed-time cap. Include earlier work in preparation and Experiment 1. Stop at the stage cap, token cap, or memory limit, whichever comes first. Allow time to save before the deadline. Never transfer unused hours between stages silently.
+4. **Data and arithmetic:** Stop on an input-hash mismatch, missing required state, nonfinite value, failed no-change control, or failed numerical replay. Retain the error and partial records. A repair needs a new reviewed execution record before a rerun.
+5. **Scientific failure:** Keep every planned seed and subgroup. Do not lower thresholds, replace failed seeds, add recipes, extend schedules, or select a metric from final results. Finish only the already planned valid comparisons that fit the budget, then close the failed claim. Do not run its dependent explanation stage.
+6. **Interruption:** Save partial state safely. Record the exact step boundary and whether full training state exists. Do not restart automatically. The proposed single restart of final seed 8103 is the only new restart rule in this update.
+7. **Scope:** Use local compute only. No rented compute, paid model API, language-model training, or unplanned GPU run is included. Keep automatic research paused. A documentation update does not start an experiment.
+
 ## Compute assumptions and budget
 
-Use one local CPU process with two compute threads. Allow one BLAS thread for the selector baseline if required for comparison. Reserve 16 GB of usable RAM and 20 GB of disk as planning allowances. These are not measured peaks. Load only one language checkpoint at a time and process activations in batches. Save required scores, predictions, model files, and audit records; do not retain every full-vocabulary activation.
+Use one local CPU process with two compute threads and one inter-operation thread. Preparation and Experiment 1 keep the stricter four-GiB peak process limit and requires 20 GiB free disk. Other stages use at most 16 GiB of process memory and the same free-disk requirement, subject to actual available memory. These are ceilings, not measured needs. Load one language checkpoint at a time. Save required results in batches.
 
-No GPU training, rented hardware, or paid model API is needed for the proposed scope. This is not a cost estimate for training a language model from scratch. If the memory or time allowance fails, stop and revise the plan before final tests. Do not silently add cloud compute.
+One CPU hour means one elapsed hour for this process, not one core-hour. Estimates include scientific runs, controls, saving, and one calculation replay unless stated otherwise. They exclude coding, human review, downloads, and assistant usage. They cannot predict this account's usage allowance.
 
-One CPU hour below means one elapsed hour for the specified process, not one core-hour. The estimates include scientific runs, planned controls, and one separate calculation replay, unless a stage states otherwise. They exclude coding, human review, downloads, and assistant usage. They do not forecast this account's usage allowance.
+| Run order | Stage | Additional CPU hours, estimate | Total stage cap | Prior seconds charged |
+| --- | --- | ---: | ---: | ---: |
+| 1 | 0. Refresh preparation | 0.25–0.5 | 1 hour | 15.6075105 |
+| 2 | 1. Finish task ability | 1.5–3 | 4 hours | 317.065045251 |
+| 3 | 2A. Complete edit procedure | 0.25–1 | 2 hours | 0 |
+| 4 | 2B. Groups, scores, and selection | 0.25–1 | 2 hours | 0 |
+| 5 | 2C. Intended and unwanted effects | 0.25–1 | 2 hours | 0 |
+| 6 | 5. Numerical reliability | 0.25–1 | 2 hours | 0 |
+| 7 | 3. Language transfer | 3–12 | 16 hours | 0 |
+| 8 | 4. Future use and replacement | 3.5–14 | 18 hours | 0 |
+| 9 | 6. External repeat package | 0.5–2 | 4 hours | 0 |
+| **All branches** | **Program total** | **9.75–35.5** | **51 hours** | **332.672555751** |
 
-| Stage | Estimated CPU hours | Hard cap |
-| --- | ---: | ---: |
-| 0. Preparation runs | 0.25–0.5 | 1 |
-| 1. Task ability | 0.5–2 | 4 |
-| 2. Intended and unwanted effects | 0.25–1 | 2 |
-| 3. Transfer | 3–12 | 16 |
-| 4. Future use and replacement | 3.5–14 | 18 |
-| 5. Numerical reliability | 0.25–1 | 2 |
-| 6. External repeat package | 0.5–2 | 4 |
-| **Full program, if all branches run** | **8.25–32.5** | **47** |
+The [budget table](RESEARCH_COMPUTE_BUDGET.csv) gives the same values and the remaining cap per stage. The total cap includes earlier preparation and Experiment 1 work. About **50.91 hours remain under the combined caps**, but each stage must stay within its own remainder. This is a ceiling, not an estimate of necessary work or a promise that all branches will run.
 
-The [budget table](RESEARCH_COMPUTE_BUDGET.csv) records these figures in a reusable form. Caps are spending limits, not measured requirements or permission to execute. Failed branches can reduce total use.
+The new diagnostic stages 2A and 2B add four hours to the previous 47-hour roadmap ceiling. The original preparation, task-ability, and later-stage caps are unchanged. The updated estimate for remaining task-ability work uses the saved timing record. Other ranges are planning allowances, not benchmarks. Failed or deferred branches reduce cost. External participation is not secured.
 
-For each language stage, the 16-million-token ceiling includes the scientific calculation and one comparable replay. An assumed effective rate of 500–2,000 forwarded tokens per second gives about 2.2–8.9 hours. Add data handling and setup within the 3–12-hour estimate. **These rates are planning assumptions, not benchmarks of the proposed models.** Shape, sequence length, intervention hooks, and cache use can change them substantially.
+Experiment 2A permits at most one million forwarded language tokens. Experiments 3 and 4 each retain a separate 16-million-token limit. All limits include donor passes, selection, controls, and replay. Count a token again whenever a new pass processes it. The whole program therefore has at most 33 million such tokens if every language branch runs.
 
-Before launch, replace that assumed rate with a dummy measurement on the chosen device. Estimate training, inference, saving, and replay separately; add a twofold safety factor to the measured projection. Require the result to fit the unchanged cap. For cached generation, count only tokens actually processed, while timing cache and hook overhead as well.
+For each 16-million-token stage, the earlier assumed rate of 500–2,000 tokens per second gives about 2.2–8.9 hours before other overhead. These rates remain unmeasured planning assumptions. Hooks, sequence length, precision, and cache use can change them. Use dummy timing on the chosen hardware before launch. Include all work and a twofold safety factor. Experiment 1 is the exception: it retains its stricter fourfold allowance. The measured projection must fit the remaining stage cap; a failed projection stops that stage.
 
-Small-model estimates are conservative allowances, not linear extrapolations from parameter counts. Stage 1 includes up to 40 base-model training runs. Stage 2 adds eight, Stage 5 adds at most four development models, and Stage 6 adds sixteen original- and fresh-seed runs. The complete program therefore permits up to 68 base-model training runs. Edit training and saved-weight replays are additional work included in the stage time estimates.
+At most 40 complete base-model training runs belong to Experiment 1, eight fresh selector runs to 2C, four development runs to 5, and sixteen original- or fresh-seed repeat runs to 6. That is **68 planned complete training runs across the full program**, including repeated original seeds. These are not 68 independent confirmations. Six Experiment 1 models already exist, leaving at most 62 complete training runs. The two retained partial attempts are extra invocations and remain charged. Edit fitting and replay are additional work within the stage caps. Stages 2A and 2B reuse saved models.
 
 ### Measured reference points
 
@@ -197,20 +278,21 @@ These records use arm64 macOS and generally two compute threads. They do not rec
 
 ## Work schedule and deliverables
 
-Allow **four to six working weeks** for one researcher who can implement and review the tests. This is a planning allowance, not a delivery promise. Machine hours and researcher weeks measure different work.
+Allow **four to eight working weeks** for one researcher who can implement and review the tests. This is a planning allowance, not a delivery promise. Machine hours and researcher weeks measure different work.
 
-- **Week 1:** Freeze controls, inputs, and recipes. Complete preparation and task-ability work.
-- **Week 2:** Complete specificity tests. Publish failures and decide which branches remain valid.
-- **Weeks 3–4:** Run qualified transfer and future-use tests. Complete numerical efficiency work.
-- **Weeks 5–6:** Complete audits, prepare papers, and seek external replication and human review. External completion may take longer.
+- **Week 1:** Refresh preparation and address the unfinished task-ability study first. Report every unfinished or failed branch.
+- **Weeks 2–3:** Run edit-procedure and selection diagnostics, then qualified specificity tests.
+- **Week 4:** Run the numerical comparison before the larger language tests.
+- **Weeks 5–6:** Run qualified language-transfer and future-use branches. Skip branches whose required tests failed.
+- **Weeks 7–8:** Finish audits and the external repeat package. External replication and human review may take longer. These are scheduling allowances, not deadlines.
 
 For each stage, save the public plan, exact code version, inputs, seeds, model versions or weights, raw measures, costs, controls, and failures. Report every planned seed and subgroup. Use model-level summaries; do not count thousands of related input rows as independent models. Report uncertainty without treating a four-seed interval as proof of broad reliability.
 
-Link each result to its plan and review. Do not promise one paper per stage or label a method new without a focused source check. Keep the existing fifteen studies unchanged as the starting evidence.
+Link each result to its plan and review. Do not promise one paper per stage or label a method new without a focused source check. Keep all 24 completed studies and both partial training attempts unchanged as the starting evidence.
 
 ## Sources and current status
 
-The [full review](REVIEW_PAPER.md) and its [source manifest](REVIEW_SOURCES.json) provide the evidence behind the proposed questions. The official [Pythia-70M model card](https://huggingface.co/EleutherAI/pythia-70m) and [SmolLM2-135M model card](https://huggingface.co/HuggingFaceTB/SmolLM2-135M) were checked on 13 October 2026 for model identity and size. They provide no runtime measurement for this plan.
+The [full review](REVIEW_PAPER.md) and its [source manifest](REVIEW_SOURCES.json) provide the evidence behind the proposed questions. The official [Pythia-70M model card](https://huggingface.co/EleutherAI/pythia-70m) and [SmolLM2-135M model card](https://huggingface.co/HuggingFaceTB/SmolLM2-135M) were checked again on 22 October 2026 for model identity and size. They provide no runtime measurement for this plan.
 
-All success rules and future compute amounts are proposals. No result in this document comes from a new experiment. Automatic research remains paused. This publication adds the plan only.
+Experiment 1 retains its fixed success rules. Later-stage rules and future compute amounts remain proposals until their execution records are fixed. The historical status and times come from saved records. No result in this update comes from a new experiment. Automatic research remains paused. This publication adds the plan only.
 

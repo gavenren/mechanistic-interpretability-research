@@ -40,9 +40,13 @@ This update adds no experiment, model training, or combined statistical estimate
 
 ## Proposed research plan
 
-The [ordered research plan](RESEARCH_PLAN.md) turns the review into six experiments after a preparation stage. It states proposed success rules, dependencies, failure outcomes, and compute limits. The [compute budget](RESEARCH_COMPUTE_BUDGET.csv) totals an estimated 8.25–32.5 elapsed CPU hours if all branches run, with a 47-hour cap. These are planning amounts, not measured runtimes or a promise of scientific success. A [separate AI review](reviews/RESEARCH_PLAN_REVIEW.md) checks the plan.
+The updated [research plan](RESEARCH_PLAN.md) covers all 24 completed studies. Its order is preparation, the unfinished Experiment 1, edit-procedure checks (2A), group/search/selection checks (2B), intended and unwanted effects (2C), numerical reliability (5), language transfer (3), future use (4), and independent repetition (6). Existing experiment numbers are retained for continuity.
 
-Experiment 1 has started but remains incomplete. Each later stage requires its own fixed execution plan and controls before final results. Existing empirical papers and results remain unchanged. Automatic research remains paused.
+The [compute budget](RESEARCH_COMPUTE_BUDGET.csv) estimates 9.75–35.5 additional elapsed CPU hours if all branches run. The cumulative ceiling is 51 hours, of which about 50.91 hours remain after recorded preparation and Experiment 1 time. New diagnostic stages add four hours to the old roadmap ceiling. The original one-hour preparation and four-hour Experiment 1 caps are unchanged. These are planning limits, not runtime guarantees or permission to spend past the account reserve.
+
+The unfinished graph panel needs final seeds 8103 and 8104. The updated roadmap proposes one explicit full restart of seed 8103 because its optimizer and random-generator state were not saved. Reuse all six complete models, keep both partial attempts, and count all compute. This rule must be fixed with continuation code and checks in a public execution record before training. The [plan update review](reviews/2026-10-22-RESEARCH_PLAN_UPDATE_REVIEW.md) records the checks for this version.
+
+No experiment ran for this plan update. Existing studies and saved results remain unchanged. Automatic research remains paused. Later stages still need exact inputs, code, controls, and a public execution record before final results.
 
 ## Latest research batch and execution attempt
 
