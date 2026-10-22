@@ -1,0 +1,21 @@
+{
+  "ambiguous_functions": 152,
+  "coalition_rows": 2656,
+  "duality_checks": 2656,
+  "functions": 166,
+  "independent_antichain_match": true,
+  "largest_signature_class": 64,
+  "neither_singleton_test_detects_any": 64,
+  "no_singleton_disabling": 113,
+  "no_singleton_sufficient": 113,
+  "plan_sha256": "ebc9cfaf704d9dbe9fb7f98575472b9398352d0207e31c565d92627a9509de44",
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "python": "3.12.14",
+  "saved_truth_table_replay": true,
+  "seconds": 0.20963570899766637,
+  "signature_classes": 35,
+  "status": "complete",
+  "threads": 1,
+  "trained_models": 0,
+  "unique_functions": 14
+}

@@ -1,0 +1,8 @@
+{
+  "cells": 36,
+  "maximum_metric_error": 6.938893903907228e-18,
+  "maximum_reference_error": 6.661338147750939e-16,
+  "method": "Scalar argmax/counts, erf CDF with bisection inverse, independent Wilson calculation; exact seed regeneration; no new trial seeds",
+  "passed": true,
+  "seconds": 49.92388958299853
+}

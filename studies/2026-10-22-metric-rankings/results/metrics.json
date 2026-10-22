@@ -1,0 +1,36 @@
+{
+  "comparisons": 7500,
+  "controls_passed": true,
+  "dominance_violations": 0,
+  "maximum_bound_violation": 0.0,
+  "maximum_softmax_error": 2.7755575615628914e-17,
+  "numpy": "2.3.5",
+  "peak_rss_native": 36798464,
+  "plan_sha256": "b05a1ed36991be92c5641837bf6f4a4c0efd09fa4b21ad87f6f9114dbca06a3a",
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "python": "3.12.14",
+  "reversal_fraction_of_strict_logit": 0.09915492957746479,
+  "seconds": 0.08380612500332063,
+  "status": "complete",
+  "strict_logit_comparisons": 7100,
+  "strict_reversals": 704,
+  "training_runs": 0,
+  "witness": {
+    "a": [
+      2,
+      0
+    ],
+    "a_mean_logit": 1.0,
+    "a_mean_probability": 0.0010686365130841424,
+    "b": [
+      0,
+      1
+    ],
+    "b_mean_logit": 0.5,
+    "b_mean_probability": 0.11552928931500245,
+    "margins": [
+      6,
+      0
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "exact_reference_checks": 312,
+  "methods": 7,
+  "model_type": "constructed polynomial hidden-state model",
+  "ordinary_accuracy": "1",
+  "parameter_settings": 6,
+  "plan_sha256": "4b6c4565a54b26466c03a63332240e4621679c06a45f116a3966c9399c624f18",
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "python": "3.12.14",
+  "raw_rows": 312,
+  "saved_row_replay": true,
+  "seconds": 0.1340553749978426,
+  "status": "complete",
+  "summary_rows": 42,
+  "threads": 1,
+  "trained_models": 0,
+  "weighted_summary_replay": true,
+  "zero_equals_mean": false
+}

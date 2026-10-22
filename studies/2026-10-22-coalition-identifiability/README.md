@@ -14,4 +14,4 @@ The supervisor sets `MI_USAGE_PERMIT` to a private JSON permit file with an allo
 
 The run cap is 300 seconds. Run the studies in sequence. The three intervention studies have a combined 900-second cap. The script verifies locked inputs and refuses an existing results directory. For an independent repeat, use a separate checkout and retain the original published outputs outside the repeat output path. Never replace a failed record.
 
-The runner saves exact raw data, summary scores, software, elapsed time, plan hash, and file hashes. It uses exact arithmetic and includes separate calculation checks. Those checks are not human peer review. No scientific output existed when this file was prepared.
+The runner saves exact raw data, summary scores, software, elapsed time, plan hash, and file hashes. It uses exact arithmetic and includes separate calculation checks. Those checks are not human peer review. The initial plan had no scientific output. The fixed run is now complete. Read the [paper](paper.md), [metrics](results/metrics.json), and [file hashes](results/manifest.json).

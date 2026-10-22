@@ -1,0 +1,15 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "exact_commutator_checks": 3645,
+  "joint_order_check": true,
+  "plan_sha256": "36bd276b3150b360e17e35d995cec4db8aed9ab306a814b4d8b844625765279a",
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "python": "3.12.14",
+  "rows": 3645,
+  "saved_row_replay": true,
+  "seconds": 1.6715484999949695,
+  "status": "complete",
+  "threads": 1,
+  "trained_models": 0,
+  "vector_pairs": 5
+}

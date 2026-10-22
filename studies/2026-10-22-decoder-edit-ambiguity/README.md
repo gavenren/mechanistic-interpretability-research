@@ -1,5 +1,7 @@
 # Reproduction
 
+Read the [completed paper](paper.md), [results](results/summary.json), and [exact audit](results/audit.json).
+
 Read [the fixed plan](plan.md) and [the source record](sources.json). This study uses only Python standard-library code. It needs Python 3.12 or later. It trains no model.
 
 The root supervisor must supply a valid private `MI_USAGE_PERMIT` and keep the account reserve. Use a same-directory temporary file followed by atomic replacement when updating that permit. Never publish the permit.

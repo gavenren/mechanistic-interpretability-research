@@ -1,0 +1,9 @@
+{
+  "cases": 2048,
+  "maximum_metric_error": 1.9303775158213687e-13,
+  "maximum_native_error": 8.881784197001252e-16,
+  "maximum_scalar_error": 8.881784197001252e-16,
+  "method": "PyTorch native layer_norm plus scalar math.fsum; no training replay",
+  "passed": true,
+  "seconds": 2.7279057089981507
+}

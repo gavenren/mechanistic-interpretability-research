@@ -1,0 +1,10 @@
+{
+  "arithmetic": "Exact integers and rational numbers",
+  "peak_rss_native_units": 31031296,
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "public_lock": "88e8df7689b65fbeef221423c115cd1b1c198f22",
+  "python": "3.12.14",
+  "seconds": 0.924490750003315,
+  "status": "complete",
+  "trained_models": 0
+}

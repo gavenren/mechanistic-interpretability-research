@@ -1,0 +1,273 @@
+{
+  "decoders": 3,
+  "edit_cases": 9600,
+  "mask_results": [
+    {
+      "activation_independent": 1,
+      "decoder": "coupled",
+      "mask": 0,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 81,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 1,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 81,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 2,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 81,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 3,
+      "max_l1": 8,
+      "max_nonnegative_l1": 4,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 81,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 4,
+      "max_l1": 8,
+      "max_nonnegative_l1": 4,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 81,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 5,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 81,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "coupled",
+      "mask": 6,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 81,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "coupled",
+      "mask": 7,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 81,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "duplicate",
+      "mask": 0,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 100,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "duplicate",
+      "mask": 1,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 100,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "duplicate",
+      "mask": 2,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 100,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "duplicate",
+      "mask": 3,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 100,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "duplicate",
+      "mask": 4,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 100,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "duplicate",
+      "mask": 5,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 100,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 0,
+      "decoder": "duplicate",
+      "mask": 6,
+      "max_l1": 4,
+      "max_nonnegative_l1": 2,
+      "max_nonnegative_readout": 2,
+      "max_readout": 4,
+      "nonnegative_cases": 100,
+      "readout_independent": 0
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "duplicate",
+      "mask": 7,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 100,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 0,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 1,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 2,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 3,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 4,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 5,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 6,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    },
+    {
+      "activation_independent": 1,
+      "decoder": "silent",
+      "mask": 7,
+      "max_l1": 0,
+      "max_nonnegative_l1": 0,
+      "max_nonnegative_readout": 0,
+      "max_readout": 0,
+      "nonnegative_cases": 144,
+      "readout_independent": 1
+    }
+  ],
+  "masks_per_decoder": 8,
+  "reconstruction_error": 0,
+  "scope": "Constructed linear codes, with no trained encoder or sparsity claim."
+}

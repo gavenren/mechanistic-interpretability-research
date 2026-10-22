@@ -1,0 +1,6 @@
+{
+  "method": "Independent integer masks and threshold-gate simulation; exact equality.",
+  "order_rows": 14550,
+  "passed": true,
+  "subset_rows": 1016
+}

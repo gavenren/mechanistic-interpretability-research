@@ -1,0 +1,6 @@
+{
+  "exact_edit_rows": 9600,
+  "masks": 24,
+  "method": "Independent scalar decoding and selection equations; all reconstruction and edit comparisons exact.",
+  "passed": true
+}

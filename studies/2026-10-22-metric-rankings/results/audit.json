@@ -1,0 +1,8 @@
+{
+  "comparisons": 7500,
+  "maximum_error": 2.220446049250313e-16,
+  "method": "Independent scalar exponentials and pairwise score differences",
+  "passed": true,
+  "reversals": 704,
+  "seconds": 0.39376274999813177
+}

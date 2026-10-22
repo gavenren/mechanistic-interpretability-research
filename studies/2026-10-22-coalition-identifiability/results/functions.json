@@ -1,0 +1,3066 @@
+[
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 4,
+    "minimal_disabling": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "minimal_sufficient": [
+      15
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001111",
+    "signature_class_size": 1,
+    "table": 32768
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      2,
+      4
+    ],
+    "minimal_sufficient": [
+      7
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001110",
+    "signature_class_size": 1,
+    "table": 32896
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      2,
+      8
+    ],
+    "minimal_sufficient": [
+      11
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001101",
+    "signature_class_size": 1,
+    "table": 34816
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      2,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      11
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001100",
+    "signature_class_size": 2,
+    "table": 34944
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      2
+    ],
+    "minimal_sufficient": [
+      3
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001100",
+    "signature_class_size": 2,
+    "table": 34952
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      4,
+      8
+    ],
+    "minimal_sufficient": [
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001011",
+    "signature_class_size": 1,
+    "table": 40960
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      4,
+      10
+    ],
+    "minimal_sufficient": [
+      7,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001010",
+    "signature_class_size": 2,
+    "table": 41088
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      4
+    ],
+    "minimal_sufficient": [
+      5
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001010",
+    "signature_class_size": 2,
+    "table": 41120
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      6,
+      8
+    ],
+    "minimal_sufficient": [
+      11,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001001",
+    "signature_class_size": 2,
+    "table": 43008
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      1,
+      6,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      11,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43136
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      6,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43144
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      6,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      11
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43168
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      6
+    ],
+    "minimal_sufficient": [
+      3,
+      5
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43176
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      8
+    ],
+    "minimal_sufficient": [
+      9
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001001",
+    "signature_class_size": 2,
+    "table": 43520
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      9
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43648
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      9
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43656
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      9
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43680
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      1,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      9
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00001000",
+    "signature_class_size": 8,
+    "table": 43688
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      1
+    ],
+    "minimal_sufficient": [
+      1
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": false,
+    "signature": "10001000",
+    "signature_class_size": 1,
+    "table": 43690
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      2,
+      4,
+      8
+    ],
+    "minimal_sufficient": [
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000111",
+    "signature_class_size": 1,
+    "table": 49152
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      2,
+      4,
+      9
+    ],
+    "minimal_sufficient": [
+      7,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000110",
+    "signature_class_size": 2,
+    "table": 49280
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      4
+    ],
+    "minimal_sufficient": [
+      6
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000110",
+    "signature_class_size": 2,
+    "table": 49344
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      2,
+      5,
+      8
+    ],
+    "minimal_sufficient": [
+      11,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000101",
+    "signature_class_size": 2,
+    "table": 51200
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      2,
+      5,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      11,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 51328
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      5,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 51336
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      5,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      11
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 51392
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      5
+    ],
+    "minimal_sufficient": [
+      3,
+      6
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 51400
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      8
+    ],
+    "minimal_sufficient": [
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000101",
+    "signature_class_size": 2,
+    "table": 52224
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 52352
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 52360
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 52416
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      2,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000100",
+    "signature_class_size": 8,
+    "table": 52424
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      2
+    ],
+    "minimal_sufficient": [
+      2
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": false,
+    "signature": "01000100",
+    "signature_class_size": 1,
+    "table": 52428
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      3,
+      4,
+      8
+    ],
+    "minimal_sufficient": [
+      13,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000011",
+    "signature_class_size": 2,
+    "table": 57344
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      7,
+      13,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 57472
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      4,
+      9
+    ],
+    "minimal_sufficient": [
+      5,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 57504
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      4,
+      10
+    ],
+    "minimal_sufficient": [
+      6,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 57536
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      4
+    ],
+    "minimal_sufficient": [
+      5,
+      6
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 57568
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      8
+    ],
+    "minimal_sufficient": [
+      11,
+      13,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 59392
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 3,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      11,
+      13,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59520
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      13,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59528
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      11,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59552
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59560
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      11,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59584
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59592
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      11
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59616
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      6
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 59624
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      8
+    ],
+    "minimal_sufficient": [
+      9,
+      14
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 59904
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      9,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60032
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      9,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60040
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      9,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60064
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      9,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      9,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60072
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      5,
+      9
+    ],
+    "minimal_sufficient": [
+      1,
+      14
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 60074
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60096
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60104
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60128
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      5,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60136
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      5
+    ],
+    "minimal_sufficient": [
+      1,
+      6
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 60138
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      8
+    ],
+    "minimal_sufficient": [
+      10,
+      13
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 60416
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      10,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60544
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      10,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60552
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60576
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60584
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      10,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60608
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      10,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      10,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60616
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      6,
+      10
+    ],
+    "minimal_sufficient": [
+      2,
+      13
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 60620
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60640
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      6,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 60648
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      6
+    ],
+    "minimal_sufficient": [
+      2,
+      5
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 60652
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      8
+    ],
+    "minimal_sufficient": [
+      9,
+      10
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 60928
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61056
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61064
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61088
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      9,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61096
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      9
+    ],
+    "minimal_sufficient": [
+      1,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 61098
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61120
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      10,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61128
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      10
+    ],
+    "minimal_sufficient": [
+      2,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 61132
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61152
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      3,
+      13,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 61160
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      13
+    ],
+    "minimal_sufficient": [
+      1,
+      6,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 61162
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3,
+      14
+    ],
+    "minimal_sufficient": [
+      2,
+      5,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 61164
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      3
+    ],
+    "minimal_sufficient": [
+      1,
+      2
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "11000000",
+    "signature_class_size": 2,
+    "table": 61166
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      4,
+      8
+    ],
+    "minimal_sufficient": [
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000011",
+    "signature_class_size": 2,
+    "table": 61440
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      4,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      7,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 61568
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      4,
+      9
+    ],
+    "minimal_sufficient": [
+      5,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 61600
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      4,
+      10
+    ],
+    "minimal_sufficient": [
+      6,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 61632
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      4,
+      11
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000010",
+    "signature_class_size": 8,
+    "table": 61664
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      4
+    ],
+    "minimal_sufficient": [
+      4
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": false,
+    "signature": "00100010",
+    "signature_class_size": 1,
+    "table": 61680
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      8
+    ],
+    "minimal_sufficient": [
+      11,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 63488
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      11,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63616
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63624
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      11,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63648
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63656
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      11,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63680
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63688
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      11,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      11,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63712
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      6,
+      11
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 63720
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      6,
+      12
+    ],
+    "minimal_sufficient": [
+      4,
+      11
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 63728
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      6
+    ],
+    "minimal_sufficient": [
+      3,
+      4
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 63736
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      8
+    ],
+    "minimal_sufficient": [
+      9,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 64000
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64128
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64136
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64160
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      9,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64168
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      9
+    ],
+    "minimal_sufficient": [
+      1,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 64170
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64192
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64200
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      11,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64224
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      5,
+      11,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64232
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      11
+    ],
+    "minimal_sufficient": [
+      1,
+      6,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 64234
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      12
+    ],
+    "minimal_sufficient": [
+      4,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 64240
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      4,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 64248
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      5
+    ],
+    "minimal_sufficient": [
+      1,
+      4
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10100000",
+    "signature_class_size": 2,
+    "table": 64250
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      8
+    ],
+    "minimal_sufficient": [
+      10,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 64512
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64640
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64648
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64672
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      9
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64680
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64704
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      10,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64712
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      6,
+      10
+    ],
+    "minimal_sufficient": [
+      2,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 64716
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      11,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64736
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      6,
+      11,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 64744
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      6,
+      11
+    ],
+    "minimal_sufficient": [
+      2,
+      5,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 64748
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      6,
+      12
+    ],
+    "minimal_sufficient": [
+      4,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 64752
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      6,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      4,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 64760
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      6
+    ],
+    "minimal_sufficient": [
+      2,
+      4
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01100000",
+    "signature_class_size": 2,
+    "table": 64764
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      8
+    ],
+    "minimal_sufficient": [
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": true,
+    "signature": "00000001",
+    "signature_class_size": 8,
+    "table": 65024
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65152
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65160
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65184
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      9,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65192
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      9
+    ],
+    "minimal_sufficient": [
+      1,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 65194
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65216
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      10,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65224
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      10
+    ],
+    "minimal_sufficient": [
+      2,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 65228
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      11,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65248
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 2,
+    "minimal_disabling": [
+      7,
+      11,
+      13,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": true,
+    "signature": "00000000",
+    "signature_class_size": 64,
+    "table": 65256
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      11,
+      13
+    ],
+    "minimal_sufficient": [
+      1,
+      6,
+      10,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10000000",
+    "signature_class_size": 8,
+    "table": 65258
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      11,
+      14
+    ],
+    "minimal_sufficient": [
+      2,
+      5,
+      9,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01000000",
+    "signature_class_size": 8,
+    "table": 65260
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      11
+    ],
+    "minimal_sufficient": [
+      1,
+      2,
+      12
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "11000000",
+    "signature_class_size": 2,
+    "table": 65262
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      12
+    ],
+    "minimal_sufficient": [
+      4,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 65264
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      13,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00100000",
+    "signature_class_size": 8,
+    "table": 65272
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      13
+    ],
+    "minimal_sufficient": [
+      1,
+      4,
+      10
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10100000",
+    "signature_class_size": 2,
+    "table": 65274
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7,
+      14
+    ],
+    "minimal_sufficient": [
+      2,
+      4,
+      9
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01100000",
+    "signature_class_size": 2,
+    "table": 65276
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      7
+    ],
+    "minimal_sufficient": [
+      1,
+      2,
+      4
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "11100000",
+    "signature_class_size": 1,
+    "table": 65278
+  },
+  {
+    "min_disabling_size": 1,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      8
+    ],
+    "minimal_sufficient": [
+      8
+    ],
+    "no_singleton_disabling": false,
+    "no_singleton_sufficient": false,
+    "signature": "00010001",
+    "signature_class_size": 1,
+    "table": 65280
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      9,
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      7,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65408
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      9,
+      10
+    ],
+    "minimal_sufficient": [
+      3,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65416
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      9,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65440
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      9,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65448
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      9
+    ],
+    "minimal_sufficient": [
+      1,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10010000",
+    "signature_class_size": 2,
+    "table": 65450
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      10,
+      12
+    ],
+    "minimal_sufficient": [
+      6,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65472
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      10,
+      13
+    ],
+    "minimal_sufficient": [
+      3,
+      6,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65480
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      10
+    ],
+    "minimal_sufficient": [
+      2,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01010000",
+    "signature_class_size": 2,
+    "table": 65484
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      11,
+      12
+    ],
+    "minimal_sufficient": [
+      5,
+      6,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65504
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      11,
+      13,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      5,
+      6,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00010000",
+    "signature_class_size": 8,
+    "table": 65512
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      11,
+      13
+    ],
+    "minimal_sufficient": [
+      1,
+      6,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10010000",
+    "signature_class_size": 2,
+    "table": 65514
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      11,
+      14
+    ],
+    "minimal_sufficient": [
+      2,
+      5,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01010000",
+    "signature_class_size": 2,
+    "table": 65516
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      11
+    ],
+    "minimal_sufficient": [
+      1,
+      2,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "11010000",
+    "signature_class_size": 1,
+    "table": 65518
+  },
+  {
+    "min_disabling_size": 2,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      12
+    ],
+    "minimal_sufficient": [
+      4,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00110000",
+    "signature_class_size": 2,
+    "table": 65520
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      13,
+      14
+    ],
+    "minimal_sufficient": [
+      3,
+      4,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "00110000",
+    "signature_class_size": 2,
+    "table": 65528
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      13
+    ],
+    "minimal_sufficient": [
+      1,
+      4,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "10110000",
+    "signature_class_size": 1,
+    "table": 65530
+  },
+  {
+    "min_disabling_size": 3,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      14
+    ],
+    "minimal_sufficient": [
+      2,
+      4,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "01110000",
+    "signature_class_size": 1,
+    "table": 65532
+  },
+  {
+    "min_disabling_size": 4,
+    "min_sufficient_size": 1,
+    "minimal_disabling": [
+      15
+    ],
+    "minimal_sufficient": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "no_singleton_disabling": true,
+    "no_singleton_sufficient": false,
+    "signature": "11110000",
+    "signature_class_size": 1,
+    "table": 65534
+  }
+]

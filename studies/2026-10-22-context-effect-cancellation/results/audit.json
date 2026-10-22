@@ -1,0 +1,7 @@
+{
+  "individual_edit_rows": 160,
+  "method": "Independent exact scalar equations, state truth, and rational mixture weights.",
+  "mixture_rows": 100,
+  "passed": true,
+  "state_rows": 160
+}
