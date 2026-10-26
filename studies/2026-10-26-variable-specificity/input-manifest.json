@@ -1,0 +1,18 @@
+{
+  "files": {
+    "docs/RESEARCH_COMPUTE_BUDGET.csv": "275e89bde1887363d5b0ee0484d0fd91b6b4cb1c61b874e42fae49c8919be27d",
+    "docs/RESEARCH_PLAN.md": "0a4f48492e415cf152d91e5e44f5c5b470ea3998a4e1363fb9f76f8110e9dc61",
+    "studies/2026-10-13-inactive-variable-audit/analysis-plan.md": "01871ae2db85bac70742d41764c7774c0b68087f3d54851291f614b7fa978ef6",
+    "studies/2026-10-13-inactive-variable-audit/code/run.py": "555c08943b8e847a142a8a1d103f100673ac7ce3a964619c45849505a95f77b3",
+    "studies/2026-10-13-inactive-variable-audit/data/inputs.csv": "10ef255c99d31ece166cb0e8ab6675e9e9b089cadda9d8ce65b7c9b670f2a06a",
+    "studies/2026-10-13-inactive-variable-audit/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "studies/2026-10-26-edit-procedure/analysis/compute-accounting.json": "9a08c8928d26d92cc5c918aee7c3658436a01f2c701ad39e173870d96fb1dfca",
+    "studies/2026-10-26-edit-procedure/paper.md": "773fdd39ee0ece09ca9f1d05bde8759ecd1ff09f6dcbc3ac3499eef97b98bb14",
+    "studies/2026-10-26-edit-procedure/results/status.json": "d7be70013fe3a8062af7ec61b5a2c0a75f6fcbd2fec6faba9a995b38254ae664",
+    "studies/2026-10-26-search-procedure/analysis/audit.json": "e9dac070f8009fd02ad094ccae591c70acc89c76a0305d66f6a7886d971e2d97",
+    "studies/2026-10-26-search-procedure/analysis/compute-accounting.json": "2abb78dd75ef2c8883e181c414003de54e7a9c0243968e90d36b56e99f55e30c",
+    "studies/2026-10-26-search-procedure/paper.md": "4df98d1218b4f2712855df47198ff4dfb4d9f9899b6436531a713d4c99fd19ad",
+    "studies/2026-10-26-search-procedure/results/status.json": "355b4d86de810a9ce8c2a431a379b4e129bffc21882dfbe1bf452d2aba815b06"
+  },
+  "source_commit": "6f32f86922774d57639afbae6f753f26d3fdfa2a"
+}
