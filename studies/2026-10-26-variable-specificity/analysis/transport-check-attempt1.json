@@ -1,0 +1,15 @@
+{
+  "charged_allowance_seconds": 10,
+  "measured_seconds": 0.15976762499849428,
+  "model_forwards": 0,
+  "parts": 2,
+  "rejected": [
+    "changed-part",
+    "reordered-parts",
+    "missing-part",
+    "extra-archive-byte"
+  ],
+  "source_bytes": 30963232,
+  "status": "passed",
+  "unchanged_path_delegated": true
+}

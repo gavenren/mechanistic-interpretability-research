@@ -46,7 +46,7 @@
       "result_manifest_sha256": "6906bb42355639d5c2e6b13f72502a0bb8036db5c958f5361bd798d234d77808",
       "review": "studies/2026-10-26-search-procedure/RESULT_REVIEW.md",
       "verified_public_files": 52,
-      "count_note": "One completed diagnostic study. The primary statistical gate failed in two of24 conditions; numerical checks passed."
+      "count_note": "One completed diagnostic study. The primary statistical gate failed in two of 24 conditions; numerical checks passed."
     }
   ],
   "verified_completed_addition_count": 3,

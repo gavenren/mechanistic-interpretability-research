@@ -1,0 +1,41 @@
+{
+  "branches": {
+    "edits": {
+      "elapsed_seconds": 29.535784791998594,
+      "eligible_method2_models": 7,
+      "eligible_method3_models": 6,
+      "final_test_effects_collected": false,
+      "measured_seconds": 29.552585417000955,
+      "models": 8,
+      "passed": true,
+      "selection_complete": true,
+      "status": "complete",
+      "total_rotation_updates": 32000
+    }
+  },
+  "charged_seconds": 36.906813291996514,
+  "closing_receipt_allowance_seconds": 2.0,
+  "current_branch": null,
+  "elapsed_seconds": 34.888398708997556,
+  "forwarded_tokens": 0,
+  "measured_seconds": 34.906813291996514,
+  "peak_memory_bytes": 296222720,
+  "plan_lock": "53811c15daa12f99c1b0635270cbb08494c4151d",
+  "prelock_check_charge_seconds": 120.0,
+  "prior_preparation_seconds": 328.7724097919963,
+  "prior_science_seconds": 1385.5104865419962,
+  "runtime": {
+    "interop_threads": 1,
+    "numpy": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "threads": 2,
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "stage": "calibrate",
+  "stage2c_charge_seconds": 46.73682474999805,
+  "stage2c_charge_with_audit_reserve_seconds": 166.73682474999805,
+  "stage_cap_seconds": 7200.0,
+  "status": "complete",
+  "total_preparation_seconds": 453.1494834999976
+}

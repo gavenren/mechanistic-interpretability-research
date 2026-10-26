@@ -21,3 +21,9 @@ __pycache__/
 !/studies/2026-10-26-search-procedure/calibration/subsets/calibration-manifest.json
 /studies/2026-10-26-search-procedure/results/subsets/
 /studies/2026-10-26-search-procedure/results/selection/
+
+# Experiment 2C calibration files are in the exact public split archive.
+/studies/2026-10-26-variable-specificity/calibration/edits/*
+!/studies/2026-10-26-variable-specificity/calibration/edits/choices.json
+!/studies/2026-10-26-variable-specificity/calibration/edits/calibration-manifest.json
+/studies/2026-10-26-variable-specificity/calibration/frozen.zip

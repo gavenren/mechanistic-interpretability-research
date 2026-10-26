@@ -1,0 +1,16 @@
+{
+  "parts": [
+    {
+      "bytes": 20000000,
+      "path": "frozen.zip.part01",
+      "sha256": "8090666fc04718a24b88b39c76f5534e631a2a9c471f1ae6c5e499126016b818"
+    },
+    {
+      "bytes": 10963232,
+      "path": "frozen.zip.part02",
+      "sha256": "44c1fd045e009629d5fe921bce054829468ae9b326ef38fee862afdf3d9d0066"
+    }
+  ],
+  "source_bytes": 30963232,
+  "source_sha256": "64c6fe719663885b2db61f8a9c91e6a59abd5b16eef93c79bc8624e73b57aec7"
+}
