@@ -1,0 +1,13 @@
+{
+  "codes/codes-preparation.json": "07deb28f75d752fa32bdf2166e4692ee177e5899c4251851eec3fd4c7e7a55c5",
+  "normalization/inputs.json": "8f1cd6df8bd03a3b76c53dabe208589b8c62f5f9ff5420423c35c5d5b04d4208",
+  "normalization/preparation.json": "8f78db96452a8da5f792268925cdf199e90adca423a803adff9fd3fe87bdfa8e",
+  "selector/dummy-controls-audit.json": "f5694e77cafe481e5f1a16ed0b8dd84b22ba1e44a4fc92d619801279844467d8",
+  "selector/dummy-controls.npz": "16882efc7e96aa720e99f935b1af6403bf3868608be4d3e002a3292626b0876b",
+  "selector/dummy-donors-audit.json": "f5694e77cafe481e5f1a16ed0b8dd84b22ba1e44a4fc92d619801279844467d8",
+  "selector/dummy-donors.npz": "4314b586fd3d4ce85a8d7ab1bbbf9788aa8a5a1f281c12931f7b492e0b4a9078",
+  "selector/dummy-orders-audit.json": "f5694e77cafe481e5f1a16ed0b8dd84b22ba1e44a4fc92d619801279844467d8",
+  "selector/dummy-orders.npz": "48afd4d673db2fb76fc35bbc9d16ed2db6858032827388ec179815f5ca3b5348",
+  "selector/summary.json": "bc1971aa85a2cbd9ad989bba044564346c021d2390e24a4df6b4c3ee211e6c67",
+  "status.json": "c11d6b76042bbf12f9ba86453d5715001ab31f5106d48aa0373f4632436db5ac"
+}

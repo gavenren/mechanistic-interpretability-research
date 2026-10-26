@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "passed": true,
+  "dummy_only": true,
+  "same_vector_error": 0.0,
+  "analytic_disk_error": 0.0,
+  "benchmark_seconds": 0.2002675840012671,
+  "projected_seconds": 124.80642201603041,
+  "projection_rule": "4 times (6 full-size dummy search times plus 30 seconds for data, replay, files, and saved-file replay)",
+  "elapsed_seconds": 0.20199304199923063
+}
