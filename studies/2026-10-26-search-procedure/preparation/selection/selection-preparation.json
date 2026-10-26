@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "status": "pass",
+  "dummy_only": true,
+  "control_error": 2.220446049250313e-16,
+  "normal_tail_errors": {
+    "8": 1.8041124150158794e-16,
+    "32": 7.077671781985373e-16,
+    "128": 2.8449465006019636e-15
+  },
+  "dummy_replay_error": 3.552713678800501e-15,
+  "benchmark_seconds": 0.12592804199812235,
+  "projected_seconds": 132.08909203181975,
+  "projection_rule": "4 times (24 largest-condition synthetic timings plus 30 seconds for bank loading and summaries)",
+  "elapsed_seconds": 0.12736516699806089
+}

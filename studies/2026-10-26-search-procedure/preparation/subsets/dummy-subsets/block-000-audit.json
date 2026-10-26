@@ -1,0 +1,8 @@
+{
+  "maximum_replay_error": 1.1102230246251565e-16,
+  "maximum_scalar_anchor_error": 5.551115123125783e-17,
+  "passed": true,
+  "probability_rows": 12288,
+  "scalar_anchors": 4,
+  "tolerance": 1e-10
+}
