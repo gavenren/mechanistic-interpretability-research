@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "dummy_only": true,
+  "identity_error": 1.1102230246251565e-16,
+  "quarter_turn_error": 1.1102230246251565e-16,
+  "gradient_maximum_error": 1.7614718928263273e-11,
+  "mask_seconds": 0.007881146000727313,
+  "dummy_40_update_seconds": 0.025624500001868,
+  "rotation_selection_seconds": 0.012621416000911267,
+  "final_saved_replay_seconds": 0.04048158400109969,
+  "projected_seconds": 416.66411905223504,
+  "projection_rule": "4 times eight models times (220 mask tests + 4000 rotation updates + four checkpoint tests + 29 saved tests), plus 4 times 60 seconds",
+  "elapsed_seconds": 0.6605923339993751
+}
