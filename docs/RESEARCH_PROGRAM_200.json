@@ -19,14 +19,28 @@
       "verified_public_files": 36,
       "complete_models": 40,
       "count_note": "One completed study across all three execution attempts; four tasks are not counted separately."
+    },
+    {
+      "number": 2,
+      "date": "2026-10-26",
+      "study": "studies/2026-10-26-edit-procedure",
+      "title": "Why the full edit procedure matters in three saved model panels",
+      "publication_commit": "d59ccd74d4f3b064316bac6e444a1fd592bee572",
+      "paper": "studies/2026-10-26-edit-procedure/paper.md",
+      "paper_sha256": "773fdd39ee0ece09ca9f1d05bde8759ecd1ff09f6dcbc3ac3499eef97b98bb14",
+      "archive_manifest_sha256": "dd6cbc6acf31a378fc2865edccd462b229bb0db073d3a517765b431b6ae939d2",
+      "result_manifest_sha256": "ebbb5750c7319adc2d1fcd4eef2c39d4e1611b907bf68d907dd8274c7ef097da",
+      "review": "studies/2026-10-26-edit-procedure/RESULT_REVIEW.md",
+      "verified_public_files": 39,
+      "count_note": "One diagnostic study across three branches. No new model training or general novelty claim."
     }
   ],
-  "verified_completed_addition_count": 1,
-  "remaining_requested_additions": 199,
-  "active_study": null,
+  "verified_completed_addition_count": 2,
+  "remaining_requested_additions": 198,
+  "active_study": "studies/2026-10-26-search-procedure",
   "status": "active",
   "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count.",
-  "current_total_completed_studies": 25,
-  "next_stage": "2A: Check the complete edit procedure",
-  "compute_record": "studies/2026-10-26-capability-finalization/analysis/compute-accounting.json"
+  "current_total_completed_studies": 26,
+  "next_stage": "2B: Groups, search, scores, and selection",
+  "compute_record": "studies/2026-10-26-edit-procedure/analysis/compute-accounting.json"
 }

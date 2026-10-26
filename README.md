@@ -10,13 +10,17 @@ Start with the updated [one-page summary](docs/REVIEW_SUMMARY.md), also availabl
 
 Read the updated [combined review paper](docs/REVIEW_PAPER.md) for the first 24 completed studies. It covers the first fifteen and the nine additions. It explains the findings, contributions, limits, and next steps in plain English. Its unfinished-study label is historical; see the later completion report. The review adds no new experiment.
 
-The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studies and puts the unfinished task-ability study first. It gives the experiment order, success rules, compute estimates, and stop conditions. The [budget table](docs/RESEARCH_COMPUTE_BUDGET.csv) gives the roadmap allocations. The [new compute record](studies/2026-10-26-capability-finalization/analysis/compute-accounting.json) gives the current charges and remaining caps. See the [current completion report](studies/2026-10-26-capability-finalization/paper.md) and [research state](docs/RESEARCH_STATE.md) for execution and scheduling status.
+The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studies and puts the unfinished task-ability study first. It gives the experiment order, success rules, compute estimates, and stop conditions. The [budget table](docs/RESEARCH_COMPUTE_BUDGET.csv) gives the roadmap allocations. The [new compute record](studies/2026-10-26-edit-procedure/analysis/compute-accounting.json) gives the current charges and remaining caps. See the [current completion report](studies/2026-10-26-capability-finalization/paper.md) and [research state](docs/RESEARCH_STATE.md) for execution and scheduling status.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
 ## Current research request
 
 The [200-paper program](docs/RESEARCH_PROGRAM_200.md) records the request made on 26 October 2026. It starts after the existing 24 completed studies. The [ledger](docs/RESEARCH_PROGRAM_200.json) counts only complete studies whose code, results, and papers were verified on GitHub. The task-ability study was completed first. The target does not change the usage reserve or compute caps.
+
+## Latest completed experiment
+
+[Why the full edit procedure matters](studies/2026-10-26-edit-procedure/paper.md) completes Experiment 2A. It compares donor contexts, sparse-code constraints, and normalization rules. All fixed checks pass. It is one diagnostic study with code, exact result archives, and a separate AI check. The repository now has **26 completed studies**, including **2 of the 200 requested additions**. Experiment 2B is in preparation.
 
 ## Latest research batch
 

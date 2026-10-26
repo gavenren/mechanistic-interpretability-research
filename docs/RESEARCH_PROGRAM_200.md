@@ -21,3 +21,7 @@ No external reviewer has been arranged. AI checks are not human peer review. Sta
 The [task-ability study](../studies/2026-10-26-capability-finalization/paper.md) is complete and verified at [commit 36e8119](https://github.com/gavenren/mechanistic-interpretability-research/commit/36e81194543e08d7958f3e8e9142c45997142d37). It adds one paper. The repository now has 25 completed studies. The requested program has **1 of 200 additions complete; 199 remain**.
 
 All 40 task models have results. Register and generated-point panels pass. Graph and digit panels fail. All result checks pass. The failed task panels remain failed. The next stage is 2A under a new fixed execution plan. The schedule remains active, with the existing usage reserve and compute caps. The ledger is the current count record.
+
+## Experiment 2A completed
+
+The [edit-procedure study](../studies/2026-10-26-edit-procedure/paper.md) is complete and verified at [commit d59ccd7](https://github.com/gavenren/mechanistic-interpretability-research/commit/d59ccd74d4f3b064316bac6e444a1fd592bee572). All 39 public study files matched their local bytes. This is one study with three branches. The current count is **2 of 200 additions complete; 198 remain**. The repository has 26 completed studies. Experiment 2B is in preparation. The current user request is to continue now, subject to the usage reserve and compute rules.

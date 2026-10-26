@@ -1,20 +1,20 @@
 # Research state
 
-Updated: 26 October 2026.
+Updated: 26 October 2026. The current status below supersedes the dated history that follows.
 
 ## Current request: 200 additional completed papers
 
-The user requested 200 more papers on 26 October. Follow the [program rules](RESEARCH_PROGRAM_200.md) and [verified-completion ledger](RESEARCH_PROGRAM_200.json). The starting count is 24 completed studies. One new paper is now counted; 199 requested additions remain. The complete package was verified at [commit 36e8119](https://github.com/gavenren/mechanistic-interpretability-research/commit/36e81194543e08d7958f3e8e9142c45997142d37). All 36 checked public files matched their local bytes. The target does not create 200 claims of novelty or extend a compute cap.
+The starting count was 24. The [program ledger](RESEARCH_PROGRAM_200.json) now records **two completed additions**. The repository has **26 completed studies; 198 requested additions remain**. The user asked to continue now. Keep the 20% account reserve, local compute rules, and roadmap caps. The existing four-hour schedule is not a reason to delay current authorized work.
 
-The [task-ability study](../studies/2026-10-26-capability-finalization/paper.md) is complete. It contains 40 complete models, including six reused graph models and 34 new trainings. All output checks and the separate saved-result audit passed. Final model passes are graph 3/4, register 4/4, digits 0/8, and generated points 4/4. The graph and digit panels fail. Both old partial attempts remain unchanged. Do not replace failed seeds or retry training.
+Experiment 1 is complete. Its [task-ability report](../studies/2026-10-26-capability-finalization/paper.md) covers all 40 models. Register and generated-point panels pass. Graph and digit panels fail. Do not retry failed seeds or replace them. The graph branch of 2C remains blocked. Register endpoint success does not establish success at every checkpoint; retain the reported horizon-32 failures when planning Experiment 4.
 
-Register endpoint success is narrower than full-path success. At horizon 32, complete-checkpoint accuracy falls to 93.75%. Three register models have at least one such group below 95%. Retain this limit in Experiment 4 planning. The graph-removal branch of Experiment 2C remains blocked by the failed graph panel.
+Experiment 2A is complete. Its [paper](../studies/2026-10-26-edit-procedure/paper.md), code, results, and separate AI review were verified at [commit d59ccd7](https://github.com/gavenren/mechanistic-interpretability-research/commit/d59ccd74d4f3b064316bac6e444a1fd592bee572). All 39 public study files matched exact local bytes. It contains three branches in one study: donor and edit-order tests, constrained sparse-code witnesses, and normalization choices. All fixed numerical checks passed. The result is a diagnostic extension on saved models, not a general semantic explanation or population failure rate.
 
-Preparation is charged 79.794926417 seconds in total. Experiment 1 is charged 1,091.639085751 seconds, including prior work and conservative post-run check allowances. The [compute record](../studies/2026-10-26-capability-finalization/analysis/compute-accounting.json) gives the remaining caps. About 50.6746 hours remain under the unchanged 51-hour roadmap ceiling. Unused Experiment 1 time is not permission for a new training search.
+The run completed 411,648 selector rows, 288 sparse-code cases, and 32 language prompts. Cumulative forwarded tokens were 33,536. No new training or paid compute was used. The [compute record](../studies/2026-10-26-edit-procedure/analysis/compute-accounting.json) charges 205.138880917 seconds to preparation, 1,091.639085751 seconds to Experiment 1, and 151.589816833 seconds to Experiment 2A. About 50.5977 hours remain under the unchanged 51-hour roadmap cap.
 
-The existing research schedule is active, with a four-hour interval. Each run must check live usage, the current remote state, and the completion ledger. Keep the 20% reserve. Next is Experiment 2A under a new exact public plan, followed by 2B. A preliminary primary-source check supports a diagnostic extension, not a new general method: hold each saved selector mask fixed and compare donor groups for the same receiver and required answer. Lock inputs, controls, and all branches before testing. No Experiment 2A data have been collected.
+Experiment 2B is next. Its code and method drafts are being prepared. No 2B trained-model outputs, calibration, simulation, or timing benchmark have run. Publish and verify its fixed plan before preparation. Publish passed preparation before development calibration. Publish the selected panels, candidate choices, and development banks before final tests. Do not count a draft, partial attempt, or branch as a completed paper.
 
-The older status statements below describe earlier publications. Their paused and unfinished labels remain as history. The review and one-page summary still cover the first 24 completed studies. The new complete paper is the twenty-fifth study. Its full GitHub package is verified and it is entry 1 in the 200-paper ledger.
+The one-page summary and review still cover the first 24 studies. Their unfinished-study statements describe 22 October. The later completion reports above are current. The historical records below remain for traceability.
 
 ## Original fifteen completed studies
 
