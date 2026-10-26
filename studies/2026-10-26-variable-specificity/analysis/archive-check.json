@@ -1,0 +1,19 @@
+{
+  "charged_allowance_seconds": 40,
+  "conflict_rejected": true,
+  "fresh_restore": {
+    "archives": 6,
+    "files": 218,
+    "files_added": 218,
+    "status": "restored"
+  },
+  "identical_restore_added": 0,
+  "measured_seconds_before_receipt": 2.1734846250001283,
+  "model_forwards": 0,
+  "packed": {
+    "archives": 6,
+    "files": 218,
+    "status": "verified"
+  },
+  "status": "passed"
+}

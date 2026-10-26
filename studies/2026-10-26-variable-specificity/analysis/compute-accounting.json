@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "preparation_cumulative_charge_seconds": 453.1494834999976,
+  "preparation_cap_seconds": 3600,
+  "prior_scientific_cumulative_charge_seconds": 1385.5104865419962,
+  "phase_charges_seconds": {
+    "training": 9.830011458001536,
+    "calibration": 36.906813291996514,
+    "results": 16.573985957998957
+  },
+  "postcheck_allowances_seconds": {
+    "frozen_archive": 20,
+    "transport_both_attempts": 10,
+    "saved_result_audit": 50,
+    "final_archive": 40
+  },
+  "stage2c_cumulative_charge_seconds": 183.310810707997,
+  "stage2c_cap_seconds": 7200,
+  "scientific_cumulative_charge_seconds": 1568.8212972499932,
+  "roadmap_cap_seconds": 183600,
+  "roadmap_remaining_seconds": 181578.02921925002,
+  "accounting": "Prior work included once. All postchecks share one 120-second reserve. Both transport attempts share one 10-second charge. The result audit and archive checks passed. No extra reserve was created."
+}

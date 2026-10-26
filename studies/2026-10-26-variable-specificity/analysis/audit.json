@@ -1,0 +1,505 @@
+{
+  "ability": [
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91001
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91002
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91003
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91004
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91005
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91006
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91007
+    },
+    {
+      "accuracy": 1.0,
+      "passed": true,
+      "seed": 91008
+    }
+  ],
+  "ability_gate": true,
+  "available_model_descriptive_means": {
+    "method1": {
+      "absolute_gate_pass_models": 0,
+      "available_models": 8,
+      "means": {
+        "active_changed_accuracy": 0.4128689236111111,
+        "active_changed_tv": 0.5914018806654627,
+        "all_changed_accuracy": 0.6470269097222222,
+        "inactive_changed_accuracy": 0.8811848958333334,
+        "inactive_changed_tv": 0.12061242439275527,
+        "same_value_answer_change": 0.1569552951388889
+      },
+      "missing_seeds": [],
+      "scope": "Descriptive means over available models only; not the eight-model claim"
+    },
+    "method2": {
+      "absolute_gate_pass_models": 0,
+      "available_models": 7,
+      "means": {
+        "active_changed_accuracy": 0.1568287037037037,
+        "active_changed_tv": 0.8425439944727999,
+        "all_changed_accuracy": 0.5662822420634921,
+        "inactive_changed_accuracy": 0.9757357804232804,
+        "inactive_changed_tv": 0.030374540499836084,
+        "same_value_answer_change": 0.004526289682539682
+      },
+      "missing_seeds": [
+        91001
+      ],
+      "scope": "Descriptive means over available models only; not the eight-model claim"
+    },
+    "method3": {
+      "absolute_gate_pass_models": 0,
+      "available_models": 6,
+      "means": {
+        "active_changed_accuracy": 0.8310667438271605,
+        "active_changed_tv": 0.17791791746921812,
+        "all_changed_accuracy": 0.8998601466049383,
+        "inactive_changed_accuracy": 0.968653549382716,
+        "inactive_changed_tv": 0.04373128043395056,
+        "same_value_answer_change": 0.002025462962962963
+      },
+      "missing_seeds": [
+        91001,
+        91002
+      ],
+      "scope": "Descriptive means over available models only; not the eight-model claim"
+    }
+  },
+  "available_model_paired_descriptive_gains": {
+    "active_accuracy_mean_gain": 0.41044560185185186,
+    "all_changed_accuracy_mean_gain": 0.24696180555555555,
+    "available_models": 6,
+    "missing_seeds": [
+      91001,
+      91002
+    ],
+    "scope": "Descriptive paired gains over available learned methods only; does not replace the primary eight-model result",
+    "seeds": [
+      91003,
+      91004,
+      91005,
+      91006,
+      91007,
+      91008
+    ]
+  },
+  "charged_seconds": 3.709989457998745,
+  "checks": 27549,
+  "closing_receipt_allowance_seconds": 2.0,
+  "closing_write_overrun": false,
+  "controls": {
+    "alarm_interval_seconds": 1,
+    "blas_threads": 2,
+    "memory_limit_gib": 4,
+    "minimum_free_disk_gib": 20,
+    "permit_maximum_lifetime_seconds": 120,
+    "shared_compute_lock": true
+  },
+  "edit_results_checked": true,
+  "fixed_control_descriptive_means": {
+    "coherent": {
+      "combinations": 8,
+      "means": {
+        "active_changed_accuracy": 1.0,
+        "active_changed_tv": 0.0,
+        "all_changed_accuracy": 1.0,
+        "inactive_changed_accuracy": 1.0,
+        "inactive_changed_tv": 0.0,
+        "same_value_answer_change": 0.0
+      },
+      "models": 8,
+      "scope": "Equal-weight descriptive mean over fixed model-control combinations"
+    },
+    "full": {
+      "combinations": 8,
+      "means": {
+        "active_changed_accuracy": 0.625,
+        "active_changed_tv": 0.3750001157002783,
+        "all_changed_accuracy": 0.4375,
+        "inactive_changed_accuracy": 0.25,
+        "inactive_changed_tv": 0.7499989431755945,
+        "same_value_answer_change": 0.5729166666666666
+      },
+      "models": 8,
+      "scope": "Equal-weight descriptive mean over fixed model-control combinations"
+    },
+    "none": {
+      "combinations": 8,
+      "means": {
+        "active_changed_accuracy": 0.0,
+        "active_changed_tv": 0.9999985878040666,
+        "all_changed_accuracy": 0.5,
+        "inactive_changed_accuracy": 1.0,
+        "inactive_changed_tv": 1.578709545349723e-06,
+        "same_value_answer_change": 0.0
+      },
+      "models": 8,
+      "scope": "Equal-weight descriptive mean over fixed model-control combinations"
+    },
+    "random": {
+      "combinations": 160,
+      "means": {
+        "active_changed_accuracy": 0.12186234085648148,
+        "active_changed_tv": 0.8767175542977655,
+        "all_changed_accuracy": 0.45270001446759256,
+        "inactive_changed_accuracy": 0.7835376880787037,
+        "inactive_changed_tv": 0.22089781751133142,
+        "same_value_answer_change": 0.15581597222222224
+      },
+      "models": 8,
+      "scope": "Equal-weight descriptive mean over fixed model-control combinations"
+    }
+  },
+  "hashed_files": 490,
+  "improvement_gate": false,
+  "limits": [
+    "This checks saved output arithmetic, selection logic, and file integrity. It does not repeat training or model forwards.",
+    "Unselected candidate effects are not recomputed. Their recorded tables support eligibility and minimum-choice checks.",
+    "Rotation orthogonality and loss accounting are checked; gradient updates and matrix exponentials are not repeated.",
+    "The one-second signal is checked between native calls. A native-call overrun is recorded as a failure when control returns."
+  ],
+  "maximum_arithmetic_difference": 5.995204332975845e-15,
+  "method_gates": {
+    "method1": false,
+    "method2": false,
+    "method3": false
+  },
+  "missing_eligible_candidates": {
+    "method2": [
+      91001
+    ],
+    "method3": [
+      91001,
+      91002
+    ]
+  },
+  "no_model_forwards": true,
+  "no_training": true,
+  "passed": true,
+  "per_model_method_metrics": [
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.4748263888888889,
+      "active_changed_tv": 0.5363450403997286,
+      "all_changed_accuracy": 0.6328125,
+      "available": true,
+      "inactive_changed_accuracy": 0.7907986111111112,
+      "inactive_changed_tv": 0.20913450596151031,
+      "method": "method1",
+      "same_value_answer_change": 0.2612847222222222,
+      "seed": 91001
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.30439814814814814,
+      "active_changed_tv": 0.7000692836744179,
+      "all_changed_accuracy": 0.6260127314814815,
+      "available": true,
+      "inactive_changed_accuracy": 0.9476273148148148,
+      "inactive_changed_tv": 0.0708678599632305,
+      "method": "method1",
+      "same_value_answer_change": 0.10112847222222222,
+      "seed": 91002
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.5020254629629629,
+      "active_changed_tv": 0.4973927978766492,
+      "all_changed_accuracy": 0.6604456018518519,
+      "available": true,
+      "inactive_changed_accuracy": 0.8188657407407407,
+      "inactive_changed_tv": 0.1696762143543102,
+      "method": "method1",
+      "same_value_answer_change": 0.1675347222222222,
+      "seed": 91003
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.4253472222222222,
+      "active_changed_tv": 0.5789087638527501,
+      "all_changed_accuracy": 0.6814236111111112,
+      "available": true,
+      "inactive_changed_accuracy": 0.9375,
+      "inactive_changed_tv": 0.06456520187127793,
+      "method": "method1",
+      "same_value_answer_change": 0.12239583333333333,
+      "seed": 91004
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.3680555555555556,
+      "active_changed_tv": 0.6407436329294597,
+      "all_changed_accuracy": 0.6346932870370371,
+      "available": true,
+      "inactive_changed_accuracy": 0.9013310185185185,
+      "inactive_changed_tv": 0.09783384146455293,
+      "method": "method1",
+      "same_value_answer_change": 0.12413194444444445,
+      "seed": 91005
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.49971064814814814,
+      "active_changed_tv": 0.5052375771017329,
+      "all_changed_accuracy": 0.6861979166666666,
+      "available": true,
+      "inactive_changed_accuracy": 0.8726851851851852,
+      "inactive_changed_tv": 0.13433976600552208,
+      "method": "method1",
+      "same_value_answer_change": 0.13194444444444445,
+      "seed": 91006
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.42158564814814814,
+      "active_changed_tv": 0.5856661487645193,
+      "all_changed_accuracy": 0.65234375,
+      "available": true,
+      "inactive_changed_accuracy": 0.8831018518518519,
+      "inactive_changed_tv": 0.1090488815793261,
+      "method": "method1",
+      "same_value_answer_change": 0.15755208333333334,
+      "seed": 91007
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.3070023148148148,
+      "active_changed_tv": 0.6868518007244437,
+      "all_changed_accuracy": 0.6022858796296297,
+      "available": true,
+      "inactive_changed_accuracy": 0.8975694444444444,
+      "inactive_changed_tv": 0.10943312394231207,
+      "method": "method1",
+      "same_value_answer_change": 0.1896701388888889,
+      "seed": 91008
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": null,
+      "active_changed_tv": null,
+      "all_changed_accuracy": null,
+      "available": false,
+      "inactive_changed_accuracy": null,
+      "inactive_changed_tv": null,
+      "method": "method2",
+      "same_value_answer_change": null,
+      "seed": 91001
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.1400462962962963,
+      "active_changed_tv": 0.869776223112172,
+      "all_changed_accuracy": 0.5700231481481481,
+      "available": true,
+      "inactive_changed_accuracy": 1.0,
+      "inactive_changed_tv": 0.0025195988787727382,
+      "method": "method2",
+      "same_value_answer_change": 0.005208333333333333,
+      "seed": 91002
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.04050925925925926,
+      "active_changed_tv": 0.9429254549378621,
+      "all_changed_accuracy": 0.5170717592592593,
+      "available": true,
+      "inactive_changed_accuracy": 0.9936342592592593,
+      "inactive_changed_tv": 0.0080105164281539,
+      "method": "method2",
+      "same_value_answer_change": 0.005208333333333333,
+      "seed": 91003
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.22164351851851852,
+      "active_changed_tv": 0.7848175414998549,
+      "all_changed_accuracy": 0.5933159722222222,
+      "available": true,
+      "inactive_changed_accuracy": 0.9649884259259259,
+      "inactive_changed_tv": 0.03720805326386259,
+      "method": "method2",
+      "same_value_answer_change": 0.0,
+      "seed": 91004
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.3663194444444444,
+      "active_changed_tv": 0.641397342334275,
+      "all_changed_accuracy": 0.6753472222222222,
+      "available": true,
+      "inactive_changed_accuracy": 0.984375,
+      "inactive_changed_tv": 0.024207527186318918,
+      "method": "method2",
+      "same_value_answer_change": 0.013888888888888888,
+      "seed": 91005
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.07783564814814815,
+      "active_changed_tv": 0.9221243772874195,
+      "all_changed_accuracy": 0.5160590277777778,
+      "available": true,
+      "inactive_changed_accuracy": 0.9542824074074074,
+      "inactive_changed_tv": 0.05201840753157142,
+      "method": "method2",
+      "same_value_answer_change": 0.0013020833333333333,
+      "seed": 91006
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.03009259259259259,
+      "active_changed_tv": 0.9688748164300117,
+      "all_changed_accuracy": 0.5004340277777778,
+      "available": true,
+      "inactive_changed_accuracy": 0.9707754629629629,
+      "inactive_changed_tv": 0.0399213942128837,
+      "method": "method2",
+      "same_value_answer_change": 0.005208333333333333,
+      "seed": 91007
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.22135416666666666,
+      "active_changed_tv": 0.7678922057080042,
+      "all_changed_accuracy": 0.5917245370370371,
+      "available": true,
+      "inactive_changed_accuracy": 0.9620949074074074,
+      "inactive_changed_tv": 0.0487362859972893,
+      "method": "method2",
+      "same_value_answer_change": 0.0008680555555555555,
+      "seed": 91008
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": null,
+      "active_changed_tv": null,
+      "all_changed_accuracy": null,
+      "available": false,
+      "inactive_changed_accuracy": null,
+      "inactive_changed_tv": null,
+      "method": "method3",
+      "same_value_answer_change": null,
+      "seed": 91001
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": null,
+      "active_changed_tv": null,
+      "all_changed_accuracy": null,
+      "available": false,
+      "inactive_changed_accuracy": null,
+      "inactive_changed_tv": null,
+      "method": "method3",
+      "same_value_answer_change": null,
+      "seed": 91002
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.7881944444444444,
+      "active_changed_tv": 0.223769217510338,
+      "all_changed_accuracy": 0.8890335648148148,
+      "available": true,
+      "inactive_changed_accuracy": 0.9898726851851852,
+      "inactive_changed_tv": 0.020620437414007556,
+      "method": "method3",
+      "same_value_answer_change": 0.0,
+      "seed": 91003
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.8229166666666666,
+      "active_changed_tv": 0.19193391610626664,
+      "all_changed_accuracy": 0.8844039351851852,
+      "available": true,
+      "inactive_changed_accuracy": 0.9458912037037037,
+      "inactive_changed_tv": 0.053783933669240856,
+      "method": "method3",
+      "same_value_answer_change": 0.010416666666666666,
+      "seed": 91004
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.8561921296296297,
+      "active_changed_tv": 0.14888195244604716,
+      "all_changed_accuracy": 0.9202835648148148,
+      "available": true,
+      "inactive_changed_accuracy": 0.984375,
+      "inactive_changed_tv": 0.03226867102516832,
+      "method": "method3",
+      "same_value_answer_change": 0.001736111111111111,
+      "seed": 91005
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.8420138888888888,
+      "active_changed_tv": 0.16546173815793488,
+      "all_changed_accuracy": 0.8955439814814815,
+      "available": true,
+      "inactive_changed_accuracy": 0.9490740740740741,
+      "inactive_changed_tv": 0.06526077963976393,
+      "method": "method3",
+      "same_value_answer_change": 0.0,
+      "seed": 91006
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.8249421296296297,
+      "active_changed_tv": 0.17724283946682337,
+      "all_changed_accuracy": 0.9020543981481481,
+      "available": true,
+      "inactive_changed_accuracy": 0.9791666666666666,
+      "inactive_changed_tv": 0.03845629553030262,
+      "method": "method3",
+      "same_value_answer_change": 0.0,
+      "seed": 91007
+    },
+    {
+      "absolute_gate_pass": false,
+      "active_changed_accuracy": 0.8521412037037037,
+      "active_changed_tv": 0.1602178411278987,
+      "all_changed_accuracy": 0.9078414351851852,
+      "available": true,
+      "inactive_changed_accuracy": 0.9635416666666666,
+      "inactive_changed_tv": 0.0519975653252201,
+      "method": "method3",
+      "same_value_answer_change": 0.0,
+      "seed": 91008
+    }
+  ],
+  "positive_differences": 6,
+  "primary_mean_gain": null,
+  "saved_raw_files_checked": 226,
+  "scope": "Complete saved-result consistency audit",
+  "secondary_mean_gain": null,
+  "seconds_through_first_receipt": 1.7108779160007543,
+  "study_code_imported": false,
+  "timing_rule": "Imports and checks are measured. Two seconds are charged for closing writes. The run fails if closing writes exceed that allowance or total elapsed time exceeds the limit.",
+  "total_time_limit_seconds": 49.0,
+  "work_seconds": 1.709989457998745
+}
