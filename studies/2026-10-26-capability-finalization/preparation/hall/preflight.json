@@ -1,0 +1,30 @@
+{
+  "block_seconds": [
+    0.08077216700075951,
+    0.08068450000064331,
+    0.07945591700081422
+  ],
+  "dummy_replay_seconds": 0.00019791700105997734,
+  "max_replay_error": 1.0658141036401503e-14,
+  "maximum_seconds_per_update": 0.000807721670007595,
+  "noop_exact": true,
+  "oracle_sanity": [
+    false,
+    true,
+    true
+  ],
+  "output_dtype": "float64",
+  "output_shape": [
+    512
+  ],
+  "parameters": 18817,
+  "passed": true,
+  "projected_job_seconds": 146.89369473123548,
+  "safety_factor": 4,
+  "scientific_training_or_evaluation": false,
+  "setup_and_benchmark_seconds": 0.849202041999888,
+  "timed_blocks": 3,
+  "tolerance": 1e-09,
+  "updates_per_block": 100,
+  "warmup_updates": 20
+}

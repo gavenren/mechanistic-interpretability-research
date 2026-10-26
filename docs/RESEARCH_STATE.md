@@ -8,7 +8,7 @@ The user requested 200 more papers on 26 October. Follow the [program rules](RES
 
 The immediate work is [task-ability finalization](../studies/2026-10-26-capability-finalization/analysis-plan.md). Reuse the six complete graph models, apply the explicit single restart of seed 8103, and preserve both old partial attempts. Preparation and the public code lock must pass before new training. Keep the current usage reserve and all cumulative time charges.
 
-The existing research schedule is active again, with a four-hour interval. This status was confirmed by the app on 26 October. The schedule must stop at the usage reserve or a resource failure. The older paused statements below describe earlier publications. No new scientific run has started yet.
+The existing research schedule is active again, with a four-hour interval. This status was confirmed by the app on 26 October. The schedule must stop at the usage reserve or a resource failure. The older paused statements below describe earlier publications. Preparation passed under public lock `95b53af3f603276a082a7bad630f72ffb6508c9a`. Its [record](../studies/2026-10-26-capability-finalization/preparation/status.json) and [check](../studies/2026-10-26-capability-finalization/PREPARATION_REVIEW.md) give a cumulative scientific projection of 3,958.35 seconds. Total preparation charged is 79.794926417 seconds. Scientific execution may start only after these records are verified on GitHub and a fresh usage check passes. No new scientific run has started yet.
 
 ## Original fifteen completed studies
 

@@ -1,0 +1,167 @@
+{
+  "atomic_permit": {
+    "controls": {
+      "deadline_stops": true,
+      "denied_stops": true,
+      "empty_file_stops": true,
+      "expired_stops": true,
+      "missing_file_stops": true,
+      "valid_accepts": true
+    },
+    "limit": "Finite concurrency check; not proof for all filesystems or failures.",
+    "passed": true,
+    "read_errors": [],
+    "reads": 10055,
+    "scientific_work": false,
+    "seconds": 0.2097726669999247,
+    "writes": 1000
+  },
+  "closing_receipt_allowance_seconds": 1.0,
+  "combined_projected_scientific_seconds": 3958.3464811342265,
+  "continuation_setup_allowance_seconds": 40.0,
+  "extra_replay_allowance_seconds": 0.5536273360121413,
+  "hardware": {
+    "compute_threads": 2,
+    "free_disk_bytes": 681005211648,
+    "hw.memsize": "25769803776",
+    "interop_threads": 1,
+    "machdep.cpu.brand_string": "Apple M4",
+    "machine": "arm64",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "process_memory_cap_bytes": 4294967296,
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     4361.\nPages active:                                 425466.\nPages inactive:                               409897.\nPages speculative:                             14934.\nPages throttled:                                   0.\nPages wired down:                             138171.\nPages purgeable:                                6159.\n\"Translation faults\":                      105686530.\nPages copy-on-write:                         2451553.\nPages zero filled:                          74234504.\nPages reactivated:                          14033612.\nPages purged:                                1328529.\nFile-backed pages:                            297042.\nAnonymous pages:                              553255.\nPages stored in compressor:                  1022895.\nPages occupied by compressor:                 525519.\nDecompressions:                              7993146.\nCompressions:                               11479188.\nPageins:                                     4381698.\nPageouts:                                      75355.\nSwapins:                                           0.\nSwapouts:                                          0.\n"
+  },
+  "measured_replay_accounting": "Preparation only; the scientific estimate includes its repeated replay.",
+  "measured_reused_replay_seconds": 0.13840683400303533,
+  "measured_seconds_before_closing_receipts": 3.1874159170001803,
+  "peak_memory_bytes": 373997568,
+  "plan_lock": "95b53af3f603276a082a7bad630f72ffb6508c9a",
+  "prelock_check_accounting": "Conservative bound for code checks, source checks, and repeated small tests.",
+  "prelock_check_charge_seconds": 60.0,
+  "prior_preparation_seconds": 15.607510499994532,
+  "prior_scientific_seconds": 317.0650452510017,
+  "projected_remaining_job_seconds": 3600.7278085472126,
+  "remaining_job_counts": {
+    "digits": 8,
+    "flow": 8,
+    "hall": 2,
+    "register": 8
+  },
+  "safety_factor": 4,
+  "scientific_training": false,
+  "seconds": 4.18741591700018,
+  "status": "passed",
+  "tasks": {
+    "digits": {
+      "controls": [
+        {
+          "architecture": "direct",
+          "forward_error": 0.0,
+          "inference_seconds": 0.002659666999534238,
+          "replay_seconds": 0.0019114999995508697
+        },
+        {
+          "architecture": "filtered",
+          "forward_error": 0.0,
+          "inference_seconds": 0.00634024999999383,
+          "replay_seconds": 0.006231125000340398
+        }
+      ],
+      "dummy_only": true,
+      "estimated_eight_jobs_seconds": 393.2377755592461,
+      "estimated_one_job_seconds": 49.15472194490576,
+      "parameters_B": {
+        "direct": 23946,
+        "filtered": 23946
+      },
+      "passed": true,
+      "projected_job_seconds": 196.61888777962304,
+      "safe_eight_jobs_seconds": 1572.9511022369843,
+      "safety_factor": 4,
+      "seconds": 0.8133821250012261,
+      "status": "passed",
+      "task": "digits",
+      "timing_steps_per_architecture": 20,
+      "training_step_seconds_B": [
+        0.010818339599973114,
+        0.02851002500001414
+      ]
+    },
+    "flow": {
+      "controls": {
+        "logdet_error": 8.326672684688674e-17,
+        "no_op_error": 0.0,
+        "roundtrip_error": 8.881784197001252e-16
+      },
+      "dummy_only": true,
+      "estimated_eight_jobs_seconds": 144.53709791589063,
+      "estimated_one_job_seconds": 18.06713723948633,
+      "inverse_controls": {
+        "logdet_error": 5.551115123125783e-17,
+        "no_op_error": 0.0,
+        "roundtrip_error": 8.881784197001252e-16
+      },
+      "jacobian_error": 2.411265631607762e-16,
+      "parameters_B": 1032,
+      "passed": true,
+      "projected_job_seconds": 72.26854895794531,
+      "safe_eight_jobs_seconds": 578.1483916635625,
+      "safety_factor": 4,
+      "seconds": 0.03330666700094298,
+      "status": "passed",
+      "task": "flow",
+      "timing_steps": 20,
+      "training_step_seconds_B": 0.001114691699967807
+    },
+    "hall": {
+      "block_seconds": [
+        0.08077216700075951,
+        0.08068450000064331,
+        0.07945591700081422
+      ],
+      "dummy_replay_seconds": 0.00019791700105997734,
+      "max_replay_error": 1.0658141036401503e-14,
+      "maximum_seconds_per_update": 0.000807721670007595,
+      "noop_exact": true,
+      "oracle_sanity": [
+        false,
+        true,
+        true
+      ],
+      "output_dtype": "float64",
+      "output_shape": [
+        512
+      ],
+      "parameters": 18817,
+      "passed": true,
+      "projected_job_seconds": 146.89369473123548,
+      "safety_factor": 4,
+      "scientific_training_or_evaluation": false,
+      "setup_and_benchmark_seconds": 0.849202041999888,
+      "timed_blocks": 3,
+      "tolerance": 1e-09,
+      "updates_per_block": 100,
+      "warmup_updates": 20
+    },
+    "register": {
+      "dummy_forward_seconds": 0.021098917000017536,
+      "dummy_replay_seconds": 0.020469249999223393,
+      "dummy_steps": 20,
+      "dummy_train_seconds": 0.0820785830001114,
+      "max_replay_error": 1.3322676295501878e-15,
+      "noop_exact": true,
+      "oracle_224_cases_pass": true,
+      "parameters": 57360,
+      "passed": true,
+      "projected_eight_job_seconds": 1155.840925184195,
+      "projected_job_seconds": 144.48011564802437,
+      "projection": "Four times larger-recipe training, 44-step eval/replay for all rows, and 10-second setup allowance.",
+      "scientific_training_or_evaluation": false
+    }
+  },
+  "timing_boundary": "Measured time includes main result writes and the full hash scan. The charged seconds add one reserved second for the final status write, its hash, and the manifest write. A measured closing-write overrun stops the run.",
+  "total_preparation_seconds": 79.79492641699471
+}

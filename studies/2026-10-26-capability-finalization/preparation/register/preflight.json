@@ -1,0 +1,15 @@
+{
+  "dummy_forward_seconds": 0.021098917000017536,
+  "dummy_replay_seconds": 0.020469249999223393,
+  "dummy_steps": 20,
+  "dummy_train_seconds": 0.0820785830001114,
+  "max_replay_error": 1.3322676295501878e-15,
+  "noop_exact": true,
+  "oracle_224_cases_pass": true,
+  "parameters": 57360,
+  "passed": true,
+  "projected_eight_job_seconds": 1155.840925184195,
+  "projected_job_seconds": 144.48011564802437,
+  "projection": "Four times larger-recipe training, 44-step eval/replay for all rows, and 10-second setup allowance.",
+  "scientific_training_or_evaluation": false
+}
