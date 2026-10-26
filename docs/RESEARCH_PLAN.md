@@ -2,7 +2,7 @@
 
 **Updated:** 22 October 2026. First version: 13 October 2026.
 
-**Status:** Updated plan only. No experiment was run for this update. Automatic research remains paused.
+**Status of the 22 October plan update:** No experiment ran for that update. **Execution update, 26 October:** [Experiment 1 is complete](../studies/2026-10-26-capability-finalization/paper.md). Register and generated-point panels pass; graph and digit panels fail. The graph branch of 2C remains blocked. Register endpoint success does not pass the separate full-sequence rules in 4. The research schedule is active under the [200-paper program](RESEARCH_PROGRAM_200.md) and existing caps. The detailed method and prior-state sections below remain the original roadmap record.
 
 **Basis:** The [review](REVIEW_PAPER.md) and [one-page summary](REVIEW_SUMMARY.md) cover 24 completed studies at [repository version 802bacf](https://github.com/gavenren/mechanistic-interpretability-research/tree/802bacf849f073c34c838c33876bf2f121ff06d3). The new batch contains nine completed papers. Its planned tenth study is unfinished. Completed Study 10 in the original group is a different study.
 

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "scientific_runner_cumulative_charge_seconds": 971.6390857510014,
+  "saved_result_audit_allowance_seconds": 60,
+  "archive_pack_restore_check_allowance_seconds": 60,
+  "scientific_cumulative_charge_seconds": 1091.6390857510014,
+  "scientific_cap_seconds": 14400,
+  "scientific_remaining_seconds": 13308.360914248999,
+  "preparation_cumulative_charge_seconds": 79.79492641699471,
+  "preparation_cap_seconds": 3600,
+  "preparation_remaining_seconds": 3520.2050735830053,
+  "roadmap_cap_seconds": 183600,
+  "roadmap_remaining_seconds": 182428.565987832,
+  "accounting": "Historical work is included once. The two 60-second post-run charges are conservative allowances. Failed task gates do not create new compute budgets."
+}

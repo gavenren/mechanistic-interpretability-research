@@ -3,3 +3,9 @@ __pycache__/
 .DS_Store
 .venv/
 .local-state/
+
+# Exact raw task files are stored in the published result bundles.
+/studies/2026-10-26-capability-finalization/results/hall/
+/studies/2026-10-26-capability-finalization/results/register/
+/studies/2026-10-26-capability-finalization/results/digits/
+/studies/2026-10-26-capability-finalization/results/flow/

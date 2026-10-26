@@ -1,0 +1,53 @@
+{
+  "audit_code_sha256": "d0e9eb30183a38d140e86c95fbeb3f601410a937c697b722256f2a78805c24af",
+  "branches": {
+    "digits": {
+      "complete_models": 16,
+      "selected_recipe": "B",
+      "status": "failed"
+    },
+    "flow": {
+      "complete_models": 8,
+      "selected_recipe": "B",
+      "status": "passed"
+    },
+    "hall": {
+      "complete_models": 8,
+      "selected_recipe": "A",
+      "status": "failed"
+    },
+    "register": {
+      "complete_models": 8,
+      "selected_recipe": "A",
+      "status": "passed"
+    }
+  },
+  "charged_seconds": 1.668423040999187,
+  "closing_write_allowance_seconds": 1.0,
+  "forward_or_replay_repeated": false,
+  "jobs_checked": 32,
+  "limit": "Saved outputs and traces only; this is not independent retraining.",
+  "measured_seconds_before_closing_receipt": 0.6684230409991869,
+  "models_checked": 40,
+  "peak_memory_bytes": 39600128,
+  "raw_gate_values_recalculated": true,
+  "scientific_charge_before_audit": 971.6390857510014,
+  "separate_conservative_stage_charge_seconds": 60.0,
+  "source_manifest_checks": {
+    "2026-10-19-capability-gates": {
+      "files": 9,
+      "manifest_sha256": "a2154660a35894c81daee84b0c11cbb826fe9605a233ca2b4babf398c64ee5e7"
+    },
+    "2026-10-22-capability-completion": {
+      "files": 30,
+      "manifest_sha256": "69e4d9e0e60753509ecf589bd0d2157b822afd47588215329ecef16472c2a465"
+    },
+    "2026-10-26-capability-finalization": {
+      "files": 220,
+      "manifest_sha256": "f7d3381128a13414c5e9acc1e5d9b379c653d90923e1566573eb93bfee879eac"
+    }
+  },
+  "status": "passed",
+  "timing_limit": "One second is reserved for the last audit receipt write. Main charges a separate conservative 60 seconds to Experiment 1.",
+  "training_repeated": false
+}

@@ -6,23 +6,23 @@ This repository studies how neural networks produce their answers. Each complete
 
 The papers are AI-authored. AI review is not human peer review. A new experiment is not proof that its idea is new. We check related work and state the specific contribution of each study.
 
-Start with the updated [one-page summary](docs/REVIEW_SUMMARY.md), also available as a [PDF](output/pdf/REVIEW_SUMMARY.pdf). Both cover all 24 completed studies and mark the tenth study in the new batch as unfinished.
+Start with the updated [one-page summary](docs/REVIEW_SUMMARY.md), also available as a [PDF](output/pdf/REVIEW_SUMMARY.pdf). Both cover the 24 studies completed by 22 October. Their unfinished-study label describes that date. The [completion report](studies/2026-10-26-capability-finalization/paper.md) gives the later result.
 
-Read the updated [combined review paper](docs/REVIEW_PAPER.md) for all 24 completed studies. It covers the first fifteen and the nine additions. It explains the findings, contributions, limits, and next steps in plain English. It marks the tenth study in the new batch as unfinished. The review adds no new experiment.
+Read the updated [combined review paper](docs/REVIEW_PAPER.md) for the first 24 completed studies. It covers the first fifteen and the nine additions. It explains the findings, contributions, limits, and next steps in plain English. Its unfinished-study label is historical; see the later completion report. The review adds no new experiment.
 
-The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studies and puts the unfinished task-ability study first. It gives the experiment order, success rules, compute estimates, and stop conditions. The [budget table](docs/RESEARCH_COMPUTE_BUDGET.csv) includes prior compute and the remaining caps. See the [execution status](docs/STAGE_0_STATUS.md) for the stopped attempt. Updating the plan does not resume research.
+The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studies and puts the unfinished task-ability study first. It gives the experiment order, success rules, compute estimates, and stop conditions. The [budget table](docs/RESEARCH_COMPUTE_BUDGET.csv) gives the roadmap allocations. The [new compute record](studies/2026-10-26-capability-finalization/analysis/compute-accounting.json) gives the current charges and remaining caps. See the [current completion report](studies/2026-10-26-capability-finalization/paper.md) and [research state](docs/RESEARCH_STATE.md) for execution and scheduling status.
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
 ## Current research request
 
-The [200-paper program](docs/RESEARCH_PROGRAM_200.md) records the request made on 26 October 2026. It starts after the existing 24 completed studies. The [ledger](docs/RESEARCH_PROGRAM_200.json) counts only complete studies whose code, results, and papers were verified on GitHub. The unfinished task-ability study comes first. The target does not change the usage reserve or compute caps.
+The [200-paper program](docs/RESEARCH_PROGRAM_200.md) records the request made on 26 October 2026. It starts after the existing 24 completed studies. The [ledger](docs/RESEARCH_PROGRAM_200.json) counts only complete studies whose code, results, and papers were verified on GitHub. The task-ability study was completed first. The target does not change the usage reserve or compute caps.
 
 ## Latest research batch
 
 The [22 October batch](docs/2026-10-22-RESEARCH_BATCH.md) adds nine complete papers with code, results, checks, and stated limits. These are formal or constructed tests, including one statistical simulation. They are not trained-language-model studies.
 
-The planned tenth study, [Experiment 1 continuation](studies/2026-10-22-capability-completion/paper.md), stopped at the usage reserve. Six graph models have complete passing results, but only two of the required four final models finished. Partial weights and failure records are retained. This study is not counted as complete.
+The tenth study is now complete: [Task ability before explanation](studies/2026-10-26-capability-finalization/paper.md). All 40 planned models have results. Register and generated-point panels pass; graph and digit panels fail their fixed rules. The two earlier partial attempts remain unchanged. This is one completed study across all attempts, with [code, full result bundles, and checking instructions](studies/2026-10-26-capability-finalization/REPRODUCTION.md).
 
 ## Original fifteen papers
 

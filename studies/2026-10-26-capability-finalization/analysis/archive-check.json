@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "packed": {
+    "archives": 4,
+    "files": 218,
+    "status": "verified"
+  },
+  "fresh_restore": {
+    "archives": 4,
+    "files": 218,
+    "files_added": 218,
+    "status": "restored"
+  },
+  "identical_restore": {
+    "archives": 4,
+    "files": 218,
+    "files_added": 0,
+    "status": "restored"
+  },
+  "conflict_rejected": true,
+  "measured_seconds_before_receipt": 1.7250486249995447,
+  "conservative_stage_charge_seconds": 60,
+  "limits": "60-second process timeout; exact member bytes; temporary restore only; no scientific rerun"
+}
