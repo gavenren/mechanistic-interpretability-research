@@ -1,6 +1,14 @@
 # Research state
 
-Updated: 22 October 2026.
+Updated: 26 October 2026.
+
+## Current request: 200 additional completed papers
+
+The user requested 200 more papers on 26 October. Follow the [program rules](RESEARCH_PROGRAM_200.md) and [verified-completion ledger](RESEARCH_PROGRAM_200.json). The starting count is 24 completed studies. No new paper is counted yet. The target does not create 200 claims of novelty or extend a compute cap.
+
+The immediate work is [task-ability finalization](../studies/2026-10-26-capability-finalization/analysis-plan.md). Reuse the six complete graph models, apply the explicit single restart of seed 8103, and preserve both old partial attempts. Preparation and the public code lock must pass before new training. Keep the current usage reserve and all cumulative time charges.
+
+The existing research schedule is active again, with a four-hour interval. This status was confirmed by the app on 26 October. The schedule must stop at the usage reserve or a resource failure. The older paused statements below describe earlier publications. No new scientific run has started yet.
 
 ## Original fifteen completed studies
 

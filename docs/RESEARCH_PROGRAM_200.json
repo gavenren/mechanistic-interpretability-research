@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "start_date": "2026-10-26",
+  "baseline_commit": "58251c651ef6397ee26ae0c0159d0f7632063191",
+  "baseline_completed_studies": 24,
+  "requested_additional_completed_studies": 200,
+  "verified_completed_additions": [],
+  "verified_completed_addition_count": 0,
+  "remaining_requested_additions": 200,
+  "active_study": "studies/2026-10-26-capability-finalization",
+  "status": "active",
+  "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count."
+}

@@ -14,6 +14,10 @@ The updated [research plan](docs/RESEARCH_PLAN.md) covers all 24 completed studi
 
 Start with the [reading guide](docs/READING_GUIDE.md) for the main terms and the limits of each score. Read the [research protocol](RESEARCH_PROTOCOL.md) for the publication rules and the [research state](docs/RESEARCH_STATE.md) for current work.
 
+## Current research request
+
+The [200-paper program](docs/RESEARCH_PROGRAM_200.md) records the request made on 26 October 2026. It starts after the existing 24 completed studies. The [ledger](docs/RESEARCH_PROGRAM_200.json) counts only complete studies whose code, results, and papers were verified on GitHub. The unfinished task-ability study comes first. The target does not change the usage reserve or compute caps.
+
 ## Latest research batch
 
 The [22 October batch](docs/2026-10-22-RESEARCH_BATCH.md) adds nine complete papers with code, results, checks, and stated limits. These are formal or constructed tests, including one statistical simulation. They are not trained-language-model studies.
