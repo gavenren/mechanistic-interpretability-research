@@ -1,0 +1,17 @@
+# Sources and limits of the contribution
+
+Checked on 26 October 2026, before new saved-model calculations for this study. This was a focused source check. It does not establish priority or a complete literature search.
+
+| Primary source | What was checked and how it limits the claim |
+|---|---|
+| Mingjie Li, Yisen Wang, and Zhouchen Lin, **CerDEQ: Certifiable Deep Equilibrium Model**, ICML 2022, PMLR 162:12998–13013. [Official proceedings page](https://proceedings.mlr.press/v162/li22t.html). | The official abstract describes output-bound approximation with an adjoint equilibrium model for certified training. Equilibrium output bounds and adjoint methods are established. This study does not claim a new certification or training principle. |
+| Shaojie Bai, J. Zico Kolter, and Vladlen Koltun, **Deep Equilibrium Models**, NeurIPS 2019; [author tutorial on equilibrium models](https://implicit-layers-tutorial.org/deep_equilibrium_models/). | The tutorial gives fixed-point state equations, equilibrium solving, and an adjoint linear fixed-point equation. The present test applies a nonnegative comparison matrix to saved-state residuals. It does not introduce equilibrium inference or adjoint computation. The tutorial's general discussion is not itself a certificate for these saved weights. |
+| Zonghan Yang, Tianyu Pang, and Yang Liu, **A Closer Look at the Adversarial Robustness of Deep Equilibrium Models**, NeurIPS 2022; [author-submitted arXiv record](https://arxiv.org/abs/2306.01429v1). | The abstract and record describe solver-related mismatch and misleading robustness evaluation. The arXiv record was submitted in 2023 and identifies acceptance at NeurIPS 2022. Our outcome is an enclosure of a fixed internal-removal margin effect. It is not a new general warning about solvers or an adversarial-defense result. |
+
+The internal baseline is [Study 15](../2026-10-13-equilibrium-sign-audit/paper.md), with its [fixed plan](../2026-10-13-equilibrium-sign-audit/analysis-plan.md), [outward arithmetic](../2026-10-13-equilibrium-sign-audit/code/intervals.py), [source record](../2026-10-13-equilibrium-sign-audit/sources.md), and saved effect panel. Study 15 already used the exact-real target, permanent coordinate removal, outward global contraction bounds, sign-first refinement, and separate small-magnitude results. Its five proved coarse-sign reversals must remain attributed to that earlier study.
+
+The [current roadmap](../../docs/RESEARCH_PLAN.md) requires a fixed bound, a separately validated reference, and at least 25% lower median total time in each model across five paired repetitions. These requirements determine this comparison. The input manifest must fix the exact baseline and compute-record bytes before the public lock.
+
+The mathematical derivation in [this plan](analysis-plan.md) is self-contained. It applies the standard nonnegative matrix series for `(I − M)^−1`, a contraction residual inequality, and a geometric tail bound. No new theorem is claimed. No direct matrix inverse is needed in the candidate implementation.
+
+The proposed contribution is narrower: a complete comparison of one coordinate-sensitive residual bound with the published global bound, on the same saved internal-removal effects, with checked outward arithmetic and full timing costs. Reliability acceptance and useful speed are results to be measured. Neither is assumed. A positive result would not establish a general method for language models or an error rate across model populations.

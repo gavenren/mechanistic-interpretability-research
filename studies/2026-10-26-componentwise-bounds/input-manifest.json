@@ -1,0 +1,28 @@
+{
+  "files": {
+    "docs/RESEARCH_COMPUTE_BUDGET.csv": "275e89bde1887363d5b0ee0484d0fd91b6b4cb1c61b874e42fae49c8919be27d",
+    "docs/RESEARCH_PLAN.md": "0a4f48492e415cf152d91e5e44f5c5b470ea3998a4e1363fb9f76f8110e9dc61",
+    "studies/2026-10-13-equilibrium-sign-audit/code/independent_audit.py": "c29373c5eb0581450d65c782b45740b0d0c2e1cb7ee57ac0d1e196c1567a6efc",
+    "studies/2026-10-13-equilibrium-sign-audit/code/intervals.py": "0bb5a0275fc645f65dcf6a619b8e0bd6eb217e7fef3b5470bedb1e6d434783ca",
+    "studies/2026-10-13-equilibrium-sign-audit/data/optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "studies/2026-10-13-equilibrium-sign-audit/inputs.json": "cab624b6dccee25262c723457f19eb753c7d6de30695833912b0851f70451dbb",
+    "studies/2026-10-13-equilibrium-sign-audit/results/401/coarse.npz": "54de1a078658016fd3e2ed99bdd18943aff7adbccb110646c166672dda5d0b63",
+    "studies/2026-10-13-equilibrium-sign-audit/results/401/refined.npz": "457044db3dc440c9b282d56281045d90687c1542ca5ea46a82f23b9594caf3e8",
+    "studies/2026-10-13-equilibrium-sign-audit/results/401/test-classes.npz": "68fb7af0c48f9cabea10e0f8b62fa9b94da1577e40cb2489839067df902cfef2",
+    "studies/2026-10-13-equilibrium-sign-audit/results/401/weights.npz": "d56a4656e95bbbdf92619501903f583d91fff515df94209cb73c66334c03ab64",
+    "studies/2026-10-13-equilibrium-sign-audit/results/409/coarse.npz": "743adf4916c01ba2f81c76b17c455ee05eba5d0c1191101a0276237975879f20",
+    "studies/2026-10-13-equilibrium-sign-audit/results/409/refined.npz": "08a6712170ebcc764cf53c0e135438910655a6b9cf95bb7fb4ac6a653e664617",
+    "studies/2026-10-13-equilibrium-sign-audit/results/409/test-classes.npz": "c26888cf522e9c2ddabf3debc64ee03ea5ea821c35b6ac098c624dc6fd7c0294",
+    "studies/2026-10-13-equilibrium-sign-audit/results/409/weights.npz": "1d046ea08aa02bf78a9b43ce0006ce473da4ad4dbc88cc02ac4bfdee61f1acc6",
+    "studies/2026-10-13-equilibrium-sign-audit/results/419/coarse.npz": "abd875b8b7cc2b6ec6bdf84d940d2383ace8ee3e5c39e05e2257b7d7282d7bac",
+    "studies/2026-10-13-equilibrium-sign-audit/results/419/refined.npz": "bf5490e9b0c6b7b939464177c2aff941ddf7c73667997eea923e616d7aafcc37",
+    "studies/2026-10-13-equilibrium-sign-audit/results/419/test-classes.npz": "788b3b47591b942be6a5481b1267c10d1b5ab406835528740a4ca57c0a2b763c",
+    "studies/2026-10-13-equilibrium-sign-audit/results/419/weights.npz": "1222ab3e06256a5d90941c67bb0935706d47d410f5a79fca6acca509483fd346",
+    "studies/2026-10-13-equilibrium-sign-audit/results/421/coarse.npz": "820a56d1ba541f6e17a83b6bc6fa070bcad7659faa64d59a942e05ac00f40f24",
+    "studies/2026-10-13-equilibrium-sign-audit/results/421/refined.npz": "960f856375a504cae2a3566711d72498ab40f9fab9e3ff5f7fd86eae65349798",
+    "studies/2026-10-13-equilibrium-sign-audit/results/421/test-classes.npz": "d73b96bd0a886ffb9604dd227cbfa36b74946e2a99ac7ceff21e62a39bc6c24e",
+    "studies/2026-10-13-equilibrium-sign-audit/results/421/weights.npz": "5d8c7398a709d41b38269208d6e582ce60309f09dc35077d805618ae9e3e38bb",
+    "studies/2026-10-26-variable-specificity/analysis/compute-accounting.json": "749d174883e8b0109a4c0aa2d36a9bbe5a0739075930e4f1c8b1db1097845e33"
+  },
+  "source_commit": "8307227b856d6d6cb44155fdb99b1a47a85ef61e"
+}
