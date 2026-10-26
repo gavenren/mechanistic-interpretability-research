@@ -33,14 +33,28 @@
       "review": "studies/2026-10-26-edit-procedure/RESULT_REVIEW.md",
       "verified_public_files": 39,
       "count_note": "One diagnostic study across three branches. No new model training or general novelty claim."
+    },
+    {
+      "number": 3,
+      "date": "2026-10-26",
+      "study": "studies/2026-10-26-search-procedure",
+      "title": "What a successful search does and does not establish",
+      "publication_commit": "6f32f86922774d57639afbae6f753f26d3fdfa2a",
+      "paper": "studies/2026-10-26-search-procedure/paper.md",
+      "paper_sha256": "4df98d1218b4f2712855df47198ff4dfb4d9f9899b6436531a713d4c99fd19ad",
+      "archive_manifest_sha256": "b6a85361f30f9ae34e51713cb8f0ed1aad6c8bf9ce154236f677a8b1968fd888",
+      "result_manifest_sha256": "6906bb42355639d5c2e6b13f72502a0bb8036db5c958f5361bd798d234d77808",
+      "review": "studies/2026-10-26-search-procedure/RESULT_REVIEW.md",
+      "verified_public_files": 52,
+      "count_note": "One completed diagnostic study. The primary statistical gate failed in two of24 conditions; numerical checks passed."
     }
   ],
-  "verified_completed_addition_count": 2,
-  "remaining_requested_additions": 198,
-  "active_study": "studies/2026-10-26-search-procedure",
+  "verified_completed_addition_count": 3,
+  "remaining_requested_additions": 197,
+  "active_study": "studies/2026-10-26-variable-specificity",
   "status": "active",
   "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count.",
-  "current_total_completed_studies": 26,
-  "next_stage": "2B: Groups, search, scores, and selection",
-  "compute_record": "studies/2026-10-26-edit-procedure/analysis/compute-accounting.json"
+  "current_total_completed_studies": 27,
+  "next_stage": "2C: Intended and unwanted changes",
+  "compute_record": "studies/2026-10-26-search-procedure/analysis/compute-accounting.json"
 }

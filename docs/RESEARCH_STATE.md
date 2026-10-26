@@ -4,17 +4,19 @@ Updated: 26 October 2026. The current status below supersedes the dated history 
 
 ## Current request: 200 additional completed papers
 
-The starting count was 24. The [program ledger](RESEARCH_PROGRAM_200.json) now records **two completed additions**. The repository has **26 completed studies; 198 requested additions remain**. The user asked to continue now. Keep the 20% account reserve, local compute rules, and roadmap caps. The existing four-hour schedule is not a reason to delay current authorized work.
+The starting count was24. The [ledger](RESEARCH_PROGRAM_200.json) now records **three completed additions**. The repository has **27 completed studies;197 requested additions remain**. The user asked to continue now. Keep the20% usage reserve, local compute rules, and fixed roadmap caps. The four-hour schedule is not a reason to delay current work.
 
-Experiment 1 is complete. Its [task-ability report](../studies/2026-10-26-capability-finalization/paper.md) covers all 40 models. Register and generated-point panels pass. Graph and digit panels fail. Do not retry failed seeds or replace them. The graph branch of 2C remains blocked. Register endpoint success does not establish success at every checkpoint; retain the reported horizon-32 failures when planning Experiment 4.
+Experiment1 is complete. All40 task models have results. Register and generated-point panels pass. Graph and digit panels fail. Keep failed seeds. The graph branch of2C remains blocked. Register endpoint success does not establish complete-sequence success at horizon32.
 
-Experiment 2A is complete. Its [paper](../studies/2026-10-26-edit-procedure/paper.md), code, results, and separate AI review were verified at [commit d59ccd7](https://github.com/gavenren/mechanistic-interpretability-research/commit/d59ccd74d4f3b064316bac6e444a1fd592bee572). All 39 public study files matched exact local bytes. It contains three branches in one study: donor and edit-order tests, constrained sparse-code witnesses, and normalization choices. All fixed numerical checks passed. The result is a diagnostic extension on saved models, not a general semantic explanation or population failure rate.
+Experiment2A is complete at commit `d59ccd74d4f3b064316bac6e444a1fd592bee572`. All39 public study files matched local bytes. It adds one diagnostic study across donor/edit order, sparse-code constraints, and normalization. All numerical checks passed. Its effects do not establish a general semantic explanation.
 
-The run completed 411,648 selector rows, 288 sparse-code cases, and 32 language prompts. Cumulative forwarded tokens were 33,536. No new training or paid compute was used. The [compute record](../studies/2026-10-26-edit-procedure/analysis/compute-accounting.json) charges 205.138880917 seconds to preparation, 1,091.639085751 seconds to Experiment 1, and 151.589816833 seconds to Experiment 2A. About 50.5977 hours remain under the unchanged 51-hour roadmap cap.
+Experiment2B is complete at commit `6f32f86922774d57639afbae6f753f26d3fdfa2a`. All52 public study files matched local bytes. The [paper](../studies/2026-10-26-search-procedure/paper.md) reports exact subset tables, score choices, and48,000 statistical trials. Greedy search found every minimum in a nearly unprunable panel. All40 size-four choices failed fidelity. The primary independent-validation rule failed in two of24 conditions; keep that failure. Do not replace it after the result or use it to support later positive claims.
 
-Experiment 2B is next. Its code and method drafts are being prepared. No 2B trained-model outputs, calibration, simulation, or timing benchmark have run. Publish and verify its fixed plan before preparation. Publish passed preparation before development calibration. Publish the selected panels, candidate choices, and development banks before final tests. Do not count a draft, partial attempt, or branch as a completed paper.
+The [compute record](../studies/2026-10-26-search-procedure/analysis/compute-accounting.json) charges328.772409792 seconds to preparation and1,385.510486542 seconds to scientific work. About50.5238 hours remain under the unchanged51-hour roadmap cap. These are elapsed-time charges, not account-usage estimates.
 
-The one-page summary and review still cover the first 24 studies. Their unfinished-study statements describe 22 October. The later completion reports above are current. The historical records below remain for traceability.
+Experiment2C is next. It uses eight fresh selector models and fixed practical criteria for intended and unwanted changes. It does not use2B's failed normal test. Publish fixed code and methods before dummy preparation. Publish passed preparation before training. Publish all training evidence before edit learning. Publish all calibration evidence and choices before final tests. The graph branch cannot run.
+
+The review and one-page summary still cover the first24 studies. Historical statements below describe their dates. The current status above supersedes them.
 
 ## Original fifteen completed studies
 

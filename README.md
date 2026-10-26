@@ -20,7 +20,7 @@ The [200-paper program](docs/RESEARCH_PROGRAM_200.md) records the request made o
 
 ## Latest completed experiment
 
-[Why the full edit procedure matters](studies/2026-10-26-edit-procedure/paper.md) completes Experiment 2A. It compares donor contexts, sparse-code constraints, and normalization rules. All fixed checks pass. It is one diagnostic study with code, exact result archives, and a separate AI check. The repository now has **26 completed studies**, including **2 of the 200 requested additions**. Experiment 2B is in preparation.
+[Why the full edit procedure matters](studies/2026-10-26-edit-procedure/paper.md) completes Experiment 2A. It compares donor contexts, sparse-code constraints, and normalization rules. All fixed checks pass. It is one diagnostic study with code, exact result archives, and a separate AI check. This was the second completed addition.
 
 ## Latest research batch
 
@@ -53,3 +53,5 @@ Each completed study includes reproduction instructions, full result tables, and
 ## Use and rights
 
 Papers cite external sources. External papers and datasets retain their own terms. No repository-wide licence has been selected. Public access alone does not grant a general reuse licence.
+
+[What a successful search does and does not establish](studies/2026-10-26-search-procedure/paper.md) completes Experiment 2B. The primary statistical evidence rule failed in two of24 conditions. All numerical checks passed. The repository now has **27 completed studies**, including **3 of200 requested additions**. Experiment 2C is next.

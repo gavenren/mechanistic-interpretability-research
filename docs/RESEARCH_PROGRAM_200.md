@@ -25,3 +25,7 @@ All 40 task models have results. Register and generated-point panels pass. Graph
 ## Experiment 2A completed
 
 The [edit-procedure study](../studies/2026-10-26-edit-procedure/paper.md) is complete and verified at [commit d59ccd7](https://github.com/gavenren/mechanistic-interpretability-research/commit/d59ccd74d4f3b064316bac6e444a1fd592bee572). All 39 public study files matched their local bytes. This is one study with three branches. The current count is **2 of 200 additions complete; 198 remain**. The repository has 26 completed studies. Experiment 2B is in preparation. The current user request is to continue now, subject to the usage reserve and compute rules.
+
+## Experiment 2B completed
+
+The [search-procedure study](../studies/2026-10-26-search-procedure/paper.md) is complete and verified at [commit 6f32f86](https://github.com/gavenren/mechanistic-interpretability-research/commit/6f32f86922774d57639afbae6f753f26d3fdfa2a). All 52 public study files matched their local bytes. The fixed statistical evidence rule failed in two of24 conditions. Numerical checks passed. This is one complete diagnostic study, including its negative result. The current count is **3 of200 additions complete;197 remain**, with27 completed studies in total. Experiment 2C is next. Its practical criteria do not use the failed normal test.
