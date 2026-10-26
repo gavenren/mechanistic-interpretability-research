@@ -9,3 +9,8 @@ __pycache__/
 /studies/2026-10-26-capability-finalization/results/register/
 /studies/2026-10-26-capability-finalization/results/digits/
 /studies/2026-10-26-capability-finalization/results/flow/
+
+# Experiment 2A raw files are preserved in exact public archives.
+/studies/2026-10-26-edit-procedure/results/selector/
+/studies/2026-10-26-edit-procedure/results/codes/
+/studies/2026-10-26-edit-procedure/results/normalization/

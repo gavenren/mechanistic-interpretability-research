@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "preparation_cumulative_charge_seconds": 205.13888091699482,
+  "preparation_cap_seconds": 3600,
+  "preparation_remaining_seconds": 3394.861119083005,
+  "experiment1_cumulative_charge_seconds": 1091.6390857510014,
+  "stage2a_runner_charge_seconds": 31.589816832998622,
+  "saved_result_audit_allowance_seconds": 60,
+  "archive_check_allowance_seconds": 60,
+  "stage2a_cumulative_charge_seconds": 151.58981683299862,
+  "stage2a_cap_seconds": 7200,
+  "stage2a_remaining_seconds": 7048.410183167001,
+  "scientific_cumulative_charge_seconds": 1243.228902584,
+  "roadmap_cap_seconds": 183600,
+  "roadmap_remaining_seconds": 182151.632216499,
+  "accounting": "Prior work is included once. The two post-run allowances are charged in full. No new training was done. Unused stage time does not create an extra stage."
+}
