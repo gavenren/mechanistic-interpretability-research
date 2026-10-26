@@ -14,3 +14,10 @@ __pycache__/
 /studies/2026-10-26-edit-procedure/results/selector/
 /studies/2026-10-26-edit-procedure/results/codes/
 /studies/2026-10-26-edit-procedure/results/normalization/
+
+# Experiment 2B raw arrays are preserved in exact public result bundles.
+/studies/2026-10-26-search-procedure/calibration/subsets/*
+!/studies/2026-10-26-search-procedure/calibration/subsets/calibration.json
+!/studies/2026-10-26-search-procedure/calibration/subsets/calibration-manifest.json
+/studies/2026-10-26-search-procedure/results/subsets/
+/studies/2026-10-26-search-procedure/results/selection/

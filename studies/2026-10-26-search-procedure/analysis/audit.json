@@ -1,0 +1,1189 @@
+{
+  "status": "passed",
+  "scientific_work": false,
+  "charged_seconds": 60,
+  "prior_failed_audit": "audit-attempt-1.json",
+  "prior_audit_seconds_with_allowance": 1.4937674590000825,
+  "charge_note": "The 60-second charge is shared across both audit attempts. Do not add the failed receipt charge again.",
+  "manifests": {
+    "results": 295,
+    "preparation": 7,
+    "calibration": 300,
+    "calibration_subsets": 298
+  },
+  "source_files_checked": 19,
+  "subsets": {
+    "models": [
+      {
+        "seed": 0,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 1,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 2,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 3,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 4,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 5,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 6,
+        "minimum_size": 8,
+        "minimum_masks": [
+          255
+        ],
+        "passing_masks": [
+          255
+        ],
+        "maximum_greedy_excess": 0
+      },
+      {
+        "seed": 7,
+        "minimum_size": 7,
+        "minimum_masks": [
+          127
+        ],
+        "passing_masks": [
+          127,
+          255
+        ],
+        "maximum_greedy_excess": 0
+      }
+    ],
+    "selected_candidates": [
+      {
+        "seed": 0,
+        "score": "signed_class_zero",
+        "mask": 53,
+        "accuracy": 0.74609375,
+        "mean_tv": 0.2621668125587044,
+        "passed": false
+      },
+      {
+        "seed": 0,
+        "score": "mean_absolute_class_zero",
+        "mask": 57,
+        "accuracy": 0.7239583333333334,
+        "mean_tv": 0.2893299770110418,
+        "passed": false
+      },
+      {
+        "seed": 0,
+        "score": "target_margin_gain",
+        "mask": 15,
+        "accuracy": 0.8190104166666666,
+        "mean_tv": 0.19159878203166159,
+        "passed": false
+      },
+      {
+        "seed": 0,
+        "score": "target_probability_gain",
+        "mask": 172,
+        "accuracy": 0.8359375,
+        "mean_tv": 0.17918991237928258,
+        "passed": false
+      },
+      {
+        "seed": 0,
+        "score": "answer_accuracy",
+        "mask": 172,
+        "accuracy": 0.8359375,
+        "mean_tv": 0.17918991237928258,
+        "passed": false
+      },
+      {
+        "seed": 1,
+        "score": "signed_class_zero",
+        "mask": 30,
+        "accuracy": 0.66796875,
+        "mean_tv": 0.3384488218077178,
+        "passed": false
+      },
+      {
+        "seed": 1,
+        "score": "mean_absolute_class_zero",
+        "mask": 30,
+        "accuracy": 0.66796875,
+        "mean_tv": 0.3384488218077178,
+        "passed": false
+      },
+      {
+        "seed": 1,
+        "score": "target_margin_gain",
+        "mask": 77,
+        "accuracy": 0.80859375,
+        "mean_tv": 0.19808822966918915,
+        "passed": false
+      },
+      {
+        "seed": 1,
+        "score": "target_probability_gain",
+        "mask": 23,
+        "accuracy": 0.8697916666666666,
+        "mean_tv": 0.13889919562714817,
+        "passed": false
+      },
+      {
+        "seed": 1,
+        "score": "answer_accuracy",
+        "mask": 23,
+        "accuracy": 0.8697916666666666,
+        "mean_tv": 0.13889919562714817,
+        "passed": false
+      },
+      {
+        "seed": 2,
+        "score": "signed_class_zero",
+        "mask": 113,
+        "accuracy": 0.6119791666666666,
+        "mean_tv": 0.37672921110746627,
+        "passed": false
+      },
+      {
+        "seed": 2,
+        "score": "mean_absolute_class_zero",
+        "mask": 149,
+        "accuracy": 0.8606770833333334,
+        "mean_tv": 0.15169896264111224,
+        "passed": false
+      },
+      {
+        "seed": 2,
+        "score": "target_margin_gain",
+        "mask": 23,
+        "accuracy": 0.83984375,
+        "mean_tv": 0.16312188314592949,
+        "passed": false
+      },
+      {
+        "seed": 2,
+        "score": "target_probability_gain",
+        "mask": 149,
+        "accuracy": 0.8606770833333334,
+        "mean_tv": 0.15169896264111224,
+        "passed": false
+      },
+      {
+        "seed": 2,
+        "score": "answer_accuracy",
+        "mask": 149,
+        "accuracy": 0.8606770833333334,
+        "mean_tv": 0.15169896264111224,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "score": "signed_class_zero",
+        "mask": 77,
+        "accuracy": 0.6953125,
+        "mean_tv": 0.30743465368782524,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "score": "mean_absolute_class_zero",
+        "mask": 197,
+        "accuracy": 0.796875,
+        "mean_tv": 0.2114305691523356,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "score": "target_margin_gain",
+        "mask": 197,
+        "accuracy": 0.796875,
+        "mean_tv": 0.2114305691523356,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "score": "target_probability_gain",
+        "mask": 204,
+        "accuracy": 0.8463541666666666,
+        "mean_tv": 0.1545022660574891,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "score": "answer_accuracy",
+        "mask": 197,
+        "accuracy": 0.796875,
+        "mean_tv": 0.2114305691523356,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "score": "signed_class_zero",
+        "mask": 135,
+        "accuracy": 0.7434895833333334,
+        "mean_tv": 0.25631040236366354,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "score": "mean_absolute_class_zero",
+        "mask": 135,
+        "accuracy": 0.7434895833333334,
+        "mean_tv": 0.25631040236366354,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "score": "target_margin_gain",
+        "mask": 170,
+        "accuracy": 0.8072916666666666,
+        "mean_tv": 0.19461834194658909,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "score": "target_probability_gain",
+        "mask": 58,
+        "accuracy": 0.8072916666666666,
+        "mean_tv": 0.20016731367908772,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "score": "answer_accuracy",
+        "mask": 58,
+        "accuracy": 0.8072916666666666,
+        "mean_tv": 0.20016731367908772,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "score": "signed_class_zero",
+        "mask": 154,
+        "accuracy": 0.6966145833333334,
+        "mean_tv": 0.30067440336637447,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "score": "mean_absolute_class_zero",
+        "mask": 58,
+        "accuracy": 0.6276041666666666,
+        "mean_tv": 0.3718880739634027,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "score": "target_margin_gain",
+        "mask": 150,
+        "accuracy": 0.8229166666666666,
+        "mean_tv": 0.17473571725658044,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "score": "target_probability_gain",
+        "mask": 150,
+        "accuracy": 0.8229166666666666,
+        "mean_tv": 0.17473571725658044,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "score": "answer_accuracy",
+        "mask": 15,
+        "accuracy": 0.8346354166666666,
+        "mean_tv": 0.1768527758042009,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "score": "signed_class_zero",
+        "mask": 60,
+        "accuracy": 0.703125,
+        "mean_tv": 0.3046315147727135,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "score": "mean_absolute_class_zero",
+        "mask": 202,
+        "accuracy": 0.6809895833333334,
+        "mean_tv": 0.3099227054260203,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "score": "target_margin_gain",
+        "mask": 212,
+        "accuracy": 0.8333333333333334,
+        "mean_tv": 0.1729922783714133,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "score": "target_probability_gain",
+        "mask": 212,
+        "accuracy": 0.8333333333333334,
+        "mean_tv": 0.1729922783714133,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "score": "answer_accuracy",
+        "mask": 212,
+        "accuracy": 0.8333333333333334,
+        "mean_tv": 0.1729922783714133,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "score": "signed_class_zero",
+        "mask": 153,
+        "accuracy": 0.6223958333333334,
+        "mean_tv": 0.38045449925685565,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "score": "mean_absolute_class_zero",
+        "mask": 209,
+        "accuracy": 0.6263020833333334,
+        "mean_tv": 0.3723925644401667,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "score": "target_margin_gain",
+        "mask": 169,
+        "accuracy": 0.71875,
+        "mean_tv": 0.273249071087703,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "score": "target_probability_gain",
+        "mask": 45,
+        "accuracy": 0.8020833333333334,
+        "mean_tv": 0.2004499418374288,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "score": "answer_accuracy",
+        "mask": 45,
+        "accuracy": 0.8020833333333334,
+        "mean_tv": 0.2004499418374288,
+        "passed": false
+      }
+    ],
+    "output_rows": 3145728,
+    "recorded_maximum_replay_error": 1.4210854715202004e-14
+  },
+  "selection": {
+    "primary_gate_passed": false,
+    "primary_conditions_passed": 22,
+    "failed_conditions": [
+      {
+        "model": 3,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 130,
+        "trials": 2000,
+        "rate": 0.065,
+        "wilson_upper": 0.07665999351328683,
+        "passes_bound": false
+      },
+      {
+        "model": 4,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 118,
+        "trials": 2000,
+        "rate": 0.059,
+        "wilson_upper": 0.07019661485189799,
+        "passes_bound": false
+      }
+    ],
+    "rates": [
+      {
+        "model": 0,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 448,
+        "trials": 2000,
+        "rate": 0.224,
+        "wilson_upper": 0.24279132777223128,
+        "passes_bound": false
+      },
+      {
+        "model": 0,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 107,
+        "trials": 2000,
+        "rate": 0.0535,
+        "wilson_upper": 0.06424573568564287,
+        "passes_bound": true
+      },
+      {
+        "model": 0,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 93,
+        "trials": 2000,
+        "rate": 0.0465,
+        "wilson_upper": 0.056629693372888146,
+        "passes_bound": true
+      },
+      {
+        "model": 0,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 794,
+        "trials": 2000,
+        "rate": 0.397,
+        "wilson_upper": 0.4186208742369572,
+        "passes_bound": false
+      },
+      {
+        "model": 0,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 98,
+        "trials": 2000,
+        "rate": 0.049,
+        "wilson_upper": 0.05935563669738288,
+        "passes_bound": true
+      },
+      {
+        "model": 0,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 89,
+        "trials": 2000,
+        "rate": 0.0445,
+        "wilson_upper": 0.054443764944814586,
+        "passes_bound": true
+      },
+      {
+        "model": 0,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1153,
+        "trials": 2000,
+        "rate": 0.5765,
+        "wilson_upper": 0.5979881393368528,
+        "passes_bound": false
+      },
+      {
+        "model": 0,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 101,
+        "trials": 2000,
+        "rate": 0.0505,
+        "wilson_upper": 0.06098795224416837,
+        "passes_bound": true
+      },
+      {
+        "model": 0,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 55,
+        "trials": 2000,
+        "rate": 0.0275,
+        "wilson_upper": 0.03562311151510701,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 429,
+        "trials": 2000,
+        "rate": 0.2145,
+        "wilson_upper": 0.23302792802995176,
+        "passes_bound": false
+      },
+      {
+        "model": 1,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 103,
+        "trials": 2000,
+        "rate": 0.0515,
+        "wilson_upper": 0.06207487136094505,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 65,
+        "trials": 2000,
+        "rate": 0.0325,
+        "wilson_upper": 0.041211740381801205,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 779,
+        "trials": 2000,
+        "rate": 0.3895,
+        "wilson_upper": 0.41106362679387787,
+        "passes_bound": false
+      },
+      {
+        "model": 1,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 117,
+        "trials": 2000,
+        "rate": 0.0585,
+        "wilson_upper": 0.06965671118313761,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 68,
+        "trials": 2000,
+        "rate": 0.034,
+        "wilson_upper": 0.042878427906567144,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1118,
+        "trials": 2000,
+        "rate": 0.559,
+        "wilson_upper": 0.5806262909740431,
+        "passes_bound": false
+      },
+      {
+        "model": 1,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 112,
+        "trials": 2000,
+        "rate": 0.056,
+        "wilson_upper": 0.06695400404698804,
+        "passes_bound": true
+      },
+      {
+        "model": 1,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 64,
+        "trials": 2000,
+        "rate": 0.032,
+        "wilson_upper": 0.04065523105196132,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 419,
+        "trials": 2000,
+        "rate": 0.2095,
+        "wilson_upper": 0.2278836198547225,
+        "passes_bound": false
+      },
+      {
+        "model": 2,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 105,
+        "trials": 2000,
+        "rate": 0.0525,
+        "wilson_upper": 0.06316079029161008,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 71,
+        "trials": 2000,
+        "rate": 0.0355,
+        "wilson_upper": 0.04454106069401995,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 808,
+        "trials": 2000,
+        "rate": 0.404,
+        "wilson_upper": 0.42566957078920903,
+        "passes_bound": false
+      },
+      {
+        "model": 2,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 88,
+        "trials": 2000,
+        "rate": 0.044,
+        "wilson_upper": 0.05389652670408614,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 71,
+        "trials": 2000,
+        "rate": 0.0355,
+        "wilson_upper": 0.04454106069401995,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1086,
+        "trials": 2000,
+        "rate": 0.543,
+        "wilson_upper": 0.5647286649469516,
+        "passes_bound": false
+      },
+      {
+        "model": 2,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 116,
+        "trials": 2000,
+        "rate": 0.058,
+        "wilson_upper": 0.06911659834261376,
+        "passes_bound": true
+      },
+      {
+        "model": 2,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 43,
+        "trials": 2000,
+        "rate": 0.0215,
+        "wilson_upper": 0.028833833739084398,
+        "passes_bound": true
+      },
+      {
+        "model": 3,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 460,
+        "trials": 2000,
+        "rate": 0.23,
+        "wilson_upper": 0.24895064337602757,
+        "passes_bound": false
+      },
+      {
+        "model": 3,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 117,
+        "trials": 2000,
+        "rate": 0.0585,
+        "wilson_upper": 0.06965671118313761,
+        "passes_bound": true
+      },
+      {
+        "model": 3,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 86,
+        "trials": 2000,
+        "rate": 0.043,
+        "wilson_upper": 0.05280110867045247,
+        "passes_bound": true
+      },
+      {
+        "model": 3,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 898,
+        "trials": 2000,
+        "rate": 0.449,
+        "wilson_upper": 0.4708758579223333,
+        "passes_bound": false
+      },
+      {
+        "model": 3,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 98,
+        "trials": 2000,
+        "rate": 0.049,
+        "wilson_upper": 0.05935563669738288,
+        "passes_bound": true
+      },
+      {
+        "model": 3,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 80,
+        "trials": 2000,
+        "rate": 0.04,
+        "wilson_upper": 0.04950693655877153,
+        "passes_bound": true
+      },
+      {
+        "model": 3,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1220,
+        "trials": 2000,
+        "rate": 0.61,
+        "wilson_upper": 0.6311458571465081,
+        "passes_bound": false
+      },
+      {
+        "model": 3,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 130,
+        "trials": 2000,
+        "rate": 0.065,
+        "wilson_upper": 0.07665999351328683,
+        "passes_bound": false
+      },
+      {
+        "model": 3,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 68,
+        "trials": 2000,
+        "rate": 0.034,
+        "wilson_upper": 0.042878427906567144,
+        "passes_bound": true
+      },
+      {
+        "model": 4,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 434,
+        "trials": 2000,
+        "rate": 0.217,
+        "wilson_upper": 0.23559859685797752,
+        "passes_bound": false
+      },
+      {
+        "model": 4,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 98,
+        "trials": 2000,
+        "rate": 0.049,
+        "wilson_upper": 0.05935563669738288,
+        "passes_bound": true
+      },
+      {
+        "model": 4,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 84,
+        "trials": 2000,
+        "rate": 0.042,
+        "wilson_upper": 0.05170440056757297,
+        "passes_bound": true
+      },
+      {
+        "model": 4,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 850,
+        "trials": 2000,
+        "rate": 0.425,
+        "wilson_upper": 0.4467886186154153,
+        "passes_bound": false
+      },
+      {
+        "model": 4,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 118,
+        "trials": 2000,
+        "rate": 0.059,
+        "wilson_upper": 0.07019661485189799,
+        "passes_bound": false
+      },
+      {
+        "model": 4,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 89,
+        "trials": 2000,
+        "rate": 0.0445,
+        "wilson_upper": 0.054443764944814586,
+        "passes_bound": true
+      },
+      {
+        "model": 4,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1159,
+        "trials": 2000,
+        "rate": 0.5795,
+        "wilson_upper": 0.6009616834241458,
+        "passes_bound": false
+      },
+      {
+        "model": 4,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 94,
+        "trials": 2000,
+        "rate": 0.047,
+        "wilson_upper": 0.057175442471646576,
+        "passes_bound": true
+      },
+      {
+        "model": 4,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 74,
+        "trials": 2000,
+        "rate": 0.037,
+        "wilson_upper": 0.046199880952811065,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 407,
+        "trials": 2000,
+        "rate": 0.2035,
+        "wilson_upper": 0.22170509820447212,
+        "passes_bound": false
+      },
+      {
+        "model": 5,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 110,
+        "trials": 2000,
+        "rate": 0.055,
+        "wilson_upper": 0.06587138371167006,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 66,
+        "trials": 2000,
+        "rate": 0.033,
+        "wilson_upper": 0.041767769460400554,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 860,
+        "trials": 2000,
+        "rate": 0.43,
+        "wilson_upper": 0.4518110541635903,
+        "passes_bound": false
+      },
+      {
+        "model": 5,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 101,
+        "trials": 2000,
+        "rate": 0.0505,
+        "wilson_upper": 0.06098795224416837,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 69,
+        "trials": 2000,
+        "rate": 0.0345,
+        "wilson_upper": 0.04343307687112488,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1145,
+        "trials": 2000,
+        "rate": 0.5725,
+        "wilson_upper": 0.5940221464900899,
+        "passes_bound": false
+      },
+      {
+        "model": 5,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 108,
+        "trials": 2000,
+        "rate": 0.054,
+        "wilson_upper": 0.0647878512990574,
+        "passes_bound": true
+      },
+      {
+        "model": 5,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 66,
+        "trials": 2000,
+        "rate": 0.033,
+        "wilson_upper": 0.041767769460400554,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 407,
+        "trials": 2000,
+        "rate": 0.2035,
+        "wilson_upper": 0.22170509820447212,
+        "passes_bound": false
+      },
+      {
+        "model": 6,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 109,
+        "trials": 2000,
+        "rate": 0.0545,
+        "wilson_upper": 0.06532973297403315,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 71,
+        "trials": 2000,
+        "rate": 0.0355,
+        "wilson_upper": 0.04454106069401995,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 772,
+        "trials": 2000,
+        "rate": 0.386,
+        "wilson_upper": 0.4075351011576624,
+        "passes_bound": false
+      },
+      {
+        "model": 6,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 101,
+        "trials": 2000,
+        "rate": 0.0505,
+        "wilson_upper": 0.06098795224416837,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 67,
+        "trials": 2000,
+        "rate": 0.0335,
+        "wilson_upper": 0.042323328642770504,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1105,
+        "trials": 2000,
+        "rate": 0.5525,
+        "wilson_upper": 0.5741706225085519,
+        "passes_bound": false
+      },
+      {
+        "model": 6,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 96,
+        "trials": 2000,
+        "rate": 0.048,
+        "wilson_upper": 0.05826609175151162,
+        "passes_bound": true
+      },
+      {
+        "model": 6,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 49,
+        "trials": 2000,
+        "rate": 0.0245,
+        "wilson_upper": 0.0322414816823349,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 8,
+        "method": "reused",
+        "rejected": 382,
+        "trials": 2000,
+        "rate": 0.191,
+        "wilson_upper": 0.20881360822251077,
+        "passes_bound": false
+      },
+      {
+        "model": 7,
+        "candidates": 8,
+        "method": "independent_validation",
+        "rejected": 114,
+        "trials": 2000,
+        "rate": 0.057,
+        "wilson_upper": 0.06803573501296051,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 8,
+        "method": "bonferroni",
+        "rejected": 68,
+        "trials": 2000,
+        "rate": 0.034,
+        "wilson_upper": 0.042878427906567144,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 32,
+        "method": "reused",
+        "rejected": 875,
+        "trials": 2000,
+        "rate": 0.4375,
+        "wilson_upper": 0.45934049017098233,
+        "passes_bound": false
+      },
+      {
+        "model": 7,
+        "candidates": 32,
+        "method": "independent_validation",
+        "rejected": 93,
+        "trials": 2000,
+        "rate": 0.0465,
+        "wilson_upper": 0.056629693372888146,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 32,
+        "method": "bonferroni",
+        "rejected": 72,
+        "trials": 2000,
+        "rate": 0.036,
+        "wilson_upper": 0.04509441315421904,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 128,
+        "method": "reused",
+        "rejected": 1164,
+        "trials": 2000,
+        "rate": 0.582,
+        "wilson_upper": 0.6034390125675184,
+        "passes_bound": false
+      },
+      {
+        "model": 7,
+        "candidates": 128,
+        "method": "independent_validation",
+        "rejected": 109,
+        "trials": 2000,
+        "rate": 0.0545,
+        "wilson_upper": 0.06532973297403315,
+        "passes_bound": true
+      },
+      {
+        "model": 7,
+        "candidates": 128,
+        "method": "bonferroni",
+        "rejected": 47,
+        "trials": 2000,
+        "rate": 0.0235,
+        "wilson_upper": 0.031108721697343106,
+        "passes_bound": true
+      }
+    ],
+    "recorded_maximum_replay_error": 5.329070518200751e-15,
+    "total_trials": 48000,
+    "audit_scope": "All recorded draws, winners, selected means, scores, decisions and intervals checked. Full candidate-mean replay was not repeated; the fixed runner recorded it."
+  },
+  "measured_seconds_before_receipt": 1.5234439999985625,
+  "closing_receipt_allowance_seconds": 1,
+  "peak_memory_bytes": 158810112,
+  "model_forward_calls": 0,
+  "new_simulation_trials": 0,
+  "combined_audit_seconds_with_closing_allowances": 4.017211458998645
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26",
+  "preparation_cumulative_charge_seconds": 328.7724097919963,
+  "preparation_cap_seconds": 3600,
+  "preparation_remaining_seconds": 3271.2275902080037,
+  "prior_scientific_cumulative_charge_seconds": 1243.228902584,
+  "stage2b_calibration_charge_seconds": 9.471429999997781,
+  "stage2b_final_runner_charge_seconds": 12.81015395799841,
+  "bank_archive_allowance_seconds": 20,
+  "saved_result_audit_allowance_seconds": 60,
+  "archive_check_allowance_seconds": 40,
+  "stage2b_cumulative_charge_seconds": 142.2815839579962,
+  "stage2b_cap_seconds": 7200,
+  "stage2b_remaining_seconds": 7057.718416042004,
+  "scientific_cumulative_charge_seconds": 1385.5104865419962,
+  "roadmap_cap_seconds": 183600,
+  "roadmap_remaining_seconds": 181885.71710366601,
+  "accounting": "Prior work is included once. The three post-run allowances total120 seconds. Both audit attempts share one60-second charge. No new training or language-model forwards occurred."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "scientific_work": false,
+  "charged_seconds": 60,
+  "manifests": {
+    "results": 295,
+    "preparation": 7,
+    "calibration": 300,
+    "calibration_subsets": 298
+  },
+  "source_files_checked": 19,
+  "error_type": "FileNotFoundError",
+  "reason": "[Errno 2] No such file or directory: '[repository]/studies/2026-10-26-search-procedure/calibration/subsets/development-seed-0/single-neuron-development.npz'",
+  "measured_seconds_before_receipt": 0.49376745900008245,
+  "closing_receipt_allowance_seconds": 1,
+  "peak_memory_bytes": 135610368,
+  "model_forward_calls": 0,
+  "new_simulation_trials": 0
+}
