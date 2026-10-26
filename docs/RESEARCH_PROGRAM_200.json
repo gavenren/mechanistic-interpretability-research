@@ -66,9 +66,11 @@
   "verified_completed_addition_count": 4,
   "remaining_requested_additions": 196,
   "active_study": "studies/2026-10-26-componentwise-bounds",
-  "status": "active",
+  "status": "paused_compute_limit",
   "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count.",
   "current_total_completed_studies": 28,
-  "next_stage": "5: Numerical reliability and complete verification cost",
-  "compute_record": "studies/2026-10-26-variable-specificity/analysis/compute-accounting.json"
+  "next_stage": "Resolve Experiment5 failed preparation under reviewed limits before any new research",
+  "compute_record": "studies/2026-10-26-componentwise-bounds/analysis/compute-accounting.json",
+  "stop_reason": "Experiment5 fixed projected time14178.596153137914 seconds exceeds7200-second cap; roadmap pauses all new research.",
+  "schedule_status": "PAUSED"
 }

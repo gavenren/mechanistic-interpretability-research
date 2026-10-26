@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "status": "stopped_before_scientific_run",
+  "preparation_prior_charge_seconds": 453.1494834999976,
+  "prelock_check_charge_seconds": 120.0,
+  "preparation_runner_charge_seconds": 4.772860999997647,
+  "preparation_cumulative_charge_seconds": 577.9223444999952,
+  "preparation_cap_seconds": 3600,
+  "preparation_remaining_seconds": 3022.0776555000048,
+  "stage5_scientific_charge_seconds": 0,
+  "stage5_scientific_cap_seconds": 7200,
+  "stage5_projected_seconds": 14178.596153137914,
+  "scientific_cumulative_charge_seconds": 1568.8212972499932,
+  "roadmap_cap_seconds": 183600,
+  "roadmap_remaining_seconds": 181453.25635825002,
+  "accounting": "The failed preparation is charged. No saved scientific model ran. The 120-second scientific postcheck reserve was not spent or charged. Unused time does not transfer between stage caps."
+}

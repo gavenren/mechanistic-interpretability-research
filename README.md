@@ -57,3 +57,5 @@ Papers cite external sources. External papers and datasets retain their own term
 [What a successful search does and does not establish](studies/2026-10-26-search-procedure/paper.md) completes Experiment 2B. The primary statistical evidence rule failed in two of 24 conditions. All numerical checks passed. This was the third completed addition.
 
 [A better internal edit can still fail to change one variable cleanly](studies/2026-10-26-variable-specificity/paper.md) completes Experiment 2C. All eight models passed ordinary task ability. None of the three edit methods passed the full explanation rule. All numerical checks passed. The repository now has **28 completed studies**, including **4 of 200 requested additions**. Experiment 5 is next.
+
+Research is now **paused at a compute check**. [Experiment 5 preparation](studies/2026-10-26-componentwise-bounds/STOP_REPORT.md) projected 3.94 hours against its two-hour cap. The saved-model comparison did not start and is not counted as a completed study. The program remains at **4 of 200 additions**, with **28 completed studies** in total.

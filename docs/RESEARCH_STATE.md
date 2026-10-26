@@ -2,9 +2,9 @@
 
 Updated: 26 October 2026. The current status below supersedes the dated history that follows.
 
-## Current request: 200 additional completed papers
+## Current request: paused after a compute check
 
-The starting count was 24. The [ledger](RESEARCH_PROGRAM_200.json) now records **four completed additions**. The repository has **28 completed studies; 196 requested additions remain**. The user asked to continue now. Keep the 20% usage reserve, local compute rules, and fixed roadmap caps. The four-hour schedule is not a reason to delay current work.
+The starting count was 24. The [ledger](RESEARCH_PROGRAM_200.json) now records **four completed additions**. The repository has **28 completed studies; 196 requested additions remain**. The current run continued immediately through Experiments 2A, 2B, and 2C, then attempted Experiment 5 preparation. The program and its four-hour schedule are now **paused** because that preparation failed the fixed compute check. Keep the 20% account reserve and all original caps. No scientific process remains active.
 
 Experiment 1 is complete. All 40 task models have results. Register and generated-point panels pass. Graph and digit panels fail. Keep failed seeds. The graph branch of 2C remains blocked. Register endpoint success does not establish complete-sequence success at horizon 32.
 
@@ -14,9 +14,11 @@ Experiment 2B is complete at commit `6f32f86922774d57639afbae6f753f26d3fdfa2a`. 
 
 Experiment 2C is complete at commit `8307227b856d6d6cb44155fdb99b1a47a85ef61e`. All 114 public study files matched local bytes. The [paper](../studies/2026-10-26-variable-specificity/paper.md) reports eight fresh models, all with perfect ordinary task accuracy. None of the three edit methods passed the full explanation rule. The learned method had no eligible choice in two models. All six available choices failed the intended-change limits. Keep the primary eight-model mean absent. All numerical checks and the saved-result audit passed.
 
-The [compute record](../studies/2026-10-26-variable-specificity/analysis/compute-accounting.json) charges 453.149483500 seconds to preparation and 1,568.821297250 seconds to scientific work. About 50.4383 hours remain under the unchanged 51-hour roadmap cap. Account usage is separate from these compute charges.
+Experiment 5 preparation stopped before saved-model work. Its [report](../studies/2026-10-26-componentwise-bounds/STOP_REPORT.md) records 14,178.596153 projected seconds, or 3.94 hours, above the 7,200-second stage cap. All dummy controls passed. The fixed worst-cap estimate included all 40 timed arms and independent references. It was not reduced or rerun to obtain a pass. This unfinished study adds no completed paper.
 
-Experiment 5 is next. It compares a coordinate-sensitive residual bound with the published global bound on the same fixed equilibrium-model effects. It must include all reference, saving, and checking costs. A two-hour stage cap, fixed full-cap projection, and one shared 120-second post-run reserve apply. Publish and verify code and methods before preparation. A failed resource projection stops new research under the roadmap rules. No benchmark or saved-model run has started for this stage.
+The [latest compute record](../studies/2026-10-26-componentwise-bounds/analysis/compute-accounting.json) charges 577.922344500 seconds to preparation and 1,568.821297250 seconds to scientific work. About 50.4037 hours remain under the unchanged 51-hour roadmap cap. That remaining time does not enlarge Experiment 5's two-hour cap. Account usage is separate from CPU-time charges. This stop was caused by the failed projection, not low account usage.
+
+The roadmap requires a pause of all new research after a stopped resource check. The existing schedule was set to PAUSED and the local compute permit was denied. A future attempt needs a reviewed decision that resolves this cost failure before it starts. Retain the stopped preparation, its fixed code, all cumulative charges, and its review. Do not retry timing, change limits, or skip to another study to evade the stop.
 
 The review and one-page summary still cover the first 24 studies. Historical statements below describe their dates. The current status above supersedes them.
 

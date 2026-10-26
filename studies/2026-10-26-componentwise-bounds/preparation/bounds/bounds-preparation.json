@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "dummy_only": true,
+  "controls": {
+    "passed": true,
+    "triangular_radius": 0.2500000000000008,
+    "exact_cases": [
+      {
+        "case": "positive",
+        "classification": "positive",
+        "exact_target": "1/4"
+      },
+      {
+        "case": "negative",
+        "classification": "negative",
+        "exact_target": "-1/4"
+      },
+      {
+        "case": "zero",
+        "classification": "small",
+        "exact_target": "0"
+      },
+      {
+        "case": "no_change",
+        "classification": "small",
+        "exact_target": "0"
+      },
+      {
+        "case": "small",
+        "classification": "small",
+        "exact_target": "1/4398046511104"
+      }
+    ],
+    "unresolved_candidate_steps": 128,
+    "unresolved_reference_steps": 1024,
+    "sign_first_pass": true,
+    "zero_weight_case_pass": true
+  },
+  "projected_seconds": 13938.596153137914,
+  "projection": "four times the full coarse/refinement/reference caps for 20 global and 20 candidate arms, plus fixed loading and summary allowances",
+  "maximum_of_three_pass_seconds": {
+    "guard": 2.2875003196531907e-05,
+    "coarse_map": 5.566600157180801e-05,
+    "paired_map": 0.002128833999449853,
+    "global_bound": 0.09047487499992712,
+    "candidate_bound": 0.08537808300025063,
+    "reference_bound": 0.06582612500278628,
+    "series_construction": 0.005281707999529317,
+    "both_input_enclosures": 0.006065999998099869
+  },
+  "full_history_archive_replay_seconds": 0.8785350830003154,
+  "dummy_q_upper": 0.8750000000000027,
+  "projected_global_arm_seconds": 85.94232818709133,
+  "projected_candidate_arm_seconds": 85.2901237271326,
+  "loading_allowance_per_arm_seconds": 2.0,
+  "summary_allowance_seconds": 60.0,
+  "projected_explicit_guard_calls_per_arm": 18602,
+  "elapsed_seconds": 1.818935416999011
+}

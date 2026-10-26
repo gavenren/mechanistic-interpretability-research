@@ -1,6 +1,6 @@
 # Research program: request for 200 additional papers
 
-**Started:** 26 October 2026. **State:** Active request, subject to the research and resource rules.
+**Started:** 26 October 2026. **State:** Paused after a compute check failed. The request remains incomplete.
 
 The user requested 200 more mechanistic interpretability papers. The starting repository has 24 completed studies at commit `58251c651ef6397ee26ae0c0159d0f7632063191`. Those 24 are not part of this new count. The unfinished tenth study from the October 22 batch comes first.
 
@@ -33,3 +33,7 @@ The [search-procedure study](../studies/2026-10-26-search-procedure/paper.md) is
 ## Experiment 2C completed
 
 The [variable-edit study](../studies/2026-10-26-variable-specificity/paper.md) is complete and verified at [commit 8307227](https://github.com/gavenren/mechanistic-interpretability-research/commit/8307227b856d6d6cb44155fdb99b1a47a85ef61e). All 114 public study files matched local bytes. All numerical checks passed. None of the three methods passed the full explanation rule. This is one completed negative study. The current count is **4 of 200 additions complete; 196 remain**, with **28 completed studies** in total. Experiment 5 is next under its fixed two-hour cap.
+
+## Experiment 5 stopped before scientific work
+
+The [stop report](../studies/2026-10-26-componentwise-bounds/STOP_REPORT.md) records a fixed 3.94-hour projection against a two-hour stage cap. Dummy controls passed. The saved scientific models did not run. The roadmap requires a pause of all new research after this resource failure. The four-hour schedule is now paused. The count remains **4 of 200 additions complete; 196 remain**. No completed paper is added for this preparation attempt. A later attempt needs a reviewed decision that resolves the failed compute check and retains its charges.
