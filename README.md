@@ -54,4 +54,6 @@ Each completed study includes reproduction instructions, full result tables, and
 
 Papers cite external sources. External papers and datasets retain their own terms. No repository-wide licence has been selected. Public access alone does not grant a general reuse licence.
 
-[What a successful search does and does not establish](studies/2026-10-26-search-procedure/paper.md) completes Experiment 2B. The primary statistical evidence rule failed in two of 24 conditions. All numerical checks passed. The repository now has **27 completed studies**, including **3 of 200 requested additions**. Experiment 2C is next.
+[What a successful search does and does not establish](studies/2026-10-26-search-procedure/paper.md) completes Experiment 2B. The primary statistical evidence rule failed in two of 24 conditions. All numerical checks passed. This was the third completed addition.
+
+[A better internal edit can still fail to change one variable cleanly](studies/2026-10-26-variable-specificity/paper.md) completes Experiment 2C. All eight models passed ordinary task ability. None of the three edit methods passed the full explanation rule. All numerical checks passed. The repository now has **28 completed studies**, including **4 of 200 requested additions**. Experiment 5 is next.

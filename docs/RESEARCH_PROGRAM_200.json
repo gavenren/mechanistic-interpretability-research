@@ -47,14 +47,28 @@
       "review": "studies/2026-10-26-search-procedure/RESULT_REVIEW.md",
       "verified_public_files": 52,
       "count_note": "One completed diagnostic study. The primary statistical gate failed in two of 24 conditions; numerical checks passed."
+    },
+    {
+      "number": 4,
+      "date": "2026-10-26",
+      "study": "studies/2026-10-26-variable-specificity",
+      "title": "A better internal edit can still fail to change one variable cleanly",
+      "publication_commit": "8307227b856d6d6cb44155fdb99b1a47a85ef61e",
+      "paper": "studies/2026-10-26-variable-specificity/paper.md",
+      "paper_sha256": "c8b7b00e86306e461f50d3fc9bd83d64ff98c9ec4a415e671f2bcb0a9d4bf92e",
+      "archive_manifest_sha256": "b86dd89ef09f72917e29a08fe00fb98e3e6e430b218112b6e7ce0701a3c27844",
+      "result_manifest_sha256": "c361b65537097cebba320b42da6c1c88bf438c76524c12b5ad82dfe71bf719c4",
+      "review": "studies/2026-10-26-variable-specificity/RESULT_REVIEW.md",
+      "verified_public_files": 114,
+      "count_note": "One complete controlled comparison. All three explanation claims fail. Missing eligible choices remain failures of the full-panel claim."
     }
   ],
-  "verified_completed_addition_count": 3,
-  "remaining_requested_additions": 197,
-  "active_study": "studies/2026-10-26-variable-specificity",
+  "verified_completed_addition_count": 4,
+  "remaining_requested_additions": 196,
+  "active_study": "studies/2026-10-26-componentwise-bounds",
   "status": "active",
   "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count.",
-  "current_total_completed_studies": 27,
-  "next_stage": "2C: Intended and unwanted changes",
-  "compute_record": "studies/2026-10-26-search-procedure/analysis/compute-accounting.json"
+  "current_total_completed_studies": 28,
+  "next_stage": "5: Numerical reliability and complete verification cost",
+  "compute_record": "studies/2026-10-26-variable-specificity/analysis/compute-accounting.json"
 }

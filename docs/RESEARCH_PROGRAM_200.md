@@ -29,3 +29,7 @@ The [edit-procedure study](../studies/2026-10-26-edit-procedure/paper.md) is com
 ## Experiment 2B completed
 
 The [search-procedure study](../studies/2026-10-26-search-procedure/paper.md) is complete and verified at [commit 6f32f86](https://github.com/gavenren/mechanistic-interpretability-research/commit/6f32f86922774d57639afbae6f753f26d3fdfa2a). All 52 public study files matched their local bytes. The fixed statistical evidence rule failed in two of 24 conditions. Numerical checks passed. This is one complete diagnostic study, including its negative result. The current count is **3 of 200 additions complete; 197 remain**, with 27 completed studies in total. Experiment 2C is next. Its practical criteria do not use the failed normal test.
+
+## Experiment 2C completed
+
+The [variable-edit study](../studies/2026-10-26-variable-specificity/paper.md) is complete and verified at [commit 8307227](https://github.com/gavenren/mechanistic-interpretability-research/commit/8307227b856d6d6cb44155fdb99b1a47a85ef61e). All 114 public study files matched local bytes. All numerical checks passed. None of the three methods passed the full explanation rule. This is one completed negative study. The current count is **4 of 200 additions complete; 196 remain**, with **28 completed studies** in total. Experiment 5 is next under its fixed two-hour cap.

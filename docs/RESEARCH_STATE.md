@@ -4,7 +4,7 @@ Updated: 26 October 2026. The current status below supersedes the dated history 
 
 ## Current request: 200 additional completed papers
 
-The starting count was 24. The [ledger](RESEARCH_PROGRAM_200.json) now records **three completed additions**. The repository has **27 completed studies; 197 requested additions remain**. The user asked to continue now. Keep the 20% usage reserve, local compute rules, and fixed roadmap caps. The four-hour schedule is not a reason to delay current work.
+The starting count was 24. The [ledger](RESEARCH_PROGRAM_200.json) now records **four completed additions**. The repository has **28 completed studies; 196 requested additions remain**. The user asked to continue now. Keep the 20% usage reserve, local compute rules, and fixed roadmap caps. The four-hour schedule is not a reason to delay current work.
 
 Experiment 1 is complete. All 40 task models have results. Register and generated-point panels pass. Graph and digit panels fail. Keep failed seeds. The graph branch of 2C remains blocked. Register endpoint success does not establish complete-sequence success at horizon 32.
 
@@ -12,9 +12,11 @@ Experiment 2A is complete at commit `d59ccd74d4f3b064316bac6e444a1fd592bee572`. 
 
 Experiment 2B is complete at commit `6f32f86922774d57639afbae6f753f26d3fdfa2a`. All 52 public study files matched local bytes. The [paper](../studies/2026-10-26-search-procedure/paper.md) reports exact subset tables, score choices, and 48,000 statistical trials. Greedy search found every minimum in a nearly unprunable panel. All 40 size-four choices failed fidelity. The primary independent-validation rule failed in two of 24 conditions; keep that failure. Do not replace it after the result or use it to support later positive claims.
 
-The [compute record](../studies/2026-10-26-search-procedure/analysis/compute-accounting.json) charges 328.772409792 seconds to preparation and 1,385.510486542 seconds to scientific work. About 50.5238 hours remain under the unchanged 51-hour roadmap cap. These are elapsed-time charges, not account-usage estimates.
+Experiment 2C is complete at commit `8307227b856d6d6cb44155fdb99b1a47a85ef61e`. All 114 public study files matched local bytes. The [paper](../studies/2026-10-26-variable-specificity/paper.md) reports eight fresh models, all with perfect ordinary task accuracy. None of the three edit methods passed the full explanation rule. The learned method had no eligible choice in two models. All six available choices failed the intended-change limits. Keep the primary eight-model mean absent. All numerical checks and the saved-result audit passed.
 
-Experiment 2C is next. It uses eight fresh selector models and fixed practical criteria for intended and unwanted changes. It does not use 2B's failed normal test. Publish fixed code and methods before dummy preparation. Publish passed preparation before training. Publish all training evidence before edit learning. Publish all calibration evidence and choices before final tests. The graph branch cannot run.
+The [compute record](../studies/2026-10-26-variable-specificity/analysis/compute-accounting.json) charges 453.149483500 seconds to preparation and 1,568.821297250 seconds to scientific work. About 50.4383 hours remain under the unchanged 51-hour roadmap cap. Account usage is separate from these compute charges.
+
+Experiment 5 is next. It compares a coordinate-sensitive residual bound with the published global bound on the same fixed equilibrium-model effects. It must include all reference, saving, and checking costs. A two-hour stage cap, fixed full-cap projection, and one shared 120-second post-run reserve apply. Publish and verify code and methods before preparation. A failed resource projection stops new research under the roadmap rules. No benchmark or saved-model run has started for this stage.
 
 The review and one-page summary still cover the first 24 studies. Historical statements below describe their dates. The current status above supersedes them.
 
