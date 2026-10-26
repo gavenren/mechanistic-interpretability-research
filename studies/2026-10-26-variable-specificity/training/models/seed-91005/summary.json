@@ -1,0 +1,11 @@
+{
+  "ability_gate_pass": true,
+  "max_scalar_replay_error": 5.329070518200751e-15,
+  "numerical_checks_passed": true,
+  "ordinary_accuracy": 1.0,
+  "seconds": 0.6092068749967439,
+  "seed": 91005,
+  "status": "complete",
+  "tolerance": 1e-10,
+  "updates": 4000
+}

@@ -1,0 +1,147 @@
+{
+  "branches": {
+    "models": {
+      "ability_gate_pass": true,
+      "ability_gate_threshold": 0.99,
+      "measured_seconds": 5.112551833000907,
+      "models": [
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 5.329070518200751e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6568417500020587,
+          "seed": 91001,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 5.329070518200751e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6110369579982944,
+          "seed": 91002,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 5.329070518200751e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6054194579992327,
+          "seed": 91003,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 3.552713678800501e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6182605829999375,
+          "seed": 91004,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 5.329070518200751e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6092068749967439,
+          "seed": 91005,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 7.105427357601002e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.604507084000943,
+          "seed": 91006,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 7.105427357601002e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.6393429999989166,
+          "seed": 91007,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        },
+        {
+          "ability_gate_pass": true,
+          "max_scalar_replay_error": 5.329070518200751e-15,
+          "numerical_checks_passed": true,
+          "ordinary_accuracy": 1.0,
+          "seconds": 0.5995055409985071,
+          "seed": 91008,
+          "status": "complete",
+          "tolerance": 1e-10,
+          "updates": 4000
+        }
+      ],
+      "numerical_checks_passed": true,
+      "passed": true,
+      "seconds": 5.112117499997112,
+      "seeds": [
+        91001,
+        91002,
+        91003,
+        91004,
+        91005,
+        91006,
+        91007,
+        91008
+      ],
+      "source_commit": "352f1551dde4be89c0e603402a54b7adc534b604",
+      "sources": {
+        "studies/2026-10-13-inactive-variable-audit/analysis-plan.md": "01871ae2db85bac70742d41764c7774c0b68087f3d54851291f614b7fa978ef6",
+        "studies/2026-10-13-inactive-variable-audit/code/run.py": "555c08943b8e847a142a8a1d103f100673ac7ce3a964619c45849505a95f77b3",
+        "studies/2026-10-13-inactive-variable-audit/data/inputs.csv": "10ef255c99d31ece166cb0e8ab6675e9e9b089cadda9d8ce65b7c9b670f2a06a",
+        "studies/2026-10-13-inactive-variable-audit/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+      },
+      "status": "complete",
+      "total_updates": 32000
+    }
+  },
+  "charged_seconds": 9.830011458001536,
+  "closing_receipt_allowance_seconds": 2.0,
+  "current_branch": null,
+  "elapsed_seconds": 7.8252087910004775,
+  "forwarded_tokens": 0,
+  "measured_seconds": 7.830011458001536,
+  "peak_memory_bytes": 199311360,
+  "plan_lock": "b11231096cc738723a2c66f415881f4003f9b1d8",
+  "prelock_check_charge_seconds": 120.0,
+  "prior_preparation_seconds": 328.7724097919963,
+  "prior_science_seconds": 1385.5104865419962,
+  "proceed_to_edit_calibration": true,
+  "runtime": {
+    "interop_threads": 1,
+    "numpy": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "threads": 2,
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "stage": "train",
+  "stage2c_charge_seconds": 9.830011458001536,
+  "stage2c_charge_with_audit_reserve_seconds": 129.83001145800154,
+  "stage_cap_seconds": 7200.0,
+  "status": "complete",
+  "total_preparation_seconds": 453.1494834999976
+}

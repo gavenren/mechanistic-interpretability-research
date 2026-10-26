@@ -1,0 +1,23 @@
+{
+  "automatic_resume_allowed": false,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "checkpoint_boundary": "End of last fully completed parameter update",
+  "completed_updates": 4000,
+  "epsilon": 1e-08,
+  "full_batch_order": "All 192 states in the original product order",
+  "learning_rate": 0.02,
+  "rng_state_after_initialization": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 120583385026450712375522373330572746621,
+      "state": 133090719153348992333162644406123395940
+    },
+    "uinteger": 0
+  },
+  "stop_type": null,
+  "training_random_draws": false
+}

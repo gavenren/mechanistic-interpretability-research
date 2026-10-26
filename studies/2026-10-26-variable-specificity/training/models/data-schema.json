@@ -1,0 +1,37 @@
+{
+  "input_fields": [
+    "a",
+    "b",
+    "s",
+    "n"
+  ],
+  "model_seeds": [
+    91001,
+    91002,
+    91003,
+    91004,
+    91005,
+    91006,
+    91007,
+    91008
+  ],
+  "pair_fields": [
+    "r",
+    "d",
+    "cf",
+    "split",
+    "active",
+    "same_value"
+  ],
+  "required_input": "Only a takes its donor value; b, s and n stay with the receiver.",
+  "rows_by_split": {
+    "learning": 18432,
+    "selection": 9216,
+    "test": 9216
+  },
+  "split_codes": {
+    "learning": 0,
+    "selection": 1,
+    "test": 2
+  }
+}
