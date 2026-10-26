@@ -4,7 +4,7 @@ Updated: 26 October 2026.
 
 ## Current request: 200 additional completed papers
 
-The user requested 200 more papers on 26 October. Follow the [program rules](RESEARCH_PROGRAM_200.md) and [verified-completion ledger](RESEARCH_PROGRAM_200.json). The starting count is 24 completed studies. No new paper is counted yet. The target does not create 200 claims of novelty or extend a compute cap.
+The user requested 200 more papers on 26 October. Follow the [program rules](RESEARCH_PROGRAM_200.md) and [verified-completion ledger](RESEARCH_PROGRAM_200.json). The starting count is 24 completed studies. One new paper is now counted; 199 requested additions remain. The complete package was verified at [commit 36e8119](https://github.com/gavenren/mechanistic-interpretability-research/commit/36e81194543e08d7958f3e8e9142c45997142d37). All 36 checked public files matched their local bytes. The target does not create 200 claims of novelty or extend a compute cap.
 
 The [task-ability study](../studies/2026-10-26-capability-finalization/paper.md) is complete. It contains 40 complete models, including six reused graph models and 34 new trainings. All output checks and the separate saved-result audit passed. Final model passes are graph 3/4, register 4/4, digits 0/8, and generated points 4/4. The graph and digit panels fail. Both old partial attempts remain unchanged. Do not replace failed seeds or retry training.
 
@@ -14,7 +14,7 @@ Preparation is charged 79.794926417 seconds in total. Experiment 1 is charged 1,
 
 The existing research schedule is active, with a four-hour interval. Each run must check live usage, the current remote state, and the completion ledger. Keep the 20% reserve. Next is Experiment 2A under a new exact public plan, followed by 2B. A preliminary primary-source check supports a diagnostic extension, not a new general method: hold each saved selector mask fixed and compare donor groups for the same receiver and required answer. Lock inputs, controls, and all branches before testing. No Experiment 2A data have been collected.
 
-The older status statements below describe earlier publications. Their paused and unfinished labels remain as history. The review and one-page summary still cover the first 24 completed studies. The new complete paper is the twenty-fifth study. Add it to the 200-paper ledger only after its full GitHub package is verified.
+The older status statements below describe earlier publications. Their paused and unfinished labels remain as history. The review and one-page summary still cover the first 24 completed studies. The new complete paper is the twenty-fifth study. Its full GitHub package is verified and it is entry 1 in the 200-paper ledger.
 
 ## Original fifteen completed studies
 

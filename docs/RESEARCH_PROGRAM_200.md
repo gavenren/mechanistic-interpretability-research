@@ -15,3 +15,9 @@ Keep the existing 20% account reserve, local-compute rules, stage caps, and cumu
 Work can continue through the existing four-hour research schedule. Each wake-up first checks live usage, GitHub state, the ledger, and unfinished work. At or below the reserve, or when usage is unavailable, save state and pause the schedule. Do not leave a scientific runner without live supervision. A scheduled attempt may complete no paper.
 
 No external reviewer has been arranged. AI checks are not human peer review. State the exact evidence and limits in plain English. Report publication only after remote verification.
+
+## Progress on 26 October
+
+The [task-ability study](../studies/2026-10-26-capability-finalization/paper.md) is complete and verified at [commit 36e8119](https://github.com/gavenren/mechanistic-interpretability-research/commit/36e81194543e08d7958f3e8e9142c45997142d37). It adds one paper. The repository now has 25 completed studies. The requested program has **1 of 200 additions complete; 199 remain**.
+
+All 40 task models have results. Register and generated-point panels pass. Graph and digit panels fail. All result checks pass. The failed task panels remain failed. The next stage is 2A under a new fixed execution plan. The schedule remains active, with the existing usage reserve and compute caps. The ledger is the current count record.

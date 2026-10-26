@@ -4,10 +4,29 @@
   "baseline_commit": "58251c651ef6397ee26ae0c0159d0f7632063191",
   "baseline_completed_studies": 24,
   "requested_additional_completed_studies": 200,
-  "verified_completed_additions": [],
-  "verified_completed_addition_count": 0,
-  "remaining_requested_additions": 200,
-  "active_study": "studies/2026-10-26-capability-finalization",
+  "verified_completed_additions": [
+    {
+      "number": 1,
+      "date": "2026-10-26",
+      "study": "studies/2026-10-26-capability-finalization",
+      "title": "Task ability before explanation: two of four model panels pass the fixed tests",
+      "publication_commit": "36e81194543e08d7958f3e8e9142c45997142d37",
+      "paper": "studies/2026-10-26-capability-finalization/paper.md",
+      "paper_sha256": "565c34be85964820ce2a56eaeb301ba872979fbdff21651e7255fed8119cc41a",
+      "archive_manifest_sha256": "dd782bd7bba98d5ed814b93937d10469c8ed5bba5d9e013cd9099556d8e5e5ad",
+      "result_manifest_sha256": "f7d3381128a13414c5e9acc1e5d9b379c653d90923e1566573eb93bfee879eac",
+      "review": "studies/2026-10-26-capability-finalization/RESULT_REVIEW.md",
+      "verified_public_files": 36,
+      "complete_models": 40,
+      "count_note": "One completed study across all three execution attempts; four tasks are not counted separately."
+    }
+  ],
+  "verified_completed_addition_count": 1,
+  "remaining_requested_additions": 199,
+  "active_study": null,
   "status": "active",
-  "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count."
+  "count_rule": "Only distinct completed studies with remotely verified paper, code, results, and review. Partial attempts and documentation do not count.",
+  "current_total_completed_studies": 25,
+  "next_stage": "2A: Check the complete edit procedure",
+  "compute_record": "studies/2026-10-26-capability-finalization/analysis/compute-accounting.json"
 }
